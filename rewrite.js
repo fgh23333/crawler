@@ -1,6 +1,8 @@
 const fs = require("fs")
+let lesson = '思政'
+// '习概'
 
-fs.readFile(__dirname + "/思政.json", (err, data) => {
+fs.readFile(__dirname + `/${lesson}.json`, (err, data) => {
     if (err) {
         console.error(err)
     } else {
@@ -24,7 +26,7 @@ fs.readFile(__dirname + "/思政.json", (err, data) => {
             }
             content.push(temp)
         }
-        fs.writeFile(__dirname + "/思政_rewrite.json", JSON.stringify(content), (err) => {
+        fs.writeFile(__dirname + `/${lesson}_rewrite.json`, JSON.stringify(content), (err) => {
             if (err) {
                 console.error(err)
             } else {
