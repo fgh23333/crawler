@@ -29,7 +29,7 @@ async function splitAndWriteQuestions() {
 
   for (let i = 0; i < allQuestions.length; i += batchSize) {
     const batch = allQuestions.slice(i, i + batchSize);
-    const fileName = `introduction_${i / batchSize + 1}.json`;
+    const fileName = `introduction_${i / batchSize}.json`;
 
     await writeQuestionsToJsonFile(batch, fileName);
   }
