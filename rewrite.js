@@ -1,6 +1,6 @@
 const fs = require("fs")
-// let lesson = '思政'
-let lesson = '习概'
+let lesson = '思政'
+// let lesson = '习概'
 
 fs.readFile(__dirname + `/${lesson}.json`, (err, data) => {
     if (err) {
