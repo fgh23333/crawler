@@ -10,7 +10,7 @@ const targetPath = '/Exercise/StartExerciseAll.aspx';
 
 // 定义要发送的 Cookie
 const cookies = {
-    'ASP.NET_SessionId': 'h0t1qifhdwtjruvepwpzsb1t',
+    'ASP.NET_SessionId': 'jamxmcfbqpfflpwocc10wv3c',
 };
 
 // 构造请求头，将 Cookie 添加到其中
@@ -24,13 +24,13 @@ let subject = '习近平新时代中国特色社会主义思想概论+全部章�
 // let subject = '思想道德与法治+全部章节'
 
 // 循环发送多个请求，每个请求使用不同的 SubjectID
-for (let subjectId = 53; subjectId <= 65; subjectId++) {
+for (let i = 0; i < 100; i++) {
     // 定义要发送的参数
     const params = {
-        SubjectID: subjectId,
+        SubjectID: '56',
         LoreID: '',
         SubjectName: encodeURIComponent(subject),
-        
+
     };
 
     // 发送带有参数和 Cookie 的 GET 请求
@@ -57,13 +57,14 @@ for (let subjectId = 53; subjectId <= 65; subjectId++) {
                     TestContent: dsElement.querySelector('TestContent').textContent,
                     OptionContent: dsElement.querySelector('OptionContent').textContent,
                     StandardAnswer: dsElement.querySelector('StandardAnswer').textContent,
+                    RubricID: dsElement.querySelector('RubricID').textContent
                 };
 
                 jsonArray.push(jsonResult);
             }));
         })
         .catch((error) => {
-            console.error(`SubjectID ${subjectId} 请求失败`, error);
+            console.error(`请求失败`, error);
         });
 }
 
@@ -81,4 +82,4 @@ setTimeout(() => {
             console.log('success');
         }
     });
-}, 30000);
+}, 80000);
