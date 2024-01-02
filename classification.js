@@ -1,6 +1,6 @@
 const fs = require('fs');
-let lesson = '思政'
-// let lesson = '习概'
+let lesson = 'politicalSolved'
+// let lesson = 'introductionSolved'
 
 fs.readFile(__dirname + `/${lesson}_rewrite.json`, (err, data) => {
     if (err) {
