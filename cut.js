@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 async function readQuestionsFromFile() {
   try {
     // 使用async/await读取JSON文件
-    const jsonString = await fs.readFile(__dirname + '/习概_rewrite.json', 'utf8');
+    const jsonString = await fs.readFile(__dirname + '/politicalSolved_rewrite.json', 'utf8');
     return JSON.parse(jsonString);
   } catch (error) {
     console.error('读取文件出错:', error);
@@ -25,11 +25,11 @@ async function writeQuestionsToJsonFile(questions, fileName) {
 
 async function splitAndWriteQuestions() {
   const allQuestions = await readQuestionsFromFile();
-  const batchSize = 60;
+  const batchSize = 50;
 
   for (let i = 0; i < allQuestions.length; i += batchSize) {
     const batch = allQuestions.slice(i, i + batchSize);
-    const fileName = `introduction_${i / batchSize}.json`;
+    const fileName = `political_${i / batchSize}.json`;
 
     await writeQuestionsToJsonFile(batch, fileName);
   }
