@@ -10,7 +10,7 @@ const targetPath = '/Exercise/StartExerciseAll.aspx';
 
 // 定义要发送的 Cookie
 const cookies = {
-    'ASP.NET_SessionId': 'jamxmcfbqpfflpwocc10wv3c',
+    'ASP.NET_SessionId': '2hmempvrk03j2nv0n1r3krhw',
 };
 
 // 构造请求头，将 Cookie 添加到其中
