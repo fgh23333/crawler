@@ -29,15 +29,16 @@ let subject = '马克思主义基本原理+全部章节'
 // let subject = '思想道德与法治+全部章节'
 // let subject = '思想道德与法治+全部章节'
 
-// 循环发送多个请求，每个请求使用不同的 SubjectID
+const params = {
+    SubjectID: 53,
+    LoreID: '',
+    SubjectName: encodeURIComponent(subject),
+
+};
+
 for (let i = 0; i < 100; i++) {
     // 定义要发送的参数
-    const params = {
-        SubjectID: '55',
-        LoreID: '',
-        SubjectName: encodeURIComponent(subject),
 
-    };
 
     // 发送带有参数和 Cookie 的 GET 请求
     axios.get(baseUrl + targetPath, { params, headers })
@@ -76,10 +77,36 @@ for (let i = 0; i < 100; i++) {
 
 setTimeout(() => {
     let subjectName = ''
-    if (subject == '习近平新时代中国特色社会主义思想概论+全部章节') {
-        subjectName = '习概'
-    } else {
-        subjectName = '思政'
+    switch (params.SubjectID) {
+        case 53:
+            subjectName = '马原'
+            break;
+        case 55:
+            subjectName = '近代史'
+            break;
+        case 56:
+            subjectName = '思政'
+            break;
+        case 57:
+            subjectName = '毛概'
+            break;
+        case 60:
+            subjectName = '习概'
+            break;
+        case 61:
+            subjectName = '发展史'
+            break;
+        case 62:
+            subjectName = '新中国史'
+            break;
+        case 63:
+            subjectName = '党史'
+            break;
+        case 65:
+            subjectName = '开放史'
+            break;
+        default:
+            break;
     }
     fs.writeFile(__dirname + `/${subjectName}.json`, JSON.stringify(jsonArray), (err) => {
         if (err) {
