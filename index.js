@@ -10,7 +10,7 @@ const targetPath = '/Exercise/StartExerciseAll.aspx';
 
 // 定义要发送的 Cookie
 const cookies = {
-    'ASP.NET_SessionId': '2hmempvrk03j2nv0n1r3krhw',
+    'ASP.NET_SessionId': '0loxz4xygilrhm14fxoc424k',
 };
 
 // 构造请求头，将 Cookie 添加到其中
@@ -20,14 +20,20 @@ const headers = {
 
 // 构建 JSON 数组
 const jsonArray = [];
-let subject = '习近平新时代中国特色社会主义思想概论+全部章节'
+// let subject = '习近平新时代中国特色社会主义思想概论+全部章节'
+// let subject = '思想道德与法治+全部章节'
+let subject = '马克思主义基本原理+全部章节'
+// let subject = '中国近现代史纲要+全部章节'
+// let subject = '思想道德与法治+全部章节'
+// let subject = '思想道德与法治+全部章节'
+// let subject = '思想道德与法治+全部章节'
 // let subject = '思想道德与法治+全部章节'
 
 // 循环发送多个请求，每个请求使用不同的 SubjectID
 for (let i = 0; i < 100; i++) {
     // 定义要发送的参数
     const params = {
-        SubjectID: '56',
+        SubjectID: '55',
         LoreID: '',
         SubjectName: encodeURIComponent(subject),
 
