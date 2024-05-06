@@ -48,9 +48,8 @@ let paramsArr = [
     },
 ];
 
-let subjectName = ''
-
-function fetchData(params) {
+function fetchData(params, callback) {
+    let subjectName = '';
     switch (params.SubjectID) {
         case 53:
             subjectName = '马原';
@@ -82,13 +81,13 @@ function fetchData(params) {
         default:
             break;
     }
-    console.log(params);
+    
     fs.readFile(__dirname + `/${subjectName}.json`, 'utf8', async (err, data) => {
         if (err) {
             console.error(err);
+            callback(err);
         } else {
-            let arr = JSON.parse(data)
-
+            let arr = JSON.parse(data);
             // 定义一个 Set 用于存储唯一的对象
             let uniqueSet = new Set();
 
@@ -107,9 +106,10 @@ function fetchData(params) {
                 return false;
             });
 
-            console.log(uniqueArr);
+            // 调用回调函数，传递唯一的数据
+            callback(null, subjectName, uniqueArr);
         }
-    })
+    });
 }
 
 function writeFile(subjectName, jsonArray) {
@@ -117,48 +117,16 @@ function writeFile(subjectName, jsonArray) {
         if (err) {
             console.log(err);
         } else {
-            console.log('success');
+            console.log('成功写入文件');
         }
     });
 }
 
 function fetchAndWrite(params) {
-    fetchData(params => {
-        if (error) {
-            console.error(`请求失败`, error);
+    fetchData(params, (err, subjectName, jsonArray) => {
+        if (err) {
+            console.error(`请求失败`, err);
         } else {
-            let subjectName = '';
-            switch (params.SubjectID) {
-                case 53:
-                    subjectName = '马原';
-                    break;
-                case 55:
-                    subjectName = '近代史';
-                    break;
-                case 56:
-                    subjectName = '思政';
-                    break;
-                case 57:
-                    subjectName = '毛概';
-                    break;
-                case 60:
-                    subjectName = '习概';
-                    break;
-                case 61:
-                    subjectName = '发展史';
-                    break;
-                case 62:
-                    subjectName = '新中国史';
-                    break;
-                case 63:
-                    subjectName = '党史';
-                    break;
-                case 65:
-                    subjectName = '开放史';
-                    break;
-                default:
-                    break;
-            }
             writeFile(subjectName, jsonArray);
         }
     });
