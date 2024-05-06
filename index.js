@@ -64,16 +64,12 @@ let paramsArr = [
         LoreID: '',
         SubjectName: encodeURIComponent('改革开放史+全部章节'),
     },
-]
+];
 
-const jsonArray = [];
+function fetchData(params, callback) {
+    let jsonArray = [];
 
-
-for (let j = 0; j < paramsArr.length; j++) {
-    for (let i = 0; i < 100; i++) {
-        // 发送带有参数和 Cookie 的 GET 请求
-        const params = paramsArr[j]
-
+    function makeRequest(count) {
         axios.get(baseUrl + targetPath, { params, headers })
             .then(async (response) => {
                 // 处理响应数据
@@ -91,63 +87,83 @@ for (let j = 0; j < paramsArr.length; j++) {
                 const xmlDoc = new dom.window.DOMParser().parseFromString(xmlData, 'text/xml');
                 const dsElements = xmlDoc.querySelectorAll('ds');
 
-                // 使用 Promise.all 确保所有异步操作完成后再继续
-                await Promise.all(Array.from(dsElements).map(async (dsElement) => {
-                    const jsonResult = {
+                // 处理每个 ds 元素
+                Array.from(dsElements).forEach(dsElement => {
+                    jsonArray.push({
                         TestContent: dsElement.querySelector('TestContent').textContent,
                         OptionContent: dsElement.querySelector('OptionContent').textContent,
                         StandardAnswer: dsElement.querySelector('StandardAnswer').textContent,
                         RubricID: dsElement.querySelector('RubricID').textContent
-                    };
+                    });
+                });
 
-                    jsonArray.push(jsonResult);
-                }));
+                count++;
+                if (count < 100) {
+                    makeRequest(count); // 继续发起请求
+                } else {
+                    callback(null, jsonArray); // 请求完成，调用回调函数
+                }
             })
-            .catch((error) => {
-                console.error(`请求失败`, error);
+            .catch(error => {
+                callback(error); // 请求失败，调用回调函数并传递错误信息
             });
     }
 
-    setTimeout(() => {
-        let subjectName = ''
-        switch (params.SubjectID) {
-            case 53:
-                subjectName = '马原'
-                break;
-            case 55:
-                subjectName = '近代史'
-                break;
-            case 56:
-                subjectName = '思政'
-                break;
-            case 57:
-                subjectName = '毛概'
-                break;
-            case 60:
-                subjectName = '习概'
-                break;
-            case 61:
-                subjectName = '发展史'
-                break;
-            case 62:
-                subjectName = '新中国史'
-                break;
-            case 63:
-                subjectName = '党史'
-                break;
-            case 65:
-                subjectName = '开放史'
-                break;
-            default:
-                break;
-        }
-        fs.writeFile(__dirname + `/${subjectName}.json`, JSON.stringify(jsonArray), (err) => {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log('success');
-            }
-        });
-    }, 80000);
+    makeRequest(0); // 初始请求
 }
 
+function writeFile(subjectName, jsonArray) {
+    fs.writeFile(__dirname + `/${subjectName}.json`, JSON.stringify(jsonArray), (err) => {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log('success');
+        }
+    });
+}
+
+function fetchAndWrite(params) {
+    fetchData(params, (error, jsonArray) => {
+        if (error) {
+            console.error(`请求失败`, error);
+        } else {
+            let subjectName = '';
+            switch (params.SubjectID) {
+                case 53:
+                    subjectName = '马原';
+                    break;
+                case 55:
+                    subjectName = '近代史';
+                    break;
+                case 56:
+                    subjectName = '思政';
+                    break;
+                case 57:
+                    subjectName = '毛概';
+                    break;
+                case 60:
+                    subjectName = '习概';
+                    break;
+                case 61:
+                    subjectName = '发展史';
+                    break;
+                case 62:
+                    subjectName = '新中国史';
+                    break;
+                case 63:
+                    subjectName = '党史';
+                    break;
+                case 65:
+                    subjectName = '开放史';
+                    break;
+                default:
+                    break;
+            }
+            writeFile(subjectName, jsonArray);
+        }
+    });
+}
+
+paramsArr.forEach(params => {
+    fetchAndWrite(params);
+});
