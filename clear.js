@@ -48,10 +48,42 @@ let paramsArr = [
     },
 ];
 
-let subject = paramsArr[i]
+let subjectName = ''
 
 function fetchData(params) {
-    fs.readFile(__dirname + '/习概.json', 'utf8', async (err, data) => {
+    switch (params.SubjectID) {
+        case 53:
+            subjectName = '马原';
+            break;
+        case 55:
+            subjectName = '近代史';
+            break;
+        case 56:
+            subjectName = '思政';
+            break;
+        case 57:
+            subjectName = '毛概';
+            break;
+        case 60:
+            subjectName = '习概';
+            break;
+        case 61:
+            subjectName = '发展史';
+            break;
+        case 62:
+            subjectName = '新中国史';
+            break;
+        case 63:
+            subjectName = '党史';
+            break;
+        case 65:
+            subjectName = '开放史';
+            break;
+        default:
+            break;
+    }
+    console.log(params);
+    fs.readFile(__dirname + `/${subjectName}.json`, 'utf8', async (err, data) => {
         if (err) {
             console.error(err);
         } else {
@@ -76,19 +108,19 @@ function fetchData(params) {
             });
 
             console.log(uniqueArr);
-
-            fs.writeFile(__dirname + `/${subject}Solved.json`, JSON.stringify(uniqueArr), (err) => {
-                if (err) {
-                    console.log(err);
-                } else {
-                    console.log('success');
-                }
-            });
         }
     })
 }
 
-
+function writeFile(subjectName, jsonArray) {
+    fs.writeFile(__dirname + `/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log('success');
+        }
+    });
+}
 
 function fetchAndWrite(params) {
     fetchData(params => {
