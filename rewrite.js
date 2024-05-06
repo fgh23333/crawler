@@ -82,7 +82,7 @@ function fetchData(params, callback) {
             break;
     }
 
-    fs.readFile(__dirname + `/${subjectName}.json`, 'utf8', async (err, data) => {
+    fs.readFile(__dirname + `/${subjectName}Solved.json`, 'utf8', async (err, data) => {
         if (err) {
             console.error(err)
         } else {
