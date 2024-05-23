@@ -26,7 +26,7 @@ def rewrite(fileName,filePath):
                 if a["standardAnswer"] == "正确" or a["standardAnswer"] == "错误":
                     temp = {
                         "questionStem": a["title"],
-                        "options": ["正确", "错误"],
+                        "option": ["正确", "错误"],
                         "answer": a["standardAnswer"]
                     }
                     rw.append(temp)
@@ -34,17 +34,17 @@ def rewrite(fileName,filePath):
                     if ord(a["standardAnswer"][0:1]) >= 65 and ord(a["standardAnswer"][0:1]) <= 90:
                         temp = {
                             "questionStem": a["title"],
-                            "options": a["options"].split("|"),
+                            "option": a["options"].split("|"),
                             "answer": a["standardAnswer"]
                         }
-                        if len(a["standardAnswer"])==1 and len(temp["options"])==4:
+                        if len(a["standardAnswer"])==1 and len(temp["option"])==4:
                             mc.append(temp)
                         else:
                             sc.append(temp)
                     else:
                         temp = {
                             "questionStem": a["title"],
-                            "options": "",
+                            "option": "",
                             "answer": a["standardAnswer"]
                         }
                         fb.append(temp)
