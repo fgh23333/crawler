@@ -23,29 +23,30 @@ def rewrite(fileName,filePath):
         while True:
             try:
                 a = objects.__next__()
-                if a["standardAnswer"] == "正确" or a["standardAnswer"] == "错误":
+                nn = a["standardAnswer"].replace(" ","")
+                if nn == "正确" or nn == "错误":
                     temp = {
                         "questionStem": a["title"],
                         "option": ["正确", "错误"],
-                        "answer": a["standardAnswer"]
+                        "answer": nn
                     }
                     rw.append(temp)
                 else:
-                    if ord(a["standardAnswer"][0:1]) >= 65 and ord(a["standardAnswer"][0:1]) <= 90:
+                    if ord(nn[0:1]) >= 65 and ord(nn[0:1]) <= 90:
                         temp = {
                             "questionStem": a["title"],
                             "option": a["options"].split("|"),
-                            "answer": a["standardAnswer"]
+                            "answer": nn
                         }
-                        if len(a["standardAnswer"])==1 and len(temp["option"])==4:
-                            mc.append(temp)
-                        else:
+                        if len(nn)==1 and len(temp["option"])==4:
                             sc.append(temp)
+                        else:
+                            mc.append(temp)
                     else:
                         temp = {
                             "questionStem": a["title"],
                             "option": "",
-                            "answer": a["standardAnswer"]
+                            "answer": nn.replace("|","，")
                         }
                         fb.append(temp)
                 result.append(temp)
@@ -63,5 +64,9 @@ def rewrite(fileName,filePath):
 for dirpath, dirnames, filenames in os.walk(solvedPath):
     for filename in filenames:
         result = []
+        mc = []
+        sc = []
+        rw = []
+        fb = []
         rewrite(filename,os.path.join(dirpath, filename))
 
