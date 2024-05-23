@@ -1,4 +1,5 @@
 const axios = require('axios');
+const fs = require('fs');
 
 const baseUrl = 'http://222.73.57.153:6571';
 
@@ -95,9 +96,12 @@ function fetchData(params, callback) {
                 let rightWrong = data.panduan.children
                 let fillingBlank = data.tiankong.children
                 jsonArray = jsonArray.concat(rightWrong, singleChoice, multipleChoice, fillingBlank)
-
+                console.log('res');
                 count++;
-                if (count < 500) {
+                if (count < 300) {
+                    if (count % 100 == 0) {
+                        console.log(count);
+                    }
                     makeRequest(count);
                 } else {
                     callback(null, jsonArray);

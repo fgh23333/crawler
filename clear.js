@@ -2,118 +2,105 @@ const fs = require('fs');
 
 let paramsArr = [
     {
-        SubjectID: 53,
-        LoreID: '',
-        SubjectName: encodeURIComponent('马克思主义基本原理+全部章节'),
+        name: 'XiIntro',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1741125438396170311",
+            subjectId: "1752935841845477392",
+        },
     },
     {
-        SubjectID: 55,
-        LoreID: '',
-        SubjectName: encodeURIComponent('中国近现代史纲要+全部章节'),
+        name: 'CMH',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1741125438396170311",
+            subjectId: "1748168736914800640",
+        },
     },
     {
-        SubjectID: 56,
-        LoreID: '',
-        SubjectName: encodeURIComponent('思想道德与法治+全部章节'),
+        name: 'Marx',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1741125438396170311",
+            subjectId: "1748167277460586496",
+        },
     },
     {
-        SubjectID: 57,
-        LoreID: '',
-        SubjectName: encodeURIComponent('毛泽东思想和中国特色社会主义理论体系概论+全部章节'),
+        name: 'MaoIntro',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1741125438396170311",
+            subjectId: "1748168736914800651",
+        },
     },
     {
-        SubjectID: 60,
-        LoreID: '',
-        SubjectName: encodeURIComponent('习近平新时代中国特色社会主义思想概论+全部章节'),
+        name: 'Political',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1741125438396170311",
+            subjectId: "1781216923707506688",
+        },
     },
-    {
-        SubjectID: 61,
-        LoreID: '',
-        SubjectName: encodeURIComponent('社会主义发展史+全部章节'),
-    },
-    {
-        SubjectID: 62,
-        LoreID: '',
-        SubjectName: encodeURIComponent('新中国史+全部章节'),
-    },
-    {
-        SubjectID: 63,
-        LoreID: '',
-        SubjectName: encodeURIComponent('党史+全部章节'),
-    },
-    {
-        SubjectID: 65,
-        LoreID: '',
-        SubjectName: encodeURIComponent('改革开放史+全部章节'),
-    },
-];
+    // {
+    //     name: 'NCH',
+    //     params: {
+    //         branchId: "1705139277953761280",
+    //         chapterId: "",
+    //         studentId: "1741125438396170311",
+    //         subjectId: "1776854236110258176",
+    //     },
+    // },
+    // {
+    //     name: 'SDH',
+    //     params: {
+    //         branchId: "1705139277953761280",
+    //         chapterId: "",
+    //         studentId: "1741125438396170311",
+    //         subjectId: "1752935841845477376",
+    //     },
+    // },
+    // {
+    //     name: 'ORH',
+    //     params: {
+    //         branchId: "1705139277953761280",
+    //         chapterId: "",
+    //         studentId: "1741125438396170311",
+    //         subjectId: "1752935841845477384",
+    //     },
+    // }
+]
 
-function fetchData(params, callback) {
-    let subjectName = '';
-    switch (params.SubjectID) {
-        case 53:
-            subjectName = '马原';
-            break;
-        case 55:
-            subjectName = '近代史';
-            break;
-        case 56:
-            subjectName = '思政';
-            break;
-        case 57:
-            subjectName = '毛概';
-            break;
-        case 60:
-            subjectName = '习概';
-            break;
-        case 61:
-            subjectName = '发展史';
-            break;
-        case 62:
-            subjectName = '新中国史';
-            break;
-        case 63:
-            subjectName = '党史';
-            break;
-        case 65:
-            subjectName = '开放史';
-            break;
-        default:
-            break;
-    }
-    
-    fs.readFile(__dirname + `/${subjectName}.json`, 'utf8', async (err, data) => {
+function fetchData(item, callback) {
+    let subjectName = item.name;
+
+    fs.readFile(__dirname + `/new/${subjectName}.json`, 'utf8', async (err, data) => {
         if (err) {
             console.error(err);
             callback(err);
         } else {
-            let arr = JSON.parse(data);
-            // 定义一个 Set 用于存储唯一的对象
-            let uniqueSet = new Set();
-
-            // 使用 Array.filter 进行去重
-            let uniqueArr = await arr.filter(obj => {
-                // 将对象转换为 JSON 字符串作为唯一标识
-                let objString = JSON.stringify(obj);
-
-                // 如果 Set 中不存在相同的 JSON 字符串，则添加到 Set 中并返回 true
-                if (!uniqueSet.has(objString)) {
-                    uniqueSet.add(objString);
+            let arr = JSON.parse(data); 
+            const seenIds = new Set();
+            let uniqueArr = arr.filter(item => {
+                if (seenIds.has(item.id)) {
+                    return false;
+                } else {
+                    seenIds.add(item.id);
                     return true;
                 }
-
-                // 如果 Set 中已存在相同的 JSON 字符串，返回 false
-                return false;
             });
 
-            // 调用回调函数，传递唯一的数据
             callback(null, subjectName, uniqueArr);
         }
     });
 }
 
 function writeFile(subjectName, jsonArray) {
-    fs.writeFile(__dirname + `/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
+    fs.writeFile(__dirname + `/new/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
         if (err) {
             console.log(err);
         } else {
@@ -132,6 +119,6 @@ function fetchAndWrite(params) {
     });
 }
 
-paramsArr.forEach(params => {
-    fetchAndWrite(params);
-});
+paramsArr.forEach(item => {
+    fetchAndWrite(item);
+})
