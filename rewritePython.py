@@ -3,11 +3,6 @@ import json
 import os
 outputPath = "new/rewrite/"
 solvedPath = "new/solved/"
-result = []
-mc = []
-sc = []
-rw =[]
-fb = []
 
 def write(thename,result,name):
     json_data = json.dumps(result, indent=4, ensure_ascii=False)
@@ -62,4 +57,8 @@ def rewrite(fileName,filePath):
 for dirpath, dirnames, filenames in os.walk(solvedPath):
     for filename in filenames:
         result = []
+        mc = []
+        sc = []
+        rw =[]
+        fb = []
         rewrite(filename,os.path.join(dirpath, filename))
