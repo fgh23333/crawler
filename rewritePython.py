@@ -38,7 +38,7 @@ def rewrite(fileName,filePath):
                             "option": a["options"].split("|"),
                             "answer": nn
                         }
-                        if len(nn)==1 and len(temp["option"])==4:
+                        if len(a["standardAnswer"]) == 1 and len(temp["option"]) == 4:
                             sc.append(temp)
                         else:
                             mc.append(temp)
@@ -59,14 +59,7 @@ def rewrite(fileName,filePath):
     write(thename,rw,"rightWrong")
     write(thename,fb,"fillingBlank")
 
-
-
 for dirpath, dirnames, filenames in os.walk(solvedPath):
     for filename in filenames:
         result = []
-        mc = []
-        sc = []
-        rw = []
-        fb = []
         rewrite(filename,os.path.join(dirpath, filename))
-
