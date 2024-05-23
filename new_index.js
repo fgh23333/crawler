@@ -16,15 +16,6 @@ let paramsArr = [
         },
     },
     {
-        name: 'CMH',
-        params: {
-            branchId: "1705139277953761280",
-            chapterId: "",
-            studentId: "1741125438396170311",
-            subjectId: "1748168736914800640",
-        },
-    },
-    {
         name: 'Marx',
         params: {
             branchId: "1705139277953761280",
@@ -49,6 +40,15 @@ let paramsArr = [
             chapterId: "",
             studentId: "1741125438396170311",
             subjectId: "1781216923707506688",
+        },
+    },
+    {
+        name: 'CMH',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1741125438396170311",
+            subjectId: "1748168736914800640",
         },
     },
     // {
@@ -96,9 +96,8 @@ function fetchData(params, callback) {
                 let rightWrong = data.panduan.children
                 let fillingBlank = data.tiankong.children
                 jsonArray = jsonArray.concat(rightWrong, singleChoice, multipleChoice, fillingBlank)
-                console.log('res');
                 count++;
-                if (count < 300) {
+                if (count < 500) {
                     if (count % 100 == 0) {
                         console.log(count);
                     }
