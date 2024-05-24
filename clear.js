@@ -83,7 +83,7 @@ function fetchData(item, callback) {
             console.error(err);
             callback(err);
         } else {
-            let arr = JSON.parse(data); 
+            let arr = JSON.parse(data);
             const seenIds = new Set();
             let uniqueArr = arr.filter(item => {
                 if (seenIds.has(item.id)) {

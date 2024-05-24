@@ -19,9 +19,10 @@ def rewrite(fileName,filePath):
             try:
                 a = objects.__next__()
                 nn = a["standardAnswer"].replace(" ","")
+                nnt = a["title"].replace(" ", "")
                 if nn == "正确" or nn == "错误":
                     temp = {
-                        "questionStem": a["title"],
+                        "questionStem": nnt,
                         "option": ["正确", "错误"],
                         "answer": nn
                     }
@@ -29,7 +30,7 @@ def rewrite(fileName,filePath):
                 else:
                     if ord(nn[0:1]) >= 65 and ord(nn[0:1]) <= 90:
                         temp = {
-                            "questionStem": a["title"],
+                            "questionStem": nnt,
                             "option": a["options"].split("|"),
                             "answer": nn
                         }
@@ -39,7 +40,7 @@ def rewrite(fileName,filePath):
                             mc.append(temp)
                     else:
                         temp = {
-                            "questionStem": a["title"],
+                            "questionStem": nnt,
                             "option": "",
                             "answer": nn.replace("|","，")
                         }
