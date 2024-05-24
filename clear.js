@@ -100,7 +100,7 @@ function fetchData(item, callback) {
 }
 
 function writeFile(subjectName, jsonArray) {
-    fs.writeFile(__dirname + `/new/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
+    fs.writeFile(__dirname + `/new/solved/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
         if (err) {
             console.log(err);
         } else {
