@@ -20,11 +20,15 @@ def rewrite(fileName,filePath):
                 a = objects.__next__()
                 nn = a["standardAnswer"].replace(" ","")
                 nnt = a["title"].replace(" ", "")
+                nnid = a["id"].replace(" ", "")
                 if nn == "正确" or nn == "错误":
                     temp = {
                         "questionStem": nnt,
                         "option": ["正确", "错误"],
-                        "answer": nn
+                        "answer": nn,
+                        "id": nnid,
+                        "likeFlag": False,
+                        "markFlag": False
                     }
                     rw.append(temp)
                 else:
@@ -32,7 +36,10 @@ def rewrite(fileName,filePath):
                         temp = {
                             "questionStem": nnt,
                             "option": a["options"].split("|"),
-                            "answer": nn
+                            "answer": nn,
+                            "id": nnid,
+                            "likeFlag": False,
+                            "markFlag": False
                         }
                         if len(a["standardAnswer"]) == 1 and len(temp["option"]) == 4:
                             sc.append(temp)
@@ -42,7 +49,10 @@ def rewrite(fileName,filePath):
                         temp = {
                             "questionStem": nnt,
                             "option": "",
-                            "answer": nn.replace("|","，")
+                            "answer": nn.replace("|","，"),
+                            "id": nnid,
+                            "likeFlag": False,
+                            "markFlag": False
                         }
                         fb.append(temp)
                 result.append(temp)

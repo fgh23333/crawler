@@ -11,7 +11,7 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1795023275139531171",
             subjectId: "1752935841845477392",
         },
     },
@@ -20,7 +20,7 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1795023275139531171",
             subjectId: "1748167277460586496",
         },
     },
@@ -29,7 +29,7 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1795023275139531171",
             subjectId: "1748168736914800651",
         },
     },
@@ -38,7 +38,7 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1795023275139531171",
             subjectId: "1781216923707506688",
         },
     },
@@ -47,7 +47,7 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1795023275139531171",
             subjectId: "1748168736914800640",
         },
     },
@@ -56,7 +56,7 @@ let paramsArr = [
     //     params: {
     //         branchId: "1705139277953761280",
     //         chapterId: "",
-    //         studentId: "1741125438396170311",
+    //         studentId: "1795023275139531171",
     //         subjectId: "1776854236110258176",
     //     },
     // },
@@ -65,7 +65,7 @@ let paramsArr = [
     //     params: {
     //         branchId: "1705139277953761280",
     //         chapterId: "",
-    //         studentId: "1741125438396170311",
+    //         studentId: "1795023275139531171",
     //         subjectId: "1752935841845477376",
     //     },
     // },
@@ -74,7 +74,7 @@ let paramsArr = [
     //     params: {
     //         branchId: "1705139277953761280",
     //         chapterId: "",
-    //         studentId: "1741125438396170311",
+    //         studentId: "1795023275139531171",
     //         subjectId: "1752935841845477384",
     //     },
     // }
@@ -97,8 +97,8 @@ function fetchData(params, callback) {
                 let fillingBlank = data.tiankong.children
                 jsonArray = jsonArray.concat(rightWrong, singleChoice, multipleChoice, fillingBlank)
                 count++;
-                if (count < 500) {
-                    if (count % 100 == 0) {
+                if (count < 300) {
+                    if (count % 50 == 0) {
                         console.log(count);
                     }
                     makeRequest(count);
