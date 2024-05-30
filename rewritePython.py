@@ -28,18 +28,20 @@ def rewrite(fileName,filePath):
                         "answer": nn,
                         "id": nnid,
                         "likeFlag": False,
-                        "markFlag": False
+                        "markFlag": False,
+                        "abbreviationSubject": thename
                     }
                     rw.append(temp)
                 else:
                     if ord(nn[0:1]) >= 65 and ord(nn[0:1]) <= 90:
                         temp = {
                             "questionStem": nnt,
-                            "option": a["options"].split("|"),
+                            "option": a["options"].replace(" ","").replace(".", "").split("|"),
                             "answer": nn,
                             "id": nnid,
                             "likeFlag": False,
-                            "markFlag": False
+                            "markFlag": False,
+                            "abbreviationSubject": thename
                         }
                         if len(a["standardAnswer"]) == 1 and len(temp["option"]) == 4:
                             sc.append(temp)
@@ -52,7 +54,8 @@ def rewrite(fileName,filePath):
                             "answer": nn.replace("|","，"),
                             "id": nnid,
                             "likeFlag": False,
-                            "markFlag": False
+                            "markFlag": False,
+                            "abbreviationSubject": thename
                         }
                         fb.append(temp)
                 result.append(temp)
