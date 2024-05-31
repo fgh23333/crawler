@@ -4,11 +4,11 @@ import os
 outputPath = "new/rewrite/"
 solvedPath = "new/solved/"
 
-def write(thename,result,name):
+def write(thename, result, name):
     json_data = json.dumps(result, indent=4, ensure_ascii=False)
 
     # 写入JSON数据到文件
-    with open(outputPath + thename+'_'+name+'.json', 'w', encoding='utf-8') as f:
+    with open(outputPath + thename + '_'+ name +'.json', 'w', encoding='utf-8') as f:
         f.write(json_data)
 
 def rewrite(fileName,filePath):
