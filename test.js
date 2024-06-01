@@ -1,39 +1,15 @@
-function loginExampleAction() {
-    var studentCode = $("input[name=studentCode]").val();
-    var password = $("input[name=studentPassword]").val();
-    var subject = $("#subject").val();
-    var chapter = $("#chapter").val();
-    if (!studentCode) {
-        alert("请输入学号");
-        return;
-    }
-    if (!password) {
-        alert("请输入密码");
-        return;
-    }
-
-    if (!subject) {
-        alert("请选择练习科目");
-        return;
-    }
-
-    var practiceType = "";
-    if (chapter) {
-        practiceType = "2";
-    } else {
-        practiceType = "1";
-    }
-
+function getData() {
+    var info = JSON.parse(localStorage.getItem("practice_userInfo"));
     var params = {
-        branchId: branchId,
-        studentNum: studentCode,
-        practiceType: practiceType,
-        password: password,
+        subjectId: info.subjectId,
+        chapterId: info.chapterId,
+        branchId: info.branchId,
+        studentId: info.id,
     };
     $(".loadingMark").fadeIn();
     $.ajax({
         type: "post",
-        url: "http://222.73.57.153:6571/login/practiceLogin",
+        url: "http://222.73.57.153:6571/examinationInfo/getPracticeInfo",
         dataType: "json",
         cache: false,
         contentType: "application/json;charset=utf-8",
@@ -44,40 +20,44 @@ function loginExampleAction() {
                 alert(res.msg);
                 return;
             }
-            var subjectName = "";
-            var chapterName = "";
-            for (var i = 0; i < subjectList.length; i++) {
-                var subjectItem = subjectList[i];
-                if (subjectItem.value === subject) {
-                    subjectName = subjectItem.label;
-                }
-            }
-            for (var i = 0; i < chapterList.length; i++) {
-                var chapterItem = chapterList[i];
-                if (chapterItem.value === chapter) {
-                    chapterName = chapterItem.label;
-                }
-            }
-
-            var practice_userInfo = res.data.studentInfo;
-            practice_userInfo.subjectName = subjectName;
-            practice_userInfo.chapterName = chapterName;
-            practice_userInfo.subjectId = subject;
-            practice_userInfo.chapterId = chapter;
-            practice_userInfo.branchId = branchId;
-            localStorage.setItem(
-                "practice_userInfo",
-                JSON.stringify(practice_userInfo)
-            );
-
-            if (practiceType == 1) {
-                window.location.href = "practiceSubject.html";
-            } else {
-                window.location.href = "practiceChapter.html";
-            }
+            $(".nextBtn").css("display", "none");
+            $(".backBtn").css("display", "none");
+            $(".againBtn").css("display", "none");
+            $(".saveBtn").css("display", "none");
+            data = res.data.topicInfo;
+            data.title = data.topicContent;
+            data.options = data.topicSelect;
+            data.standardAnswer = data.yesAnswer;
+            updateExamData();
         },
         error: function (err) {
             $(".loadingMark").fadeOut();
         },
     });
 }
+
+function saveQues() {
+    if (!data) {
+        return;
+    }
+    let tip = [];
+    if (!data.answer) {
+        alert("请先答题");
+        return;
+    }
+    hasCommit = false;
+    $(".nextBtn").css("display", "none");
+    $(".backBtn").css("display", "none");
+    loadChapterQuestion();
+    if (data.answer === data.standardAnswer) {
+
+        $(".saveBtn").css("display", "none");
+        $(".againBtn").css("display", "none");
+        alert("回答正确")
+        getData()
+    } else {
+        alert("回答错误")
+    }
+}
+
+saveQues()
