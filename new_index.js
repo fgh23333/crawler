@@ -51,15 +51,15 @@ let paramsArr = [
     //         subjectId: "1748168736914800640",
     //     },
     // },
-    {
-        name: 'NCH',
-        params: {
-            branchId: "1705139277953761280",
-            chapterId: "",
-            studentId: "1795023275139531171",
-            subjectId: "1776854236110258176",
-        },
-    },
+    // {
+    //     name: 'NCH',
+    //     params: {
+    //         branchId: "1705139277953761280",
+    //         chapterId: "",
+    //         studentId: "1795023275139531171",
+    //         subjectId: "1776854236110258176",
+    //     },
+    // },
     {
         name: 'SDH',
         params: {
@@ -69,15 +69,15 @@ let paramsArr = [
             subjectId: "1752935841845477376",
         },
     },
-    {
-        name: 'ORH',
-        params: {
-            branchId: "1705139277953761280",
-            chapterId: "",
-            studentId: "1795023275139531171",
-            subjectId: "1752935841845477384",
-        },
-    },
+    // {
+    //     name: 'ORH',
+    //     params: {
+    //         branchId: "1705139277953761280",
+    //         chapterId: "",
+    //         studentId: "1795023275139531171",
+    //         subjectId: "1752935841845477384",
+    //     },
+    // },
     {
         name: 'CCPH',
         params: {
