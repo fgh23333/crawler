@@ -29,22 +29,37 @@ def cura(singleChoice, multipleChoice, rightWrong, fillingBlank,thename,count):
     nl.append(len(rightWrong)//count[2])
     if len(fillingBlank) != 0:
         fb = True
-        nl.append(len(fillingBlank)//count[3])
+        again = False
+        fblift = len(fillingBlank)
+        se = [0,count[3]]
     c = getmin(nl)
     print(thename, count, c)
+
     for i in range(0,c):
         output = []
         output = singleChoice[i*count[0]:(i+1)*count[0]]
         output.extend(multipleChoice[i*count[1]:(i+1)*count[1]])
         output.extend(rightWrong[i*count[2]:(i+1)*count[2]])
         if fb:
-            output.extend(fillingBlank[i*count[3]:(i+1)*count[3]])
+            if fblift >= count[3]:
+                output.extend(fillingBlank[se[0]:se[1]])
+                se[0] += count[3]
+                se[1] += count[3]
+                fblift -= count[3]
+            else:
+                output.extend(fillingBlank[se[0]:])
+                se[0] = 0
+                se[1] = count[3]-fblift
+                fblift = len(fillingBlank) - se[1]
+                output.extend(fillingBlank[se[0]:se[1]])
+                again = True
+                print(thename)
         write(thename,output,str(i+1))
     output = []
     output = singleChoice[c * count[0]:]
     output.extend(multipleChoice[c * count[1]:])
     output.extend(rightWrong[c * count[2]:])
-    if fb:
+    if fb and (not again):
         output.extend(fillingBlank[c * count[3]:])
     write(thename, output, "residual")
 
