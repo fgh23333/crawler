@@ -1,8 +1,9 @@
 import json
-rewritePath = "new/rewrite/"
-curaPath = "new/cura/"
+rewritePath = "new2/rewrite/"
+curaPath = "new2/cura/"
 
-name = ['CMH', 'MaoIntro', 'Marx', 'NCH', 'ORH', 'Political', 'XiIntro','CCPH','SDH']
+#name = ['CMH', 'MaoIntro', 'Marx', 'NCH', 'ORH', 'Political', 'XiIntro','CCPH','SDH']
+name = ['NCH','ORH','CCPH','SDH']
 shao = ['NCH','ORH','CCPH','SDH']
 big = [20,15,15,10]
 small = [15,15,15,5]
