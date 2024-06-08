@@ -51,7 +51,8 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1798906253557104911",
+            // subjectId: "1776854236110258176",
             subjectId: "1776854236110258176",
         },
     },
@@ -60,7 +61,7 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1798906253557104911",
             subjectId: "1752935841845477376",
         },
     },
@@ -69,7 +70,7 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1741125438396170311",
+            studentId: "1798906253557104911",
             subjectId: "1752935841845477384",
         },
     },
@@ -78,8 +79,9 @@ let paramsArr = [
         params: {
             branchId: "1705139277953761280",
             chapterId: "",
-            studentId: "1795023275139531171",
-            subjectId: "1796040314159366144",
+            studentId: "1798906253557104911",
+            subjectId: "1798740810791911424",
+            // subjectId: "1796040314159366144",
         },
     }
 ]
@@ -87,7 +89,7 @@ let paramsArr = [
 function fetchData(item, callback) {
     let subjectName = item.name;
 
-    fs.readFile(__dirname + `/new/${subjectName}.json`, 'utf8', async (err, data) => {
+    fs.readFile(__dirname + `/new2/${subjectName}.json`, 'utf8', async (err, data) => {
         if (err) {
             console.error(err);
             callback(err);
@@ -109,7 +111,7 @@ function fetchData(item, callback) {
 }
 
 function writeFile(subjectName, jsonArray) {
-    fs.writeFile(__dirname + `/new/solved/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
+    fs.writeFile(__dirname + `/new2/solved/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
         if (err) {
             console.log(err);
         } else {
