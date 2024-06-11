@@ -1,56 +1,56 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const baseUrl = 'http://222.73.57.149:6571';
+const baseUrl = 'http://222.73.57.153:6571';
 
 const targetPath = '/examinationInfo/getPracticeInfo';
 
 let paramsArr = [
-    // {
-    //     name: 'XiIntro',
-    //     params: {
-    //         branchId: "1705139277953761280",
-    //         chapterId: "",
-    //         studentId: "1795023275139531171",
-    //         subjectId: "1752935841845477392",
-    //     },
-    // },
-    // {
-    //     name: 'Marx',
-    //     params: {
-    //         branchId: "1705139277953761280",
-    //         chapterId: "",
-    //         studentId: "1795023275139531171",
-    //         subjectId: "1748167277460586496",
-    //     },
-    // },
-    // {
-    //     name: 'MaoIntro',
-    //     params: {
-    //         branchId: "1705139277953761280",
-    //         chapterId: "",
-    //         studentId: "1795023275139531171",
-    //         subjectId: "1748168736914800651",
-    //     },
-    // },
-    // {
-    //     name: 'Political',
-    //     params: {
-    //         branchId: "1705139277953761280",
-    //         chapterId: "",
-    //         studentId: "1795023275139531171",
-    //         subjectId: "1781216923707506688",
-    //     },
-    // },
-    // {
-    //     name: 'CMH',
-    //     params: {
-    //         branchId: "1705139277953761280",
-    //         chapterId: "",
-    //         studentId: "1795023275139531171",
-    //         subjectId: "1748168736914800640",
-    //     },
-    // },
+    {
+        name: 'XiIntro',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1798906253557104911",
+            subjectId: "1752935841845477392",
+        },
+    },
+    {
+        name: 'Marx',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1798906253557104911",
+            subjectId: "1748167277460586496",
+        },
+    },
+    {
+        name: 'MaoIntro',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1798906253557104911",
+            subjectId: "1748168736914800651",
+        },
+    },
+    {
+        name: 'Political',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1798906253557104911",
+            subjectId: "1781216923707506688",
+        },
+    },
+    {
+        name: 'CMH',
+        params: {
+            branchId: "1705139277953761280",
+            chapterId: "",
+            studentId: "1798906253557104911",
+            subjectId: "1748168736914800640",
+        },
+    },
     {
         name: 'NCH',
         params: {
@@ -107,7 +107,7 @@ function fetchData(params, callback) {
                 jsonArray = jsonArray.concat(rightWrong, singleChoice, multipleChoice, fillingBlank)
                 count++;
                 if (count < 300) {
-                    if (count % 50 == 0) {
+                    if (count % 10 == 0) {
                         console.log(count);
                     }
                     makeRequest(count);
