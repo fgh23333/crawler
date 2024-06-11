@@ -57,7 +57,6 @@ let paramsArr = [
             branchId: "1705139277953761280",
             chapterId: "",
             studentId: "1798906253557104911",
-            // subjectId: "1776854236110258176",
             subjectId: "1776854236110258176",
         },
     },
@@ -86,7 +85,6 @@ let paramsArr = [
             chapterId: "",
             studentId: "1798906253557104911",
             subjectId: "1798740810791911424",
-            // subjectId: "1796040314159366144",
         },
     }
 ]
