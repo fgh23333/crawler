@@ -1,6 +1,6 @@
 import json
-rewritePath = "new2/rewrite/"
-curaPath = "new2/cura/"
+rewritePath = "new3/rewrite/"
+curaPath = "new3/cura/"
 
 #name = ['CMH', 'MaoIntro', 'Marx', 'NCH', 'ORH', 'Political', 'XiIntro','CCPH','SDH']
 name = ['NCH','ORH','CCPH','SDH']

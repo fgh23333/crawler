@@ -1,14 +1,154 @@
 [
     {
-        "questionStem": "2007年10月24日,我国在西昌卫星发射中心用长征三号甲运载火箭将（）卫星成功送入太空，标志着我国月球探测工程迈出了重要的一步。",
+        "questionStem": "新中国成立初期的“银圆之战”和“米棉之战”的直接目的是（）。",
         "option": [
-            "“神舟”一号",
-            "“神舟”二号",
-            "“嫦娥”一号",
-            "“嫦娥”二号"
+            "恢复发展国民经济",
+            "巩固人民民主政权",
+            "解决财政困难",
+            "平抑物价，稳定市场"
+        ],
+        "answer": "D",
+        "id": "1798736710650036225",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "新文化运动的两大口号是（）。",
+        "option": [
+            "新道德和新文学",
+            "民权和平等",
+            "自由和平等",
+            "民主和科学"
+        ],
+        "answer": "D",
+        "id": "1798736711329513474",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "1928年6月，中国共产党在共产国际的帮助下在（）举行第六次全国代表大会。",
+        "option": [
+            "香港",
+            "莫斯科",
+            "上海",
+            "柏林"
+        ],
+        "answer": "B",
+        "id": "1798736711212072960",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "习近平新时代中国特色社会主义思想的核心要义是（）。",
+        "option": [
+            "实现中华民族伟大复兴的中国梦",
+            "坚持和发展中国特色社会主义",
+            "“五位一体”的总体布局和“四个全面”的战略布局",
+            "把中国特色社会主义推向前进"
+        ],
+        "answer": "B",
+        "id": "1798736711103021057",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "1924年5月，在苏联和中国共产党的帮助下，国民党陆军军官学校在广州黄埔创办黄埔军校，党代表是（）。",
+        "option": [
+            "孙中山",
+            "蒋介石",
+            "汪精卫",
+            "廖仲恺"
+        ],
+        "answer": "D",
+        "id": "1798736711186907138",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "中国共产党的最高理想和最终目标是（）。",
+        "option": [
+            "实现四个现代化",
+            "实现小康社会",
+            "建设新农村",
+            "实现共产主义"
+        ],
+        "answer": "D",
+        "id": "1798736711136575488",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "第一个五年计划开始实施的年份是（）。",
+        "option": [
+            "1949年",
+            "1951年",
+            "1953年",
+            "1955年"
         ],
         "answer": "C",
-        "id": "1798736710750699520",
+        "id": "1798736710608093185",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "2009年被评为“100位为新中国成立作出突出贡献的英雄模范人物”之一，因从事革命工作于1928年在汉口英勇就义，牺牲前写下“砍头不要紧，只要主义真”，体现视死如归、宁折不弯精神的湘籍革命家是（）。",
+        "option": [
+            "邓中夏",
+            "蔡和森",
+            "向警予",
+            "夏明瀚"
+        ],
+        "answer": "D",
+        "id": "1798736711233044482",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "江山就是人民，人民就是江山。中国共产党领导人民打江山、守江山，守的是（）。",
+        "option": [
+            "人民的梦",
+            "人民的权",
+            "人民的心",
+            "人民的情"
+        ],
+        "answer": "C",
+        "id": "1798736711044300801",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "改革开放以来我们取得一切成绩和进步的根本原因，归结起来就是（）。",
+        "option": [
+            "形成了以经济建设为中心的正确路线",
+            "全面推进党的建设新的伟大工程",
+            "开辟了中国特色社会主义道路，形成了中国特色社会主义理论体系",
+            "以人为本，以最广大人民群众的根本利益为出发点和落脚点"
+        ],
+        "answer": "C",
+        "id": "1798736711035912192",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "标志着全国性抗日战争开始的事件是（）。",
+        "option": [
+            "九一八事变",
+            "一·二八事件",
+            "七七卢沟桥事变",
+            "八一三事件"
+        ],
+        "answer": "C",
+        "id": "1798736711245627393",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
@@ -28,253 +168,197 @@
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "必须以党章为根本遵循，把党的政治建设摆在首位，思想建党和（）同向发力。",
+        "questionStem": "中国人民政治协商会议第一届全体会议决定，以《义勇军进行曲》为（）。",
         "option": [
-            "从严治党",
-            "党内文化建设",
-            "制度治党",
-            "制度建设"
+            "国歌",
+            "临时国歌",
+            "代国歌",
+            "会歌"
         ],
         "answer": "C",
-        "id": "1798736710943637505",
+        "id": "1798736710691979266",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "（）是社会主义民主政治的本质属性，是最广泛、最真实、最管用的民主。",
+        "questionStem": "党的二十大报告指出，实践告诉我们，中国共产党为什么能，中国特色社会主义为什么好，归根到底是（）行，是中国化时代化的（）行。",
         "option": [
-            "全过程人民民主",
-            "全方位人民民主",
-            "全要素人民民主",
-            "全周期人民民主"
-        ],
-        "answer": "A",
-        "id": "1798736710901694465",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中共十七大关于党章（修正案）决议，第一次将（）写入党章。",
-        "option": [
-            "科学发展观",
-            "“三个代表”重要思想",
-            "全面建设小康社会",
-            "中国特色社会主义理论体系"
-        ],
-        "answer": "A",
-        "id": "1798736710863945729",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "1927年3月毛泽东公开发表（），文中科学分析了农民的各个阶层，充分估计了农民在中国民主革命中的伟大作用，明确指出在农村建立革命政权和农民武装的必要性，着重宣传了放手发动群众、组织群众、依靠群众的革命思想。",
-        "option": [
-            "《中国社会各阶级的分析》",
-            "《中国的红色政权为什么能够存在》",
-            "《反对本本主义》",
-            "《湖南农民运动考察报告》"
-        ],
-        "answer": "D",
-        "id": "1798736711207878656",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中国共产党人的初心和使命，就是（）。",
-        "option": [
-            "为中国人民谋幸福，为中华民族谋复兴",
-            "建设共产主义",
-            "实现国家富强，民族复兴",
-            "建设社会主义现代化强国"
-        ],
-        "answer": "A",
-        "id": "1798736711136575489",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "社会主义革命和建设时期周期为（）。",
-        "option": [
-            "1940年—1978年",
-            "1945年—1978年",
-            "1956年—1978年",
-            "1949年—1978年"
-        ],
-        "answer": "D",
-        "id": "1798736710637453312",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "1927年4月27日至5月9日，中国共产党第五次全国代表大会在武汉召开，在党的历史上第一次选举产生了（）。",
-        "option": [
-            "中央纪律委员会",
-            "中央立法委员会",
-            "中央执法委员会",
-            "中央监察委员会"
-        ],
-        "answer": "D",
-        "id": "1798736711207878657",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "1923年6月，（）确定了与国民党合作，建立革命统一战线的方针政策，拉开了第一次国共合作的序幕，是中国共产党走向成熟的重要开端。会上，毛泽东当选为中央局秘书，第一次进入党的中央领导核心层。",
-        "option": [
-            "中国共产党第二次全国代表大会",
-            "中国共产党第四次全国代表大会",
-            "中国共产党第五次全国代表大会",
-            "中国共产党第三次全国代表大会"
-        ],
-        "answer": "D",
-        "id": "1798736711186907137",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "党的二十大报告指出，十年来，我们经过接续奋斗，实现了（）这个中华民族的千年梦想，打赢了人类历史上规模最大的脱贫攻坚战，历史性地解决了绝对贫困问题，为全球减贫事业作出了重大贡献。",
-        "option": [
-            "脱贫",
-            "温饱",
-            "富裕",
-            "小康"
-        ],
-        "answer": "D",
-        "id": "1798736710956220417",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "邓小平著名的南方谈话发表于（）年。",
-        "option": [
-            "1991",
-            "1992",
-            "1993",
-            "1994"
-        ],
-        "answer": "B",
-        "id": "1798736710775865344",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "把（）作为党的指导思想并写入党章，是中共七大的历史性贡献。",
-        "option": [
-            "列宁主义",
-            "新民主主义",
-            "中国特色社会主义",
+            "中国共产党",
+            "马克思主义",
+            "社会主义",
             "毛泽东思想"
         ],
+        "answer": "B",
+        "id": "1798736710964609025",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "我国社会主义改造提前完成，开始进入社会主义初级阶段的时间是（）。",
+        "option": [
+            "1956年春",
+            "1956年夏",
+            "1956年秋",
+            "1956年底"
+        ],
         "answer": "D",
-        "id": "1798736711237238785",
+        "id": "1798736710645841920",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "党的十八大以来，党的()全面推进，马克思主义在意识形态领域的指导地位更加鲜明，中国特色社会主义和中国梦深入人心，社会主义核心价值观和中华优秀传统文化广泛弘扬，群众性精神文明创建活动扎实开展。",
+        "questionStem": "新中国在20世纪50年代的主要外交活动有()。",
         "option": [
-            "制度创新",
-            "理论创新",
-            "体制创新",
-            "机制创新"
+            "提出和平共处五项原则",
+            "参加日内瓦国际会议",
+            "参加万隆会议",
+            "提出三个世界的理论"
         ],
-        "answer": "B",
-        "id": "1798736710998163457",
+        "answer": "ABC",
+        "id": "1798736710658424834",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "歌曲“我们唱着东方红，当家作主站起来，我们讲着春天的故事，改革开放富起来”中，带领中国人民”站起来”和“富起来”的伟大领袖分别是（）。",
+        "questionStem": "“两个基本点”分别是什么",
         "option": [
-            "毛泽东、周恩来",
-            "毛泽东、邓小平",
-            "周恩来、邓小平",
-            "江泽民、胡锦涛"
+            "坚持四项基本原则",
+            "坚持改革开放",
+            "坚持以经济建设为中心",
+            "坚持独立自主"
         ],
-        "answer": "B",
-        "id": "1798736710780059648",
+        "answer": "AB",
+        "id": "1798736710893305856",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "辛亥革命最终失败的原因是()。",
+        "questionStem": "“三反运动”是指新中国成立初期在中国共产党和国家机关内部开展的()的运动。",
         "option": [
-            "没有建立革命政权",
-            "没有坚强有力的革命政党",
-            "没有一个彻底的革命纲领",
-            "没有充分发动和依靠人民大众"
+            "反行贿",
+            "反贪污",
+            "反浪费",
+            "反官僚主义"
         ],
         "answer": "BCD",
-        "id": "1798736711325319168",
+        "id": "1798736710566150145",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "“两个结合”具体是指（）（）。",
+        "questionStem": "1927年，中国共产党领导的“三大起义”是()。",
         "option": [
-            "马克思主义基本原理与中国具体实际相结合",
-            "马克思主义基本原理与中国传统文化相结合",
-            "马克思主义基本原理与中华优秀传统文化相结合",
-            "马克思主义基本原理与中国现实相结合"
+            "南昌起义",
+            "秋收起义",
+            "平江起义",
+            "广州起义"
         ],
-        "answer": "AC",
-        "id": "1798736710926860289",
+        "answer": "ABD",
+        "id": "1798736711199490050",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "党的二十大主题：高举中国特色社会主义伟大旗帜，全面贯彻新时代中国特色社会主义思想，弘扬伟大建党精神，（），（），为全面建设社会主义现代化国家、全面推进中华民族伟大复兴而团结奋斗",
+        "questionStem": "我们党深刻认识到，实现中华民族伟大复兴，必须推翻压在中国人民头上的帝国主义、封建主义、官僚资本主义三座大山，实现()。",
         "option": [
-            "自信自强、守正创新",
-            "自信自立、守正创新",
-            "踔厉奋发、勇毅前行",
-            "敢于斗争、勇于胜利"
-        ],
-        "answer": "AC",
-        "id": "1798736710989774849",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "1989年12月,中共中央发出《关于坚持和完善中国共产党领导的多党合作和政治协商制度的意见》指出:中国共产党同各民主党派合作的基本方针是()。",
-        "option": [
-            "长期共存",
-            "互相监督",
-            "肝胆相照",
-            "荣辱与共"
+            "民族独立",
+            "人民解放",
+            "国家统一",
+            "社会稳定"
         ],
         "answer": "ABCD",
-        "id": "1798736710733922304",
+        "id": "1798736711094632450",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "中共十九大的主题是：不忘初心，牢记使命，()。",
+        "questionStem": "“两个大局”具体是指（）（）。",
         "option": [
-            "高举中国特色社会主义伟大旗帜",
-            "决胜全面建成小康社会",
-            "夺取新时代中国特色社会主义伟大胜利",
-            "为实现中华民族伟大复兴的中国梦不懈奋斗"
+            "世界百年未有之大变局",
+            "中华民族伟大复兴战略全局",
+            "世界大格局",
+            "大变局"
         ],
-        "answer": "ABCD",
-        "id": "1798736711128186881",
+        "answer": "AB",
+        "id": "1798736710926860288",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "社会主义核心价值观的基本内容是()。",
+        "option": [
+            "富强、民主、文明、和谐",
+            "自由、平等、公正、法治",
+            "爱国、敬业、诚信、友善",
+            "富强、平等、勤俭、团结"
+        ],
+        "answer": "ABC",
+        "id": "1798736711077855233",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "我们要建设的社会主义和谐社会，应该是()、充满活力、安定有序、人与自然和谐相处的社会。",
+        "option": [
+            "民主法治",
+            "公平正义",
+            "诚信友爱",
+            "没有冲突"
+        ],
+        "answer": "ABC",
+        "id": "1798736710826196993",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "毛泽东指出，新民主主义革命的对象是()。",
+        "option": [
+            "民族资产阶级",
+            "帝国主义",
+            "买办资产阶级",
+            "封建主义"
+        ],
+        "answer": "BD",
+        "id": "1798736711304347649",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "党的十九届六中全会强调：党的十八大以来，在生态文明建设上，党中央以前所未有的力度抓生态文明建设，美丽中国建设迈出重大步伐，我国生态环境保护发生（）、（）、（）变化。",
+        "option": [
+            "历史性",
+            "转折性",
+            "全局性",
+            "根本性"
+        ],
+        "answer": "ABC",
+        "id": "1798736711023329281",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "中国共产党第十三次全国代表大会的重要贡献是()",
+        "option": [
+            "分析了当前中国的国情，提出了社会主义初级阶段的理论",
+            "制定了社会主义初级阶段党的基本路线",
+            "提出了社会主义初级阶段经济发展的战略部署",
+            "制定了一部有中国特色的中华人民共和国宪法"
+        ],
+        "answer": "ABC",
+        "id": "1798736710884917248",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
@@ -308,221 +392,89 @@
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "“一个中心、两个基本点”的关系是()",
+        "questionStem": "中国共产党第一次代表大会的长沙代表是()。",
         "option": [
-            "经济建设是中心",
-            "改革开放是动力",
-            "四项基本原则是政治保证",
-            "经济建设是目的"
-        ],
-        "answer": "ABC",
-        "id": "1798736710712950785",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "1928年在莫斯科召开了中共第六次全国代表大会，以下属于本次大会缺点的是()。",
-        "option": [
-            "把民族资产阶级当成中国革命的“最危险的敌人之一”",
-            "不顾当时敌强我弱的形势，把党的工作重心放在城市",
-            "对中国革命的长期性和复杂性认识不足",
-            "认为中国是半殖民地半封建社会"
-        ],
-        "answer": "ABC",
-        "id": "1798736711212072961",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中共十九大报告指出，全党要更加自觉地增强()，既不走封闭僵化的老路，也不走改旗易帜的邪路，保持政治定力，坚持实干兴邦，始终坚持和发展中国特色社会主义。",
-        "option": [
-            "道路自信",
-            "理论自信",
-            "制度自信",
-            "文化自信"
-        ],
-        "answer": "ABCD",
-        "id": "1798736711128186880",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中共十一届三中全会前，取得探索中国社会主义建设的重要成果有()。",
-        "option": [
-            "《论十大关系》的发表",
-            "中共八大召开及其重要决策",
-            "《关于正确处理人民内部矛盾的问题》的发表",
-            "“大跃进”的发动"
-        ],
-        "answer": "ABC",
-        "id": "1798736710683590657",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "抗日战争时期党领导的武装力量有()。",
-        "option": [
-            "八路军",
-            "新四军",
-            "山西青年抗敌决死队",
-            "东江纵队"
-        ],
-        "answer": "ABCD",
-        "id": "1798736711291764737",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中共十一届三中全会以来，以邓小平为主要代表的中国共产党人初步回答的首要的基本理论问题是()。",
-        "option": [
-            "什么是社会主义",
-            "建设什么样的党",
-            "怎样建设社会主义",
-            "怎样建设党"
-        ],
-        "answer": "AC",
-        "id": "1798736710876528641",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中国共产党的三大历史任务是()。",
-        "option": [
-            "推进现代化建设",
-            "完成祖国统一",
-            "维护世界和平与促进共同发展",
-            "推动世界共同富裕"
-        ],
-        "answer": "ABC",
-        "id": "1798736711132381184",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "“两个大局”具体是指（）（）。",
-        "option": [
-            "世界百年未有之大变局",
-            "中华民族伟大复兴战略全局",
-            "世界大格局",
-            "大变局"
+            "毛泽东",
+            "何叔衡",
+            "王尽美",
+            "邓恩铭"
         ],
         "answer": "AB",
-        "id": "1798736710926860288",
+        "id": "1798736711367262209",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "在当代中国，坚持中国特色社会主义道路，就是真正坚持社会主义。",
+        "questionStem": "近代中国社会主要矛盾是（）、（）。",
+        "option": [
+            "帝国主义和中华民族的矛盾",
+            "帝国主义和封建主义的矛盾",
+            "帝国主义和人民大众的矛盾",
+            "封建主义和人民大众的矛盾"
+        ],
+        "answer": "AD",
+        "id": "1798736711388233729",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "过渡时期社会主义建设总路线的主体是实现国家的工业化。",
         "option": [
             "正确",
             "错误"
         ],
         "answer": "正确",
-        "id": "1798736710838779904",
+        "id": "1798736710620676096",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "在党的历史上第一次明确提出了建立社会主义市场经济体制的目标模式是在中共十四大上。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "正确",
-        "id": "1798736710838779905",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "确立了邓小平建设有中国特色社会主义理论在全党的指导地位是在中共十五大上。",
+        "questionStem": "新民主主义革命胜利的三大法宝:统一战线、武装斗争、群众路线。",
         "option": [
             "正确",
             "错误"
         ],
         "answer": "错误",
-        "id": "1798736710801031168",
+        "id": "1798736711329513472",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "在新解放区进行的土地改革，是在人民革命战争已经取得全国胜利，统一的人民政权已经建立的条件下进行的。土地改革的目的是实行国家土地所有制。",
+        "questionStem": "党的七届二中全会着重讨论了党的工作重心的战略转移的问题。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "正确",
+        "id": "1798736711262404608",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "中国特色社会主义的总任务是实现社会主义现代化和中华民族伟大复兴。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "正确",
+        "id": "1798736711149158401",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "全面深化改革总目标是完善和发展中国社会主义市场经济体制、推进国家治理体系和治理能力现代化。",
         "option": [
             "正确",
             "错误"
         ],
         "answer": "错误",
-        "id": "1798736710666813442",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "毛泽东提出要把正确处理人民内部矛盾作为国家政治生活的主题。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "正确",
-        "id": "1798736710624870401",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "党的二十大提出：社会主义核心价值观是凝聚人心、汇聚民力的强大力量。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "正确",
-        "id": "1798736710981386240",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "1935年1月召开的遵义会议是我党的历史上一个生死攸关的转折点。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "正确",
-        "id": "1798736711216267266",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "“三个代表”重要思想的提出，是我们党在自身建设问题上的一个重大理论突破。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "正确",
-        "id": "1798736710712950784",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "全面建设社会主义现代化国家，必须坚持中国特色社会主义文化发展道路。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "正确",
-        "id": "1798736711065272321",
+        "id": "1798736711069466625",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
@@ -540,49 +492,49 @@
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "在抗美援朝前，毛泽东提出了“一切反动派都是纸老虎”的著名论断。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "错误",
-        "id": "1798736711337902080",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中国新民主主义革命胜利的三大法宝:统一战线、武装斗争、群众路线。",
-        "option": [
-            "正确",
-            "错误"
-        ],
-        "answer": "错误",
-        "id": "1798736711384039424",
-        "likeFlag": false,
-        "markFlag": false,
-        "abbreviationSubject": "CCPH"
-    },
-    {
-        "questionStem": "中共八大指出，在我国社会主义制度已经建立的情况下，国内的主要矛盾已经不是社会主义同资本主义的矛盾。",
+        "questionStem": "确立了全面建设小康社会的战略目标，制定了全面建设小康社会的行动纲领的是中共十六大。",
         "option": [
             "正确",
             "错误"
         ],
         "answer": "正确",
-        "id": "1798736710679396354",
+        "id": "1798736710801031169",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "中共七届二中全会着重讨论了党的工作重心的战略转移的问题。",
+        "questionStem": "我国经济体制改革全面展开是党的十二大之后。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "错误",
+        "id": "1798736710822002688",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "党的十八届四中全会审议通过了《中共中央关于全面推进依法治国若干重大问题的决定》，指出全面推进依法治国的总目标是建设中国特色社会主义法治体系，建设社会主义法治国家。",
         "option": [
             "正确",
             "错误"
         ],
         "answer": "正确",
-        "id": "1798736711350484994",
+        "id": "1798736711010746368",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "毛泽东在《关于正确处理人民内部矛盾的问题》中指出，社会主义社会存在敌我矛盾和人民内部矛盾两类性质根本不同的矛盾。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "正确",
+        "id": "1798736710629064704",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
@@ -600,46 +552,94 @@
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "周恩来提出了____中的绝大部分是工人阶级一部分的观点。",
-        "option": "",
-        "answer": "知识分子",
-        "id": "1798736711639891969",
+        "questionStem": "1935年1月召开的遵义会议是我党的历史上一个生死攸关的转折点。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "正确",
+        "id": "1798736711216267266",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "坚持中国共产党的领导，核心是坚持党的____。",
-        "option": "",
-        "answer": "先进性",
-        "id": "1798736711694417920",
+        "questionStem": "半殖民地半封建的社会性质决定了中国共产党领导的革命包括民主主义革命和社会主义革命两个阶段，这是两个性质相同的革命过程。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "错误",
+        "id": "1798736710599704576",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "社会主义最大的优越性就是____，这是体现社会主义本质的一个东西。",
-        "option": "",
-        "answer": "共同富裕",
-        "id": "1798736711652474881",
+        "questionStem": "在新解放区进行的土地改革，是在人民革命战争已经取得全国胜利，统一的人民政权已经建立的条件下进行的。土地改革的目的是实行国家土地所有制。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "错误",
+        "id": "1798736710666813442",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "社会主义的根本任务是____，党和国家的工作重点是经济建设，这是党对我国社会主义建设经验教训和社会主要矛盾进行科学分析得出的最重要的结论。",
-        "option": "",
-        "answer": "发展生产力",
-        "id": "1798736711673446400",
+        "questionStem": "进入新时代，我国社会主要矛盾发生了变化，但没有改变我们对我国社会主义所处历史阶段的判断，我国仍处于并将长期处于社会主义初级阶段的基本国情没有变。",
+        "option": [
+            "正确",
+            "错误"
+        ],
+        "answer": "正确",
+        "id": "1798736711052689408",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
     },
     {
-        "questionStem": "____是科学发展观的基本要求。",
+        "questionStem": "发展先进文化，必须坚持____在意识形态领域的指导地位",
         "option": "",
-        "answer": "全面协调可持续",
-        "id": "1798736711707000832",
+        "answer": "马克思主义",
+        "id": "1798736711686029314",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "“自力更生，____”是实现奋斗目标的根本立足点。",
+        "option": "",
+        "answer": "艰苦创业",
+        "id": "1798736711665057793",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "农业社会主义改造大体上经历了互助组、____和____三个发展阶段。",
+        "option": "",
+        "answer": "初级社，高级社",
+        "id": "1798736711627309056",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "____是科学发展观的根本方法。",
+        "option": "",
+        "answer": "统筹兼顾",
+        "id": "1798736711707000833",
+        "likeFlag": false,
+        "markFlag": false,
+        "abbreviationSubject": "CCPH"
+    },
+    {
+        "questionStem": "____是科学发展观的核心立场。",
+        "option": "",
+        "answer": "以人为本",
+        "id": "1798736711702806530",
         "likeFlag": false,
         "markFlag": false,
         "abbreviationSubject": "CCPH"
