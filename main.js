@@ -1,5 +1,5 @@
 const { Worker } = require('worker_threads');
-const numThreads = 1024;
+const numThreads = 256;
 const totalTasks = 1000;
 let completedTasks = 0;
 
