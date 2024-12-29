@@ -106,7 +106,7 @@ function fetchData(params, callback) {
                 let fillingBlank = data.tiankong.children
                 jsonArray = jsonArray.concat(rightWrong, singleChoice, multipleChoice, fillingBlank)
                 count++;
-                if (count < 200) {
+                if (count < 500) {
                     if (count % 10 == 0) {
                         console.log(count);
                     }
