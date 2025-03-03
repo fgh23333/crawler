@@ -87,7 +87,7 @@ let paramsArr = [
 function fetchData(item, callback) {
     let subjectName = item.name;
 
-    fs.readFile(__dirname + `/new2/${subjectName}.json`, 'utf8', async (err, data) => {
+    fs.readFile(__dirname + `/new/${subjectName}.json`, 'utf8', async (err, data) => {
         if (err) {
             console.error(err);
             callback(err);
@@ -109,7 +109,7 @@ function fetchData(item, callback) {
 }
 
 function writeFile(subjectName, jsonArray) {
-    fs.writeFile(__dirname + `/new2/solved/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
+    fs.writeFile(__dirname + `/new/solved/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
         if (err) {
             console.log(err);
         } else {

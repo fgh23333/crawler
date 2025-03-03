@@ -61,8 +61,8 @@ const processFolders = (oldDir, newDir, outputDir) => {
 };
 
 // 使用示例
-const oldFolderPath = './new/rewrite'; // 旧文件所在文件夹路径
-const newFolderPath = './new2/rewrite'; // 新文件所在文件夹路径
+const oldFolderPath = './new2/rewrite'; // 旧文件所在文件夹路径
+const newFolderPath = './new/rewrite'; // 新文件所在文件夹路径
 const outputFolderPath = './merge'; // 输出文件夹路径
 
 processFolders(oldFolderPath, newFolderPath, outputFolderPath);

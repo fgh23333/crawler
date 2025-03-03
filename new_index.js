@@ -106,7 +106,7 @@ function fetchData(params, callback) {
                 let fillingBlank = data.tiankong.children
                 jsonArray = jsonArray.concat(rightWrong, singleChoice, multipleChoice, fillingBlank)
                 count++;
-                if (count < 500) {
+                if (count < 1000) {
                     if (count % 10 == 0) {
                         console.log(count);
                     }
@@ -124,7 +124,7 @@ function fetchData(params, callback) {
 }
 
 function writeFile(subjectName, jsonArray) {
-    fs.writeFile(__dirname + `/new2/${subjectName}.json`, JSON.stringify(jsonArray), (err) => {
+    fs.writeFile(__dirname + `/new/${subjectName}.json`, JSON.stringify(jsonArray), (err) => {
         if (err) {
             console.log(err);
         } else {
