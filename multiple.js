@@ -7,10 +7,10 @@ const baseUrl = 'http://222.73.57.153:6571';
 const targetPath = '/examinationInfo/getPracticeInfo';
 const headers = { 'Content-Type': 'application/json;charset=utf-8' };
 
-const outputDir = path.join(__dirname, 'new');
+const outputDir = path.join(__dirname, 'test');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-const MAX_WORKERS = 512; // 限制最大并发数，避免服务器过载
+const MAX_WORKERS = 1024; // 限制最大并发数，避免服务器过载
 const RETRY_LIMIT = 3; // 失败时最大重试次数
 
 const paramsArr = [
