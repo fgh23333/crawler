@@ -87,7 +87,7 @@ let paramsArr = [
 function fetchData(item, callback) {
     let subjectName = item.name;
 
-    fs.readFile(__dirname + `/new/${subjectName}.json`, 'utf8', async (err, data) => {
+    fs.readFile(__dirname + `/2025-05-27/${subjectName}.json`, 'utf8', async (err, data) => {
         if (err) {
             console.error(err);
             callback(err);
@@ -109,7 +109,9 @@ function fetchData(item, callback) {
 }
 
 function writeFile(subjectName, jsonArray) {
-    fs.writeFile(__dirname + `/new/solved/${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
+    const outputDir = __dirname + `/2025-05-27/solved/`;
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+    fs.writeFile(outputDir + `${subjectName}Solved.json`, JSON.stringify(jsonArray), (err) => {
         if (err) {
             console.log(err);
         } else {

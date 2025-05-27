@@ -1,8 +1,8 @@
 import ijson
 import json
 import os
-outputPath = "new/rewrite/"
-solvedPath = "new/solved/"
+outputPath = "2025-05-27/rewrite/"
+solvedPath = "2025-05-27/solved/"
 
 def write(thename, result, name):
     json_data = json.dumps(result, indent=4, ensure_ascii=False)
