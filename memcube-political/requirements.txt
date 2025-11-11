@@ -9,3 +9,16 @@ jsonlines>=3.0.0
 python-dotenv>=0.19.0
 loguru>=0.6.0
 networkx>=2.6.0
+
+# 图数据库依赖 (可选)
+neo4j>=5.0.0
+python-arango>=7.0.0
+
+# 向量数据库依赖 (可选)
+chromadb>=0.4.0
+qdrant-client>=1.6.0
+faiss-cpu>=1.7.0
+
+# 其他工具
+dataclasses-json>=0.5.0
+typing-extensions>=4.0.0

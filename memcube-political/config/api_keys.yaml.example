@@ -1,11 +1,7 @@
 # API密钥配置文件
-# 复制此文件为 api_keys.yaml 并填入真实的API密钥
+# 统一使用OpenAI格式API，支持OpenAI官方API和各种兼容API服务
 
-openai:
-  api_key: "your-openai-api-key-here"
-  organization: "your-organization-id-here"  # 可选
-
-# 如果使用其他兼容OpenAI格式的API，可以在这里配置
-# custom_api:
-#   api_key: "your-api-key"
-#   base_url: "https://your-api-endpoint.com/v1"
+# OpenAI格式API配置
+api_key: ""  # 您的API密钥
+base_url: ""  # API端点
+organization: ""  # 组织ID（可选，OpenAI官方API需要）

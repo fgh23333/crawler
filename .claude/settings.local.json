@@ -1,13 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node:*)",
+      "Bash(timeout:*)",
       "Bash(python:*)",
-      "Bash(venvScriptsactivate:*)",
-      "Bash(venv/Scripts/activate:*)",
-      "Bash(pip install:*)",
-      "Bash(mkdir:*)",
-      "Bash(mv main.js new_index.js multiple.js scripts/data-fetch/:*)"
+      "Bash(git rm:*)"
     ],
     "deny": [],
     "ask": []

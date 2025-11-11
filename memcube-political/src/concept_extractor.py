@@ -11,8 +11,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import yaml
 
-from .api_client import get_client, APIResponse
-from .prompt_templates import PromptTemplates
+try:
+    from .api_client import get_client, APIResponse
+    from .prompt_templates import PromptTemplates
+except ImportError:
+    from api_client import get_client, APIResponse
+    from prompt_templates import PromptTemplates
 
 logger = logging.getLogger(__name__)
 

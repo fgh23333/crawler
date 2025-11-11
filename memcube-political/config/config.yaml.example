@@ -1,0 +1,148 @@
+# MemCube 政治理论概念图扩增配置
+
+# API配置
+api:
+  # API配置将从 api_keys.yaml 读取
+  model_thinker: "gemini-2.5-flash"  # 用于思考分析的强模型
+  model_extractor: "gemini-2.5-flash"  # 用于概念提取的模型
+  model_expander: "gemini-2.5-flash"  # 用于概念扩增的模型
+  model_qa_generator: "gemini-2.5-flash"  # 用于QA生成的强模型
+  temperature: 0.7
+  max_tokens: 32768
+  max_retries: 3
+  timeout: 60
+  proxy:
+    http: http://127.0.0.1:7890  # HTTP代理 - 请根据需要修改
+    https: http://127.0.0.1:7890  # HTTPS代理 - 请根据需要修改
+
+# 概念图扩增参数
+concept_expansion:
+  similarity_threshold: 0.80  # 概念相似度阈值
+  new_concept_rate_threshold: 0.10  # 新概念增长率阈值
+  new_edge_rate_threshold: 0.05  # 新边增长率阈值
+  max_iterations: 10  # 最大迭代次数
+  batch_size: 50  # 批处理大小
+  max_workers: 10  # 并发工作数
+
+# QA生成参数
+qa_generation:
+  concepts_per_batch: 20  # 每批处理的概念数
+  qa_pairs_per_concept: 3  # 每个概念生成的QA对数
+  qa_pairs_per_concept_pair: 2  # 每个概念对生成的QA对数
+  max_workers: 5  # QA生成并发数
+  enable_validity_check: true  # 是否启用有效性检查
+  min_validity_threshold: 0.6  # QA概念最小有效性阈值
+
+# Embedding配置
+embedding:
+  model_name: "bge-m3:567m"  # 本地ollama模型
+  model_type: "ollama"  # 使用ollama
+  ollama_url: "http://localhost:11434"  # ollama服务地址
+  batch_size: 16
+  device: "cpu"  # ollama在本地运行
+
+# 图数据库配置
+graph_database:
+  enabled: true  # 是否启用图数据库
+  type: "neo4j"  # 图数据库类型：neo4j, arangodb, janusgraph
+
+  # Neo4j配置
+  neo4j:
+    uri: "bolt://YOUR_NEO4J_HOST:7687"  # Neo4j连接URI - 请替换为实际地址
+    username: "neo4j"  # 用户名
+    password: "YOUR_PASSWORD"  # 密码 - 请替换为实际密码
+    database: "neo4j"  # 数据库名
+
+  # ArangoDB配置（备选）
+  arangodb:
+    host: "localhost"
+    port: 8529
+    username: "root"
+    password: "YOUR_PASSWORD"  # 密码 - 请替换为实际密码
+    database: "memcube_political"
+
+  # JanusGraph配置（备选）
+  janusgraph:
+    host: "localhost"
+    port: 8182
+    graph_name: "political_concepts"
+
+  # 图数据库配置选项
+  options:
+    batch_size: 100  # 批量写入大小
+    connection_pool_size: 10  # 连接池大小
+    timeout: 30  # 连接超时时间（秒）
+    retry_attempts: 3  # 重试次数
+
+# 向量数据库配置
+vector_database:
+  enabled: true  # 是否启用向量数据库
+  type: "qdrant"  # 向量数据库类型：chroma, qdrant, faiss, milvus
+
+  # Chroma配置（轻量级本地）
+  chroma:
+    path: "./data/vector_db"  # 数据库存储路径
+    collection_name: "political_concepts"  # 集合名称
+    persist_directory: "./data/vector_db"  # 持久化目录
+
+  # Qdrant配置（高性能）
+  qdrant:
+    host: "YOUR_QDRANT_HOST"  # Qdrant主机地址 - 请替换为实际地址
+    port: 6333
+    collection_name: "political_concepts"
+    vector_size: 1024  # 向量维度（根据bge-m3调整）
+    distance: "Cosine"  # 距离计算方式：Cosine, Euclidean, Dot
+
+  # FAISS配置（内存高性能）
+  faiss:
+    index_type: "IVF_PQ"  # 索引类型：IVF_PQ, HNSW, Flat
+    dimension: 1024  # 向量维度
+    index_path: "./data/faiss_index"
+    save_interval: 100  # 保存间隔
+
+  # Milvus配置（分布式）
+  milvus:
+    host: "localhost"
+    port: 19530
+    collection_name: "political_concepts"
+    vector_size: 1024
+    index_type: "IVF_FLAT"
+
+  # 向量数据库配置选项
+  options:
+    batch_size: 50  # 批量插入大小
+    search_top_k: 10  # 搜索返回数量
+    similarity_threshold: 0.7  # 相似度阈值
+    auto_index: true  # 自动创建索引
+    persistence: true  # 启用持久化
+
+# 数据路径
+paths:
+  seed_concepts: "data/seed_concepts.txt"
+  seed_concepts_json: "data/seed_concepts.json"
+  qa_data: "data/transformed_political_data.json"
+  concept_graph_dir: "data/concept_graph"
+  knowledge_base: "data/political_theory_knowledge_base.yaml"
+  results_dir: "results"
+  logs_dir: "logs"
+  scripts_dir: "scripts"
+
+# 日志配置
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} - {message}"
+  rotation: "1 day"
+  retention: "30 days"
+
+# 收敛控制
+convergence:
+  check_frequency: 1  # 每1轮检查一次收敛
+  early_stop_patience: 3  # 连续3轮无改善则停止
+  min_concepts: 100  # 最小概念数
+  max_concepts: 50000  # 最大概念数
+
+# 输出配置
+output:
+  save_intermediate: true  # 保存中间结果
+  compress_large_files: true  # 压缩大文件
+  include_metadata: true  # 包含元数据

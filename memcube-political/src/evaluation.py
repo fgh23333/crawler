@@ -13,7 +13,6 @@ import yaml
 import networkx as nx
 from collections import Counter, defaultdict
 from sklearn.metrics.pairwise import cosine_similarity
-from sentence_transformers import SentenceTransformer
 
 logger = logging.getLogger(__name__)
 
@@ -48,7 +47,10 @@ class ConceptGraphEvaluator:
     def load_embedding_model(self):
         """加载embedding模型"""
         if self.embedding_model is None:
-            from .embedding_client import get_embedding_client
+            try:
+                from .embedding_client import get_embedding_client
+            except ImportError:
+                from embedding_client import get_embedding_client
             logger.info(f"加载embedding模型")
             self.embedding_client = get_embedding_client()
 

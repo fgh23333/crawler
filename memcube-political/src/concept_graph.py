@@ -16,8 +16,18 @@ from tqdm import tqdm
 import yaml
 import networkx as nx
 
-from .api_client import get_client, APIResponse
-from .prompt_templates import PromptTemplates
+try:
+    from .api_client import get_client, APIResponse
+    from .prompt_templates import PromptTemplates
+    from .embedding_client import get_embedding_client
+    from .graph_database_client import get_graph_client, close_graph_client
+    from .vector_database_client import get_vector_client, close_vector_client, PoliticalTheoryVectorSearch
+except ImportError:
+    from api_client import get_client, APIResponse
+    from prompt_templates import PromptTemplates
+    from embedding_client import get_embedding_client
+    from graph_database_client import get_graph_client, close_graph_client
+    from vector_database_client import get_vector_client, close_vector_client, PoliticalTheoryVectorSearch
 
 logger = logging.getLogger(__name__)
 
@@ -41,14 +51,39 @@ class ConceptGraph:
         self.client = get_client()
         self.templates = PromptTemplates()
 
-        # 图结构
-        self.graph = {}  # 邻接表表示
-        self.concept_embeddings = {}  # concept -> embedding
+        # 初始化数据库客户端
+        self.graph_client = get_graph_client(config_path)
+        self.vector_client = get_vector_client(config_path)
+        self.embedding_client = get_embedding_client(config_path)
+
+        # 初始化向量搜索工具
+        self.vector_search = PoliticalTheoryVectorSearch(self.vector_client) if self.vector_client else None
+
+        # 初始化NetworkX图（作为内存备用）
+        self.graph = nx.Graph()
+        self.concept_embeddings = {}
+
+        # 添加种子概念
+        self.seed_concepts = seed_concepts
+        
+        # 初始化属性
         self.concept_mapping = {}  # 概念映射表，用于去重
+        self.concept_validity = {}  # concept -> 有效性分数
+        self.concept_authenticity = {}  # concept -> 真实性验证结果
+        
+        # 初始化概念图
+        self._initialize_graph(seed_concepts)
 
         # 统计信息
         self.iteration_count = 0
         self.convergence_history = []
+        self.validity_stats = {'verified': 0, 'valid': 0, 'invalid': 0}
+        self.authenticity_stats = {
+            'verified': 0,      # 验证总数
+            'authentic': 0,     # 真实概念数
+            'synthetic': 0,     # 生成概念数
+            'unknown': 0        # 未知概念数
+        }
 
         # 初始化种子概念
         self._initialize_graph(seed_concepts)
@@ -71,21 +106,59 @@ class ConceptGraph:
 
         # 计算embedding
         logger.info("正在为种子概念计算embedding...")
-        from .embedding_client import get_embedding_client
+        seed_embeddings = self.embedding_client.encode(cleaned_seeds, show_progress=True)
 
-        embedding_client = get_embedding_client()
-        seed_embeddings = embedding_client.encode(cleaned_seeds, show_progress=True)
+        # 构建图 - 优先使用图数据库，否则使用NetworkX
+        if self.graph_client:
+            logger.info("使用图数据库存储概念")
+            # 批量创建节点到图数据库
+            batch_nodes = [(concept, {
+                'name': concept,
+                'definition': f'政治理论概念: {concept}',
+                'category': 'seed_concept',
+                'is_seed': True,
+                'created_at': datetime.now().isoformat()
+            }) for concept in cleaned_seeds]
+            self.graph_client.batch_create_nodes(batch_nodes)
 
-        # 构建图
+        # 构建NetworkX图（内存备用）
         for concept, embedding in zip(cleaned_seeds, seed_embeddings):
-            self.graph[concept] = []
+            self.graph.add_node(concept, is_seed=True, created_at=datetime.now().isoformat())
             self.concept_embeddings[concept] = embedding
             self.concept_mapping[concept] = concept
+
+        # 将概念添加到向量数据库
+        if self.vector_search and seed_embeddings is not None:
+            concepts_data = [{
+                'id': concept,
+                'name': concept,
+                'definition': f'政治理论概念: {concept}',
+                'category': 'seed_concept',
+                'is_seed': True,
+                'created_at': datetime.now().isoformat()
+            } for concept in cleaned_seeds]
+
+            self.vector_search.index_concepts(concepts_data, seed_embeddings)
 
         logger.info(f"概念图初始化完成，种子概念数: {len(cleaned_seeds)}")
 
     def _is_similar_to_existing(self, new_concept: str, new_embedding: np.ndarray) -> Optional[str]:
         """检查新概念是否与已有概念相似"""
+        # 优先使用向量数据库搜索
+        if self.vector_search:
+            try:
+                similar_concepts = self.vector_search.search_similar_concepts(
+                    new_embedding, top_k=1
+                )
+                if similar_concepts:
+                    similarity_score = similar_concepts[0].get('score', 0)
+                    similarity_threshold = self.config['concept_expansion']['similarity_threshold']
+                    if similarity_score >= similarity_threshold:
+                        return similar_concepts[0].get('metadata', {}).get('name')
+            except Exception as e:
+                logger.warning(f"向量数据库搜索失败，使用内存模式: {e}")
+
+        # 回退到内存模式
         if not self.concept_embeddings:
             return None
 
@@ -152,13 +225,16 @@ class ConceptGraph:
                 # 正常处理新概念
                 new_concepts = [concept.strip() for concept in new_concepts if concept.strip()]
 
-                logger.debug(f"概念 {center_concept} 扩增成功，新概念数: {len(new_concepts)}")
+                # 验证新概念的有效性
+                verified_concepts = self._validate_new_concepts(new_concepts, center_concept)
+
+                logger.debug(f"概念 {center_concept} 扩增成功，新概念数: {len(new_concepts)}，验证后: {len(verified_concepts)}")
 
                 return ConceptExpansionResult(
                     concept_id=concept_id,
                     center_concept=center_concept,
                     status="success",
-                    new_concepts=new_concepts,
+                    new_concepts=verified_concepts,
                     returned_center=returned_center,
                     timestamp=self._get_timestamp()
                 )
@@ -184,7 +260,7 @@ class ConceptGraph:
 
     def expand_concepts_batch(self, max_workers: int = 10) -> Dict:
         """批量扩增概念"""
-        concepts_to_expand = list(self.graph.keys())
+        concepts_to_expand = list(self.graph.nodes())
         total_concepts = len(concepts_to_expand)
 
         logger.info(f"开始批量概念扩增 {total_concepts} 个概念")
@@ -196,7 +272,7 @@ class ConceptGraph:
 
             for idx, concept in enumerate(concepts_to_expand):
                 concept_id = f"concept_{idx:06d}"
-                neighbors = self.graph.get(concept, [])
+                neighbors = list(self.graph.neighbors(concept)) if self.graph.has_node(concept) else []
                 future = executor.submit(self.expand_single_concept, concept, neighbors, concept_id)
                 future_to_concept[future] = (concept_id, concept)
 
@@ -284,7 +360,10 @@ class ConceptGraph:
 
     def _deduplicate_and_add_concepts(self, all_new_concepts: List[str], concept_to_centers: Dict) -> Tuple[int, int, int]:
         """去重并添加概念到图中"""
-        from .embedding_client import get_embedding_client
+        try:
+            from .embedding_client import get_embedding_client
+        except ImportError:
+            from embedding_client import get_embedding_client
 
         embedding_client = get_embedding_client()
 
@@ -325,7 +404,7 @@ class ConceptGraph:
                     concept_targets[new_concept] = similar_concept
                 else:
                     # 全新概念，添加到图中并建立自映射
-                    self.graph[new_concept] = []
+                    self.graph.add_node(new_concept, created_at=datetime.now().isoformat())
                     self.concept_embeddings[new_concept] = new_embedding
                     self.concept_mapping[new_concept] = new_concept
                     concept_targets[new_concept] = new_concept
@@ -336,18 +415,17 @@ class ConceptGraph:
             target_concept = concept_targets[concept]
 
             for center_concept in concept_to_centers[concept]:
-                # 确保中心概念存在于图中
-                if center_concept in self.graph:
-                    # 添加双向连接
-                    if target_concept not in self.graph[center_concept]:
-                        self.graph[center_concept].append(target_concept)
+                # 确保概念存在于图中
+                if self.graph.has_node(center_concept) and self.graph.has_node(target_concept):
+                    # 添加边（NetworkX自动处理双向连接）
+                    if not self.graph.has_edge(center_concept, target_concept):
+                        self.graph.add_edge(center_concept, target_concept,
+                                          created_at=datetime.now().isoformat(),
+                                          weight=1.0)
                         edges_added += 1
 
-                    if center_concept not in self.graph[target_concept]:
-                        self.graph[target_concept].append(center_concept)
-                        edges_added += 1
-
-        nodes_added = len([c for c in concept_targets.values() if c not in self.graph.keys() - set(concept_targets.keys())])
+        existing_nodes = set(self.graph.nodes())
+        nodes_added = len([c for c in concept_targets.values() if c not in existing_nodes])
         embedding_duplicates = num_all_new_concepts - len(set(concept_targets.values()))
 
         return nodes_added, edges_added, embedding_duplicates
@@ -538,15 +616,39 @@ class ConceptGraph:
 
             # 保存概念图
             graph_file = output_dir / "final_concept_graph.json"
+            # Convert NetworkX graph to dictionary format
+            graph_dict = {}
+            for node in self.graph.nodes():
+                node_data = self.graph.nodes[node]
+                neighbors = list(self.graph.neighbors(node))
+                graph_dict[node] = {
+                    "attributes": dict(node_data),
+                    "neighbors": neighbors
+                }
+
             graph_data = {
-                "graph": self.graph,
+                "graph": graph_dict,
                 "concept_embeddings": {k: v.tolist() for k, v in self.concept_embeddings.items()},
                 "concept_mapping": self.concept_mapping,
+                "concept_validity": self.concept_validity,
+                "concept_authenticity": {
+                    concept: {
+                        "is_authentic": result.is_authentic,
+                        "confidence": result.confidence,
+                        "verification_method": result.verification_method,
+                        "details": result.details,
+                        "evidence_sources": result.evidence_sources
+                    }
+                    for concept, result in self.concept_authenticity.items()
+                },
+                "validity_stats": self.get_validity_statistics(),
+                "authenticity_stats": self.get_authenticity_statistics(),
                 "metadata": {
                     "total_iterations": len(iteration_results),
-                    "final_nodes": len(self.graph),
-                    "final_edges": sum(len(neighbors) for neighbors in self.graph.values()) // 2,
-                    "timestamp": self._get_timestamp()
+                    "final_nodes": len(self.graph.nodes()),
+                    "final_edges": len(self.graph.edges()),
+                    "timestamp": self._get_timestamp(),
+                    "validation_enabled": True
                 }
             }
 
@@ -577,6 +679,261 @@ class ConceptGraph:
         except Exception as e:
             logger.error(f"保存最终结果失败: {e}")
 
+    def _validate_new_concepts(self, new_concepts: List[str], center_concept: str) -> List[str]:
+        """验证新概念的有效性"""
+        if not new_concepts:
+            return []
+
+        validated_concepts = []
+        context_concepts = list(self.graph.nodes())  # 获取已有概念作为上下文
+
+        for concept in new_concepts:
+            try:
+                # 计算概念有效性分数
+                validity_score = self._calculate_concept_validity(concept, center_concept)
+                self.concept_validity[concept] = validity_score
+
+                # 使用基本有效性阈值判断
+                validity_threshold = self.config["concept_expansion"].get("validity_threshold", 0.5)
+                
+                if validity_score >= validity_threshold:
+                    validated_concepts.append(concept)
+                    self.validity_stats["valid"] += 1
+                    logger.debug(f"概念通过验证: {concept} (有效性:{validity_score:.2f})")
+                else:
+                    self.validity_stats["invalid"] += 1
+                    logger.debug(f"概念有效性不足: {concept} (有效性:{validity_score:.2f})")
+
+            except Exception as e:
+                logger.error(f"验证概念 '{concept}' 时出错: {e}")
+                continue
+
+        return validated_concepts
+
+    def _calculate_concept_validity(self, concept: str, center_concept: str) -> float:
+        """计算概念有效性分数"""
+        total_score = 0.0
+        weights = {
+            'semantic_similarity': 0.25,
+            'concept_quality': 0.25,
+            'political_theory_relevance': 0.30,
+            'linguistic_quality': 0.20
+        }
+
+        # 1. 语义相似度检查
+        semantic_score = self._check_semantic_similarity(concept, center_concept)
+        total_score += semantic_score * weights['semantic_similarity']
+
+        # 2. 概念质量检查
+        quality_score = self._check_concept_quality(concept)
+        total_score += quality_score * weights['concept_quality']
+
+        # 3. 政治理论相关性检查
+        relevance_score = self._check_political_theory_relevance(concept)
+        total_score += relevance_score * weights['political_theory_relevance']
+
+        # 4. 语言质量检查
+        linguistic_score = self._check_linguistic_quality(concept)
+        total_score += linguistic_score * weights['linguistic_quality']
+
+        return min(total_score, 1.0)
+
+    def _check_semantic_similarity(self, concept: str, center_concept: str) -> float:
+        """检查概念与中心概念的语义相似度"""
+        try:
+            # 首先检查是否已经有缓存的embeddings
+            if concept in self.concept_embeddings and center_concept in self.concept_embeddings:
+                # 使用缓存的embeddings，避免重复计算
+                concept_emb = self.concept_embeddings[concept]
+                center_emb = self.concept_embeddings[center_concept]
+                logger.debug(f"使用缓存embedding计算相似度: {concept} vs {center_concept}")
+            else:
+                # 只有在没有缓存时才计算新的embeddings
+                logger.warning(f"embedding缓存缺失，计算新的embedding: {concept}, {center_concept}")
+                try:
+                    from .embedding_client import get_embedding_client
+                except ImportError:
+                    from embedding_client import get_embedding_client
+
+                embedding_client = get_embedding_client()
+                embeddings = embedding_client.encode([concept, center_concept])
+                concept_emb, center_emb = embeddings[0], embeddings[1]
+
+                # 将新计算的embedding缓存起来，避免重复计算
+                if concept not in self.concept_embeddings:
+                    self.concept_embeddings[concept] = concept_emb
+                if center_concept not in self.concept_embeddings:
+                    self.concept_embeddings[center_concept] = center_emb
+
+            # 计算余弦相似度
+            similarity = np.dot(concept_emb, center_emb) / (np.linalg.norm(concept_emb) * np.linalg.norm(center_emb))
+
+            # 将相似度映射到0-1范围
+            return max(0.0, min(1.0, (similarity + 1) / 2))
+
+        except Exception as e:
+            logger.warning(f"计算语义相似度失败: {e}")
+            return 0.5  # 默认中等分数
+
+    def _check_concept_quality(self, concept: str) -> float:
+        """检查概念质量"""
+        score = 1.0
+
+        # 长度检查
+        if len(concept) < 2:
+            score -= 0.5
+        elif len(concept) > 20:
+            score -= 0.2
+
+        # 特殊字符检查
+        if any(char in concept for char in ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '+', '=']):
+            score -= 0.3
+
+        # 数字检查（政治理论概念通常不以纯数字为主）
+        if concept.isdigit():
+            score -= 0.8
+        elif sum(c.isdigit() for c in concept) / len(concept) > 0.3:
+            score -= 0.3
+
+        # 重复字符检查
+        if len(set(concept)) / len(concept) < 0.5:
+            score -= 0.3
+
+        return max(0.0, score)
+
+    def _check_political_theory_relevance(self, concept: str) -> float:
+        """检查政治理论相关性"""
+        # 政治理论核心关键词
+        political_keywords = [
+            '政治', '理论', '思想', '主义', '哲学', '经济', '社会', '文化', '历史',
+            '马克思', '毛泽东', '邓小平', '社会主义', '共产主义', '资本主义',
+            '民主', '自由', '平等', '公正', '权力', '国家', '政府', '制度',
+            '革命', '改革', '发展', '现代化', '阶级', '斗争', '生产', '关系',
+            '辩证', '唯物', '唯心', '历史', '认识', '实践', '真理', '价值'
+        ]
+
+        concept_lower = concept.lower()
+        score = 0.0
+
+        # 直接包含关键词
+        for keyword in political_keywords:
+            if keyword in concept_lower:
+                score += 0.5
+                break
+
+        # 相关概念匹配
+        related_patterns = [
+            '.*论$', '.*学$', '.*派$', '.*观$', '.*主义$', '.*思想$',
+            '.*制度$', '.*文化$', '.*经济$', '.*社会$', '.*政治$'
+        ]
+
+        import re
+        for pattern in related_patterns:
+            if re.search(pattern, concept):
+                score += 0.3
+                break
+
+        # 抽象概念特征
+        abstract_indicators = ['性', '度', '化', '力', '关系', '结构', '体系', '模式']
+        for indicator in abstract_indicators:
+            if concept.endswith(indicator):
+                score += 0.2
+                break
+
+        return min(1.0, score)
+
+    def _check_linguistic_quality(self, concept: str) -> float:
+        """检查语言质量"""
+        score = 1.0
+
+        # 检查是否为有效中文词汇
+        if not self._is_valid_chinese_term(concept):
+            score -= 0.4
+
+        # 检查是否包含常见无意义词汇
+        meaningless_words = ['什么', '怎么', '为什么', '因为', '所以', '但是', '然后', '或者']
+        if any(word in concept for word in meaningless_words):
+            score -= 0.5
+
+        # 检查是否过于口语化
+        colloquial_patterns = ['的', '了', '啊', '呢', '吧', '嘛']
+        colloquial_count = sum(concept.count(pattern) for pattern in colloquial_patterns)
+        if colloquial_count > 1:
+            score -= 0.3 * colloquial_count
+
+        return max(0.0, score)
+
+    def _is_valid_chinese_term(self, concept: str) -> bool:
+        """检查是否为有效的中文术语"""
+        # 简单的中文词汇有效性检查
+        if len(concept) < 2:
+            return False
+
+        # 检查是否主要由汉字组成
+        chinese_char_count = sum('\u4e00' <= char <= '\u9fff' for char in concept)
+        if chinese_char_count / len(concept) < 0.5:
+            return False
+
+        return True
+
+    def get_validity_statistics(self) -> Dict:
+        """获取有效性统计信息"""
+        stats = self.validity_stats.copy()
+
+        if stats['verified'] > 0:
+            stats['valid_ratio'] = stats['valid'] / stats['verified']
+            stats['invalid_ratio'] = stats['invalid'] / stats['verified']
+        else:
+            stats['valid_ratio'] = 0.0
+            stats['invalid_ratio'] = 0.0
+
+        # 计算概念有效性分布
+        if self.concept_validity:
+            scores = list(self.concept_validity.values())
+            stats['avg_validity_score'] = sum(scores) / len(scores)
+            stats['max_validity_score'] = max(scores)
+            stats['min_validity_score'] = min(scores)
+        else:
+            stats['avg_validity_score'] = 0.0
+            stats['max_validity_score'] = 0.0
+            stats['min_validity_score'] = 0.0
+
+        return stats
+
+    def get_authenticity_statistics(self) -> Dict:
+        """获取真实性统计信息"""
+        stats = self.authenticity_stats.copy()
+
+        if stats['verified'] > 0:
+            stats['authentic_ratio'] = stats['authentic'] / stats['verified']
+            stats['synthetic_ratio'] = stats['synthetic'] / stats['verified']
+            stats['unknown_ratio'] = stats['unknown'] / stats['verified']
+        else:
+            stats['authentic_ratio'] = 0.0
+            stats['synthetic_ratio'] = 0.0
+            stats['unknown_ratio'] = 0.0
+
+        # 计算真实性置信度分布
+        if self.concept_authenticity:
+            confidences = [result.confidence for result in self.concept_authenticity.values()]
+            stats['avg_authenticity_confidence'] = sum(confidences) / len(confidences)
+            stats['max_authenticity_confidence'] = max(confidences)
+            stats['min_authenticity_confidence'] = min(confidences)
+
+            # 统计验证方法
+            methods = [result.verification_method for result in self.concept_authenticity.values()]
+            method_counts = {}
+            for method in methods:
+                method_counts[method] = method_counts.get(method, 0) + 1
+            stats['verification_methods'] = method_counts
+        else:
+            stats['avg_authenticity_confidence'] = 0.0
+            stats['max_authenticity_confidence'] = 0.0
+            stats['min_authenticity_confidence'] = 0.0
+            stats['verification_methods'] = {}
+
+        return stats
+
     def _get_timestamp(self) -> str:
         """获取时间戳"""
         return datetime.now().isoformat()
@@ -588,7 +945,7 @@ class ConceptGraph:
 
         # 计算图的连通性
         G = nx.Graph()
-        G.add_nodes_from(self.graph.keys())
+        G.add_nodes_from(self.graph.nodes())
         for node, neighbors in self.graph.items():
             for neighbor in neighbors:
                 G.add_edge(node, neighbor)

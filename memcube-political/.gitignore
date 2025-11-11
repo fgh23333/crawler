@@ -121,6 +121,7 @@ dmypy_storage.ini
 # MemCube specific
 # API keys and sensitive configuration
 config/api_keys.yaml
+config/config.yaml
 *.key
 *.pem
 *.p12
@@ -168,3 +169,5 @@ Thumbs.db
 # Backup files
 *_backup*
 *_old*
+
+config.yaml

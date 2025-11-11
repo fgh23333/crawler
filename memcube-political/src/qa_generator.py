@@ -15,8 +15,12 @@ import yaml
 import random
 import itertools
 
-from .api_client import get_client, APIResponse
-from .prompt_templates import PromptTemplates
+try:
+    from .api_client import get_client, APIResponse
+    from .prompt_templates import PromptTemplates
+except ImportError:
+    from api_client import get_client, APIResponse
+    from prompt_templates import PromptTemplates
 
 logger = logging.getLogger(__name__)
 
@@ -183,7 +187,7 @@ class QAGenerator:
 
         # 如果还不够，随机选择一些概念组合
         if len(concept_pairs) < max_pairs:
-            all_concepts = list(graph.keys())
+            all_concepts = list(graph.nodes())
             additional_pairs_needed = max_pairs - len(concept_pairs)
 
             for _ in range(additional_pairs_needed):
@@ -316,7 +320,7 @@ class QAGenerator:
 
         # 第一阶段：为单个概念生成QA
         logger.info("\n=== 第一阶段：单概念QA生成 ===")
-        concepts = list(graph.keys())
+        concepts = list(graph.nodes())
         single_concept_qa = self.generate_single_concepts_qa(
             concepts=concepts,
             batch_size=self.config['qa_generation']['concepts_per_batch'],
