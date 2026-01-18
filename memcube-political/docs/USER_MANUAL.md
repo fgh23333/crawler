@@ -1,674 +1,675 @@
-# User Manual
+# 用户手册 - MemCube Political
 
-## 📖 Table of Contents
+## 目录
+1. [系统概述](#系统概述)
+2. [快速入门](#快速入门)
+3. [详细使用流程](#详细使用流程)
+4. [高级功能](#高级功能)
+5. [结果分析](#结果分析)
+6. [故障排除](#故障排除)
+7. [最佳实践](#最佳实践)
 
-1. [Getting Started](#-getting-started)
-2. [System Overview](#-system-overview)
-3. [Installation](#-installation)
-4. [Configuration](#-configuration)
-5. [Running the System](#-running-the-system)
-6. [Advanced Usage](#-advanced-usage)
-7. [Troubleshooting](#-troubleshooting)
-8. [Best Practices](#-best-practices)
+## 系统概述
 
-## 🚀 Getting Started
+MemCube Political 是一个智能的政治理论概念图谱扩增系统。它能够：
 
-### Quick Start Guide
+- 从种子概念出发，自动构建完整的政治理论知识图谱
+- 使用大语言模型进行概念推理和关系挖掘
+- 支持多种图数据库和向量数据库
+- 自动生成QA数据集用于问答系统训练
+- 提供可视化的知识图谱展示
 
-For users who want to get running immediately:
+### 核心工作流程
+
+```
+种子概念 → 概念扩增 → 向量化存储 → 关系验证 → 迭代优化 → 知识图谱
+```
+
+## 快速入门
+
+### 第一次运行
 
 ```bash
-# 1. Clone and setup
-git clone <repository-url>
-cd memcube-political
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# venv\Scripts\activate  # Windows
-
-# 2. Install dependencies
+# 1. 确保已安装依赖
 pip install -r requirements.txt
 
-# 3. Setup Ollama
-# Install from https://ollama.com/download
-ollama pull bge-m3
-ollama serve
-
-# 4. Configure APIs
+# 2. 配置API密钥
 cp config/api_keys.yaml.example config/api_keys.yaml
-# Edit the file with your API keys
+# 编辑文件，填入你的API密钥
 
-# 5. Run the system
-python main.py --quick-start
+# 3. 运行主程序
+python main.py
 ```
 
-### System Requirements
+### 使用预定义种子概念
 
-#### Minimum Requirements
-- **Python**: 3.8 or higher
-- **RAM**: 4GB
-- **Storage**: 10GB free space
-- **Network**: Stable internet connection
+系统预置了政治理论相关的种子概念，包括：
+- 马克思主义理论概念
+- 西方政治思想概念
+- 现代政治理论概念
+- 中国政治理论概念
 
-#### Recommended Requirements
-- **Python**: 3.9 or higher
-- **RAM**: 8GB or more
-- **Storage**: 50GB free space
-- **Network**: High-speed internet connection
-- **GPU**: Optional, for accelerated processing
+### 快速验证安装
 
-#### Supported Operating Systems
-- **Windows**: 10/11 (64-bit)
-- **macOS**: 10.15+ (Intel/Apple Silicon)
-- **Linux**: Ubuntu 18.04+, CentOS 7+, Debian 10+
+```python
+from src.concept_graph import ConceptExpander
 
-## 🎯 System Overview
+# 创建扩增器实例
+expander = ConceptExpander('config/config.yaml')
 
-### What MemCube Political Does
-
-MemCube Political is an AI-powered system that:
-
-1. **Analyzes Political Theory Concepts**: Uses advanced language models to understand political theory concepts deeply
-2. **Builds Knowledge Graphs**: Automatically discovers relationships between concepts
-3. **Generates Educational Content**: Creates high-quality question-answer pairs for learning
-4. **Assesses Quality**: Provides comprehensive evaluation of generated content
-
-### Core Workflow
-
-```
-Seed Concepts → Analysis → Extraction → Graph Building → Q&A Generation → Quality Assessment
+# 测试连接
+if expander.test_connections():
+    print("✅ 所有连接正常")
+else:
+    print("❌ 连接测试失败")
 ```
 
-### Key Components
+## 详细使用流程
 
-- **Concept Analyzer**: Deep semantic analysis of political concepts
-- **Concept Extractor**: Identifies and extracts key concepts from text
-- **Graph Builder**: Constructs and expands knowledge graphs
-- **Q&A Generator**: Creates educational content from the knowledge graph
-- **Quality Evaluator**: Assesses the quality of all outputs
+### 步骤1: 环境准备
 
-## 🛠️ Installation
-
-### Step 1: Prerequisites
-
-#### Python Installation
+#### 1.1 检查Python环境
 ```bash
-# Check Python version (must be 3.8+)
-python --version
-# or
-python3 --version
-
-# If not installed, download from https://python.org
+python --version  # 确保版本 >= 3.8
 ```
 
-#### Ollama Installation
+#### 1.2 安装依赖
 ```bash
-# macOS
-brew install ollama
-
-# Windows (Download from https://ollama.com/download)
-
-# Linux
-curl -fsSL https://ollama.ai/install.sh | sh
-
-# Start Ollama service
-ollama serve
-
-# Download BGE-M3 model
-ollama pull bge-m3
-```
-
-### Step 2: Clone and Setup
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd memcube-political
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# Linux/macOS:
-source venv/bin/activate
-# Windows:
-venv\Scripts\activate
-
-# Install Python dependencies
 pip install -r requirements.txt
 ```
 
-### Step 3: Configuration Setup
+#### 1.3 配置文件设置
 
-```bash
-# Copy configuration templates
-cp config/api_keys.yaml.example config/api_keys.yaml
-cp config/config.yaml.example config/config.yaml
-
-# Edit configuration files
-# Use your preferred text editor
-nano config/api_keys.yaml
-# or
-notepad config/api_keys.yaml
-```
-
-### Step 4: Verify Installation
-
-```bash
-# Check environment
-python main.py --check-env
-
-# Test API connections
-python main.py --test-api
-
-# Run system tests
-python scripts/test_system.py
-```
-
-## ⚙️ Configuration
-
-### API Configuration (`config/api_keys.yaml`)
-
-This file contains your API keys and service endpoints:
-
+**API密钥配置** (`config/api_keys.yaml`):
 ```yaml
-# OpenAI Configuration (if using OpenAI models)
+gemini:
+  api_key: "your_gemini_api_key_here"
+
 openai:
-  api_key: "your-openai-api-key-here"
-  base_url: "https://api.openai.com/v1"  # Optional: custom endpoint
-  organization: "your-org-id"  # Optional
-
-# Google Gemini Configuration (if using Google models)
-google:
-  api_key: "your-gemini-api-key-here"
-  base_url: "https://generativelanguage.googleapis.com"  # Optional
-
-# Custom OpenAI-compatible API (for other providers)
-custom:
-  api_key: "your-custom-api-key"
-  base_url: "https://your-custom-endpoint.com/v1"
+  api_key: "your_openai_api_key_here"
+  # 其他配置...
 ```
 
-#### Supported API Providers
-
-1. **OpenAI**: GPT-3.5, GPT-4, GPT-4o models
-2. **Google**: Gemini models (Flash, Pro)
-3. **Anthropic**: Claude models (via OpenAI-compatible endpoint)
-4. **Custom**: Any OpenAI-compatible API endpoint
-
-### Main Configuration (`config/config.yaml`)
-
-#### API Model Configuration
+**系统配置** (`config/config.yaml`):
 ```yaml
 api:
-  # Models for different tasks
-  model_thinker: "gemini-2.5-flash"        # Concept analysis
-  model_extractor: "gemini-2.5-flash"     # Concept extraction
-  model_expander: "gemini-2.5-flash"      # Graph expansion
-  model_qa_generator: "gemini-2.5-flash"  # Q&A generation
-
-  # API settings
+  model_expander: "gemini-2.5-flash"
   temperature: 0.7
   max_tokens: 32768
-  max_retries: 3
-  timeout: 60
 
-  # Proxy settings (optional)
-  proxy:
-    http: "http://127.0.0.1:7890"
-    https: "http://127.0.0.1:7890"
-```
-
-#### Embedding Configuration
-```yaml
-embedding:
-  model_name: "bge-m3"
-  model_type: "ollama"
-  ollama_url: "http://localhost:11434"
-  batch_size: 16
-  device: "cpu"  # or "cuda" if available
-```
-
-#### Concept Expansion Configuration
-```yaml
 concept_expansion:
-  similarity_threshold: 0.80        # Min similarity for connections
-  new_concept_rate_threshold: 0.10  # Min growth rate to continue
-  new_edge_rate_threshold: 0.05     # Min edge growth rate
-  max_iterations: 10                # Maximum expansion rounds
-  batch_size: 50                    # Concepts per batch
-  max_workers: 10                   # Parallel processing
+  max_iterations: 10
+  batch_size: 50
+  similarity_threshold: 0.80
 ```
 
-#### Q&A Generation Configuration
+### 步骤2: 初始化系统
+
+```python
+from src.concept_graph import ConceptExpander
+
+# 初始化扩增器
+expander = ConceptExpander('config/config.yaml')
+
+# 检查系统状态
+status = expander.get_system_status()
+print(f"系统状态: {status}")
+```
+
+### 步骤3: 准备种子概念
+
+#### 使用默认种子概念
+```python
+# 加载默认种子概念
+expander.load_seed_concepts('data/seed_concepts.txt')
+```
+
+#### 使用自定义种子概念
+```python
+# 自定义种子概念列表
+custom_concepts = [
+    "马克思主义",
+    "社会主义",
+    "资本主义",
+    "民主",
+    "自由"
+]
+
+# 设置种子概念
+expander.set_seed_concepts(custom_concepts)
+```
+
+#### 从文件加载种子概念
+```python
+# 种子概念文件格式 (每行一个概念)
+with open('my_concepts.txt', 'r', encoding='utf-8') as f:
+    concepts = [line.strip() for line in f if line.strip()]
+
+expander.set_seed_concepts(concepts)
+```
+
+### 步骤4: 运行概念扩增
+
+#### 运行完整扩增流程
+```python
+# 运行完整扩增
+results = expander.run_full_expansion()
+
+print(f"扩增完成，共进行 {len(results)} 轮迭代")
+```
+
+#### 分步运行扩增
+```python
+# 运行单轮迭代
+iteration_result = expander.run_expansion_iteration()
+print(f"本轮新增节点: {iteration_result['nodes_added']}")
+print(f"本轮新增边: {iteration_result['edges_added']}")
+
+# 检查收敛状态
+convergence = expander.check_convergence()
+if convergence['is_converged']:
+    print(f"系统已收敛: {convergence['convergence_reason']}")
+```
+
+### 步骤5: 结果查看和导出
+
+#### 查看扩增结果
+```python
+# 获取当前图统计信息
+metrics = expander.calculate_metrics()
+print(f"总节点数: {metrics['nodes']}")
+print(f"总边数: {metrics['edges']}")
+print(f"平均度数: {metrics['avg_degree']:.2f}")
+
+# 查看概念列表
+concepts = list(expander.graph.nodes())
+print(f"概念数量: {len(concepts)}")
+print("前10个概念:", concepts[:10])
+```
+
+#### 导出结果
+```python
+# 导出到JSON格式
+expander.export_graph_json('results/concept_graph.json')
+
+# 导出到GraphML格式（可导入Neo4j等图数据库）
+expander.export_graph_graphml('results/concept_graph.graphml')
+
+# 导出到CSV格式（便于分析）
+expander.export_graph_csv('results/')
+```
+
+## 高级功能
+
+### 1. 自定义概念验证
+
+```python
+from src.concept_graph import ConceptExpander
+
+class CustomConceptExpander(ConceptExpander):
+    def _validate_new_concepts(self, concepts, center_concept):
+        # 调用父类验证
+        base_validated = super()._validate_new_concepts(concepts, center_concept)
+
+        # 添加自定义验证逻辑
+        custom_validated = []
+        for concept in base_validated:
+            if self._custom_validation_rule(concept):
+                custom_validated.append(concept)
+            else:
+                self.validity_stats["custom_filtered"] += 1
+
+        return custom_validated
+
+    def _custom_validation_rule(self, concept):
+        # 自定义验证规则
+        # 例如：只接受包含特定关键词的概念
+        political_keywords = ['政治', '经济', '社会', '文化']
+        return any(keyword in concept for keyword in political_keywords)
+
+# 使用自定义验证器
+expander = CustomConceptExpander('config/config.yaml')
+```
+
+### 2. 批量QA生成
+
+```python
+from src.qa_generator import QAGenerator
+
+# 初始化QA生成器
+qa_gen = QAGenerator('config/config.yaml')
+
+# 基于概念图谱生成QA数据
+qa_pairs = qa_gen.generate_qa_from_graph(
+    expander.graph,
+    max_qa_pairs=1000,
+    difficulty_levels=['简单', '中等', '困难']
+)
+
+# 导出QA数据
+qa_gen.export_qa_pairs(qa_pairs, 'results/qa_dataset.json')
+```
+
+### 3. 概念关系分析
+
+```python
+# 分析概念关系
+def analyze_concept_relationships(expander):
+    relationships = {}
+
+    for concept in expander.graph.nodes():
+        neighbors = list(expander.graph.neighbors(concept))
+        relationships[concept] = {
+            'neighbors': neighbors,
+            'degree': len(neighbors),
+            'clustering_coefficient': nx.clustering(expander.graph, concept)
+        }
+
+    # 找出最重要的概念（度数最高的前10个）
+    top_concepts = sorted(
+        relationships.items(),
+        key=lambda x: x[1]['degree'],
+        reverse=True
+    )[:10]
+
+    print("最重要的概念（按度数排序）:")
+    for concept, data in top_concepts:
+        print(f"  {concept}: 度数={data['degree']}, 聚类系数={data['clustering_coefficient']:.3f}")
+
+    return relationships
+
+# 执行分析
+relationships = analyze_concept_relationships(expander)
+```
+
+### 4. 图谱可视化
+
+```python
+import matplotlib.pyplot as plt
+import networkx as nx
+
+def visualize_concept_graph(expander, output_file='results/graph_visualization.png'):
+    plt.figure(figsize=(15, 10))
+
+    # 使用spring layout布局
+    pos = nx.spring_layout(expander.graph, k=1, iterations=50)
+
+    # 绘制节点
+    node_sizes = [expander.graph.degree(node) * 50 for node in expander.graph.nodes()]
+    nx.draw_networkx_nodes(expander.graph, pos, node_size=node_sizes,
+                          node_color='lightblue', alpha=0.7)
+
+    # 绘制边
+    nx.draw_networkx_edges(expander.graph, pos, alpha=0.3)
+
+    # 绘制标签（只显示重要节点的标签）
+    important_nodes = [node for node, degree in expander.graph.degree() if degree > 5]
+    labels = {node: node for node in important_nodes}
+    nx.draw_networkx_labels(expander.graph, pos, labels, font_size=8)
+
+    plt.title("政治理论概念图谱")
+    plt.axis('off')
+    plt.tight_layout()
+    plt.savefig(output_file, dpi=300, bbox_inches='tight')
+    plt.show()
+
+    print(f"图谱已保存到: {output_file}")
+
+# 生成可视化
+visualize_concept_graph(expander)
+```
+
+## 结果分析
+
+### 1. 增收性分析
+
+```python
+def analyze_convergence(expander):
+    convergence_history = expander.convergence_history
+
+    print("=== 收敛性分析 ===")
+    for i, info in enumerate(convergence_history):
+        print(f"轮次 {i+1}:")
+        print(f"  节点增长率: {info['node_growth_rate']:.4f}")
+        print(f"  边增长率: {info['edge_growth_rate']:.4f}")
+        if info['is_converged']:
+            print(f"  收敛原因: {info['convergence_reason']}")
+        print()
+
+    # 绘制收敛曲线
+    import matplotlib.pyplot as plt
+
+    iterations = list(range(1, len(convergence_history) + 1))
+    node_growth = [info['node_growth_rate'] for info in convergence_history]
+    edge_growth = [info['edge_growth_rate'] for info in convergence_history]
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(iterations, node_growth, 'b-', label='节点增长率')
+    plt.plot(iterations, edge_growth, 'r-', label='边增长率')
+    plt.xlabel('迭代次数')
+    plt.ylabel('增长率')
+    plt.title('概念图谱收敛曲线')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+```
+
+### 2. 概念质量评估
+
+```python
+def evaluate_concept_quality(expander):
+    print("=== 概念质量评估 ===")
+
+    # 统计概念有效性
+    print(f"总概念数: {len(expander.concept_validity)}")
+    print(f"有效概念: {expander.validity_stats['valid']}")
+    print(f"无效概念: {expander.validity_stats['invalid']}")
+    print(f"有效率: {expander.validity_stats['valid'] / len(expander.concept_validity) * 100:.2f}%")
+
+    # 找出质量最高的概念
+    quality_scores = expander.concept_validity
+    top_quality_concepts = sorted(
+        quality_scores.items(),
+        key=lambda x: x[1],
+        reverse=True
+    )[:10]
+
+    print("\n质量最高的10个概念:")
+    for concept, score in top_quality_concepts:
+        print(f"  {concept}: {score:.3f}")
+```
+
+### 3. 知识图谱统计
+
+```python
+def comprehensive_graph_analysis(expander):
+    G = expander.graph
+
+    print("=== 知识图谱全面分析 ===")
+
+    # 基本统计
+    print(f"节点数: {G.number_of_nodes()}")
+    print(f"边数: {G.number_of_edges()}")
+    print(f"平均度数: {sum(dict(G.degree()).values()) / G.number_of_nodes():.2f}")
+
+    # 图的连通性
+    print(f"连通分量数: {nx.number_connected_components(G)}")
+    largest_cc = max(nx.connected_components(G), key=len)
+    print(f"最大连通分量大小: {len(largest_cc)}")
+
+    # 中心性指标
+    degree_centrality = nx.degree_centrality(G)
+    betweenness_centrality = nx.betweenness_centrality(G)
+    closeness_centrality = nx.closeness_centrality(G)
+
+    # 找出最重要的概念
+    print("\n最重要的概念（按度中心性）:")
+    top_degree = sorted(degree_centrality.items(), key=lambda x: x[1], reverse=True)[:5]
+    for concept, centrality in top_degree:
+        print(f"  {concept}: {centrality:.3f}")
+```
+
+## 故障排除
+
+### 常见问题及解决方案
+
+#### 1. API调用失败
+```python
+# 问题: 模型API调用失败
+# 解决方案: 检查API密钥和网络连接
+
+import sys
+from src.api_client import APIClient
+
+client = APIClient()
+test_response = client.chat_completion(
+    messages=[{"role": "user", "content": "测试"}],
+    model="gemini-2.5-flash"
+)
+
+if test_response.success:
+    print("✅ API连接正常")
+else:
+    print(f"❌ API连接失败: {test_response.error}")
+    print("请检查:")
+    print("1. API密钥是否正确")
+    print("2. 网络连接是否正常")
+    print("3. API配额是否充足")
+```
+
+#### 2. 数据库连接问题
+```python
+# 问题: Neo4j或Qdrant连接失败
+# 解决方案: 检查服务状态和配置
+
+def test_database_connections(expander):
+    # 测试图数据库连接
+    if expander.graph_client:
+        try:
+            result = expander.graph_client.test_connection()
+            print(f"图数据库连接: {'✅ 正常' if result else '❌ 失败'}")
+        except Exception as e:
+            print(f"❌ 图数据库连接失败: {e}")
+
+    # 测试向量数据库连接
+    if expander.vector_search:
+        try:
+            stats = expander.vector_search.get_collection_stats()
+            print(f"向量数据库连接: ✅ 正常 (文档数: {stats.get('count', 0)})")
+        except Exception as e:
+            print(f"❌ 向量数据库连接失败: {e}")
+```
+
+#### 3. 内存不足问题
+```python
+# 问题: 处理大量概念时内存不足
+# 解决方案: 使用批处理和清理策略
+
+class MemoryOptimizedExpander(ConceptExpander):
+    def run_expansion_iteration(self):
+        # 在每次迭代后清理缓存
+        result = super().run_expansion_iteration()
+
+        # 定期清理embedding缓存
+        if len(self.concept_embeddings) > 10000:
+            self._cleanup_embeddings()
+
+        return result
+
+    def _cleanup_embeddings(self):
+        # 保留重要概念的embedding
+        important_concepts = set()
+        for node, degree in self.graph.degree():
+            if degree > 3:  # 保留度数大于3的概念
+                important_concepts.add(node)
+
+        # 清理不重要的embedding
+        self.concept_embeddings = {
+            k: v for k, v in self.concept_embeddings.items()
+            if k in important_concepts
+        }
+
+        print(f"清理后embedding缓存大小: {len(self.concept_embeddings)}")
+```
+
+#### 4. 概念扩增质量差
+```python
+# 问题: 扩增的概念质量不高
+# 解决方案: 调整验证阈值和提示词
+
+# 在config.yaml中调整配置
+concept_expansion:
+  validity_threshold: 0.7  # 提高阈值，更严格的筛选
+  similarity_threshold: 0.85  # 提高相似度阈值
+  max_new_concepts_per_center: 10  # 限制每个中心概念的新概念数量
+
+api:
+  temperature: 0.3  # 降低温度，减少随机性
+  max_tokens: 1000  # 减少最大token数，提高精确性
+```
+
+### 日志分析
+
+```python
+import logging
+from datetime import datetime
+
+def analyze_logs(log_file='logs/concept_expansion.log'):
+    """分析运行日志，发现问题"""
+
+    error_count = 0
+    warning_count = 0
+    api_failures = 0
+
+    with open(log_file, 'r', encoding='utf-8') as f:
+        for line in f:
+            if 'ERROR' in line:
+                error_count += 1
+                print(f"错误: {line.strip()}")
+            elif 'WARNING' in line:
+                warning_count += 1
+            elif 'API调用失败' in line or 'model overloaded' in line:
+                api_failures += 1
+
+    print(f"\n=== 日志统计 ===")
+    print(f"错误数: {error_count}")
+    print(f"警告数: {warning_count}")
+    print(f"API失败数: {api_failures}")
+```
+
+## 最佳实践
+
+### 1. 种子概念选择建议
+
+- **选择核心概念**: 从理论的核心概念开始
+- **概念覆盖性**: 确保覆盖理论的主要方面
+- **概念层次性**: 包含不同抽象层次的概念
+- **避免重复**: 避免概念之间的语义重叠
+
+**示例种子概念**:
+```python
+political_seed_concepts = [
+    # 核心理论概念
+    "马克思主义", "社会主义", "资本主义",
+    # 政治制度概念
+    "民主", "专制", "共和",
+    # 经济概念
+    "市场经济", "计划经济", "分配制度",
+    # 社会概念
+    "阶级", "平等", "正义"
+]
+```
+
+### 2. 参数调优建议
+
 ```yaml
-qa_generation:
-  concepts_per_batch: 20            # Concepts per processing batch
-  qa_pairs_per_concept: 3           # Questions per concept
-  qa_pairs_per_concept_pair: 2      # Questions per concept pair
-  max_workers: 5                    # Parallel Q&A generation
-  enable_validity_check: true       # Enable quality filtering
-  min_validity_threshold: 0.6       # Minimum quality score
+# 推荐配置参数
+concept_expansion:
+  # 初期探索阶段
+  max_iterations: 15
+  similarity_threshold: 0.75  # 相对宽松，允许更多探索
+  validity_threshold: 0.6     # 适中的质量要求
+
+  # 精细化阶段
+  # similarity_threshold: 0.85  # 更严格，减少噪声
+  # validity_threshold: 0.8     # 更高质量要求
+
+api:
+  # 平衡创造性和准确性
+  temperature: 0.5
+  max_tokens: 2000  # 适中的响应长度
+
+graph_database:
+  # 适合中小规模图谱
+  batch_size: 25
+  connection_pool_size: 10
 ```
 
-#### Database Configuration
+### 3. 数据库配置建议
+
+#### Neo4j配置优化
 ```yaml
 graph_database:
-  enabled: true
-  type: "neo4j"  # neo4j, arangodb, janusgraph
-
   neo4j:
-    uri: "bolt://localhost:7687"
-    username: "neo4j"
-    password: "your-password"
-    database: "neo4j"
+    # 连接池配置
+    max_connection_pool_size: 20
+    connection_acquisition_timeout: 60
 
+    # 批处理配置
+    batch_size: 50
+    batch_timeout: 60
+
+    # 重试配置
+    retry_attempts: 3
+    retry_delay: 1.0
+```
+
+#### Qdrant配置优化
+```yaml
 vector_database:
-  enabled: true
-  type: "qdrant"  # qdrant, chroma, faiss, milvus
-
   qdrant:
-    host: "localhost"
-    port: 6333
-    collection_name: "political_concepts"
+    # 向量配置
     vector_size: 1024
+    distance: "Cosine"
+
+    # 性能配置
+    collection_name: "political_concepts"
+    search_top_k: 20
+    batch_size: 100
 ```
 
-## 🏃 Running the System
+### 4. 监控和维护
 
-### Basic Commands
+```python
+# 定期健康检查
+def health_check(expander):
+    """系统健康检查"""
 
-#### Quick Start
-```bash
-# Run with default settings
-python main.py --quick-start
+    checks = {
+        'api_connection': False,
+        'graph_database': False,
+        'vector_database': False,
+        'memory_usage': False
+    }
+
+    # API连接检查
+    try:
+        response = expander.client.chat_completion(
+            messages=[{"role": "user", "content": "健康检查"}],
+            model="gemini-2.5-flash",
+            max_tokens=10
+        )
+        checks['api_connection'] = response.success
+    except:
+        pass
+
+    # 数据库连接检查
+    if expander.graph_client:
+        checks['graph_database'] = expander.graph_client.test_connection()
+
+    if expander.vector_search:
+        try:
+            stats = expander.vector_search.get_collection_stats()
+            checks['vector_database'] = True
+        except:
+            pass
+
+    # 内存使用检查
+    import psutil
+    memory_percent = psutil.virtual_memory().percent
+    checks['memory_usage'] = memory_percent < 80
+
+    # 生成健康报告
+    print("=== 系统健康检查 ===")
+    for check, status in checks.items():
+        status_icon = "✅" if status else "❌"
+        print(f"{status_icon} {check}: {'正常' if status else '异常'}")
+
+    return all(checks.values())
+
+# 定期执行健康检查
+import schedule
+schedule.every(1).hours.do(lambda: health_check(expander))
 ```
 
-#### Stage-based Execution
-```bash
-# Run only concept graph expansion
-python main.py --stage concept-expansion
-
-# Run only Q&A generation (requires existing graph)
-python main.py --stage qa-generation
-
-# Run complete pipeline
-python main.py --stage all
-```
-
-#### Testing and Validation
-```bash
-# Check environment and dependencies
-python main.py --check-env
-
-# Test API configuration
-python main.py --test-api
-
-# Run system validation
-python scripts/test_system.py
-```
-
-### Command Line Options
-
-#### Main Entry Point (`main.py`)
-```bash
-# Usage: python main.py [OPTIONS]
-
-Options:
-  --stage STAGE          Processing stage: concept-expansion, qa-generation, all
-  --quick-start          Run with default settings
-  --check-env           Validate environment
-  --test-api           Test API connections
-  --config CONFIG       Custom config file path
-  --verbose            Enable detailed logging
-  --dry-run            Show what would be executed without running
-  --help               Show help message
-```
-
-#### Script Options
-
-##### Environment Check (`scripts/check_env.py`)
-```bash
-python scripts/check_env.py
-# Validates:
-# - Python version
-# - Required packages
-# - Ollama service
-# - API configuration
-```
-
-##### Quick Start (`scripts/quick_start.py`)
-```bash
-python scripts/quick_start.py
-# Runs complete pipeline with optimized settings
-```
-
-### Monitoring Progress
-
-#### Real-time Logs
-```bash
-# Follow logs in real-time
-tail -f logs/memcube_$(date +%Y-%m-%d).log
-
-# Show only important messages
-tail -f logs/memcube_*.log | grep -E "(INFO|WARNING|ERROR)"
-```
-
-#### Progress Indicators
-The system provides real-time progress updates:
-- Processing stage completion
-- Batch processing progress
-- Error and warning messages
-- Performance metrics
-
-### Output Files
-
-#### Concept Graph Outputs (`data/concept_graph/`)
-```
-final_concept_graph.json      # Complete knowledge graph
-convergence_history.json      # Expansion convergence data
-expansion_summary.json        # Statistics and metrics
-iteration_results/           # Per-iteration outputs
-```
-
-#### Q&A Generation Outputs (`results/`)
-```
-political_theory_qa_dataset.json    # Complete Q&A dataset
-political_theory_qa_training.jsonl  # Training format data
-qa_generation_summary.json          # Generation statistics
-quality_reports/                    # Quality assessment reports
-```
-
-## 🔧 Advanced Usage
-
-### Custom Seed Concepts
-
-#### Using Your Own Concepts
-```bash
-# Create custom concepts file
-echo "democracy" > data/my_concepts.txt
-echo "constitutional law" >> data/my_concepts.txt
-echo "civil rights" >> data/my_concepts.txt
-
-# Update configuration to use custom concepts
-# Edit config/config.yaml:
-paths:
-  seed_concepts: "data/my_concepts.txt"
-```
-
-#### Concept File Format
-```
-# Each line should contain one concept
-democracy
-constitutional law
-civil rights
-political philosophy
-social contract
-```
-
-### Custom Processing Parameters
-
-#### High-Performance Configuration
-```yaml
-# For systems with abundant resources
-concept_expansion:
-  max_workers: 20
-  batch_size: 100
-  similarity_threshold: 0.75  # Lower threshold for more connections
-
-qa_generation:
-  max_workers: 10
-  concepts_per_batch: 50
-  qa_pairs_per_concept: 5
-```
-
-#### Resource-Conserving Configuration
-```yaml
-# For systems with limited resources
-concept_expansion:
-  max_workers: 3
-  batch_size: 20
-  similarity_threshold: 0.85  # Higher threshold for quality
-
-qa_generation:
-  max_workers: 2
-  concepts_per_batch: 10
-  qa_pairs_per_concept: 2
-```
-
-### Database Integration
-
-#### Using External Databases
-```yaml
-# Neo4j setup
-graph_database:
-  enabled: true
-  type: "neo4j"
-  neo4j:
-    uri: "bolt://your-neo4j-host:7687"
-    username: "neo4j"
-    password: "your-password"
-    database: "political_concepts"
-
-# Qdrant setup
-vector_database:
-  enabled: true
-  type: "qdrant"
-  qdrant:
-    host: "your-qdrant-host"
-    port: 6333
-    api_key: "your-api-key"  # If required
-```
-
-#### Memory-Only Mode
-```yaml
-graph_database:
-  enabled: false
-
-vector_database:
-  enabled: false
-```
-
-### Quality Customization
-
-#### Adjusting Quality Thresholds
-```yaml
-concept_validation:
-  validity_threshold: 0.8        # Concept quality threshold
-  quality_filters:
-    max_concept_length: 10       # Maximum words per concept
-    min_concept_length: 1        # Minimum words per concept
-    exclude_numbers: true        # Filter out numeric concepts
-    exclude_duplicates: true     # Remove duplicate concepts
-
-qa_generation:
-  enable_validity_check: true
-  min_validity_threshold: 0.7    # Q&A quality threshold
-  max_question_length: 200       # Maximum question characters
-  min_answer_length: 50          # Minimum answer characters
-```
-
-## 🚨 Troubleshooting
-
-### Common Issues
-
-#### API Connection Problems
-
-**Symptom**: "API connection failed" or authentication errors
-```bash
-# Test API configuration
-python main.py --test-api
-
-# Common solutions:
-# 1. Verify API keys in config/api_keys.yaml
-# 2. Check internet connection
-# 3. Verify API service status
-# 4. Check rate limits
-```
-
-#### Ollama Service Issues
-
-**Symptom**: "Cannot connect to Ollama service" or embedding errors
-```bash
-# Check Ollama status
-curl http://localhost:11434/api/tags
-
-# Restart Ollama
-ollama serve
-
-# Reinstall BGE-M3 model
-ollama pull bge-m3
-
-# Common solutions:
-# 1. Ensure Ollama is running
-# 2. Verify BGE-M3 model is installed
-# 3. Check port 11434 is available
-# 4. Restart Ollama service
-```
-
-#### Memory Issues
-
-**Symptom**: "Out of memory" or system slowdown
-```bash
-# Reduce batch sizes
-# Edit config/config.yaml:
-concept_expansion:
-  batch_size: 10
-  max_workers: 2
-
-qa_generation:
-  concepts_per_batch: 5
-  max_workers: 1
-
-# Monitor memory usage
-python scripts/monitor_resources.py
-```
-
-#### Quality Issues
-
-**Symptom**: Low-quality concepts or Q&A pairs
-```bash
-# Increase quality thresholds
-# Edit config/config.yaml:
-concept_expansion:
-  similarity_threshold: 0.85  # Higher for better quality
-
-qa_generation:
-  min_validity_threshold: 0.8  # Higher for better quality
-
-# Enable additional quality checks
-concept_validation:
-  quality_filters:
-    exclude_duplicates: true
-    min_concept_length: 2
-```
-
-### Error Messages Explained
-
-#### API Errors
-- `401 Unauthorized`: Invalid API key
-- `429 Too Many Requests`: Rate limit exceeded
-- `500 Internal Server Error`: API service issue
-- `Timeout`: Request took too long
-
-#### System Errors
-- `ModuleNotFoundError`: Missing dependencies
-- `FileNotFoundError`: Missing data files
-- `PermissionError`: File access issues
-- `ConnectionError`: Network connectivity problems
-
-### Getting Help
-
-#### Log Analysis
-```bash
-# Find recent errors
-grep -i error logs/memcube_*.log | tail -20
-
-# Find warnings
-grep -i warning logs/memcube_*.log | tail -20
-
-# Full error context
-grep -A 5 -B 5 "ERROR" logs/memcube_*.log
-```
-
-#### Debug Mode
-```bash
-# Run with verbose logging
-python main.py --stage all --verbose
-
-# Run in dry-run mode
-python main.py --stage all --dry-run
-```
-
-#### Community Support
-- **GitHub Issues**: Report bugs and feature requests
-- **Documentation**: Check latest documentation updates
-- **Community Forums**: Get help from other users
-
-## 💡 Best Practices
-
-### Performance Optimization
-
-#### System Resources
-- Close unnecessary applications during processing
-- Use SSD storage for faster I/O operations
-- Ensure stable internet connection for API calls
-- Monitor system resources during operation
-
-#### Configuration Tuning
-- Start with conservative settings, gradually increase
-- Monitor quality metrics vs. processing speed
-- Adjust batch sizes based on available RAM
-- Balance between speed and quality requirements
-
-### Data Management
-
-#### Backup Strategies
-```bash
-# Back up important data
-cp -r data/concept_graph/ backup/concept_graph_$(date +%Y%m%d)/
-cp -r results/ backup/results_$(date +%Y%m%d)/
-
-# Back up configuration
-cp config/config.yaml backup/config_$(date +%Y%m%d).yaml
-```
-
-#### Storage Organization
-```
-project_data/
-├── raw_data/          # Original seed concepts
-├── processed_data/    # Generated graphs and Q&A
-├── backups/          # Historical backups
-└── exports/          # Final formatted outputs
-```
-
-### Quality Assurance
-
-#### Validation Checks
-- Review sample outputs for quality
-- Check concept coverage and diversity
-- Validate Q&A accuracy and relevance
-- Monitor consistency across runs
-
-#### Iterative Improvement
-- Start with small test datasets
-- Evaluate quality before scaling up
-- Adjust parameters based on results
-- Document successful configurations
-
-### Security Considerations
-
-#### API Key Protection
-- Never commit API keys to version control
-- Use environment variables for sensitive data
-- Regularly rotate API keys
-- Monitor API usage and costs
-
-#### Data Privacy
-- Understand data usage policies of API providers
-- Consider local processing for sensitive content
-- Implement access controls for generated data
-- Follow data retention best practices
-
----
-
-This manual provides comprehensive guidance for users at all levels. For specific technical details, refer to the API documentation and developer guides.
+通过遵循本手册的指导，您将能够高效地使用MemCube Political系统构建高质量的政治理论概念图谱。

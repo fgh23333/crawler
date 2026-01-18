@@ -65,9 +65,9 @@ def validate_api_config():
     return True
 
 def run_stage_concept_analysis(config):
-    """运行第一阶段：概念分析"""
+    """运行概念分析阶段"""
     logger.info("=" * 60)
-    logger.info("开始第一阶段：种子概念思考分析")
+    logger.info("开始种子概念深度分析")
     logger.info("=" * 60)
 
     seed_concepts_file = config['paths']['seed_concepts']
@@ -116,9 +116,9 @@ def run_stage_concept_extraction(config):
     return concepts_file
 
 def run_stage_concept_expansion(config):
-    """运行第二阶段：概念图扩增"""
+    """运行概念图扩增阶段"""
     logger.info("=" * 60)
-    logger.info("开始第二阶段：概念图迭代扩增")
+    logger.info("开始概念图迭代扩增")
     logger.info("=" * 60)
 
     seed_concepts_file = config['paths']['seed_concepts']
@@ -139,9 +139,9 @@ def run_stage_concept_expansion(config):
     return str(graph_file) if graph_file.exists() else None
 
 def run_stage_qa_generation(config, graph_file=None):
-    """运行第三阶段：QA生成"""
+    """运行QA知识生成阶段"""
     logger.info("=" * 60)
-    logger.info("开始第三阶段：QA知识生成")
+    logger.info("开始QA知识生成")
     logger.info("=" * 60)
 
     if not graph_file:

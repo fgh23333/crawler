@@ -115,6 +115,7 @@ vector_database:
     similarity_threshold: 0.7  # 相似度阈值
     auto_index: true  # 自动创建索引
     persistence: true  # 启用持久化
+    check_existing: true  # 检查概念是否已存在，避免重复添加
 
 # 数据路径
 paths:

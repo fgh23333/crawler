@@ -85,10 +85,22 @@ class Neo4jClient(GraphDatabaseClient):
         try:
             from neo4j import GraphDatabase
 
+            # 优化的Neo4j连接配置
+            max_connection_lifetime = self.config.get('max_connection_lifetime', 30 * 60)  # 30分钟
+            max_connection_pool_size = self.config.get('max_connection_pool_size', 20)      # 20个连接
+            connection_acquisition_timeout = self.config.get('connection_acquisition_timeout', 60)  # 60秒
+            max_transaction_retry_time = self.config.get('max_transaction_retry_time', 30)  # 30秒
+
             self.driver = GraphDatabase.driver(
                 self.config['uri'],
-                auth=(self.config['username'], self.config['password'])
+                auth=(self.config['username'], self.config['password']),
+                max_connection_lifetime=max_connection_lifetime,
+                max_connection_pool_size=max_connection_pool_size,
+                connection_acquisition_timeout=connection_acquisition_timeout,
+                max_transaction_retry_time=max_transaction_retry_time
             )
+
+            logger.info(f"Neo4j连接配置: 连接池大小={max_connection_pool_size}, 连接超时={connection_acquisition_timeout}s")
 
             # 测试连接
             with self.driver.session(database=self.database) as session:

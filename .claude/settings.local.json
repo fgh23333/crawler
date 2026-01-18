@@ -3,7 +3,10 @@
     "allow": [
       "Bash(timeout:*)",
       "Bash(python:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(ping:*)",
+      "Bash(telnet:*)",
+      "Bash(curl:*)"
     ],
     "deny": [],
     "ask": []

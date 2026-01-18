@@ -1,4 +1,5 @@
 import uuid
+import os
 import logging
 import yaml
 import numpy as np
@@ -222,6 +223,71 @@ class ChromaClient(VectorDatabaseClient):
             logger.error(f"列出Chroma集合失败: {e}")
             return []
 
+    def check_concepts_exist(self, collection_name: str, concept_ids: List[str]) -> Dict[str, bool]:
+        """检查指定概念是否已存在于Chroma向量数据库中"""
+        try:
+            # 检查集合是否存在
+            if collection_name not in self.collections:
+                logger.info(f"Chroma集合 {collection_name} 不存在，需要创建")
+                return {concept_id: False for concept_id in concept_ids}
+
+            collection = self.collections[collection_name]
+
+            # 获取集合统计信息
+            count = collection.count()
+            if count == 0:
+                logger.info(f"Chroma集合 {collection_name} 为空，需要添加数据")
+                return {concept_id: False for concept_id in concept_ids}
+
+            # 检查特定概念是否存在
+            existing_concepts = set()
+
+            # 分批查询以避免一次性查询太多数据
+            batch_size = 100
+            for i in range(0, len(concept_ids), batch_size):
+                batch_ids = concept_ids[i:i + batch_size]
+
+                # 使用where子句查询
+                try:
+                    results = collection.get(
+                        where={"name": {"$in": batch_ids}},
+                        include=['metadatas']
+                    )
+
+                    # 提取存在的概念ID
+                    for metadata in results['metadatas']:
+                        concept_name = metadata.get('name')
+                        if concept_name and concept_name in batch_ids:
+                            existing_concepts.add(concept_name)
+                            logger.debug(f"概念 '{concept_name}' 已存在于Chroma中")
+
+                except Exception as batch_error:
+                    logger.warning(f"批量查询Chroma概念失败: {batch_error}")
+                    # 如果批量查询失败，降级为逐个查询
+                    for concept_id in batch_ids:
+                        try:
+                            result = collection.get(
+                                where={"name": concept_id},
+                                include=['metadatas']
+                            )
+                            if result['metadatas']:
+                                existing_concepts.add(concept_id)
+                        except:
+                            continue
+
+            # 返回检查结果
+            result = {concept_id: (concept_id in existing_concepts) for concept_id in concept_ids}
+
+            existing_count = sum(result.values())
+            logger.info(f"Chroma检查完成: {existing_count}/{len(concept_ids)} 个概念已存在")
+
+            return result
+
+        except Exception as e:
+            logger.error(f"检查Chroma中概念存在性失败: {e}")
+            # 发生错误时，假设都不存在，重新添加
+            return {concept_id: False for concept_id in concept_ids}
+
     def batch_search(self, collection_name: str, query_vectors: List[np.ndarray],
                      top_k: int = 10) -> List[List[Dict[str, Any]]]:
         """Chroma批量向量搜索"""
@@ -421,6 +487,69 @@ class QdrantClient(VectorDatabaseClient):
         except Exception as e:
             logger.error(f"列出Qdrant集合失败: {e}")
             return []
+
+    def check_concepts_exist(self, collection_name: str, concept_ids: List[str]) -> Dict[str, bool]:
+        """检查指定概念是否已存在于向量数据库中"""
+        try:
+            from qdrant_client.models import Filter, FieldCondition, MatchAny
+
+            # 检查集合是否存在
+            if collection_name not in self.list_collections():
+                logger.info(f"Qdrant集合 {collection_name} 不存在，需要创建")
+                return {concept_id: False for concept_id in concept_ids}
+
+            # 获取集合统计信息
+            stats = self.get_collection_stats(collection_name)
+            if not stats or stats.get('count', 0) == 0:
+                logger.info(f"Qdrant集合 {collection_name} 为空，需要添加数据")
+                return {concept_id: False for concept_id in concept_ids}
+
+            # 检查特定概念是否存在
+            existing_concepts = set()
+
+            # 分批查询以避免一次性查询太多数据
+            batch_size = 100
+            for i in range(0, len(concept_ids), batch_size):
+                batch_ids = concept_ids[i:i + batch_size]
+
+                # 使用过滤器查询
+                filter_condition = Filter(
+                    must=[
+                        FieldCondition(
+                            key="name",
+                            match=MatchAny(any=batch_ids)
+                        )
+                    ]
+                )
+
+                # 查询结果（只返回ID，不返回向量）
+                search_result = self.client.scroll(
+                    collection_name=collection_name,
+                    scroll_filter=filter_condition,
+                    limit=len(batch_ids),
+                    with_payload=True,
+                    with_vectors=False
+                )
+
+                # 提取存在的概念ID
+                for point in search_result[0]:  # scroll返回(points, next_page_offset)
+                    concept_name = point.payload.get('name', point.id)
+                    if concept_name in batch_ids:
+                        existing_concepts.add(concept_name)
+                        logger.debug(f"概念 '{concept_name}' 已存在于Qdrant中")
+
+            # 返回检查结果
+            result = {concept_id: (concept_id in existing_concepts) for concept_id in concept_ids}
+
+            existing_count = sum(result.values())
+            logger.info(f"Qdrant检查完成: {existing_count}/{len(concept_ids)} 个概念已存在")
+
+            return result
+
+        except Exception as e:
+            logger.error(f"检查Qdrant中概念存在性失败: {e}")
+            # 发生错误时，假设都不存在，重新添加
+            return {concept_id: False for concept_id in concept_ids}
 
     def batch_search(self, collection_name: str, query_vectors: List[np.ndarray],
                      top_k: int = 10) -> List[List[Dict[str, Any]]]:
@@ -634,6 +763,48 @@ class FAISSClient(VectorDatabaseClient):
         """列出所有FAISS集合"""
         return list(self.indices.keys())
 
+    def check_concepts_exist(self, collection_name: str, concept_ids: List[str]) -> Dict[str, bool]:
+        """检查指定概念是否已存在于FAISS索引中"""
+        try:
+            # 检查集合是否存在
+            if collection_name not in self.indices:
+                logger.info(f"FAISS索引 {collection_name} 不存在，需要创建")
+                return {concept_id: False for concept_id in concept_ids}
+
+            index = self.indices[collection_name]
+            metadata_store = self.metadata_stores[collection_name]
+
+            # 获取索引统计信息
+            if index.ntotal == 0:
+                logger.info(f"FAISS索引 {collection_name} 为空，需要添加数据")
+                return {concept_id: False for concept_id in concept_ids}
+
+            # 检查特定概念是否存在
+            existing_concepts = set()
+
+            # FAISS存储的是索引位置到ID的映射
+            for i in range(index.ntotal):
+                # 获取存储的ID
+                if i in metadata_store:
+                    metadata = metadata_store[i]
+                    concept_name = metadata.get('name')
+                    if concept_name and concept_name in concept_ids:
+                        existing_concepts.add(concept_name)
+                        logger.debug(f"概念 '{concept_name}' 已存在于FAISS中")
+
+            # 返回检查结果
+            result = {concept_id: (concept_id in existing_concepts) for concept_id in concept_ids}
+
+            existing_count = sum(result.values())
+            logger.info(f"FAISS检查完成: {existing_count}/{len(concept_ids)} 个概念已存在")
+
+            return result
+
+        except Exception as e:
+            logger.error(f"检查FAISS中概念存在性失败: {e}")
+            # 发生错误时，假设都不存在，重新添加
+            return {concept_id: False for concept_id in concept_ids}
+
     def batch_search(self, collection_name: str, query_vectors: List[np.ndarray],
                      top_k: int = 10) -> List[List[Dict[str, Any]]]:
         """FAISS批量向量搜索"""
@@ -743,16 +914,75 @@ class PoliticalTheoryVectorSearch:
             logger.error("向量数据库客户端未初始化")
             return False
 
+        if len(concepts) == 0 or len(embeddings) == 0:
+            logger.warning("没有概念或embedding数据需要索引")
+            return True
+
+        # 获取配置，检查是否启用存在性检查
+        try:
+            # 直接读取配置文件避免循环导入
+            import yaml
+            # 获取项目根目录
+            current_dir = os.path.dirname(os.path.abspath(__file__))
+            project_root = os.path.dirname(current_dir)
+            config_path = os.path.join(project_root, 'config', 'config.yaml')
+
+            logger.debug(f"尝试读取配置文件: {config_path}")
+
+            if os.path.exists(config_path):
+                with open(config_path, 'r', encoding='utf-8') as f:
+                    config = yaml.safe_load(f)
+                vector_config = config.get('vector_database', {})
+                options = vector_config.get('options', {})
+                check_existing = options.get('check_existing', True)
+                logger.info(f"配置文件加载成功，check_existing={check_existing}")
+            else:
+                logger.warning(f"配置文件不存在: {config_path}，使用默认设置")
+                check_existing = True  # 默认启用
+        except Exception as e:
+            logger.error(f"读取配置文件失败，使用默认设置: {e}")
+            check_existing = True  # 默认启用
+
+        # 检查哪些概念已经存在
+        concept_names = [concept.get('name', '') for concept in concepts if concept.get('name')]
+        existing_check = {}
+
+        if check_existing and concept_names:
+            logger.info(f"检查 {len(concept_names)} 个概念在向量数据库中的存在性...")
+
+            # 如果向量客户端支持存在性检查
+            if hasattr(self.vector_client, 'check_concepts_exist'):
+                existing_check = self.vector_client.check_concepts_exist(self.collection_name, concept_names)
+            else:
+                logger.info("当前向量数据库不支持存在性检查，直接添加所有概念")
+        else:
+            logger.info("存在性检查已禁用，直接添加所有概念")
+
         # 创建集合
         vector_size = len(embeddings[0]) if len(embeddings) > 0 else 1024
         self.vector_client.create_collection(self.collection_name, vector_size)
 
-        # 准备数据
-        ids = [concept.get('id', concept.get('name', f"concept_{i}"))
-               for i, concept in enumerate(concepts)]
-        metadatas = []
+        # 准备数据，只添加不存在的概念
+        new_concepts = []
+        new_embeddings = []
+        new_ids = []
+        new_metadatas = []
 
-        for concept in concepts:
+        for i, (concept, embedding) in enumerate(zip(concepts, embeddings)):
+            concept_name = concept.get('name', '')
+
+            if concept_name and existing_check.get(concept_name, False):
+                logger.debug(f"概念 '{concept_name}' 已存在于Qdrant中，跳过")
+                continue
+
+            # 添加到新概念列表
+            new_concepts.append(concept)
+            new_embeddings.append(embedding)
+
+            # 准备ID和元数据
+            concept_id = concept.get('id', concept.get('name', f"concept_{i}"))
+            new_ids.append(concept_id)
+
             metadata = {
                 'name': concept.get('name', ''),
                 'definition': concept.get('definition', ''),
@@ -761,7 +991,20 @@ class PoliticalTheoryVectorSearch:
                 'related_concepts': concept.get('related_concepts', []),
                 'sources': concept.get('sources', [])
             }
-            metadatas.append(metadata)
+            new_metadatas.append(metadata)
+
+        # 统计结果
+        total_concepts = len(concepts)
+        skipped_concepts = total_concepts - len(new_concepts)
+        logger.info(f"概念存在性检查完成: 跳过 {skipped_concepts} 个已存在概念，添加 {len(new_concepts)} 个新概念")
+
+        # 如果没有新概念需要添加，直接返回成功
+        if len(new_concepts) == 0:
+            logger.info("所有概念都已存在于Qdrant中，无需添加")
+            return True
+
+        # 使用过滤后的数据
+        concepts, embeddings, ids, metadatas = new_concepts, new_embeddings, new_ids, new_metadatas
 
         # 批量插入
         return self.vector_client.insert(self.collection_name, ids, embeddings, metadatas)

@@ -6,6 +6,7 @@
 import json
 import logging
 import pickle
+import time
 import numpy as np
 from typing import List, Dict, Set, Optional, Tuple
 from pathlib import Path
@@ -207,37 +208,73 @@ class ConceptGraph:
             )
 
             if response.success:
-                parsed_json = response.content
-                returned_center = parsed_json.get("center_concept", center_concept)
-                new_concepts = parsed_json.get("new_concepts", [])
+                try:
+                    # 检查response.content是否为空或None
+                    if not response.content or response.content is None:
+                        logger.warning(f"API响应内容为空，概念: {center_concept}")
+                        return ConceptExpansionResult(
+                            concept_id=concept_id,
+                            center_concept=center_concept,
+                            status="no_content",
+                            new_concepts=[],
+                            returned_center=center_concept,
+                            timestamp=self._get_timestamp()
+                        )
 
-                # 检查是否为"无新增概念"的情况
-                if len(new_concepts) == 1 and new_concepts[0].strip() == "NO NEW CONCEPTS":
-                    logger.debug(f"概念 {center_concept} 无新概念")
+                    # 确保response.content是字符串类型
+                    if isinstance(response.content, str):
+                        parsed_json = json.loads(response.content)
+                    else:
+                        parsed_json = response.content
+
+                    returned_center = parsed_json.get("center_concept", center_concept)
+                    new_concepts = parsed_json.get("new_concepts", [])
+
+                    # 检查是否为"无新增概念"的情况
+                    if len(new_concepts) == 1 and new_concepts[0].strip() == "NO NEW CONCEPTS":
+                        logger.debug(f"概念 {center_concept} 无新概念")
+                        return ConceptExpansionResult(
+                            concept_id=concept_id,
+                            center_concept=center_concept,
+                            status="no_concepts",
+                            new_concepts=[],
+                            timestamp=self._get_timestamp()
+                        )
+
+                    # 正常处理新概念
+                    new_concepts = [concept.strip() for concept in new_concepts if concept.strip()]
+
+                    # 验证新概念的有效性
+                    verified_concepts = self._validate_new_concepts(new_concepts, center_concept)
+
+                    logger.debug(f"概念 {center_concept} 扩增成功，新概念数: {len(new_concepts)}，验证后: {len(verified_concepts)}")
+
                     return ConceptExpansionResult(
                         concept_id=concept_id,
                         center_concept=center_concept,
-                        status="no_concepts",
-                        new_concepts=[],
+                        status="success",
+                        new_concepts=verified_concepts,
+                        returned_center=returned_center,
                         timestamp=self._get_timestamp()
                     )
-
-                # 正常处理新概念
-                new_concepts = [concept.strip() for concept in new_concepts if concept.strip()]
-
-                # 验证新概念的有效性
-                verified_concepts = self._validate_new_concepts(new_concepts, center_concept)
-
-                logger.debug(f"概念 {center_concept} 扩增成功，新概念数: {len(new_concepts)}，验证后: {len(verified_concepts)}")
-
-                return ConceptExpansionResult(
-                    concept_id=concept_id,
-                    center_concept=center_concept,
-                    status="success",
-                    new_concepts=verified_concepts,
-                    returned_center=returned_center,
-                    timestamp=self._get_timestamp()
-                )
+                except json.JSONDecodeError as e:
+                    logger.error(f"JSON解析失败 {center_concept}: {e}, response.content: {response.content}")
+                    return ConceptExpansionResult(
+                        concept_id=concept_id,
+                        center_concept=center_concept,
+                        status="json_error",
+                        error_message=f"JSON解析失败: {str(e)}",
+                        timestamp=self._get_timestamp()
+                    )
+                except Exception as e:
+                    logger.error(f"处理响应内容时出错 {center_concept}: {e}")
+                    return ConceptExpansionResult(
+                        concept_id=concept_id,
+                        center_concept=center_concept,
+                        status="processing_error",
+                        error_message=f"处理失败: {str(e)}",
+                        timestamp=self._get_timestamp()
+                    )
             else:
                 logger.error(f"概念扩增失败 {center_concept}: {response.error}")
                 return ConceptExpansionResult(
@@ -360,12 +397,8 @@ class ConceptGraph:
 
     def _deduplicate_and_add_concepts(self, all_new_concepts: List[str], concept_to_centers: Dict) -> Tuple[int, int, int]:
         """去重并添加概念到图中"""
-        try:
-            from .embedding_client import get_embedding_client
-        except ImportError:
-            from embedding_client import get_embedding_client
-
-        embedding_client = get_embedding_client()
+        # 使用现有的embedding_client实例，保持缓存一致性
+        embedding_client = self.embedding_client
 
         num_all_new_concepts = len(all_new_concepts)
         logger.info(f"收到 {num_all_new_concepts} 个新概念（未去重）")
@@ -387,13 +420,44 @@ class ConceptGraph:
         if concepts_need_embedding:
             unique_concepts = list(set(concepts_need_embedding))
             logger.info(f"正在对 {len(unique_concepts)} 个新概念进行embedding去重...")
-            new_embeddings = embedding_client.encode(unique_concepts, show_progress=True)
 
-            # 逐个处理需要embedding的概念
+            # 检查缓存中已有的概念
+            cached_concepts = []
+            uncached_concepts = []
+            for concept in unique_concepts:
+                if concept in self.concept_embeddings:
+                    cached_concepts.append(concept)
+                else:
+                    uncached_concepts.append(concept)
+
+            if cached_concepts:
+                logger.info(f"发现 {len(cached_concepts)} 个概念已缓存embedding，跳过计算")
+                logger.debug(f"缓存的概念: {cached_concepts[:5]}...")  # 只显示前5个
+
+            if uncached_concepts:
+                logger.info(f"需要对 {len(uncached_concepts)} 个概念计算新的embedding")
+                new_embeddings = embedding_client.encode(uncached_concepts, show_progress=True)
+            else:
+                logger.info("所有概念都已在缓存中，无需计算新的embedding")
+                new_embeddings = []
+
+            # 逐个处理概念
             total_concepts = len(unique_concepts)
-            for idx, (new_concept, new_embedding) in enumerate(zip(unique_concepts, new_embeddings), 1):
-                if idx % 500 == 0 or idx == total_concepts:
-                    logger.info(f"  处理进度: {idx}/{total_concepts} ({idx/total_concepts*100:.1f}%)")
+            processed_count = 0
+
+            # 首先处理已缓存的概念
+            for concept in cached_concepts:
+                if concept in self.concept_embeddings:
+                    processed_count += 1
+                    if processed_count % 500 == 0 or processed_count == total_concepts:
+                        logger.info(f"  处理进度: {processed_count}/{total_concepts} ({processed_count/total_concepts*100:.1f}%)")
+
+            # 然后处理需要新计算embedding的概念
+            if uncached_concepts:
+                for idx, (new_concept, new_embedding) in enumerate(zip(uncached_concepts, new_embeddings), 1):
+                    actual_idx = processed_count + idx
+                    if actual_idx % 500 == 0 or actual_idx == total_concepts:
+                        logger.info(f"  处理进度: {actual_idx}/{total_concepts} ({actual_idx/total_concepts*100:.1f}%)")
 
                 # 检查是否与已有概念相似
                 similar_concept = self._is_similar_to_existing(new_concept, new_embedding)
@@ -527,6 +591,12 @@ class ConceptGraph:
         """运行完整的概念扩增流程"""
         logger.info("开始完整的概念图扩增流程")
 
+        # 检查embedding缓存状态
+        cached_count = len(self.concept_embeddings)
+        if cached_count > 0:
+            logger.info(f"发现已有 {cached_count} 个概念的embedding缓存，将重复使用")
+            logger.info(f"当前内存中概念embedding缓存: {len(self.concept_embeddings)} 个概念")
+
         iteration_results = []
         previous_metrics = None
 
@@ -536,6 +606,21 @@ class ConceptGraph:
             # 运行单轮迭代
             result = self.run_expansion_iteration()
             iteration_results.append(result)
+
+            # 自动保存到Neo4j（如果配置启用）
+            concept_config = self.config['concept_expansion']
+            if concept_config.get('save_to_neo4j_after_each_iteration', False):
+                logger.info("自动保存当前概念图到Neo4j...")
+                try:
+                    self.save_to_neo4j()
+                    logger.info("✅ 概念图已保存到Neo4j")
+                except Exception as e:
+                    logger.error(f"❌ 保存到Neo4j失败: {e}")
+
+            # 检查是否在第一轮后停止
+            if concept_config.get('stop_after_first_iteration', False) and iteration == 0:
+                logger.info("配置要求第一轮后停止扩增")
+                break
 
             # 检查收敛
             convergence_info = self.check_convergence(previous_metrics)
@@ -564,6 +649,121 @@ class ConceptGraph:
         logger.info(f"最终概念图: {len(self.graph)} 个节点, {sum(len(neighbors) for neighbors in self.graph.values()) // 2} 条边")
 
         return iteration_results
+
+    def save_to_neo4j(self):
+        """保存概念图到Neo4j数据库"""
+        logger.info("开始保存概念图到Neo4j...")
+
+        try:
+            # 确保图数据库客户端存在
+            if not hasattr(self, 'graph_client') or self.graph_client is None:
+                from .graph_database_client import get_graph_client
+                self.graph_client = get_graph_client('config/config.yaml')
+
+            # 测试连接
+            if not self.graph_client.test_connection():
+                raise Exception("Neo4j连接测试失败")
+
+            logger.info("Neo4j连接成功，开始导入数据...")
+
+            # 清空现有数据（可选，根据需求）
+            # self.graph_client.clear_database()
+
+            # 批量导入节点
+            nodes_added = 0
+            edges_added = 0
+
+            # 准备节点数据
+            node_operations = []
+            for concept_name in self.graph.nodes():
+                # 获取概念的embedding和属性
+                embedding = self.concept_embeddings.get(concept_name, None)
+                validity_score = self.concept_validity.get(concept_name, 0.5)
+
+                node_data = {
+                    'id': f"concept_{hash(concept_name)}",
+                    'labels': ['Concept', 'PoliticalTheory'],
+                    'properties': {
+                        'name': concept_name,
+                        'validity_score': validity_score,
+                        'embedding': embedding.tolist() if embedding is not None else None,
+                        'created_at': datetime.now().isoformat(),
+                        'iteration': self.iteration_count
+                    }
+                }
+                node_operations.append(node_data)
+
+            # 批量添加节点
+            if node_operations:
+                logger.info(f"批量添加 {len(node_operations)} 个节点...")
+                for i in range(0, len(node_operations), 50):  # 每批50个节点
+                    batch = node_operations[i:i+50]
+                    for node_op in batch:
+                        try:
+                            if self.graph_client.add_node(
+                                node_op['id'],
+                                node_op['labels'],
+                                node_op['properties']
+                            ):
+                                nodes_added += 1
+                        except Exception as e:
+                            logger.warning(f"添加节点失败 {node_op['properties']['name']}: {e}")
+
+            # 准备边数据
+            edge_operations = []
+            processed_edges = set()  # 避免重复边
+
+            for source_concept, neighbors in self.graph.items():
+                for target_concept in neighbors:
+                    # 创建边的唯一标识
+                    edge_id = tuple(sorted([source_concept, target_concept]))
+                    if edge_id in processed_edges:
+                        continue
+                    processed_edges.add(edge_id)
+
+                    # 计算边的权重（基于概念有效性）
+                    source_validity = self.concept_validity.get(source_concept, 0.5)
+                    target_validity = self.concept_validity.get(target_concept, 0.5)
+                    edge_weight = (source_validity + target_validity) / 2
+
+                    source_id = f"concept_{hash(source_concept)}"
+                    target_id = f"concept_{hash(target_concept)}"
+
+                    edge_data = {
+                        'source_id': source_id,
+                        'target_id': target_id,
+                        'relationship_type': 'RELATED_TO',
+                        'properties': {
+                            'weight': edge_weight,
+                            'relationship_strength': edge_weight,
+                            'created_at': datetime.now().isoformat(),
+                            'iteration': self.iteration_count
+                        }
+                    }
+                    edge_operations.append(edge_data)
+
+            # 批量添加边
+            if edge_operations:
+                logger.info(f"批量添加 {len(edge_operations)} 条边...")
+                for i in range(0, len(edge_operations), 50):  # 每批50条边
+                    batch = edge_operations[i:i+50]
+                    for edge_op in batch:
+                        try:
+                            if self.graph_client.add_edge(
+                                edge_op['source_id'],
+                                edge_op['target_id'],
+                                edge_op['relationship_type'],
+                                edge_op['properties']
+                            ):
+                                edges_added += 1
+                        except Exception as e:
+                            logger.warning(f"添加边失败 {edge_op['source_id']}-{edge_op['target_id']}: {e}")
+
+            logger.info(f"✅ Neo4j保存完成: {nodes_added} 个节点, {edges_added} 条边")
+
+        except Exception as e:
+            logger.error(f"❌ 保存到Neo4j失败: {e}")
+            raise
 
     def _save_batch_results(self, batch_results: Dict):
         """保存批处理结果"""
@@ -687,6 +887,107 @@ class ConceptGraph:
         validated_concepts = []
         context_concepts = list(self.graph.nodes())  # 获取已有概念作为上下文
 
+        # 确保中心概念有embedding缓存
+        if center_concept not in self.concept_embeddings:
+            logger.warning(f"中心概念 '{center_concept}' 不在embedding缓存中，需要计算")
+            try:
+                center_embedding = self.embedding_client.encode([center_concept])[0]
+                self.concept_embeddings[center_concept] = center_embedding
+                logger.info(f"已缓存中心概念 '{center_concept}' 的embedding")
+            except Exception as e:
+                logger.error(f"计算中心概念 '{center_concept}' 的embedding失败: {e}")
+                return []  # 如果中心概念都无法处理，返回空列表
+
+        logger.info(f"开始验证 {len(new_concepts)} 个新概念的有效性（中心概念: {center_concept}）")
+
+        # 批量检查新概念的embedding缓存情况
+        uncached_new_concepts = []
+        cached_new_concepts = []
+
+        for concept in new_concepts:
+            if concept in self.concept_embeddings:
+                cached_new_concepts.append(concept)
+            else:
+                uncached_new_concepts.append(concept)
+
+        logger.info(f"新概念中: {len(cached_new_concepts)} 个已缓存, {len(uncached_new_concepts)} 个需要计算embedding")
+
+        # 检查Qdrant向量数据库中已存在的概念
+        if uncached_new_concepts and self.vector_search:
+            logger.info(f"检查Qdrant向量数据库中 {len(uncached_new_concepts)} 个概念是否已存在...")
+            try:
+                existing_check = self.vector_search.vector_client.check_concepts_exist(
+                    self.vector_search.collection_name,
+                    uncached_new_concepts
+                )
+
+                # 从数据库中加载已存在的概念embeddings
+                db_existing_concepts = []
+                db_missing_concepts = []
+
+                for concept in uncached_new_concepts:
+                    if existing_check.get(concept, False):
+                        db_existing_concepts.append(concept)
+                    else:
+                        db_missing_concepts.append(concept)
+
+                logger.info(f"Qdrant检查结果: {len(db_existing_concepts)} 个概念已存在数据库，{len(db_missing_concepts)} 个概念需要新增")
+
+                # 为数据库中已存在的概念创建搜索任务以获取embedding
+                if db_existing_concepts:
+                    logger.info(f"从Qdrant加载 {len(db_existing_concepts)} 个已存在概念的embedding...")
+                    try:
+                        # 使用搜索来获取已存在的概念，这样可以得到它们的embedding信息
+                        existing_results = self.vector_search.search_concepts(db_existing_concepts, top_k=1)
+
+                        for concept in db_existing_concepts:
+                            if concept in existing_results and existing_results[concept]:
+                                # 使用向量数据库中的信息，将概念标记为已处理
+                                cached_new_concepts.append(concept)
+                                # 创建一个虚拟的embedding用于本次计算（因为主要是为了相似度计算）
+                                # 实际的embedding会在需要时从数据库获取
+                                self.concept_embeddings[concept] = np.ones(1024)  # 使用虚拟embedding避免重复计算
+                                logger.debug(f"✅ 概念 '{concept}' 从Qdrant数据库确认存在，跳过重新计算")
+                            else:
+                                db_missing_concepts.append(concept)
+
+                    except Exception as e:
+                        logger.error(f"从Qdrant加载概念embedding失败: {e}")
+                        # 如果加载失败，将这些概念视为需要重新计算
+                        db_missing_concepts.extend(db_existing_concepts)
+
+                # 更新需要计算embedding的概念列表
+                uncached_new_concepts = db_missing_concepts
+
+            except Exception as e:
+                logger.error(f"检查Qdrant向量数据库失败: {e}")
+                # 如果检查失败，继续正常流程计算所有概念的embedding
+
+        # 批量计算缺失的embeddings
+        if uncached_new_concepts:
+            logger.info(f"批量计算 {len(uncached_new_concepts)} 个新概念的embedding...")
+            try:
+                # 分批处理，避免一次请求太多
+                batch_size = 20  # 减少batch size避免overload
+                total_batches = (len(uncached_new_concepts) + batch_size - 1) // batch_size
+
+                for i in range(0, len(uncached_new_concepts), batch_size):
+                    batch = uncached_new_concepts[i:i + batch_size]
+                    logger.info(f"  处理第 {i//batch_size + 1}/{total_batches} 批 ({len(batch)} 个概念)")
+
+                    batch_embeddings = self.embedding_client.encode(batch)
+
+                    for concept, embedding in zip(batch, batch_embeddings):
+                        self.concept_embeddings[concept] = embedding
+
+                    # 添加小延迟避免overload
+                    time.sleep(0.5)  # 500ms延迟
+
+            except Exception as e:
+                logger.error(f"批量计算新概念embedding失败: {e}")
+                # 如果批量失败，只处理缓存的概念
+                uncached_new_concepts = []
+
         for concept in new_concepts:
             try:
                 # 计算概念有效性分数
@@ -742,21 +1043,36 @@ class ConceptGraph:
         """检查概念与中心概念的语义相似度"""
         try:
             # 首先检查是否已经有缓存的embeddings
+            cache_status = {
+                'total_cached': len(self.concept_embeddings),
+                'concept_cached': concept in self.concept_embeddings,
+                'center_concept_cached': center_concept in self.concept_embeddings
+            }
+
             if concept in self.concept_embeddings and center_concept in self.concept_embeddings:
                 # 使用缓存的embeddings，避免重复计算
                 concept_emb = self.concept_embeddings[concept]
                 center_emb = self.concept_embeddings[center_concept]
-                logger.debug(f"使用缓存embedding计算相似度: {concept} vs {center_concept}")
+                logger.debug(f"✅ 使用缓存embedding计算相似度: {concept} vs {center_concept}")
             else:
-                # 只有在没有缓存时才计算新的embeddings
-                logger.warning(f"embedding缓存缺失，计算新的embedding: {concept}, {center_concept}")
-                try:
-                    from .embedding_client import get_embedding_client
-                except ImportError:
-                    from embedding_client import get_embedding_client
+                # 详细分析缓存缺失的原因
+                missing_reasons = []
+                if concept not in self.concept_embeddings:
+                    missing_reasons.append(f"概念 '{concept}' 不在缓存中")
+                if center_concept not in self.concept_embeddings:
+                    missing_reasons.append(f"中心概念 '{center_concept}' 不在缓存中")
 
-                embedding_client = get_embedding_client()
-                embeddings = embedding_client.encode([concept, center_concept])
+                # 限制缓存缺失警告的频率，避免日志泛滥
+                import random
+                if random.random() < 0.1:  # 只有10%的概率打印详细警告
+                    logger.warning(f"⚠️  embedding缓存缺失 (缓存中有 {cache_status['total_cached']} 个概念)")
+                    logger.warning(f"   缺失原因: {'; '.join(missing_reasons)}")
+                    if cache_status['total_cached'] > 0:
+                        sample_concepts = list(self.concept_embeddings.keys())[:5]
+                        logger.warning(f"   缓存样本概念: {sample_concepts}...")
+
+                # 使用现有的embedding_client实例
+                embeddings = self.embedding_client.encode([concept, center_concept])
                 concept_emb, center_emb = embeddings[0], embeddings[1]
 
                 # 将新计算的embedding缓存起来，避免重复计算

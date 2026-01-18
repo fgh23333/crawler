@@ -13,7 +13,7 @@ const today = `${date.getFullYear()}-${(date.getMonth() + 1).toString().padStart
 const outputDir = path.join(__dirname, today);
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-const MAX_WORKERS = 32; // 限制最大并发数，避免服务器过载
+const MAX_WORKERS = 64; // 限制最大并发数，避免服务器过载
 const RETRY_LIMIT = 3; // 失败时最大重试次数
 
 const paramsArr = [

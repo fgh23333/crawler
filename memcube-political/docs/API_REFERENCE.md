@@ -1,876 +1,1198 @@
-# API Reference
+# API参考文档 - MemCube Political
 
-## 📋 Overview
+## 目录
+1. [核心API概览](#核心api概览)
+2. [概念扩增API](#概念扩增api)
+3. [向量化API](#向量化api)
+4. [图数据库API](#图数据库api)
+5. [向量数据库API](#向量数据库api)
+6. [QA生成API](#qa生成api)
+7. [数据结构](#数据结构)
+8. [错误处理](#错误处理)
+9. [示例代码](#示例代码)
 
-MemCube Political provides both Python APIs and command-line interfaces for programmatic access to all system functionality. This reference documents all available APIs, parameters, and usage examples.
+## 核心API概览
 
-## 🐍 Python APIs
+MemCube Political 提供了一套完整的API用于政治理论概念图谱的构建、扩增和查询。核心组件包括：
 
-### Core Modules
+- **ConceptExpander** - 概念扩增引擎
+- **EmbeddingClient** - 文本向量化客户端
+- **GraphDatabaseClient** - 图数据库客户端
+- **VectorDatabaseClient** - 向量数据库客户端
+- **QAGenerator** - QA数据生成器
 
-#### ConceptAnalyzer
-
-Analyzes political theory concepts using advanced language models.
-
-```python
-from src.concept_analyzer import ConceptAnalyzer
-
-# Initialize analyzer
-analyzer = ConceptAnalyzer(config_path="config/config.yaml")
-
-# Single concept analysis
-result = analyzer.analyze_concept("democracy")
-
-# Batch concept analysis
-concepts = ["democracy", "constitutional law", "civil rights"]
-results = analyzer.analyze_concepts_batch(concepts)
-```
-
-**Parameters:**
-- `config_path` (str): Path to configuration file
-- `api_client` (APIClient): Custom API client instance
-
-**Returns:**
-- `ConceptAnalysisResult`: Analysis results with extracted concepts and relationships
-
-**Methods:**
+### 导入和初始化
 
 ```python
-def analyze_concept(concept: str) -> Dict[str, Any]:
-    """Analyze a single concept in depth."""
-
-def analyze_concepts_batch(concepts: List[str]) -> List[Dict[str, Any]]:
-    """Analyze multiple concepts in batch."""
-
-def validate_analysis_result(result: Dict[str, Any]) -> bool:
-    """Validate analysis result quality."""
-```
-
-#### ConceptExtractor
-
-Extracts and cleans concepts from analysis text.
-
-```python
-from src.concept_extractor import ConceptExtractor
-
-# Initialize extractor
-extractor = ConceptExtractor(config_path="config/config.yaml")
-
-# Extract concepts from text
-text = "Democracy is a system of government where citizens exercise power..."
-concepts = extractor.extract_concepts(text)
-
-# Filter and validate concepts
-filtered_concepts = extractor.filter_concepts(concepts)
-```
-
-**Parameters:**
-- `config_path` (str): Path to configuration file
-- `quality_threshold` (float): Minimum quality score for concepts
-
-**Methods:**
-
-```python
-def extract_concepts(text: str) -> List[str]:
-    """Extract concepts from analysis text."""
-
-def filter_concepts(concepts: List[str]) -> List[str]:
-    """Filter concepts based on quality criteria."""
-
-def normalize_concept(concept: str) -> str:
-    """Normalize concept format."""
-```
-
-#### ConceptGraph
-
-Builds and expands knowledge graphs from concepts.
-
-```python
-from src.concept_graph import ConceptGraph
-
-# Initialize with seed concepts
-seed_concepts = ["democracy", "constitutional law", "civil rights"]
-graph = ConceptGraph(seed_concepts, config_path="config/config.yaml")
-
-# Run full expansion
-result = graph.run_full_expansion()
-
-# Manual expansion step
-new_concepts = graph.expand_concepts_step()
-graph.add_concepts(new_concepts)
-
-# Save/load graph
-graph.save_graph("path/to/graph.json")
-graph.load_graph("path/to/graph.json")
-```
-
-**Parameters:**
-- `seed_concepts` (List[str]): Initial concepts for graph
-- `config_path` (str): Path to configuration file
-- `embedding_client` (EmbeddingClient): Custom embedding client
-
-**Methods:**
-
-```python
-def run_full_expansion(self) -> Dict[str, Any]:
-    """Run complete graph expansion process."""
-
-def expand_concepts_step(self) -> List[str]:
-    """Perform one expansion iteration."""
-
-def check_convergence(self) -> bool:
-    """Check if graph expansion has converged."""
-
-def get_graph_statistics(self) -> Dict[str, Any]:
-    """Get graph statistics and metrics."""
-
-def save_graph(self, file_path: str) -> bool:
-    """Save graph to file."""
-
-def load_graph(self, file_path: str) -> bool:
-    """Load graph from file."""
-```
-
-#### QAGenerator
-
-Generates question-answer pairs from concepts and concept graphs.
-
-```python
-from src.qa_generator import QAGenerator
-
-# Initialize generator
-generator = QAGenerator(config_path="config/config.yaml")
-
-# Load concept graph
-generator.load_concept_graph("path/to/graph.json")
-
-# Generate Q&A for single concepts
-qa_pairs = generator.generate_single_concept_qa(["democracy", "freedom"])
-
-# Generate Q&A for concept pairs
-qa_pairs = generator.generate_concept_pair_qa([("democracy", "freedom")])
-
-# Run full generation pipeline
-result = generator.run_full_qa_generation("path/to/graph.json")
-```
-
-**Parameters:**
-- `config_path` (str): Path to configuration file
-- `api_client` (APIClient): Custom API client
-
-**Methods:**
-
-```python
-def generate_single_concept_qa(self, concepts: List[str]) -> List[Dict[str, Any]]:
-    """Generate Q&A pairs for individual concepts."""
-
-def generate_concept_pair_qa(self, concept_pairs: List[Tuple[str, str]]) -> List[Dict[str, Any]]:
-    """Generate Q&A pairs for concept relationships."""
-
-def filter_qa_pairs(self, qa_pairs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Filter and validate Q&A pairs."""
-
-def deduplicate_qa_pairs(self, qa_pairs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Remove duplicate Q&A pairs."""
-
-def run_full_qa_generation(self, graph_file: str) -> Dict[str, Any]:
-    """Run complete Q&A generation process."""
-```
-
-#### Evaluation
-
-Comprehensive quality assessment of generated content.
-
-```python
-from src.evaluation import ComprehensiveEvaluator
-
-# Initialize evaluator
-evaluator = ComprehensiveEvaluator(config_path="config/config.yaml")
-
-# Evaluate concept graph
-graph_report = evaluator.evaluate_graph("path/to/graph.json")
-
-# Evaluate Q&A dataset
-qa_report = evaluator.evaluate_qa_dataset("path/to/qa_dataset.json")
-
-# Full system evaluation
-full_report = evaluator.evaluate_full_system(
-    graph_file="path/to/graph.json",
-    qa_file="path/to/qa_dataset.json"
-)
-```
-
-**Parameters:**
-- `config_path` (str): Path to configuration file
-
-**Methods:**
-
-```python
-def evaluate_graph(self, graph_file: str) -> Dict[str, Any]:
-    """Evaluate concept graph quality."""
-
-def evaluate_qa_dataset(self, qa_file: str) -> Dict[str, Any]:
-    """Evaluate Q&A dataset quality."""
-
-def evaluate_full_system(self, graph_file: str, qa_file: str) -> Dict[str, Any]:
-    """Evaluate entire system output."""
-
-def generate_report(self, results: Dict[str, Any]) -> str:
-    """Generate human-readable evaluation report."""
-```
-
-### Database Clients
-
-#### APIClient
-
-Unified client for various LLM APIs.
-
-```python
-from src.api_client import APIClient
-
-# Initialize client
-client = APIClient(config_path="config/api_keys.yaml")
-
-# Make API calls
-response = client.completion(
-    prompt="Analyze the concept of democracy...",
-    model="gemini-2.5-flash",
-    temperature=0.7,
-    max_tokens=1000
-)
-
-# Batch processing
-prompts = ["Analyze democracy", "Explain freedom", "Define justice"]
-responses = client.batch_completion(prompts, model="gemini-2.5-flash")
-```
-
-**Parameters:**
-- `config_path` (str): Path to API configuration file
-- `provider` (str): API provider (openai, google, custom)
-
-**Methods:**
-
-```python
-def completion(self, prompt: str, **kwargs) -> Dict[str, Any]:
-    """Generate completion for single prompt."""
-
-def batch_completion(self, prompts: List[str], **kwargs) -> List[Dict[str, Any]]:
-    """Generate completions for multiple prompts."""
-
-def get_models(self) -> List[str]:
-    """Get available models for provider."""
-
-def test_connection(self) -> bool:
-    """Test API connection."""
-```
-
-#### EmbeddingClient
-
-Client for text embedding generation.
-
-```python
+# 基础导入
+from src.concept_graph import ConceptExpander
 from src.embedding_client import EmbeddingClient
-
-# Initialize client
-client = EmbeddingClient(config_path="config/config.yaml")
-
-# Generate embeddings
-texts = ["democracy", "freedom", "justice"]
-embeddings = client.get_embeddings(texts)
-
-# Batch processing
-large_text_list = ["concept1", "concept2", ...]  # Large list
-embeddings = client.get_embeddings_batch(large_text_list, batch_size=32)
-
-# Similarity search
-query_text = "government by the people"
-similar_texts = client.similarity_search(query_text, top_k=5)
-```
-
-**Parameters:**
-- `config_path` (str): Path to configuration file
-- `model_name` (str): Embedding model name
-
-**Methods:**
-
-```python
-def get_embeddings(self, texts: List[str]) -> List[List[float]]:
-    """Generate embeddings for texts."""
-
-def get_embeddings_batch(self, texts: List[str], batch_size: int = 32) -> List[List[float]]:
-    """Generate embeddings in batches."""
-
-def similarity_search(self, query: str, top_k: int = 10) -> List[Tuple[str, float]]:
-    """Find most similar texts."""
-
-def compute_similarity(self, text1: str, text2: str) -> float:
-    """Compute similarity between two texts."""
-```
-
-#### GraphDatabaseClient
-
-Abstract client for graph databases.
-
-```python
-from src.graph_database_client import get_graph_database_client
-
-# Get configured client
-client = get_graph_database_client("config/config.yaml")
-
-# Create concepts and relationships
-client.create_concept_node("democracy", {"type": "political_system"})
-client.create_concept_node("voting", {"type": "process"})
-
-client.create_relationship("democracy", "HAS_PROCESS", "voting")
-
-# Query the graph
-results = client.query_concepts("democracy")
-neighbors = client.get_neighbors("democracy")
-
-# Batch operations
-concepts = [
-    ("democracy", {"type": "system"}),
-    ("freedom", {"type": "value"}),
-    ("justice", {"type": "principle"})
-]
-client.create_concepts_batch(concepts)
-```
-
-**Parameters:**
-- `config_path` (str): Path to configuration file
-
-**Methods:**
-
-```python
-def create_concept_node(self, concept: str, attributes: Dict[str, Any]) -> bool:
-    """Create a concept node in the graph."""
-
-def create_relationship(self, from_concept: str, relation: str, to_concept: str) -> bool:
-    """Create relationship between concepts."""
-
-def query_concepts(self, query: str) -> List[Dict[str, Any]]:
-    """Query concepts in the graph."""
-
-def get_neighbors(self, concept: str) -> List[Dict[str, Any]]:
-    """Get neighboring concepts."""
-
-def create_concepts_batch(self, concepts: List[Tuple[str, Dict[str, Any]]]) -> bool:
-    """Create multiple concept nodes."""
-```
-
-#### VectorDatabaseClient
-
-Abstract client for vector databases.
-
-```python
-from src.vector_database_client import get_vector_database_client
-
-# Get configured client
-client = get_vector_database_client("config/config.yaml")
-
-# Add embeddings
-concepts = ["democracy", "freedom", "justice"]
-embeddings = [[0.1, 0.2, ...], [0.3, 0.4, ...], [0.5, 0.6, ...]]
-
-client.add_embeddings(concepts, embeddings)
-
-# Search similar concepts
-query_embedding = [0.1, 0.2, ...]
-similar_concepts = client.search_similar(query_embedding, top_k=5)
-
-# Batch operations
-concept_embeddings = {
-    "democracy": [0.1, 0.2, ...],
-    "freedom": [0.3, 0.4, ...],
-    ...
-}
-client.add_embeddings_batch(concept_embeddings)
-```
-
-**Parameters:**
-- `config_path` (str): Path to configuration file
-
-**Methods:**
-
-```python
-def add_embeddings(self, concepts: List[str], embeddings: List[List[float]]) -> bool:
-    """Add embeddings to database."""
-
-def search_similar(self, query_embedding: List[float], top_k: int = 10) -> List[Tuple[str, float]]:
-    """Search for similar concepts."""
-
-def add_embeddings_batch(self, concept_embeddings: Dict[str, List[float]]) -> bool:
-    """Add multiple embeddings."""
-
-def get_embedding(self, concept: str) -> Optional[List[float]]:
-    """Get embedding for specific concept."""
-
-def delete_embeddings(self, concepts: List[str]) -> bool:
-    """Delete embeddings from database."""
-```
-
-## 🔧 Utility Functions
-
-### Configuration Loading
-
-```python
-from src.utils import load_config, validate_config
-
-# Load configuration
-config = load_config("config/config.yaml")
-
-# Validate configuration
-is_valid, errors = validate_config(config)
-
-# Get specific configuration section
-api_config = config.get("api", {})
-```
-
-### Environment Setup
-
-```python
-from src.utils import setup_logging, check_environment
-
-# Setup logging
-logger = setup_logging(
-    level="INFO",
-    format="{time} | {level} | {message}",
-    file_path="logs/system.log"
-)
-
-# Check environment
-env_status = check_environment()
-if not env_status["valid"]:
-    print("Environment setup incomplete:", env_status["errors"])
-```
-
-### Data Processing
-
-```python
-from src.utils import process_concepts, validate_qa_pairs
-
-# Process concept list
-processed_concepts = process_concepts(
-    concepts=[" raw concept ", "concept2", "CONCEPT3"],
-    normalize=True,
-    remove_duplicates=True,
-    min_length=1
-)
-
-# Validate Q&A pairs
-valid_qa = validate_qa_pairs(
-    qa_pairs=[{
-        "question": "What is democracy?",
-        "answer": "Democracy is a system...",
-        "concept": "democracy"
-    }],
-    min_question_length=10,
-    min_answer_length=50
-)
-```
-
-## 🖥️ Command Line Interface
-
-### Main Entry Point
-
-```bash
-# Usage: python main.py [OPTIONS] COMMAND [ARGS]
-
-# Available commands
-python main.py --help
-
-# System operations
-python main.py --check-env                    # Check environment setup
-python main.py --test-api                     # Test API connections
-python main.py --validate-config              # Validate configuration
-
-# Processing stages
-python main.py --stage concept-expansion      # Run concept graph expansion
-python main.py --stage qa-generation          # Run Q&A generation
-python main.py --stage all                     # Run complete pipeline
-
-# Quick start options
-python main.py --quick-start                  # Run with default settings
-python main.py --quick-start-db               # Run with database mode
-```
-
-### Command Line Options
-
-```bash
-# Configuration options
---config PATH               Custom configuration file path
---log-level LEVEL           Override log level (DEBUG, INFO, WARNING, ERROR)
---output-dir PATH          Custom output directory
---temp-dir PATH           Custom temporary directory
-
-# Processing options
---stage STAGE              Processing stage
---concepts-file PATH       Custom seed concepts file
---graph-file PATH          Input graph file for Q&A generation
---max-iterations N         Override max iterations
---similarity-threshold N   Override similarity threshold
---batch-size N            Override batch size
---max-workers N           Override worker count
-
-# Quality options
---quality-threshold N     Set quality threshold
---enable-quality-check    Enable quality validation
---disable-quality-check   Disable quality validation
-
-# Performance options
---high-performance        Use high-performance settings
---low-resource           Use low-resource settings
---memory-limit N         Set memory limit (GB)
---cpu-count N            Set CPU count
-
-# Output options
---verbose                Enable verbose output
---quiet                  Minimal output
---dry-run               Show what would be done
---force                 Overwrite existing files
-
-# Development options
---debug                 Enable debug mode
---profile               Enable profiling
---test-mode            Run in test mode with small dataset
-```
-
-### Script Utilities
-
-#### Environment Check (`scripts/check_env.py`)
-
-```bash
-# Run environment validation
-python scripts/check_env.py
-
-# With specific requirements file
-python scripts/check_env.py --requirements requirements.txt
-
-# Check specific components
-python scripts/check_env.py --check-api --check-ollama --check-database
-```
-
-#### Quick Start (`scripts/quick_start.py`)
-
-```bash
-# Quick start with memory mode
-python scripts/quick_start.py
-
-# Quick start with database mode
-python scripts/quick_start_database.py
-
-# Custom quick start with parameters
-python scripts/quick_start.py \
-    --concepts data/my_concepts.txt \
-    --output results/my_run \
-    --config custom_config.yaml
-```
-
-#### API Testing (`scripts/test_api_simple.py`)
-
-```bash
-# Test all configured APIs
-python scripts/test_api_simple.py
-
-# Test specific API provider
-python scripts/test_api_simple.py --provider openai
-python scripts/test_api_simple.py --provider google
-
-# Test with custom configuration
-python scripts/test_api_simple.py --config custom_api_config.yaml
-```
-
-## 📊 Data Structures
-
-### Concept Graph Format
-
-```json
-{
-  "graph": {
-    "democracy": {
-      "attributes": {
-        "type": "political_system",
-        "quality_score": 0.95,
-        "source": "seed_concept"
-      },
-      "relationships": {
-        "HAS_PRINCIPLE": ["freedom", "equality"],
-        "HAS_PROCESS": ["voting", "election"],
-        "SIMILAR_TO": ["republic", "constitutional_government"]
-      }
-    }
-  },
-  "embeddings": {
-    "democracy": [0.1, 0.2, 0.3, ...]
-  },
-  "metadata": {
-    "total_concepts": 5000,
-    "total_relationships": 15000,
-    "expansion_iterations": 8,
-    "similarity_threshold": 0.80,
-    "created_at": "2025-11-11T12:00:00Z"
-  }
-}
-```
-
-### Q&A Dataset Format
-
-```json
-{
-  "metadata": {
-    "total_qa_pairs": 10000,
-    "concepts_covered": 3000,
-    "question_types": {
-      "concept_understanding": 4000,
-      "analysis_application": 3000,
-      "comparison_evaluation": 2000,
-      "synthesis_creation": 1000
-    },
-    "difficulty_levels": {
-      "easy": 3000,
-      "medium": 5000,
-      "hard": 2000
-    },
-    "generation_model": "gemini-2.5-flash",
-    "created_at": "2025-11-11T12:00:00Z"
-  },
-  "qa_pairs": [
-    {
-      "id": "qa_001",
-      "question": "What are the core principles of democracy?",
-      "answer": "The core principles of democracy include popular sovereignty, political equality, freedom of speech, protection of human rights, and the rule of law. These principles ensure that power derives from the people and that individual freedoms are protected within a framework of equal participation.",
-      "type": "concept_understanding",
-      "difficulty": "medium",
-      "concept": "democracy",
-      "related_concepts": ["freedom", "equality", "voting"],
-      "source": "single_concept",
-      "quality_score": 0.92,
-      "word_count": {
-        "question": 8,
-        "answer": 45
-      },
-      "created_at": "2025-11-11T12:00:00Z"
-    }
-  ]
-}
-```
-
-### Evaluation Report Format
-
-```json
-{
-  "metadata": {
-    "evaluation_timestamp": "2025-11-11T12:00:00Z",
-    "evaluator_version": "1.0.0",
-    "configuration": {
-      "graph_file": "data/concept_graph/final_graph.json",
-      "qa_file": "results/qa_dataset.json"
-    }
-  },
-  "graph_evaluation": {
-    "structural_metrics": {
-      "total_nodes": 5000,
-      "total_edges": 15000,
-      "average_degree": 6.0,
-      "graph_density": 0.0012,
-      "clustering_coefficient": 0.15,
-      "connected_components": 1
-    },
-    "semantic_metrics": {
-      "concept_diversity": 0.85,
-      "embedding_quality": 0.92,
-      "relationship_strength": 0.78
-    },
-    "coverage_metrics": {
-      "domain_coverage": 0.95,
-      "concept_depth": 0.88,
-      "cross_domain_connections": 0.72
-    },
-    "overall_score": 0.87
-  },
-  "qa_evaluation": {
-    "quantity_metrics": {
-      "total_qa_pairs": 10000,
-      "unique_questions": 9950,
-      "unique_concepts": 3000
-    },
-    "quality_metrics": {
-      "average_question_length": 25,
-      "average_answer_length": 120,
-      "format_correctness": 0.98,
-      "relevance_score": 0.89
-    },
-    "diversity_metrics": {
-      "question_type_distribution": {
-        "concept_understanding": 0.4,
-        "analysis_application": 0.3,
-        "comparison_evaluation": 0.2,
-        "synthesis_creation": 0.1
-      },
-      "difficulty_distribution": {
-        "easy": 0.3,
-        "medium": 0.5,
-        "hard": 0.2
-      }
-    },
-    "overall_score": 0.91
-  },
-  "recommendations": [
-    "Increase concept diversity by including more political philosophy concepts",
-    "Add more comparative analysis questions",
-    "Consider expanding to include historical political systems",
-    "Improve coverage of non-Western political theories"
-  ]
-}
-```
-
-## 🔌 Integration Examples
-
-### Custom Pipeline
-
-```python
-from src.concept_analyzer import ConceptAnalyzer
-from src.concept_graph import ConceptGraph
 from src.qa_generator import QAGenerator
+from src.graph_database_client import get_graph_client
+from src.vector_database_client import get_vector_client
 
-class CustomPoliticalAnalysisPipeline:
-    def __init__(self, config_path: str):
-        self.config = load_config(config_path)
-        self.analyzer = ConceptAnalyzer(config_path)
-        self.graph_builder = ConceptGraph([], config_path)
-        self.qa_generator = QAGenerator(config_path)
-
-    def process_custom_concepts(self, concepts: List[str]):
-        # Analyze concepts
-        analysis_results = self.analyzer.analyze_concepts_batch(concepts)
-
-        # Extract concepts
-        all_concepts = []
-        for result in analysis_results:
-            extracted = self.extractor.extract_concepts(result["text"])
-            all_concepts.extend(extracted)
-
-        # Build graph
-        self.graph_builder = ConceptGraph(all_concepts)
-        graph_result = self.graph_builder.run_full_expansion()
-
-        # Generate Q&A
-        qa_result = self.qa_generator.run_full_qa_generation(
-            graph_result["output_file"]
-        )
-
-        return {
-            "graph": graph_result,
-            "qa": qa_result
-        }
-
-# Usage
-pipeline = CustomPoliticalAnalysisPipeline("config/config.yaml")
-results = pipeline.process_custom_concepts(["democracy", "justice"])
+# 初始化主要组件
+expander = ConceptExpander('config/config.yaml')
+embedding_client = EmbeddingClient('config/config.yaml')
+qa_generator = QAGenerator('config/config.yaml')
 ```
 
-### Database Integration
+## 概念扩增API
+
+### ConceptExpander 类
+
+概念扩增的核心引擎，负责从种子概念出发构建完整的知识图谱。
+
+#### 构造函数
 
 ```python
-from src.graph_database_client import get_graph_database_client
-from src.vector_database_client import get_vector_database_client
-
-class DatabaseManager:
-    def __init__(self, config_path: str):
-        self.graph_db = get_graph_database_client(config_path)
-        self.vector_db = get_vector_database_client(config_path)
-
-    def store_concept_graph(self, graph_data: Dict[str, Any]):
-        # Store concepts and relationships in graph database
-        for concept, data in graph_data["graph"].items():
-            self.graph_db.create_concept_node(concept, data["attributes"])
-
-            # Store relationships
-            for rel_type, targets in data["relationships"].items():
-                for target in targets:
-                    self.graph_db.create_relationship(concept, rel_type, target)
-
-        # Store embeddings in vector database
-        concepts = list(graph_data["embeddings"].keys())
-        embeddings = list(graph_data["embeddings"].values())
-        self.vector_db.add_embeddings(concepts, embeddings)
-
-    def search_concepts(self, query: str, top_k: int = 10):
-        # Get embedding for query
-        embedding_client = EmbeddingClient()
-        query_embedding = embedding_client.get_embeddings([query])[0]
-
-        # Search vector database
-        similar_concepts = self.vector_db.search_similar(query_embedding, top_k)
-
-        # Get detailed information from graph database
-        results = []
-        for concept, score in similar_concepts:
-            concept_data = self.graph_db.query_concepts(concept)
-            results.append({
-                "concept": concept,
-                "similarity": score,
-                "data": concept_data
-            })
-
-        return results
-
-# Usage
-db_manager = DatabaseManager("config/config.yaml")
-db_manager.store_concept_graph(graph_data)
-search_results = db_manager.search_concepts("systems of government")
+def __init__(self, config_path: str)
 ```
 
-## 🚨 Error Handling
+**参数:**
+- `config_path` (str): 配置文件路径
 
-### Common Exceptions
+**返回:**
+- `ConceptExpander`: 概念扩增器实例
+
+**示例:**
+```python
+expander = ConceptExpander('config/config.yaml')
+```
+
+#### 核心方法
+
+##### load_seed_concepts()
+
+```python
+def load_seed_concepts(self, concepts_file: str) -> None
+```
+
+**功能:** 从文件加载种子概念
+
+**参数:**
+- `concepts_file` (str): 概念文件路径，每行一个概念
+
+**示例:**
+```python
+expander.load_seed_concepts('data/political_concepts.txt')
+```
+
+##### set_seed_concepts()
+
+```python
+def set_seed_concepts(self, concepts: List[str]) -> None
+```
+
+**功能:** 直接设置种子概念列表
+
+**参数:**
+- `concepts` (List[str]): 种子概念列表
+
+**示例:**
+```python
+concepts = ["马克思主义", "社会主义", "民主"]
+expander.set_seed_concepts(concepts)
+```
+
+##### run_full_expansion()
+
+```python
+def run_full_expansion(self) -> List[Dict[str, Any]]
+```
+
+**功能:** 运行完整的概念扩增流程
+
+**返回:**
+- `List[Dict]`: 迭代结果列表，每个元素包含：
+  - `iteration` (int): 迭代次数
+  - `metrics` (Dict): 图统计指标
+  - `nodes_added` (int): 新增节点数
+  - `edges_added` (int): 新增边数
+  - `timestamp` (str): 时间戳
+
+**示例:**
+```python
+results = expander.run_full_expansion()
+print(f"扩增完成，共进行 {len(results)} 轮迭代")
+```
+
+##### run_expansion_iteration()
+
+```python
+def run_expansion_iteration(self) -> Dict[str, Any]
+```
+
+**功能:** 运行单轮概念扩增迭代
+
+**返回:**
+- `Dict`: 单轮迭代结果，包含：
+  - `iteration` (int): 迭代次数
+  - `metrics` (Dict): 图统计指标
+  - `batch_results` (List): 批处理结果
+  - `nodes_added` (int): 新增节点数
+  - `edges_added` (int): 新增边数
+
+**示例:**
+```python
+iteration_result = expander.run_expansion_iteration()
+print(f"本轮新增 {iteration_result['nodes_added']} 个概念")
+```
+
+##### expand_single_concept()
+
+```python
+def expand_single_concept(
+    self,
+    center_concept: str,
+    neighbors: List[str],
+    concept_id: str
+) -> ConceptExpansionResult
+```
+
+**功能:** 扩增单个概念
+
+**参数:**
+- `center_concept` (str): 中心概念
+- `neighbors` (List[str]): 邻居概念列表
+- `concept_id` (str): 概念ID
+
+**返回:**
+- `ConceptExpansionResult`: 扩增结果对象
+
+**示例:**
+```python
+result = expander.expand_single_concept(
+    center_concept="马克思主义",
+    neighbors=["社会主义", "资本主义"],
+    concept_id="concept_001"
+)
+
+if result.status == "success":
+    print(f"新增概念: {result.new_concepts}")
+```
+
+##### check_convergence()
+
+```python
+def check_convergence(
+    self,
+    previous_metrics: Optional[Dict] = None
+) -> Dict[str, Any]
+```
+
+**功能:** 检查系统是否收敛
+
+**参数:**
+- `previous_metrics` (Dict, optional): 上一轮的指标
+
+**返回:**
+- `Dict`: 收敛信息，包含：
+  - `is_converged` (bool): 是否收敛
+  - `convergence_reason` (str): 收敛原因
+  - `node_growth_rate` (float): 节点增长率
+  - `edge_growth_rate` (float): 边增长率
+
+**示例:**
+```python
+convergence = expander.check_convergence()
+if convergence['is_converged']:
+    print(f"系统已收敛: {convergence['convergence_reason']}")
+```
+
+##### calculate_metrics()
+
+```python
+def calculate_metrics(self) -> Dict[str, float]
+```
+
+**功能:** 计算当前图的统计指标
+
+**返回:**
+- `Dict`: 统计指标，包含：
+  - `nodes` (int): 节点数
+  - `edges` (int): 边数
+  - `avg_degree` (float): 平均度数
+  - `density` (float): 图密度
+  - `clustering_coefficient` (float): 聚类系数
+
+**示例:**
+```python
+metrics = expander.calculate_metrics()
+print(f"当前图有 {metrics['nodes']} 个节点，{metrics['edges']} 条边")
+```
+
+#### 导出方法
+
+##### export_graph_json()
+
+```python
+def export_graph_json(self, output_file: str) -> None
+```
+
+**功能:** 导出图到JSON文件
+
+**参数:**
+- `output_file` (str): 输出文件路径
+
+**示例:**
+```python
+expander.export_graph_json('results/concept_graph.json')
+```
+
+##### export_graph_graphml()
+
+```python
+def export_graph_graphml(self, output_file: str) -> None
+```
+
+**功能:** 导出图到GraphML格式
+
+**参数:**
+- `output_file` (str): 输出文件路径
+
+**示例:**
+```python
+expander.export_graph_graphml('results/concept_graph.graphml')
+```
+
+##### export_graph_csv()
+
+```python
+def export_graph_csv(self, output_dir: str) -> None
+```
+
+**功能:** 导出图到CSV格式
+
+**参数:**
+- `output_dir` (str): 输出目录路径
+
+**示例:**
+```python
+expander.export_graph_csv('results/csv/')
+```
+
+## 向量化API
+
+### EmbeddingClient 类
+
+负责将文本转换为向量表示，支持多种模型和部署方式。
+
+#### 构造函数
+
+```python
+def __init__(self, config: Dict[str, Any])
+```
+
+**参数:**
+- `config` (Dict): 配置字典
+
+**示例:**
+```python
+import yaml
+with open('config/config.yaml', 'r') as f:
+    config = yaml.safe_load(f)
+
+embedding_client = EmbeddingClient(config)
+```
+
+#### 核心方法
+
+##### encode()
+
+```python
+def encode(
+    self,
+    texts: Union[str, List[str]],
+    batch_size: Optional[int] = None
+) -> Union[np.ndarray, List[np.ndarray]]
+```
+
+**功能:** 将文本编码为向量
+
+**参数:**
+- `texts` (Union[str, List[str]]): 文本或文本列表
+- `batch_size` (int, optional): 批处理大小
+
+**返回:**
+- `Union[np.ndarray, List[np.ndarray]]`: 向量或向量列表
+
+**示例:**
+```python
+# 单个文本
+vector = embedding_client.encode("马克思主义理论")
+print(f"向量维度: {vector.shape}")
+
+# 批量处理
+texts = ["马克思主义", "社会主义", "资本主义"]
+vectors = embedding_client.encode(texts)
+print(f"批量处理 {len(vectors)} 个文本")
+```
+
+##### encode_with_cache()
+
+```python
+def encode_with_cache(
+    self,
+    texts: List[str],
+    cache_key: Optional[str] = None
+) -> np.ndarray
+```
+
+**功能:** 带缓存的文本编码
+
+**参数:**
+- `texts` (List[str]): 文本列表
+- `cache_key` (str, optional): 缓存键
+
+**返回:**
+- `np.ndarray`: 向量数组
+
+**示例:**
+```python
+vectors = embedding_client.encode_with_cache(
+    texts=["政治理论", "经济制度"],
+    cache_key="political_concepts"
+)
+```
+
+##### similarity()
+
+```python
+def similarity(
+    self,
+    text1: Union[str, np.ndarray],
+    text2: Union[str, np.ndarray]
+) -> float
+```
+
+**功能:** 计算两个文本/向量之间的相似度
+
+**参数:**
+- `text1` (Union[str, np.ndarray]): 文本1或向量1
+- `text2` (Union[str, np.ndarray]): 文本2或向量2
+
+**返回:**
+- `float`: 相似度分数 (0-1)
+
+**示例:**
+```python
+# 文本相似度
+sim = embedding_client.similarity("马克思主义", "社会主义")
+print(f"相似度: {sim:.3f}")
+
+# 向量相似度
+vec1 = embedding_client.encode("民主")
+vec2 = embedding_client.encode("自由")
+sim = embedding_client.similarity(vec1, vec2)
+```
+
+##### most_similar()
+
+```python
+def most_similar(
+    self,
+    query: Union[str, np.ndarray],
+    candidates: List[str],
+    top_k: int = 5
+) -> List[Tuple[str, float]]
+```
+
+**功能:** 找出与查询最相似的候选项
+
+**参数:**
+- `query` (Union[str, np.ndarray]): 查询文本或向量
+- `candidates` (List[str]): 候选文本列表
+- `top_k` (int): 返回前k个最相似项
+
+**返回:**
+- `List[Tuple[str, float]]`: (文本, 相似度) 元组列表
+
+**示例:**
+```python
+candidates = ["民主制度", "专政制度", "共和制", "君主制"]
+results = embedding_client.most_similar("民主", candidates, top_k=3)
+
+for text, score in results:
+    print(f"{text}: {score:.3f}")
+```
+
+## 图数据库API
+
+### GraphDatabaseClient 类
+
+图数据库的统一接口，支持Neo4j、ArangoDB等。
+
+#### 工厂函数
+
+##### get_graph_client()
+
+```python
+def get_graph_client(
+    config_path: str,
+    db_type: Optional[str] = None
+) -> GraphDatabaseClient
+```
+
+**功能:** 获取图数据库客户端实例
+
+**参数:**
+- `config_path` (str): 配置文件路径
+- `db_type` (str, optional): 数据库类型，如不指定则从配置读取
+
+**返回:**
+- `GraphDatabaseClient`: 图数据库客户端实例
+
+**示例:**
+```python
+# 从配置文件获取
+client = get_graph_client('config/config.yaml')
+
+# 指定数据库类型
+neo4j_client = get_graph_client('config/config.yaml', 'neo4j')
+```
+
+#### 核心接口方法
+
+##### connect()
+
+```python
+def connect(self) -> bool
+```
+
+**功能:** 连接到图数据库
+
+**返回:**
+- `bool`: 连接是否成功
+
+**示例:**
+```python
+if client.connect():
+    print("图数据库连接成功")
+else:
+    print("图数据库连接失败")
+```
+
+##### add_node()
+
+```python
+def add_node(
+    self,
+    node_id: str,
+    labels: List[str],
+    properties: Dict[str, Any]
+) -> bool
+```
+
+**功能:** 添加节点
+
+**参数:**
+- `node_id` (str): 节点ID
+- `labels` (List[str]): 节点标签列表
+- `properties` (Dict): 节点属性
+
+**返回:**
+- `bool`: 是否成功
+
+**示例:**
+```python
+success = client.add_node(
+    node_id="concept_001",
+    labels=["Concept", "PoliticalTheory"],
+    properties={
+        "name": "马克思主义",
+        "category": "政治理论",
+        "confidence": 0.95
+    }
+)
+```
+
+##### add_edge()
+
+```python
+def add_edge(
+    self,
+    source_id: str,
+    target_id: str,
+    relationship_type: str,
+    properties: Dict[str, Any]
+) -> bool
+```
+
+**功能:** 添加边
+
+**参数:**
+- `source_id` (str): 源节点ID
+- `target_id` (str): 目标节点ID
+- `relationship_type` (str): 关系类型
+- `properties` (Dict): 边属性
+
+**返回:**
+- `bool`: 是否成功
+
+**示例:**
+```python
+success = client.add_edge(
+    source_id="concept_001",
+    target_id="concept_002",
+    relationship_type="RELATED_TO",
+    properties={
+        "strength": 0.8,
+        "relationship_type": "理论发展"
+    }
+)
+```
+
+##### query()
+
+```python
+def query(self, cypher_query: str, parameters: Dict = None) -> List[Dict]
+```
+
+**功能:** 执行图查询
+
+**参数:**
+- `cypher_query` (str): Cypher查询语句
+- `parameters` (Dict, optional): 查询参数
+
+**返回:**
+- `List[Dict]`: 查询结果
+
+**示例:**
+```python
+# 查找所有政治理论概念
+results = client.query("""
+    MATCH (c:Concept)-[:RELATED_TO]-(related)
+    WHERE c.category = '政治理论'
+    RETURN c.name, related.name, count(*) as connection_count
+    ORDER BY connection_count DESC
+    LIMIT 10
+""")
+
+for record in results:
+    print(f"{record['c.name']} - {record['related.name']}: {record['connection_count']}")
+```
+
+##### batch_operations()
+
+```python
+def batch_operations(
+    self,
+    operations: List[Dict],
+    batch_size: int = 50
+) -> Dict[str, int]
+```
+
+**功能:** 批量执行数据库操作
+
+**参数:**
+- `operations` (List[Dict]): 操作列表
+- `batch_size` (int): 批处理大小
+
+**返回:**
+- `Dict[str, int]`: 操作结果统计
+
+**示例:**
+```python
+operations = [
+    {
+        "type": "node",
+        "action": "create",
+        "id": "concept_001",
+        "labels": ["Concept"],
+        "properties": {"name": "新概念"}
+    },
+    {
+        "type": "edge",
+        "action": "create",
+        "source": "concept_001",
+        "target": "concept_002",
+        "relationship": "RELATED_TO"
+    }
+]
+
+results = client.batch_operations(operations)
+print(f"成功: {results['success']}, 失败: {results['failed']}")
+```
+
+## 向量数据库API
+
+### VectorDatabaseClient 类
+
+向量数据库的统一接口，支持Qdrant、ChromaDB、FAISS等。
+
+#### 工厂函数
+
+##### get_vector_client()
+
+```python
+def get_vector_client(config_path: str) -> VectorDatabaseClient
+```
+
+**功能:** 获取向量数据库客户端实例
+
+**参数:**
+- `config_path` (str): 配置文件路径
+
+**返回:**
+- `VectorDatabaseClient`: 向量数据库客户端实例
+
+**示例:**
+```python
+client = get_vector_client('config/config.yaml')
+```
+
+#### 核心接口方法
+
+##### connect()
+
+```python
+def connect(self) -> bool
+```
+
+**功能:** 连接到向量数据库
+
+**返回:**
+- `bool`: 连接是否成功
+
+##### create_collection()
+
+```python
+def create_collection(
+    self,
+    collection_name: str,
+    vector_size: int,
+    distance: str = "Cosine"
+) -> bool
+```
+
+**功能:** 创建向量集合
+
+**参数:**
+- `collection_name` (str): 集合名称
+- `vector_size` (int): 向量维度
+- `distance` (str): 距离计算方式
+
+**返回:**
+- `bool`: 是否成功
+
+**示例:**
+```python
+success = client.create_collection(
+    collection_name="political_concepts",
+    vector_size=1024,
+    distance="Cosine"
+)
+```
+
+##### index_concepts()
+
+```python
+def index_concepts(
+    self,
+    collection_name: str,
+    concepts: List[Dict[str, Any]]
+) -> bool
+```
+
+**功能:** 索引概念向量
+
+**参数:**
+- `collection_name` (str): 集合名称
+- `concepts` (List[Dict]): 概念列表，每个概念包含:
+  - `id` (str): 概念ID
+  - `name` (str): 概念名称
+  - `vector` (List[float]): 向量
+  - `metadata` (Dict): 元数据
+
+**返回:**
+- `bool`: 是否成功
+
+**示例:**
+```python
+concepts = [
+    {
+        "id": "concept_001",
+        "name": "马克思主义",
+        "vector": [0.1, 0.2, 0.3, ...],
+        "metadata": {"category": "政治理论", "confidence": 0.95}
+    }
+]
+
+success = client.index_concepts("political_concepts", concepts)
+```
+
+##### search()
+
+```python
+def search(
+    self,
+    collection_name: str,
+    query_vector: np.ndarray,
+    top_k: int = 10,
+    threshold: float = 0.7
+) -> List[Dict[str, Any]]
+```
+
+**功能:** 向量相似度搜索
+
+**参数:**
+- `collection_name` (str): 集合名称
+- `query_vector` (np.ndarray): 查询向量
+- `top_k` (int): 返回结果数量
+- `threshold` (float): 相似度阈值
+
+**返回:**
+- `List[Dict]: 搜索结果，每个结果包含:
+  - `id` (str): 概念ID
+  - `name` (str): 概念名称
+  - `score` (float): 相似度分数
+  - `metadata` (Dict): 元数据
+
+**示例:**
+```python
+import numpy as np
+query_vector = embedding_client.encode("社会主义理论")
+results = client.search(
+    collection_name="political_concepts",
+    query_vector=query_vector,
+    top_k=5,
+    threshold=0.7
+)
+
+for result in results:
+    print(f"{result['name']}: {result['score']:.3f}")
+```
+
+##### check_concepts_exist()
+
+```python
+def check_concepts_exist(
+    self,
+    collection_name: str,
+    concept_ids: List[str]
+) -> Dict[str, bool]
+```
+
+**功能:** 检查概念是否已存在
+
+**参数:**
+- `collection_name` (str): 集合名称
+- `concept_ids` (List[str]): 概念ID列表
+
+**返回:**
+- `Dict[str, bool]`: 存在性检查结果
+
+**示例:**
+```python
+concept_ids = ["concept_001", "concept_002", "concept_003"]
+existence = client.check_concepts_exist("political_concepts", concept_ids)
+
+for concept_id, exists in existence.items():
+    print(f"{concept_id}: {'存在' if exists else '不存在'}")
+```
+
+## QA生成API
+
+### QAGenerator 类
+
+基于概念图谱生成问答数据集。
+
+#### 构造函数
+
+```python
+def __init__(self, config_path: str)
+```
+
+**参数:**
+- `config_path` (str): 配置文件路径
+
+**示例:**
+```python
+qa_generator = QAGenerator('config/config.yaml')
+```
+
+#### 核心方法
+
+##### generate_qa_from_graph()
+
+```python
+def generate_qa_from_graph(
+    self,
+    graph: nx.Graph,
+    max_qa_pairs: int = 1000,
+    difficulty_levels: List[str] = None
+) -> List[Dict[str, Any]]
+```
+
+**功能:** 基于图结构生成QA数据
+
+**参数:**
+- `graph` (nx.Graph): NetworkX图对象
+- `max_qa_pairs` (int): 最大QA对数量
+- `difficulty_levels` (List[str], optional): 难度级别列表
+
+**返回:**
+- `List[Dict]: QA对列表
+
+**示例:**
+```python
+qa_pairs = qa_generator.generate_qa_from_graph(
+    graph=expander.graph,
+    max_qa_pairs=500,
+    difficulty_levels=['简单', '中等', '困难']
+)
+
+print(f"生成 {len(qa_pairs)} 个QA对")
+```
+
+##### generate_concept_based_qa()
+
+```python
+def generate_concept_based_qa(
+    self,
+    concepts: List[str],
+    relationships: List[Tuple[str, str, str]],
+    num_questions_per_concept: int = 3
+) -> List[Dict[str, Any]]
+```
+
+**功能:** 基于概念和关系生成QA
+
+**参数:**
+- `concepts` (List[str]): 概念列表
+- `relationships` (List[Tuple]): 关系列表 (源, 目标, 关系类型)
+- `num_questions_per_concept` (int): 每个概念的题目数量
+
+**返回:**
+- `List[Dict]: QA对列表
+
+**示例:**
+```python
+concepts = ["马克思主义", "社会主义", "资本主义"]
+relationships = [
+    ("马克思主义", "社会主义", "发展为"),
+    ("社会主义", "共产主义", "初级阶段")
+]
+
+qa_pairs = qa_generator.generate_concept_based_qa(
+    concepts=concepts,
+    relationships=relationships,
+    num_questions_per_concept=5
+)
+```
+
+##### export_qa_pairs()
+
+```python
+def export_qa_pairs(
+    self,
+    qa_pairs: List[Dict[str, Any]],
+    output_file: str,
+    format: str = "json"
+) -> None
+```
+
+**功能:** 导出QA数据到文件
+
+**参数:**
+- `qa_pairs` (List[Dict]): QA对列表
+- `output_file` (str): 输出文件路径
+- `format` (str): 输出格式 (json, csv, jsonl)
+
+**示例:**
+```python
+qa_generator.export_qa_pairs(
+    qa_pairs=qa_pairs,
+    output_file='results/political_theory_qa.json',
+    format='json'
+)
+```
+
+## 数据结构
+
+### ConceptExpansionResult
+
+概念扩增结果数据结构。
+
+```python
+@dataclass
+class ConceptExpansionResult:
+    concept_id: str           # 概念ID
+    center_concept: str       # 中心概念
+    status: str              # 状态: success, error, no_concepts
+    new_concepts: List[str]   # 新概念列表
+    returned_center: str     # 返回的中心概念
+    error_message: str = ""   # 错误信息
+    timestamp: str = ""      # 时间戳
+    metadata: Dict = None    # 元数据
+```
+
+### APIResponse
+
+API响应数据结构。
+
+```python
+@dataclass
+class APIResponse:
+    success: bool            # 是否成功
+    content: Any             # 响应内容
+    error: str = ""          # 错误信息
+    usage: Dict = None       # 使用情况
+    model: str = ""          # 模型名称
+    response_time: float = 0.0  # 响应时间
+```
+
+### GraphMetrics
+
+图统计指标数据结构。
+
+```python
+@dataclass
+class GraphMetrics:
+    nodes: int               # 节点数
+    edges: int               # 边数
+    avg_degree: float        # 平均度数
+    density: float           # 图密度
+    clustering_coefficient: float  # 聚类系数
+    components: int          # 连通分量数
+    largest_component_size: int  # 最大连通分量大小
+```
+
+### QAData
+
+QA数据结构。
+
+```python
+@dataclass
+class QAData:
+    question: str            # 问题
+    answer: str              # 答案
+    concepts: List[str]      # 相关概念
+    difficulty: str          # 难度级别
+    category: str            # 分类
+    source: str = ""         # 来源
+    metadata: Dict = None    # 元数据
+```
+
+## 错误处理
+
+### 异常类型
+
+#### ConfigurationError
+
+配置错误异常。
+
+```python
+class ConfigurationError(Exception):
+    """配置相关错误"""
+    pass
+```
+
+#### APIError
+
+API调用错误异常。
+
+```python
+class APIError(Exception):
+    """API调用错误"""
+    def __init__(self, message: str, error_code: str = None):
+        self.message = message
+        self.error_code = error_code
+        super().__init__(message)
+```
+
+#### DatabaseError
+
+数据库操作错误异常。
+
+```python
+class DatabaseError(Exception):
+    """数据库操作错误"""
+    def __init__(self, message: str, operation: str = None):
+        self.message = message
+        self.operation = operation
+        super().__init__(message)
+```
+
+### 错误处理示例
 
 ```python
 try:
-    analyzer = ConceptAnalyzer("config/config.yaml")
-    result = analyzer.analyze_concept("democracy")
+    expander = ConceptExpander('config/config.yaml')
+    results = expander.run_full_expansion()
 except ConfigurationError as e:
-    print(f"Configuration error: {e}")
-except APIConnectionError as e:
-    print(f"API connection failed: {e}")
-except ConceptAnalysisError as e:
-    print(f"Concept analysis failed: {e}")
+    print(f"配置错误: {e}")
+except APIError as e:
+    print(f"API调用失败: {e}")
+except DatabaseError as e:
+    print(f"数据库操作失败: {e}")
 except Exception as e:
-    print(f"Unexpected error: {e}")
+    print(f"未知错误: {e}")
 ```
 
-### Error Recovery
+## 示例代码
+
+### 完整的概念扩增流程
 
 ```python
-from src.utils import retry_with_backoff
+#!/usr/bin/env python3
+"""
+完整的概念扩增示例
+"""
 
-@retry_with_backoff(max_attempts=3, backoff_factor=2)
-def robust_api_call(prompt: str):
-    client = APIClient()
-    return client.completion(prompt=prompt, model="gemini-2.5-flash")
+import yaml
+from src.concept_graph import ConceptExpander
+from src.qa_generator import QAGenerator
+
+def main():
+    # 1. 初始化配置
+    config_path = 'config/config.yaml'
+
+    # 2. 创建概念扩增器
+    expander = ConceptExpander(config_path)
+
+    # 3. 设置种子概念
+    seed_concepts = [
+        "马克思主义", "社会主义", "资本主义",
+        "民主", "自由", "平等"
+    ]
+    expander.set_seed_concepts(seed_concepts)
+
+    # 4. 测试连接
+    if not expander.test_connections():
+        print("数据库连接测试失败")
+        return
+
+    # 5. 运行概念扩增
+    print("开始概念扩增...")
+    results = expander.run_full_expansion()
+
+    # 6. 显示结果
+    final_metrics = results[-1]['metrics']
+    print(f"扩增完成:")
+    print(f"  总概念数: {final_metrics['nodes']}")
+    print(f"  总关系数: {final_metrics['edges']}")
+    print(f"  迭代次数: {len(results)}")
+
+    # 7. 导出结果
+    expander.export_graph_json('results/concept_graph.json')
+    expander.export_graph_csv('results/csv/')
+
+    # 8. 生成QA数据
+    print("生成QA数据...")
+    qa_generator = QAGenerator(config_path)
+    qa_pairs = qa_generator.generate_qa_from_graph(
+        graph=expander.graph,
+        max_qa_pairs=1000
+    )
+
+    # 9. 导出QA数据
+    qa_generator.export_qa_pairs(qa_pairs, 'results/qa_dataset.json')
+    print(f"生成 {len(qa_pairs)} 个QA对")
+
+    print("流程完成！")
+
+if __name__ == "__main__":
+    main()
 ```
 
-### Validation
+### 自定义概念验证
 
 ```python
-from src.utils import validate_concepts, validate_qa_format
+#!/usr/bin/env python3
+"""
+自定义概念验证示例
+"""
 
-# Validate concepts
-concepts = ["democracy", "", "freedom123", "justice"]
-valid_concepts, errors = validate_concepts(concepts)
-print(f"Valid concepts: {valid_concepts}")
-print(f"Errors: {errors}")
+from src.concept_graph import ConceptExpander
 
-# Validate Q&A format
-qa_pair = {
-    "question": "What is democracy?",
-    "answer": "Too short"
-}
-is_valid, issues = validate_qa_format(qa_pair)
-if not is_valid:
-    print(f"Q&A validation issues: {issues}")
+class CustomConceptExpander(ConceptExpander):
+    def _validate_new_concepts(self, concepts, center_concept):
+        """自定义概念验证逻辑"""
+        # 调用父类验证
+        base_validated = super()._validate_new_concepts(concepts, center_concept)
+
+        # 添加自定义验证规则
+        custom_validated = []
+        for concept in base_validated:
+            if self._custom_political_relevance_check(concept):
+                custom_validated.append(concept)
+            else:
+                self.validity_stats["custom_filtered"] += 1
+
+        return custom_validated
+
+    def _custom_political_relevance_check(self, concept):
+        """自定义政治理论相关性检查"""
+        # 定义政治理论相关关键词
+        political_keywords = [
+            '政治', '经济', '社会', '文化', '理论', '思想',
+            '制度', '民主', '自由', '平等', '权利', '权力'
+        ]
+
+        # 检查概念是否包含相关关键词
+        return any(keyword in concept for keyword in political_keywords)
+
+# 使用自定义扩增器
+expander = CustomConceptExpander('config/config.yaml')
+expander.set_seed_concepts(["政治理论"])
+results = expander.run_full_expansion()
 ```
 
----
+### 批量向量化示例
 
-This comprehensive API reference provides all the information needed to integrate and extend MemCube Political programmatically.
+```python
+#!/usr/bin/env python3
+"""
+批量向量化示例
+"""
+
+from src.embedding_client import EmbeddingClient
+import numpy as np
+
+def main():
+    # 初始化向量化客户端
+    with open('config/config.yaml', 'r') as f:
+        config = yaml.safe_load(f)
+
+    embedding_client = EmbeddingClient(config)
+
+    # 准备文本数据
+    texts = [
+        "马克思主义理论体系",
+        "社会主义核心价值",
+        "资本主义市场经济",
+        "民主政治制度",
+        "自由市场经济",
+        "社会主义初级阶段"
+    ]
+
+    # 批量向量化
+    print("开始批量向量化...")
+    vectors = embedding_client.encode(texts, batch_size=3)
+
+    print(f"完成 {len(vectors)} 个文本的向量化")
+    print(f"向量维度: {vectors[0].shape}")
+
+    # 计算相似度矩阵
+    similarity_matrix = np.zeros((len(texts), len(texts)))
+    for i in range(len(texts)):
+        for j in range(len(texts)):
+            if i != j:
+                sim = embedding_client.similarity(vectors[i], vectors[j])
+                similarity_matrix[i][j] = sim
+
+    # 显示相似度最高的文本对
+    print("\n相似度最高的文本对:")
+    for i in range(len(texts)):
+        for j in range(i+1, len(texts)):
+            sim = similarity_matrix[i][j]
+            if sim > 0.7:  # 相似度阈值
+                print(f"  {texts[i]} <-> {texts[j]}: {sim:.3f}")
+
+if __name__ == "__main__":
+    main()
+```
+
+这份API参考文档提供了MemCube Political系统的完整API接口说明，包括详细的方法参数、返回值和使用示例。开发者可以根据这些文档快速集成和使用系统的各项功能。

@@ -9,6 +9,8 @@ import logging
 from typing import List, Union
 from pathlib import Path
 import yaml
+import time
+import threading
 
 logger = logging.getLogger(__name__)
 
@@ -22,9 +24,28 @@ class EmbeddingClient:
         self.model_type = self.config.get('model_type', 'sentence-transformers')
         self.batch_size = self.config.get('batch_size', 16)
         self.device = self.config.get('device', 'cpu')
+        self.request_delay = self.config.get('request_delay', 0.5)  # 请求延迟
 
         self._model = None
+        self._last_request_time = 0
+        self._request_lock = threading.Lock()
         self._initialize_model()
+
+    def _wait_for_rate_limit(self):
+        """等待速率限制"""
+        if self.request_delay <= 0:
+            return
+
+        with self._request_lock:
+            current_time = time.time()
+            time_since_last = current_time - self._last_request_time
+
+            if time_since_last < self.request_delay:
+                sleep_time = self.request_delay - time_since_last
+                logger.debug(f"等待 {sleep_time:.2f}s 避免过载")
+                time.sleep(sleep_time)
+
+            self._last_request_time = time.time()
 
     def _initialize_model(self):
         """初始化模型"""
@@ -88,32 +109,57 @@ class EmbeddingClient:
         embeddings = []
 
         from tqdm import tqdm
+        import time
         if show_progress:
             texts = tqdm(texts, desc="Embedding (Ollama)")
 
-        for text in texts:
+        for i, text in enumerate(texts):
             try:
-                response = requests.post(
-                    f"{ollama_url}/api/embeddings",
-                    json={
-                        "model": self.model_name,
-                        "prompt": text
-                    },
-                    timeout=30
-                )
+                # 使用配置的延迟时间避免overload
+                self._wait_for_rate_limit()
 
-                if response.status_code == 200:
-                    result = response.json()
-                    embedding = result.get('embedding', [])
-                    embeddings.append(embedding)
-                else:
-                    logger.error(f"Embedding请求失败: {response.status_code}")
-                    # 返回零向量作为fallback
-                    embeddings.append([0.0] * 1024)  # bge-m3是1024维
+                # 添加重试机制处理overload错误
+                max_retries = 5  # 增加重试次数
+                retry_delay = self.request_delay  # 使用配置的延迟作为基础
+
+                for retry in range(max_retries):
+                    try:
+                        response = requests.post(
+                            f"{ollama_url}/api/embeddings",
+                            json={
+                                "model": self.model_name,
+                                "prompt": text
+                            },
+                            timeout=60  # 增加超时时间
+                        )
+
+                        if response.status_code == 200:
+                            result = response.json()
+                            embedding = result.get('embedding', [])
+                            embeddings.append(embedding)
+                            break  # 成功，跳出重试循环
+                        else:
+                            logger.warning(f"Embedding请求失败 (尝试 {retry + 1}/{max_retries}): {response.status_code}")
+                            if response.status_code == 503:  # Service Unavailable
+                                retry_delay *= 2  # 指数退避
+                            if retry < max_retries - 1:
+                                time.sleep(retry_delay)
+                            else:
+                                # 最后一次尝试失败，返回零向量
+                                logger.error(f"Embedding请求最终失败，返回零向量: {text[:50]}...")
+                                embeddings.append([0.0] * 1024)
+
+                    except Exception as e:
+                        logger.warning(f"编码文本失败 (尝试 {retry + 1}/{max_retries}): {e}")
+                        if retry < max_retries - 1:
+                            time.sleep(retry_delay)
+                        else:
+                            logger.error(f"编码文本最终失败，返回零向量: {text[:50]}...")
+                            embeddings.append([0.0] * 1024)
 
             except Exception as e:
-                logger.error(f"编码文本失败: {e}")
-                # 返回零向量作为fallback
+                # 处理for循环的整体异常（如网络连接问题等）
+                logger.error(f"处理文本时发生未预期错误: {e}")
                 embeddings.append([0.0] * 1024)
 
         return np.array(embeddings)

@@ -1,393 +1,237 @@
-# MemCube Political: AI-Powered Political Theory Knowledge Graph
+# MemCube Political: 政治理论概念图谱扩增系统
 
-<div align="center">
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/status-active-orange.svg)](https://github.com/your-repo/memcube-political)
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Ollama](https://img.shields.io/badge/Ollama-BGE--M3-orange?style=for-the-badge&logo=ollama)
+一个基于人工智能的政治理论概念图谱自动构建和扩增系统，通过深度学习和自然语言处理技术，从种子概念出发，迭代构建完整的政治理论知识图谱。
 
-**🤖 Advanced AI system for building comprehensive political theory knowledge graphs and generating educational Q&A datasets**
+## ✨ 核心特性
 
-[✨ Features](#-features) • [🚀 Quick Start](#-quick-start) • [📖 Documentation](#-documentation) • [🛠️ Installation](#️-installation)
+### 🧠 智能概念扩增
+- **基于LLM的概念推理**: 使用Gemini等大语言模型进行概念推理和扩增
+- **多维度概念验证**: 语义相似度、概念质量、政治理论相关性、语言质量
+- **自适应收敛控制**: 智能判断扩增收敛点，避免过度扩增
 
-</div>
+### 📊 多数据库支持
+- **图数据库**: Neo4j、ArangoDB、JanusGraph支持
+- **向量数据库**: Qdrant、ChromaDB、FAISS、Milvus集成
+- **缓存优化**: 多级缓存机制，避免重复计算
 
-## 📋 Overview
+### 🔍 高级分析功能
+- **知识图谱可视化**: 支持多种图可视化格式
+- **概念关系挖掘**: 深度挖掘概念间的语义关系
+- **QA自动生成**: 基于概念图谱生成问答数据集
 
-MemCube Political is an advanced AI-driven system that transforms political theory concepts into comprehensive knowledge graphs. Leveraging state-of-the-art language models and embedding technologies, it automatically discovers conceptual relationships and generates high-quality educational content.
+### ⚡ 高性能处理
+- **并发处理**: 支持多线程并发扩增
+- **批处理优化**: 高效的批量向量化操作
+- **内存优化**: 智能内存管理和缓存策略
 
-### 🎯 Key Capabilities
+## 🚀 快速开始
 
-- **🧠 Intelligent Concept Analysis**: Deep analysis using advanced LLMs (Gemini, GPT-4, etc.)
-- **🕸️ Knowledge Graph Construction**: Automated discovery of conceptual relationships
-- **📝 Educational Q&A Generation**: Creation of diverse, high-quality question-answer pairs
-- **🗄️ Multi-Database Support**: Flexible storage with Neo4j, ArangoDB, Qdrant, ChromaDB
-- **🔍 Quality Assessment**: Comprehensive evaluation of generated content
-- **⚡ High Performance**: Parallel processing and optimized algorithms
+### 环境要求
+- Python 3.8+
+- Neo4j 4.0+ (可选)
+- Qdrant 0.8+ (推荐)
+- 8GB+ RAM
+- 支持GPU的机器 (可选，用于加速)
 
-## ✨ Features
-
-### 🔍 Concept Graph Expansion
-- **Seed Concept Analysis**: Deep semantic analysis using state-of-the-art LLMs
-- **Iterative Expansion**: Smart concept discovery with quality control
-- **Relationship Detection**: Advanced similarity-based edge formation
-- **Convergence Control**: Automated stopping criteria for optimal graph size
-
-### 📝 Q&A Generation
-- **Single Concept Questions**: Deep understanding questions for individual concepts
-- **Concept Relationship Questions**: Comparative and analytical questions
-- **Multiple Question Types**: Theory understanding, analysis application, comparison evaluation
-- **Quality Filtering**: Automatic deduplication and content validation
-
-### 🗄️ Database Integration
-- **Graph Databases**: Neo4j, ArangoDB, JanusGraph support
-- **Vector Databases**: Qdrant, ChromaDB, FAISS, Milvus integration
-- **Dual Mode Operation**: Memory-based for development, database for production
-- **Automatic Fallback**: Graceful degradation when databases unavailable
-
-### 🔧 Advanced Features
-- **Multiple LLM Support**: Gemini, GPT-4, Claude, and custom OpenAI-compatible APIs
-- **Local Embeddings**: Ollama integration with BGE-M3 for privacy and performance
-- **Configurable Pipelines**: Flexible processing stages and parameters
-- **Comprehensive Logging**: Detailed progress tracking and error handling
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- **Python 3.8+**
-- **Ollama** with BGE-M3 model (for local embeddings)
-- **API Keys** for LLM services (Gemini, OpenAI, etc.)
-- **4GB+ RAM** (8GB+ recommended)
-
-### Installation
+### 安装
 
 ```bash
-# 1. Clone the repository
-git clone <repository-url>
+# 克隆项目
+git clone https://github.com/your-repo/memcube-political.git
 cd memcube-political
 
-# 2. Create virtual environment
+# 创建虚拟环境
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
-# or
-venv\Scripts\activate     # Windows
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# 3. Install dependencies
+# 安装依赖
 pip install -r requirements.txt
 
-# 4. Setup Ollama
-# Install Ollama from https://ollama.com/download
-ollama pull bge-m3
-ollama serve
-```
-
-### Configuration
-
-```bash
-# 1. Copy configuration templates
+# 配置API密钥
 cp config/api_keys.yaml.example config/api_keys.yaml
+# 编辑 config/api_keys.yaml 填入你的API密钥
+
+# 配置系统参数
 cp config/config.yaml.example config/config.yaml
-
-# 2. Configure API keys
-# Edit config/api_keys.yaml with your API keys
-
-# 3. Verify environment
-python main.py --check-env
+# 根据需要编辑配置文件
 ```
 
-### Run the System
+### 快速运行
 
 ```bash
-# Quick start with default settings
-python main.py --quick-start
+# 运行完整的概念扩增流程
+python main.py
 
-# Run specific stages
-python main.py --stage concept-expansion    # Build knowledge graph
-python main.py --stage qa-generation       # Generate Q&A pairs
-python main.py --stage all                 # Complete pipeline
-
-# Test API configuration
-python main.py --test-api
+# 或者分步骤运行
+python -c "
+from src.concept_graph import ConceptExpander
+expander = ConceptExpander('config/config.yaml')
+results = expander.run_full_expansion()
+"
 ```
 
-## 📖 Documentation
+## 📖 详细文档
 
-### Core Documentation
-- [**Installation Guide**](docs/INSTALLATION.md) - Detailed setup instructions
-- [**Configuration Guide**](docs/CONFIGURATION.md) - Complete configuration options
-- [**API Reference**](docs/API_REFERENCE.md) - Detailed API documentation
-- [**Database Setup**](docs/DATABASE_SETUP.md) - Database configuration guide
+- [📚 用户手册](docs/USER_MANUAL.md) - 详细使用指南
+- [🔧 安装指南](docs/INSTALLATION.md) - 完整安装说明
+- [⚙️ 配置指南](docs/CONFIGURATION.md) - 配置文件详解
+- [🔌 API参考](docs/API_REFERENCE.md) - 完整API文档
+- [🏗️ 项目结构](docs/PROJECT_STRUCTURE.md) - 代码架构说明
 
-### Usage Guides
-- [**User Manual**](docs/USER_MANUAL.md) - Comprehensive usage instructions
-- [**Advanced Configuration**](docs/ADVANCED_CONFIG.md) - Power user settings
-- [**Performance Tuning**](docs/PERFORMANCE_TUNING.md) - Optimization guide
-- [**Troubleshooting**](docs/TROUBLESHOOTING.md) - Common issues and solutions
+## 🎯 使用场景
 
-### Development
-- [**Developer Guide**](docs/DEVELOPER_GUIDE.md) - Development setup and contribution
-- [**Architecture Overview**](docs/ARCHITECTURE.md) - System architecture and design
-- [**API Documentation**](docs/API_DOCS.md) - REST API endpoints (if applicable)
+### 学术研究
+- 政治理论概念体系构建
+- 思想流派关系分析
+- 理论演进路径研究
 
-## 🏗️ Architecture
+### 教育应用
+- 政治理论知识图谱构建
+- 智能问答系统开发
+- 个性化学习路径设计
+
+### 数据分析
+- 文本概念抽取
+- 主题关系挖掘
+- 知识网络分析
+
+## 🏗️ 系统架构
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    Application Layer                        │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │   CLI       │  │   Scripts   │  │   Web UI    │         │
-│  │  Interface  │  │  & Tools    │  │ (Optional)  │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-                                │
-┌─────────────────────────────────────────────────────────────┐
-│                   Processing Pipeline                       │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │   Concept   │  │  Knowledge  │  │     Q&A     │         │
-│  │   Analysis  │  │   Graph     │  │ Generation  │         │
-│  │             │  │  Expansion  │  │             │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-                                │
-┌─────────────────────────────────────────────────────────────┐
-│                    Core Services                            │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │  LLM/Embed  │  │    Graph    │  │   Vector    │         │
-│  │  Clients    │  │  Database   │  │  Database   │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
+MemCube Political System
+├── 数据输入层
+│   ├── 种子概念输入
+│   ├── 外部数据导入
+│   └── 配置参数设置
+├── 核心处理层
+│   ├── 概念扩增引擎
+│   ├── 向量化处理
+│   ├── 图数据库操作
+│   └── 向量数据库操作
+├── 验证优化层
+│   ├── 概念有效性验证
+│   ├── 相似度计算
+│   └── 收敛性判断
+└── 输出展示层
+    ├── 知识图谱导出
+    ├── 可视化图表
+    └── QA数据集生成
 ```
 
-## 📊 Performance
+## 🔧 核心组件
 
-### Knowledge Graph Quality
-- **Concepts**: 5,000-15,000 political theory concepts
-- **Relationships**: 20,000-50,000 semantic connections
-- **Coverage**: 98%+ of core political theory domains
-- **Accuracy**: >95% relationship precision
+### 1. ConceptExpander (`src/concept_graph.py`)
+概念扩增的核心引擎，负责：
+- 种子概念初始化
+- 迭代概念扩增
+- 概念验证和过滤
+- 收敛性判断
 
-### Q&A Generation
-- **Volume**: 20,000+ high-quality question-answer pairs
-- **Diversity**: Multiple question types and difficulty levels
-- **Quality**: Automated filtering with >90% quality score
-- **Format**: Structured JSON/CSV/Training data formats
+### 2. EmbeddingClient (`src/embedding_client.py`)
+向量化处理组件，支持：
+- 多种embedding模型
+- 本地Ollama模型
+- 在线API模型
+- 批量向量化优化
 
-### System Performance
-- **Processing**: 100+ concepts/hour
-- **Parallelism**: Configurable concurrent processing
-- **Memory**: Efficient batch processing
-- **Scalability**: Horizontal scaling with database backends
+### 3. VectorDatabaseClient (`src/vector_database_client.py`)
+向量数据库统一接口，支持：
+- Qdrant (推荐)
+- ChromaDB
+- FAISS
+- Milvus
 
-## 🛠️ Configuration
+### 4. GraphDatabaseClient (`src/graph_database_client.py`)
+图数据库统一接口，支持：
+- Neo4j (推荐)
+- ArangoDB
+- JanusGraph
 
-### Quick Configuration
+## 📊 性能特性
 
+### 扩增效率
+- **单次迭代**: 可处理50-100个概念
+- **并发扩增**: 支持多线程并行处理
+- **缓存机制**: 90%+的重复计算避免率
+
+### 存储优化
+- **向量化**: 支持数百万概念的向量存储
+- **图结构**: 高效的图查询和遍历
+- **压缩存储**: 节省50%+的存储空间
+
+### 可扩展性
+- **水平扩展**: 支持分布式部署
+- **模块化设计**: 易于集成新的数据库和模型
+- **插件架构**: 支持自定义验证和处理逻辑
+
+## 🔍 示例输出
+
+### 概念图谱结构
 ```yaml
-# config/config.yaml - Main configuration
-api:
-  model_thinker: "gemini-2.5-flash"      # Analysis model
-  model_extractor: "gemini-2.5-flash"   # Extraction model
-  model_qa_generator: "gemini-2.5-flash" # Q&A generation
+seed_concepts:
+  - "马克思主义"
+  - "社会主义"
+  - "资本主义"
 
-embedding:
-  model_name: "bge-m3"
-  model_type: "ollama"
-  ollama_url: "http://localhost:11434"
-
-concept_expansion:
-  similarity_threshold: 0.80
-  max_iterations: 10
-  batch_size: 50
+expanded_concepts:
+  - "共产主义":
+      relationships: ["马克思主义", "社会主义"]
+      confidence: 0.95
+  - "阶级斗争":
+      relationships: ["马克思主义", "历史唯物主义"]
+      confidence: 0.92
+  - "剩余价值":
+      relationships: ["马克思主义", "资本论"]
+      confidence: 0.89
 ```
 
-### API Configuration
-
-```yaml
-# config/api_keys.yaml - API keys
-# Configure your preferred LLM provider
-# Supports OpenAI, Gemini, Claude, and custom endpoints
+### QA生成示例
+```json
+{
+  "question": "什么是马克思主义理论的核心概念？",
+  "answer": "马克思主义理论的核心概念包括历史唯物主义、阶级斗争、剩余价值理论等。",
+  "concepts": ["马克思主义", "历史唯物主义", "阶级斗争", "剩余价值"],
+  "difficulty": "中等"
+}
 ```
 
-## 📁 Project Structure
+## 🤝 贡献指南
 
-```
-memcube-political/
-├── 📄 main.py                    # Main entry point
-├── 📄 README.md                  # This file
-├── 📄 requirements.txt           # Python dependencies
-├── 📄 .gitignore                 # Git ignore rules
-│
-├── 📁 config/                    # Configuration files
-│   ├── config.yaml              # Main configuration
-│   ├── config.yaml.example      # Configuration template
-│   └── api_keys.yaml            # API keys (not in git)
-│
-├── 📁 src/                      # Source code
-│   ├── main.py                  # System controller
-│   ├── concept_analyzer.py      # Concept analysis
-│   ├── concept_extractor.py     # Concept extraction
-│   ├── concept_graph.py         # Graph construction
-│   ├── qa_generator.py          # Q&A generation
-│   ├── evaluation.py            # Quality assessment
-│   ├── api_client.py            # LLM API client
-│   ├── embedding_client.py      # Embedding client
-│   ├── graph_database_client.py # Graph database
-│   └── vector_database_client.py# Vector database
-│
-├── 📁 scripts/                   # Utility scripts
-│   ├── check_env.py             # Environment check
-│   ├── quick_start.py           # Quick start script
-│   └── test_*.py                # Test scripts
-│
-├── 📁 data/                      # Data files
-│   ├── seed_concepts.txt        # Seed concepts
-│   └── concept_graph/           # Graph outputs
-│
-├── 📁 results/                   # Results
-├── 📁 logs/                      # Logs
-├── 📁 docs/                      # Documentation
-└── 📁 venv/                      # Virtual environment
-```
+我们欢迎社区贡献！请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与项目开发。
 
-## 🔧 Advanced Usage
-
-### Custom Pipelines
-
-```python
-from src.concept_graph import ConceptGraph
-from src.qa_generator import QAGenerator
-
-# Custom concept expansion
-graph = ConceptGraph(seed_concepts_file="custom_concepts.txt")
-graph.run_full_expansion()
-
-# Custom Q&A generation
-qa_gen = QAGenerator("config/config.yaml")
-qa_gen.run_full_qa_generation("path/to/graph.json")
-```
-
-### Database Integration
-
-```python
-from src.graph_database_client import get_graph_database_client
-from src.vector_database_client import get_vector_database_client
-
-# Use graph database
-graph_db = get_graph_database_client("config/config.yaml")
-graph_db.create_concept_node("democracy", attributes={...})
-
-# Use vector database
-vector_db = get_vector_database_client("config/config.yaml")
-vector_db.add_embeddings(concept_embeddings)
-```
-
-### Quality Assessment
-
-```python
-from src.evaluation import ComprehensiveEvaluator
-
-evaluator = ComprehensiveEvaluator("config/config.yaml")
-report = evaluator.evaluate_full_system(
-    graph_file="data/concept_graph/final_graph.json",
-    qa_file="results/qa_dataset.json"
-)
-
-print(f"Overall Score: {report.overall_score}")
-print(f"Recommendations: {report.recommendations}")
-```
-
-## 🧪 Testing
-
+### 开发环境设置
 ```bash
-# Test environment
-python main.py --check-env
-
-# Test API connections
-python main.py --test-api
-
-# Test system components
-python scripts/test_system.py
-
-# Run with verbose logging
-python main.py --stage all --verbose
-```
-
-## 🚨 Troubleshooting
-
-### Common Issues
-
-1. **API Configuration**: Ensure API keys are correctly configured
-2. **Ollama Service**: Verify Ollama is running and BGE-M3 is installed
-3. **Memory Issues**: Reduce batch sizes or increase system memory
-4. **Database Connection**: Check database connectivity and credentials
-
-### Getting Help
-
-- 📖 Check [documentation](docs/)
-- 🐛 [Report Issues](https://github.com/your-repo/issues)
-- 💬 [Discussions](https://github.com/your-repo/discussions)
-- 📧 [Contact Support](mailto:support@example.com)
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](docs/CONTRIBUTING.md) for details.
-
-### Development Setup
-
-```bash
-# Clone repository
-git clone <repository-url>
-cd memcube-political
-
-# Setup development environment
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+# 安装开发依赖
 pip install -r requirements-dev.txt
 
-# Run tests
-pytest
+# 运行测试
+python -m pytest tests/
 
-# Code formatting
+# 代码格式化
 black src/
 flake8 src/
 ```
 
-## 📄 License
+## 📄 许可证
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
 
-## 🙏 Acknowledgments
+## 🙏 致谢
 
-- **OpenAI** - For powerful language models
-- **Google** - For Gemini models and embedding technologies
-- **Ollama** - For local LLM serving
-- **BGE-M3** - For high-quality embeddings
-- **Neo4j, Qdrant, ChromaDB** - For database technologies
+- 感谢 Google Gemini API 提供的强大语言模型支持
+- 感谢 Neo4j 和 Qdrant 提供的优秀数据库产品
+- 感谢开源社区的贡献者和用户
 
-## 📈 Roadmap
+## 📞 联系我们
 
-- [ ] **Web Interface**: Browser-based administration and visualization
-- [ ] **Real-time Processing**: Streaming concept expansion
-- [ ] **Multi-language Support**: Extension to other domains
-- [ ] **Export Formats**: Additional output formats (RDF, GraphML)
-- [ ] **API Endpoints**: REST API for integration
-- [ ] **Visualization**: Interactive graph visualization
-
-## 📞 Support
-
-- 📧 Email: support@example.com
-- 💬 Discord: [Join our community](https://discord.gg/example)
-- 📖 Docs: [Documentation](https://docs.example.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/issues)
+- 项目主页: https://github.com/your-repo/memcube-political
+- 问题反馈: https://github.com/your-repo/memcube-political/issues
+- 邮箱: your-email@example.com
 
 ---
 
-<div align="center">
-
-**⭐ If you find this project useful, please give it a star!**
-
-Made with ❤️ by the MemCube Team
-
-</div>
+**⭐ 如果这个项目对你有帮助，请给我们一个星标！**

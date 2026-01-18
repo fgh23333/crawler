@@ -207,17 +207,53 @@ class UnifiedAPIClient:
         try:
             # 解析JSON响应
             import json
-            json_content = json.loads(response.content)
+
+            # 检查response.content是否为None或空
+            if response.content is None or response.content == "":
+                logger.warning("API返回内容为空或None")
+                return APIResponse(
+                    success=False,
+                    error="API返回内容为空",
+                    usage=response.usage,
+                    model=response.model,
+                    content=None
+                )
+
+            # 确保content是字符串类型
+            if isinstance(response.content, str):
+                json_content = json.loads(response.content)
+            elif isinstance(response.content, (dict, list)):
+                # 如果已经是解析好的JSON对象，直接使用
+                json_content = response.content
+            else:
+                logger.error(f"未知的响应类型: {type(response.content)}, 内容: {response.content}")
+                return APIResponse(
+                    success=False,
+                    error=f"未知的响应类型: {type(response.content)}",
+                    usage=response.usage,
+                    model=response.model,
+                    content=None
+                )
+
             response.content = json_content
             return response
         except json.JSONDecodeError as e:
-            logger.error(f"JSON解析失败: {e}")
+            logger.error(f"JSON解析失败: {e}, 原始内容: {response.content}")
             return APIResponse(
                 success=False,
                 error=f"JSON解析失败: {e}",
                 usage=response.usage,
                 model=response.model,
-                content=""
+                content=None
+            )
+        except Exception as e:
+            logger.error(f"处理响应时发生未知错误: {e}")
+            return APIResponse(
+                success=False,
+                error=f"处理响应失败: {e}",
+                usage=response.usage,
+                model=response.model,
+                content=None
             )
 
     def batch_completion(
