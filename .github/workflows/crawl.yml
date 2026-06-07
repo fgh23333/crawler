@@ -1,0 +1,82 @@
+name: Weekly Question Bank Crawl
+
+on:
+  # 每周一 UTC 02:00（北京时间 10:00）执行
+  schedule:
+    - cron: '0 2 * * 1'
+  # 支持手动触发
+  workflow_dispatch:
+
+env:
+  R2_BUCKET: question-bank
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run pipeline
+        run: node scripts/pipeline.js
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: 自动更新题库数据 ${{ github.event_name == "schedule" && "定时任务" || "手动触发" }}'
+          file_pattern: 'new/** merge/**'
+
+      # ====== 上传数据到 Cloudflare R2 ======
+      - name: Setup Wrangler
+        if: success()
+        run: npm install -g wrangler
+
+      - name: Upload rewrite data to R2
+        if: success()
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          # 上传 rewrite 目录下所有 JSON 文件到 R2
+          for file in new/rewrite/*.json; do
+            filename=$(basename "$file")
+            echo "上传 $filename → R2"
+            wrangler r2 object put "$R2_BUCKET/rewrite/$filename" --file "$file" --content-type "application/json" --cache-control "public, max-age=86400"
+          done
+
+      - name: Upload exam data to R2
+        if: success()
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          # 上传 cura 目录（如果存在）
+          if [ -d "cura" ]; then
+            for file in cura/*.json; do
+              filename=$(basename "$file")
+              echo "上传 $filename → R2"
+              wrangler r2 object put "$R2_BUCKET/cura/$filename" --file "$file" --content-type "application/json" --cache-control "public, max-age=86400"
+            done
+          fi
+
+      - name: Update version manifest
+        if: success()
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          # 生成版本清单文件，用于 Vue 端检查数据是否有更新
+          DATE=$(date +%Y-%m-%dT%H:%M:%SZ)
+          echo "{\"version\":\"$DATE\",\"updated\":\"$DATE\"}" > version.json
+          wrangler r2 object put "$R2_BUCKET/version.json" --file version.json --content-type "application/json" --cache-control "public, max-age=300"
+          echo "版本清单已更新: $DATE"
