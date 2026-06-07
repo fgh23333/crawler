@@ -33,7 +33,7 @@ jobs:
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: 自动更新题库数据 ${{ github.event_name == "schedule" && "定时任务" || "手动触发" }}'
+          commit_message: "chore: 自动更新题库数据 ${{ github.event_name == 'schedule' && '定时任务' || '手动触发' }}"
           file_pattern: 'new/** merge/**'
 
       # ====== 上传数据到 Cloudflare R2 ======
