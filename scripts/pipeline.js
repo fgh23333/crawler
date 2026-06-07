@@ -72,7 +72,7 @@ function log(step, msg) {
 
 // ======================== Step 1: 抓取（高并发版） ========================
 
-const CONCURRENCY = 64; // 最大并发请求数
+const CONCURRENCY = 16; // 最大并发请求数
 const RETRY_LIMIT = 3;
 
 async function singleRequest(params, headers) {
