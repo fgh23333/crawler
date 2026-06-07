@@ -1,0 +1,22 @@
+name = "question-bank-api"
+main = "index.js"
+compatibility_date = "2024-12-01"
+
+# R2 存储桶绑定
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "question-bank"
+
+# KV 命名空间（用于限流计数）
+# 创建命令: wrangler kv namespace create RATE_LIMIT
+# 然后把返回的 id 填到下面
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "f87164e2a47b40b2a16deb45a7108beb"
+
+# 环境变量
+[vars]
+# 允许的来源域名（逗号分隔，* 表示不限制）
+ALLOWED_ORIGINS = "*"
+# 每个 IP 每分钟最大请求数
+RATE_LIMIT_PER_MINUTE = "60"

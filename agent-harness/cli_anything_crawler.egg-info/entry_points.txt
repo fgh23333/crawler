@@ -1,0 +1,2 @@
+[console_scripts]
+cli-anything-crawler = cli_anything.crawler.crawler_cli:main

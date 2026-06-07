@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: cli-anything-crawler
+Version: 1.0.0
+Summary: CLI harness for Political Theory Question Bank Crawler and Knowledge Graph System
+Author: CLI-Anything
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: click>=7.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"
+Dynamic: author
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,762 @@
+[
+  {
+    "questionStem": "人类社会的发展是自然历史过程的含义是",
+    "option": [
+      "人类社会的发展像自然界一样有其规律性",
+      "社会发展史与自然界的发展史完全相同",
+      "社会的发展进程不受人们主观意志的影响",
+      "社会的发展是一个不包含偶然性的必然过程"
+    ],
+    "answer": "A",
+    "id": "1798736702664081408",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "社会意识主要是对",
+    "option": [
+      "物质资料生产方式的反映",
+      "阶级斗争的反映",
+      "统治阶级意志的反映",
+      "社会发展规律的反映"
+    ],
+    "answer": "A",
+    "id": "1798736702668275712",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "辩证的否定的实质是",
+    "option": [
+      "质量互变",
+      "直线性和曲线性的统一",
+      "扬弃",
+      "周期性和回复性的统一"
+    ],
+    "answer": "C",
+    "id": "1798736702005575681",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "无产阶级要使自己获得最终解放就必须",
+    "option": [
+      "让资产阶级变成无产阶级",
+      "让无产阶级变成资产阶级",
+      "让无产阶级变成统治阶级",
+      "解放全人类"
+    ],
+    "answer": "D",
+    "id": "1798736702789910529",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "科学家洛仑兹提出“蝴蝶效应”理论，他说“可预言一只蝴蝶在巴西振动翅膀会在得克萨斯州引起龙卷风”，这个说法",
+    "option": [
+      "说明一种事物和现象可以通过一系列中介环节和另一事物、现象发生联系",
+      "片面夸大了联系的普遍性",
+      "把联系理解为主观随意的，否认联系的客观性",
+      "否认了联系的多样性"
+    ],
+    "answer": "A",
+    "id": "1798736702068490241",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "对无产阶级革命来说，主观条件成熟的主要标志是",
+    "option": [
+      "无产阶级具有革命的决心、勇气和毅力",
+      "无产阶级觉悟程度的提高",
+      "无产阶级组织纪律性的提高",
+      "有一个敢于和善于领导革命的马克思主义政党"
+    ],
+    "answer": "D",
+    "id": "1798736702559223808",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "制约人们行为及其动机的根本条件是",
+    "option": [
+      "生产方式",
+      "传统意识",
+      "政治制度",
+      "阶级关系"
+    ],
+    "answer": "A",
+    "id": "1798736702672470017",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "为中华民族克服困难、生生不息提供了强大精神支撑的是()。",
+    "option": [
+      "中华文化",
+      "四大发明",
+      "大一统精神",
+      "民族融合"
+    ],
+    "answer": "A",
+    "id": "1798736702496309248",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "实践基础上的理论创新，是",
+    "option": [
+      "决定着社会发展趋势",
+      "决定着社会变革力度",
+      "社会发展和变革的先导",
+      "国家兴旺发达的不竭动力"
+    ],
+    "answer": "C",
+    "id": "1798736702949294080",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "恩格斯说“人的智力是按人如何学会改造自然界而发展的”，这句话说明",
+    "option": [
+      "人具有改造世界的能力",
+      "人的认识具有主观能动性",
+      "人的认识能力是不受限制的",
+      "实践是认识发展的动力"
+    ],
+    "answer": "D",
+    "id": "1798736702957682688",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "实践是认识的基础表明",
+    "option": [
+      "每个人必须事事经过实践才能有认识",
+      "只要坚持实践就一定能获得正确认识",
+      "直接知识来自于实践，间接知识不来于自实践",
+      "一切认识归根到底来自于实践"
+    ],
+    "answer": "D",
+    "id": "1798736702953488384",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "“社会上一旦有技术上的需要，则这种需要会比十所大学更能把科学推向前进。”这说明",
+    "option": [
+      "实践是认识的来源",
+      "技术推动了科学的发展",
+      "实践是认识发展的动力",
+      "科学进步是实践的目的"
+    ],
+    "answer": "C",
+    "id": "1798736702978654209",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "“钉子缺，蹄铁卸；蹄铁卸，战马蹶；战马蹶，骑士绝；骑士绝，战事折；战事折，国家灭”这首歌谣揭示的哲理是",
+    "option": [
+      "事物是普遍联系的",
+      "事物是偶然性的堆积",
+      "事物是由量变引起质变",
+      "事物的本质通过现象表现出来"
+    ],
+    "answer": "A",
+    "id": "1798736702093656064",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "资本的有机构成是指",
+    "option": [
+      "反映生产资料和劳动力比例关系的资本技术构成",
+      "反映不变资本和可变资本比例关系的资本价值构成",
+      "以技术构成为基础并反映其变化的资本价值构成",
+      "以价值构成为基础并反映其变化的资本技术构成"
+    ],
+    "answer": "C",
+    "id": "1798736702311759873",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "否定之否定规律揭示了事物发展的()的统一",
+    "option": [
+      "进步与落后",
+      "好的方面和坏的方面",
+      "渐变与突变",
+      "前进性与曲折性"
+    ],
+    "answer": "D",
+    "id": "1798736702123016192",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "商品经济产生和存在的条件",
+    "option": [
+      "自然经济的存在和发展",
+      "社会化大生产和资本主义私有制",
+      "社会化大生产和社会主义公有制",
+      "社会分工和生产资料和产品属于不同所有者"
+    ],
+    "answer": "D",
+    "id": "1798736702404034560",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "严格意义上的社会革命是指",
+    "option": [
+      "思想、文化、技术领域的重大变革",
+      "革命阶级推翻反动阶级的统治",
+      "统治阶级内部政权的更替",
+      "反动阶级对革命政权的篡夺"
+    ],
+    "answer": "B",
+    "id": "1798736702580195328",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "资本主义相对过剩人口的产生是",
+    "option": [
+      "人口繁殖过多过快的结果",
+      "工业吸收的人口绝对减少的结果",
+      "资本有机构成不变条件下资本积累的结果",
+      "资本有机构成不断提高条件下资本积累的结果"
+    ],
+    "answer": "D",
+    "id": "1798736702307565569",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "感觉是认识起点的观点",
+    "option": [
+      "可以是可知论的观点，也可以是不可知论的观点",
+      "可以是唯物主义的观点，也可以是唯心主义的观点",
+      "是唯物主义的观点，不是唯心主义的观点",
+      "是唯心主义的观点，不是唯物主义的观点"
+    ],
+    "answer": "B",
+    "id": "1798736702957682689",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "私人劳动的社会性质，需要通过",
+    "option": [
+      "商品的有用性来体现",
+      "商品的广告传播来体现",
+      "商品的交换来体现",
+      "商品质量的鉴定来体现"
+    ],
+    "answer": "C",
+    "id": "1798736702412423168",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "作为完整的科学体系，马克思主义理论体系的三个主要组成部分是",
+    "option": [
+      "马克思主义政治学",
+      "马克思主义政治经济学",
+      "科学社会主义",
+      "马克思主义哲学"
+    ],
+    "answer": "BCD",
+    "id": "1798736703041568768",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "生产商品的劳动二重性是指",
+    "option": [
+      "个别劳动",
+      "社会劳动",
+      "具体劳动",
+      "抽象劳动"
+    ],
+    "answer": "CD",
+    "id": "1798736702299176960",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "下列说法中，正确表述了地理环境与人类社会关系的是",
+    "option": [
+      "地理环境影响和制约社会的发展",
+      "地理环境决定社会制度的性质和更替",
+      "地理环境对社会的作用大小受社会制度的制约",
+      "地理环境对社会发展的作用受社会生产力发展水平的制约"
+    ],
+    "answer": "ACD",
+    "id": "1798736702534057985",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "社会主义发展史上的几次飞跃是",
+    "option": [
+      "19世纪中叶，社会主义从空想发展到科学",
+      "20世纪初，社会主义从理论发展到制度建立的实践",
+      "社会主义从一国实践发展到多国实践",
+      "推动社会进步的力量"
+    ],
+    "answer": "ABC",
+    "id": "1798736702773133312",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "历史杰出人物的产生",
+    "option": [
+      "是适应历史发展的必然要求",
+      "既是必然的又是偶然的",
+      "是偶然的机遇",
+      "与杰出人物自身特点相关"
+    ],
+    "answer": "ABD",
+    "id": "1798736702521475073",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "关于真理的标准，下列说法属于唯心主义观点的有",
+    "option": [
+      "多数人认为正确的就是真理",
+      "有权人认为正确的就是真理",
+      "能够满足人们需要的就是真理",
+      "符合已被公认理论的就是真理"
+    ],
+    "answer": "ABCD",
+    "id": "1798736702827659264",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "劳动力商品的价值包括",
+    "option": [
+      "维持劳动者本人生存所必需的生活资料的价值",
+      "为维持劳动者家属的生存所必需的生活资料的价值",
+      "劳动者接受教育和训练所支出的费用",
+      "劳动者在劳动过程中创造出来的自身的价值"
+    ],
+    "answer": "ABC",
+    "id": "1798736702290788352",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "以人民为中心的思想()",
+    "option": [
+      "创造性地运用和发展了唯物史观关于人民群众创造历史的基本原理",
+      "否定了杰出人物在历史中的重大作用",
+      "体现了马克思主义政党的政治立场和执政理念",
+      "体现了共产党人的价值取向和工作导向"
+    ],
+    "answer": "ACD",
+    "id": "1798736702487920641",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "下列命题中包含辩证法思想的是",
+    "option": [
+      "易穷则变，变则通，通则久",
+      "祸兮福之所倚，福兮祸之所伏",
+      "道之大原出于天，天不变，道亦不变",
+      "荣枯代谢而弥见其新"
+    ],
+    "answer": "ABD",
+    "id": "1798736701921689600",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "国家垄断资本主义的主要形式有",
+    "option": [
+      "国家所有并直接经营企业",
+      "国家与私人共有、合营企业",
+      "国家通过多种形式参与私人垄断资本的再生产过程",
+      "宏观调节和微观规制"
+    ],
+    "answer": "ABCD",
+    "id": "1798736702261428224",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "鲁迅说“描神画鬼，毫无对证，本可以专靠神思，所谓‘天马行空’地挥写了。然而他们写出来的却是三只眼、长颈子，也就是在正常的人体上增加了眼睛一只，拉长了长颈子二三尺而已。”这段话说明，人们头脑中的鬼神观念是",
+    "option": [
+      "人脑对客观物质世界的歪曲的反映",
+      "可以在现实世界找到鬼神的原型",
+      "人按照自己的形象进行艺术加工的结果",
+      "与现实无关，纯粹出自人脑的主观想象"
+    ],
+    "answer": "ABC",
+    "id": "1798736701963632640",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "“感觉到了的东西，我们不能立刻理解它，只有理解了的东西，才能更深刻地感觉它”，这一观点说明",
+    "option": [
+      "感性认识对于认识事物的本质没有任何帮助",
+      "感性认识具有局限性，有待于上升为理性认识",
+      "感性认识是认识的初级阶段，理性认识是认识的高级阶段",
+      "感性认识和理性认识是相互依存和渗透的"
+    ],
+    "answer": "BCD",
+    "id": "1798736702840242176",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "马克思主义认为，人的自由而全面的发展",
+    "option": [
+      "是社会发展的根本目标",
+      "是社会进步的重要内容",
+      "既是社会发展的结果，又是社会发展的原因",
+      "与社会政治、经济、文化的发展互为前提"
+    ],
+    "answer": "ABCD",
+    "id": "1798736702714413057",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "19世纪，经济上落后的德国在哲学领域超过了经济上先进的英国。表明",
+    "option": [
+      "社会意识的发展不依赖于社会经济",
+      "社会意识独立于社会存在",
+      "社会意识具有相对独立性",
+      "社会意识的发展与经济发展水平具有不平衡性"
+    ],
+    "answer": "CD",
+    "id": "1798736702542446592",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "马克思主义认为，人的自由而全面的发展",
+    "option": [
+      "是社会发展的根本目标",
+      "是社会进步的重要内容",
+      "既是社会发展的结果，又是社会发展的原因",
+      "与社会政治、经济、文化的发展互为前提"
+    ],
+    "answer": "ABCD",
+    "id": "1798736702714413057",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "拜金主义是商品拜物教观念的集中体现。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702450171904",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "资本是能够带来剩余价值的价值。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702429200384",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "革命性是马克思主义的内在品质，是马克思主义的人民性、实践性和发展性的应者之义和必然要求。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703024791553",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "空想社会主义的开山之作是1516年英国人托马斯·莫尔所著《乌托邦》一书。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702752161793",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "马克思主义认为：物质和意识的关系是“物质决定意识，意识完全受物质制约、影响和作用”。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702194319361",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "暴力革命是无产阶级革命的一般形式，同时也不排除和平取得政权的可能性。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702756356096",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "马克思主义认为，人的本质是永恒不变的。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702680858624",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "资本主义的灭亡和共产主义的胜利是同样不可避免的。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702739578880",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "资本主义经济危机从实质上说就是生产相对过剩的危机。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702462754817",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "既然共产主义理想的实现是历史的必然，那么无论人们是否去努力奋斗追求，共产主义都会自动实现。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702710218752",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "哲学上的“价值”是指具有特定属性的客体对于主体需要的意义。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703012208640",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "在实际工作中坚持马克思主义认识论的基本原理，就是要坚持社会存在决定社会意识的理论。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736703008014336",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "苏联模式的失败，就是社会主义的失败。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702752161792",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "人类创造的自然语言和人工语言是人类意识的物质外壳。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702190125056",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "经济全球化创造了世界各国的经济“共赢”。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702253039616",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "资本不是物，而是一定的、社会的、属于一定历史社会形态的____，后者体现在一个物上，并赋予这个物以独特的社会性质。",
+    "option": "",
+    "answer": "生产关系",
+    "id": "1798736709467242497",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "____规律揭示了事物普遍联系的根本内容和变化发展的内在动力。",
+    "option": "",
+    "answer": "对立统一",
+    "id": "1798736709395939330",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "哲学的基本问题是存在和____的关系问题。",
+    "option": "",
+    "answer": "思维",
+    "id": "1798736709387550720",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "____能够应用于生产过程，与生产力中的劳动资料、劳动对象和劳动者等因素相结合而转化为实际生产能力。",
+    "option": "",
+    "answer": "科学技术",
+    "id": "1798736709442076674",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "马克思指出：“人的思维是否具有客观的真理性，这不是一个理论的问题，而是一个____的问题。”",
+    "option": "",
+    "answer": "实践",
+    "id": "1798736709408522241",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "____是唯物辩证法的实质和核心。",
+    "option": "",
+    "answer": "对立统一规律",
+    "id": "1798736709395939328",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "在共产主义社会，随着国家的消亡，人类第一次作为统一的社会而存在和发展，各民族和国家的历史发展为统一的____。",
+    "option": "",
+    "answer": "世界历史",
+    "id": "1798736709521768450",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "东欧剧变、苏联解体的最根本原因是____出了问题。",
+    "option": "",
+    "answer": "政治方向",
+    "id": "1798736709500796928",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "唯物辩证法本质上是批判的和____的。",
+    "option": "",
+    "answer": "革命",
+    "id": "1798736709404327936",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  },
+  {
+    "questionStem": "____社会是共产主义社会的初级阶段，它与共产主义社会具有根本性质上的一致性。",
+    "option": "",
+    "answer": "社会主义",
+    "id": "1798736709530157058",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx"
+  }
+]
