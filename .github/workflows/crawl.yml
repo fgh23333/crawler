@@ -66,13 +66,15 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          # 上传 cura 目录（如果存在）
-          if [ -d "cura" ]; then
+          # 上传 cura 目录（如果存在且有 JSON 文件）
+          if [ -d "cura" ] && ls cura/*.json 1>/dev/null 2>&1; then
             for file in cura/*.json; do
               filename=$(basename "$file")
               echo "上传 $filename → R2"
               wrangler r2 object put "$R2_BUCKET/cura/$filename" --file "$file" --content-type "application/json" --cache-control "public, max-age=86400"
             done
+          else
+            echo "cura 目录不存在或无 JSON 文件，跳过上传"
           fi
 
       - name: Update version manifest
