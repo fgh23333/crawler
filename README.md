@@ -131,6 +131,16 @@ Worker 部署后提供以下接口：
 - **手动触发**：支持 `workflow_dispatch` 手动运行
 - **自动流程**：爬取 → 处理 → 提交数据 → 上传 R2 → 更新版本清单
 
+### 必需 Secrets
+
+在仓库 Settings → Secrets and variables → Actions 中配置：
+
+| Secret 名 | 格式 | 说明 |
+|----------|------|------|
+| `STUDENT_IDS` | JSON 数组字符串，如 `["111","222","333"]` | 抓取用的 studentId 轮换池，每个请求按 round-robin 轮换，避免单一 id 被服务器限流。未设置或格式非法时自动回退到内置单一 studentId。 |
+| `CLOUDFLARE_ACCOUNT_ID` | 字符串 | R2 上传账号 ID |
+| `CLOUDFLARE_API_TOKEN` | 字符串 | R2 上传 API Token |
+
 ## 许可证
 
 MIT

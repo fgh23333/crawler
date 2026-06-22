@@ -20,7 +20,39 @@ const SUBJECTS = [
     { name: 'CCPH',     branchId: '1705139277953761280', subjectId: '1798740810791911424' },
 ];
 
-const STUDENT_ID = '1798906253557104911';
+// ======================== studentId 轮换池 ========================
+// 从环境变量 STUDENT_IDS（JSON 数组字符串）加载多个 studentId，按 round-robin 轮换使用，
+// 避免单一 studentId 被上游服务器限流。未设置或格式非法时回退到单一内置 studentId。
+const FALLBACK_STUDENT_ID = '1798906253557104911';
+
+function loadStudentIdPool() {
+    const raw = process.env.STUDENT_IDS;
+    if (raw && raw.trim()) {
+        try {
+            const arr = JSON.parse(raw);
+            if (Array.isArray(arr) && arr.length > 0 &&
+                arr.every(x => typeof x === 'string' && x.trim() !== '')) {
+                return arr.map(x => x.trim());
+            }
+            console.warn('[StudentPool] STUDENT_IDS 非非空字符串数组，回退到单一 studentId');
+        } catch (e) {
+            console.warn(`[StudentPool] STUDENT_IDS JSON 解析失败: ${e.message}，回退到单一 studentId`);
+        }
+    } else {
+        console.warn('[StudentPool] 未设置 STUDENT_IDS 环境变量，回退到单一 studentId');
+    }
+    return [FALLBACK_STUDENT_ID];
+}
+
+const STUDENT_ID_POOL = loadStudentIdPool();
+let rrIndex = 0;
+function nextStudentId() {
+    // Node 单线程，读 + 自增是同步操作，144 并发下也安全
+    const id = STUDENT_ID_POOL[rrIndex % STUDENT_ID_POOL.length];
+    rrIndex++;
+    return id;
+}
+console.log(`[StudentPool] 已加载 ${STUDENT_ID_POOL.length} 个 studentId 进入轮换池`);
 
 // ======================== 路径管理 ========================
 
@@ -75,19 +107,19 @@ function log(step, msg) {
 const CONCURRENCY = 16; // 最大并发请求数
 const RETRY_LIMIT = 3;
 
-async function singleRequest(params, headers) {
+async function singleRequest(subject, headers) {
+    const params = {
+        branchId: subject.branchId,
+        chapterId: '',
+        studentId: nextStudentId(),
+        subjectId: subject.subjectId,
+    };
     const res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000 });
     const data = JSON.parse(res.data.data.paperStore.paperContent);
     return [].concat(data.panduan.children, data.danxuan.children, data.duoxuan.children, data.tiankong.children);
 }
 
 async function fetchSubject(subject) {
-    const params = {
-        branchId: subject.branchId,
-        chapterId: '',
-        studentId: STUDENT_ID,
-        subjectId: subject.subjectId,
-    };
     const headers = { 'Content-Type': 'application/json;charset=utf-8' };
     let jsonArray = [];
     let completed = 0;
@@ -108,7 +140,7 @@ async function fetchSubject(subject) {
 
             while (retryCount <= RETRY_LIMIT && !success) {
                 try {
-                    const result = await singleRequest(params, headers);
+                    const result = await singleRequest(subject, headers);
                     jsonArray = jsonArray.concat(result);
                     success = true;
                 } catch (err) {
