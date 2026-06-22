@@ -18,13 +18,17 @@ const FETCH_COUNT = 1000;
 const CONCURRENCY = 5; // 保守并发，防服务器限流
 const RETRY_LIMIT = 3;
 
-// ======================== studentId 轮换池 ========================
-// 从环境变量 STUDENT_IDS（JSON 数组字符串）加载多个 studentId，按 round-robin 轮换使用，
-// 避免单一 studentId 被上游服务器限流。未设置或格式非法时回退到单一内置 studentId。
-const FALLBACK_STUDENT_ID = '1798906253557104911';
+// ======================== 学号轮换池 + 登录 ========================
+// 从环境变量 STUDENT_NUMS（JSON 数组字符串）加载多个学号，密码=学号本身。
+// 启动时用每个学号调 /login/practiceLogin 登录拿 studentId，缓存复用。
+// 抓取时按 round-robin 轮换学号，避免单一身份被服务器限流。
+// 未设置或格式非法时回退到单一内置学号。
+const BRANCH_ID = '1705139277953761280';
+const LOGIN_PATH = '/login/practiceLogin';
+const FALLBACK_STUDENT_NUM = '2352613';
 
-function loadStudentIdPool() {
-    const raw = process.env.STUDENT_IDS;
+function loadStudentNumPool() {
+    const raw = process.env.STUDENT_NUMS;
     if (raw && raw.trim()) {
         try {
             const arr = JSON.parse(raw);
@@ -32,24 +36,77 @@ function loadStudentIdPool() {
                 arr.every(x => typeof x === 'string' && x.trim() !== '')) {
                 return arr.map(x => x.trim());
             }
-            console.warn('[StudentPool] STUDENT_IDS 非非空字符串数组，回退到单一 studentId');
+            console.warn('[AccountPool] STUDENT_NUMS 非非空字符串数组，回退到单一学号');
         } catch (e) {
-            console.warn(`[StudentPool] STUDENT_IDS JSON 解析失败: ${e.message}，回退到单一 studentId`);
+            console.warn(`[AccountPool] STUDENT_NUMS JSON 解析失败: ${e.message}，回退到单一学号`);
         }
     } else {
-        console.warn('[StudentPool] 未设置 STUDENT_IDS 环境变量，回退到单一 studentId');
+        console.warn('[AccountPool] 未设置 STUDENT_NUMS 环境变量，回退到单一学号');
     }
-    return [FALLBACK_STUDENT_ID];
+    return [FALLBACK_STUDENT_NUM];
 }
 
-const STUDENT_ID_POOL = loadStudentIdPool();
-let rrIndex = 0;
-function nextStudentId() {
-    const id = STUDENT_ID_POOL[rrIndex % STUDENT_ID_POOL.length];
-    rrIndex++;
-    return id;
+const STUDENT_NUM_POOL = loadStudentNumPool();
+let numIndex = 0;
+function nextStudentNum() {
+    const num = STUDENT_NUM_POOL[numIndex % STUDENT_NUM_POOL.length];
+    numIndex++;
+    return num;
 }
-console.log(`[StudentPool] 已加载 ${STUDENT_ID_POOL.length} 个 studentId 进入轮换池`);
+
+// 学号 → studentId 缓存
+const sidCache = new Map();
+
+async function login(studentNum) {
+    const body = JSON.stringify({
+        branchId: BRANCH_ID,
+        studentNum,
+        practiceType: '1',
+        password: studentNum, // 密码=学号本身
+    });
+    const res = await axios.post(BASE_URL + LOGIN_PATH, body, {
+        headers: { 'Content-Type': 'application/json;charset=utf-8' },
+        timeout: 15000,
+    });
+    const bodyJson = res.data;
+    if (!bodyJson || String(bodyJson.code) !== '200' || !bodyJson.data || !bodyJson.data.studentInfo) {
+        throw new Error(`登录失败: ${bodyJson && bodyJson.msg}`);
+    }
+    return bodyJson.data.studentInfo.id;
+}
+
+async function getSid(studentNum) {
+    if (sidCache.has(studentNum)) return sidCache.get(studentNum);
+    const sid = await login(studentNum);
+    sidCache.set(studentNum, sid);
+    return sid;
+}
+
+async function refreshSid(studentNum) {
+    const sid = await login(studentNum);
+    sidCache.set(studentNum, sid);
+    return sid;
+}
+
+async function warmupLogin() {
+    log(`[Login] 开始登录 ${STUDENT_NUM_POOL.length} 个学号...`);
+    const ok = [];
+    for (const num of STUDENT_NUM_POOL) {
+        try {
+            const sid = await login(num);
+            sidCache.set(num, sid);
+            ok.push(num);
+            log(`[Login] ${num} ✓ (studentId=${sid})`);
+        } catch (e) {
+            log(`[Login] ${num} ✗ ${e.message}`);
+        }
+    }
+    log(`[Login] 登录完成: ${ok.length}/${STUDENT_NUM_POOL.length} 成功`);
+    if (ok.length === 0) throw new Error('所有学号登录失败，无法继续');
+    STUDENT_NUM_POOL.length = 0;
+    STUDENT_NUM_POOL.push(...ok);
+    console.log(`[AccountPool] ${ok.length} 个学号进入轮换池`);
+}
 
 const ALL_SUBJECTS = [
     { name: 'MaoIntro', branchId: '1705139277953761280', subjectId: '1748168736914800651' },
@@ -97,13 +154,32 @@ function ensureDir(dir) {
 // ======================== 并发抓取单个科目 ========================
 
 async function singleRequest(subject, headers) {
+    const studentNum = nextStudentNum();
+    let sid = await getSid(studentNum);
     const params = {
         branchId: subject.branchId,
         chapterId: '',
-        studentId: nextStudentId(),
+        studentId: sid,
         subjectId: subject.subjectId,
     };
-    const res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000 });
+
+    let res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000 });
+
+    // 检测 sid 过期
+    const body = res.data;
+    const isExpired = !body || String(body.code) !== '200' || !body.data || !body.data.paperStore;
+    if (isExpired) {
+        const msg = body && body.msg ? String(body.msg) : '';
+        const code = body && body.code;
+        if (String(code) === '401' || /登录|过期|未登录|失效|超时/.test(msg)) {
+            sid = await refreshSid(studentNum);
+            params.studentId = sid;
+            res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000 });
+        } else {
+            throw new Error(`请求异常: code=${code}, msg=${msg}`);
+        }
+    }
+
     const data = JSON.parse(res.data.data.paperStore.paperContent);
     return [].concat(data.panduan.children, data.danxuan.children, data.duoxuan.children, data.tiankong.children);
 }
@@ -267,6 +343,9 @@ async function main() {
     }
 
     log(`开始增量抓取，共 ${SUBJECTS.length} 个科目，并发 ${CONCURRENCY}`);
+
+    // 先登录所有学号预热 sid 缓存
+    await warmupLogin();
 
     for (const subject of SUBJECTS) {
         log(`\n${'='.repeat(50)}`);

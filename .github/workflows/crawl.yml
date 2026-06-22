@@ -9,7 +9,7 @@ on:
 
 env:
   R2_BUCKET: question-bank
-  STUDENT_IDS: ${{ secrets.STUDENT_IDS }}
+  STUDENT_NUMS: ${{ secrets.STUDENT_NUMS }}
 
 permissions:
   contents: write

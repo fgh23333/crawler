@@ -137,7 +137,7 @@ Worker 部署后提供以下接口：
 
 | Secret 名 | 格式 | 说明 |
 |----------|------|------|
-| `STUDENT_IDS` | JSON 数组字符串，如 `["111","222","333"]` | 抓取用的 studentId 轮换池，每个请求按 round-robin 轮换，避免单一 id 被服务器限流。未设置或格式非法时自动回退到内置单一 studentId。 |
+| `STUDENT_NUMS` | JSON 数组字符串，如 `["2352613","2352614","2352615"]` | 抓取登录用的**学号**轮换池，密码=学号本身。启动时用每个学号调 `/login/practiceLogin` 登录拿 `studentId`，抓取时按 round-robin 轮换学号，避免单一身份被服务器限流；`studentId` 过期会自动重新登录。未设置或格式非法时回退到内置单一学号。 |
 | `CLOUDFLARE_ACCOUNT_ID` | 字符串 | R2 上传账号 ID |
 | `CLOUDFLARE_API_TOKEN` | 字符串 | R2 上传 API Token |
 
