@@ -32,6 +32,8 @@ jobs:
         run: npm install
 
       - name: Run pipeline
+        env:
+          STUDENT_NUMS: ${{ secrets.STUDENT_NUMS }}
         run: node scripts/pipeline.js
 
       - name: Pull latest changes before commit
