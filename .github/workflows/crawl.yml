@@ -31,13 +31,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Pull latest changes before pipeline
+        run: git pull --rebase origin main
+
       - name: Run pipeline
         env:
           STUDENT_NUMS: ${{ secrets.STUDENT_NUMS }}
         run: node scripts/pipeline.js
-
-      - name: Pull latest changes before commit
-        run: git pull --rebase origin main
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
