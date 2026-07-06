@@ -1,1 +1,227 @@
-[]
+[
+  {
+    "questionStem": "在我国现阶段，确立科学高尚的人生追求，就是确立服务人民、奉献社会的人生追求。这是因为，一个人确立了服务人民、奉献社会的人生追求( )",
+    "option": [
+      "清楚地把握人的生命历程和奋斗目标",
+      "深刻理解人为什么活，应走什么样的人生之路",
+      "以正确的人生态度对待人生",
+      "掌握正确的人生价值标准\n"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708888428545",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "社会主义法治理念的基本特征包括()。",
+    "option": [
+      "鲜明的政治性",
+      "彻底的人民性",
+      "系统的科学性",
+      "充分的开放性"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707911155713",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "奴隶制法律通常采用最极端的经济剥削和政治压迫的方式，其主要特征有()。",
+    "option": [
+      "具有明显的原始习惯残留痕",
+      "迹否认奴隶的法律人格",
+      "存在严格的等级划分",
+      "刑罚方式极其残酷。"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707923738625",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "道德建设的核心体现并决定着道德建设的根本性质和发展方向在中国特色社会主义建设的新时期，我国社会主义道德建设以为人服务为核心。这是因为，为人民服务()。",
+    "option": [
+      "只是对共产党员和一切先进分子的要求",
+      "体现着先进性要求和广泛性要求的统一",
+      "是社会主义市场经济健康发展的基本要求",
+      "是社会主义经济基础和政治制度的客观要求"
+    ],
+    "answer": "BCD",
+    "id": "1798736708338974720",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列言论中，反应中国古人重视道德境界的有()。",
+    "option": [
+      "三军可夺帅也，匹夫不可夺志也",
+      "见贤思齐焉，见不贤而内省也",
+      "天下难事，必作于易；天下大事，必作于细",
+      "吾善养吾浩然之气"
+    ],
+    "answer": "ABD",
+    "id": "1798736708288643073",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列哪些说法正确表述了自我价值和社会价值的关系()。",
+    "option": [
+      "“人生的意义在于贡献，而不在于索取”",
+      "“你若要喜欢你自己的价值，你就得给世界创造价值”",
+      "“主观为自己，客观为别人”",
+      "“苦了我一人，富了千万家”"
+    ],
+    "answer": "ABD",
+    "id": "1798736708926177281",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "十八届四中全会提出，全会提出，法律是治国之重器，良法是善治之前提。建设中国特色社会主义法治体系，必须坚持立法先行，发挥立法的引领和推动作用，抓住提高立法质量这个关键，要（）。",
+    "option": [
+      "恪守以民为本、立法为民理念",
+      "贯彻社会主义核心价值观",
+      "尽快学习和借鉴西方发达国家的立法经验",
+      "使每一项立法都符合宪法精神、反映人民意志、得到人民拥护"
+    ],
+    "answer": "ABD",
+    "id": "1798736707953098752",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "当代社会，有序的公共生活对经济社会健康发展的重要意义主要有()。",
+    "option": [
+      "有序的公共生活是社会生产活动的重要基础",
+      "有序的公共生活是促进社会和谐的重要条件",
+      "有序的公共生活是提高社会成员生活质量的基本保障",
+      "有序的公共生活是社会文明的重要标志"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708326391809",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列体现为与时俱进的精神的有()。",
+    "option": [
+      "“踟蹰不前”",
+      "“随时而制”",
+      "“因时而变”",
+      "“与时偕行”"
+    ],
+    "answer": "BCD",
+    "id": "1798736708624187392",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "执法为民是社会主义法治的本质要求，是人民当家作主的社会主义国家性质在法治上的必然反映。它要求()。",
+    "option": [
+      "文明执法",
+      "以人为本，尊重人民群众的法律主体地位",
+      "尊重和保障人权",
+      "法律面前人人平等观念"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707911155712",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "增强国家安全意识，需要()。",
+    "option": [
+      "坚持一个中国原则",
+      "确立总体国家安全观",
+      "增强国防意识",
+      "履行维护国家安全的义务"
+    ],
+    "answer": "BCD",
+    "id": "1798736708619993088",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "人身权利是指公民的人身不受非法侵犯的权利，包括()。",
+    "option": [
+      "生命健康权",
+      "人格尊严权",
+      "受教育的权利",
+      "通信自由权"
+    ],
+    "answer": "ABD",
+    "id": "1798736707873406976",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "走好新时代的长征路，大学生要不断增强中国特色社会主义（）。",
+    "option": [
+      "道路自信",
+      "理论自信",
+      "制度自信",
+      "文化自信"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708750016514",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "全面依法治国的基本格局包括()。",
+    "option": [
+      "科学立法",
+      "严格执法",
+      "公正司法",
+      "全民守法"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707944710144",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "关于个人理想与社会理想，以下说法正确的是()。",
+    "option": [
+      "社会理想与个人理想密不可分",
+      "社会理想是个人理想的凝炼和升华",
+      "社会理想的实现体现在实现个人理想的具体实践之中",
+      "在社会理想的指导下努力实现个人理想"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708758405120",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  }
+]

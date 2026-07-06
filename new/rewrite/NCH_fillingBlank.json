@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "questionStem": "抗美援朝时期，中国人民志愿军司令员兼政治委员是____",
+    "option": "",
+    "answer": "彭德怀",
+    "id": "1798736713078538241",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "周恩来提出知识分子中的绝大部分已经是____一部分的观点。",
+    "option": "",
+    "answer": "工人阶级",
+    "id": "1798736713116286976",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "2010年5月至10月，以“城市，让生活更美好”为主题的世界博览会在____召开。",
+    "option": "",
+    "answer": "上海",
+    "id": "1798736713200173058",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "习近平指出：“中国特色社会主义，既坚持了科学社会主义基本原则，又根据时代条件赋予其鲜明的____。”",
+    "option": "",
+    "answer": "中国特色",
+    "id": "1798736713221144576",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是第一生产力，是先进生产力的集中体现和主要标志。",
+    "option": "",
+    "answer": "科学技术",
+    "id": "1798736713154035712",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1954年9月，中华人民共和国第一届全国人民代表大会通过了_____",
+    "option": "",
+    "answer": "中华人民共和国宪法",
+    "id": "1798736713091121153",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "毛泽东在《关于正确处理人民内部矛盾的问题》中强调：在我们面前有两类社会矛盾，这就是____和人民内部矛盾，这是两类性质完全不同的矛盾。",
+    "option": "",
+    "answer": "敌我矛盾",
+    "id": "1798736713103704064",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "2010年中国经济总量超过日本，成为世界第____大经济体。",
+    "option": "",
+    "answer": "二",
+    "id": "1798736713208561664",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1997年7月1日，____回归祖国。",
+    "option": "",
+    "answer": "香港",
+    "id": "1798736713187590146",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "由于西方列强的入侵和封建统治的腐朽，中国逐渐陷入半殖民地半封建社会的黑暗深渊，国家蒙辱、人民蒙难、____，中华民族遭受了前所未有的劫难。",
+    "option": "",
+    "answer": "文明蒙尘",
+    "id": "1798736713233727488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  }
+]

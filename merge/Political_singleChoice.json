@@ -1,1 +1,302 @@
-[]
+[
+  {
+    "questionStem": "坚持依法治国首先要坚持（）。",
+    "option": [
+      "依宪治国",
+      "以德治国",
+      "公正执法",
+      "科学监督"
+    ],
+    "answer": "A",
+    "id": "1798736708007624704",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "社会主义核心价值观的实践根据是()。",
+    "option": [
+      "中国特色社会主义政治",
+      "中国特色社会主义建设",
+      "中国特色社会主义文化",
+      "中国特色社会主义经济"
+    ],
+    "answer": "B",
+    "id": "1798736708548689921",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "继承权丧失的法定条件是()",
+    "option": [
+      "故意杀害被继承人的",
+      "杀害其他继承人的",
+      "遗弃被继承人",
+      "虐待被继承人"
+    ],
+    "answer": "A",
+    "id": "1798736707974070273",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "回答我们要培育什么样的公民的重大问题，涵盖社会公德、职业道德、家庭美德、个人品德等各个方面，是每一个公民都应当遵守的道德规范，这一价值追求是()。",
+    "option": [
+      "富强、民主、文明、和谐",
+      "自由、平等、公正、法治",
+      "爱国、敬业、诚信、友善",
+      "价值、奉献、为公、利民"
+    ],
+    "answer": "C",
+    "id": "1798736708565467137",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国梦归根到底是（），必须紧紧依靠人民来实现，必须不断为人民造福。",
+    "option": [
+      "国家的梦",
+      "人民的梦",
+      "民族的梦",
+      "世界的梦"
+    ],
+    "answer": "B",
+    "id": "1798736709131698176",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "()是文化软实力的灵魂、文化软实力建设的重点，是决定文化性质和方向的最深层次要素。",
+    "option": [
+      "核心价值观",
+      "民族精神",
+      "开拓创新",
+      "先进文化"
+    ],
+    "answer": "A",
+    "id": "1798736708510941185",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我们在强调学法用法的同时，还必须强调()，只有这样，学法用法才具有积极的意义，法律在现实生活中才能取得实效，法治国家的构想才能实现。",
+    "option": [
+      "培养立法意识",
+      "培养守法意识",
+      "培养宣传法律意识",
+      "培养监督法的实施意识"
+    ],
+    "answer": "B",
+    "id": "1798736708041179137",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "承载着一个民族、一个国家的精神追求，体现着一个社会评判是非曲直价值标准的是()",
+    "option": [
+      "价值",
+      "价值观",
+      "核心价值观",
+      "核心价值体系"
+    ],
+    "answer": "C",
+    "id": "1798736708569661441",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "（）主要是财产责任，也可以是以人身、行为、人格等为责任承担内容的非财产责任。",
+    "option": [
+      "法律责任",
+      "民事责任",
+      "行政责任",
+      "刑事责任"
+    ],
+    "answer": "B",
+    "id": "1798736707999236096",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "下列属于正确的人生态度的是()",
+    "option": [
+      "今朝有酒今朝醉",
+      "浮生如梦",
+      "知其不可而为之",
+      "得过且过"
+    ],
+    "answer": "C",
+    "id": "1798736709022646272",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的十九大报告指出，中国共产党人的初心和使命，就是为中国人民谋幸福，为中华民族谋复兴。体现了社会主义核心价值观的()特征。",
+    "option": [
+      "先进性",
+      "纯洁性",
+      "人民性",
+      "真实性"
+    ],
+    "answer": "C",
+    "id": "1798736708515135488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "追求崇高的理想需要科学的信念，具有坚定社会主义信念的人，坚信()",
+    "option": [
+      "通往共产主义道路是遥远的，可望不可及",
+      "社会主义道德将成为所有人自觉的行为习惯和准则",
+      "社会主义必然代替资本主义，全世界最终必然实现共产主义",
+      "不同的团体有相同的信念"
+    ],
+    "answer": "C",
+    "id": "1798736708804542464",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "孟子云“父子有亲，君臣有义，夫妇有别，长幼有序，朋友有信。”，说明中华传统美德非常重视()",
+    "option": [
+      "等级观念",
+      "人伦价值",
+      "尊卑观念",
+      "整体利益"
+    ],
+    "answer": "B",
+    "id": "1798736708452220928",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "社会主义核心价值体系是全党全国各族人民团结奋斗的()。",
+    "option": [
+      "共同思想基础",
+      "共同理想",
+      "共同纲领",
+      "理论基础"
+    ],
+    "answer": "A",
+    "id": "1798736708523524097",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国特色社会主义共同理想是社会主义核心价值体系的()。",
+    "option": [
+      "精髓",
+      "灵魂",
+      "主题",
+      "基础"
+    ],
+    "answer": "C",
+    "id": "1798736708519329794",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "作出建立社会主义市场经济体制决策的会议是()",
+    "option": [
+      "中共十二大",
+      "中共十三大",
+      "中共十四大",
+      "中共十五大"
+    ],
+    "answer": "C",
+    "id": "1798736708057956353",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "面对一系列人生重大课题的解决，如人生观的确立，价值观的选择等，每个人都需要有一个总的原则和目标，而导引这一切的明亮灯塔正是人生的()",
+    "option": [
+      "理想与信念",
+      "修养与境界",
+      "友谊与爱情",
+      "基本行为准则"
+    ],
+    "answer": "A",
+    "id": "1798736708833902592",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "人们在一定认识基础上确立的对某种思想或事物坚信不疑并身体力行的态度是()",
+    "option": [
+      "理想",
+      "信念",
+      "人生观",
+      "价值观"
+    ],
+    "answer": "B",
+    "id": "1798736708850679808",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "“毫不利己，专门利人”的精神属于()",
+    "option": [
+      "中华民族传统美德",
+      "中国革命道德",
+      "人类社会永恒的道德",
+      "现实社会不存在"
+    ],
+    "answer": "B",
+    "id": "1798736708439638017",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "现阶段科学的理想信念的基础是()",
+    "option": [
+      "社会主义荣辱观",
+      "马克思主义科学世界观",
+      "构建社会主义和谐社会理论",
+      "建设中国特色社会主义的理论"
+    ],
+    "answer": "B",
+    "id": "1798736708838096897",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "singleChoice"
+  }
+]

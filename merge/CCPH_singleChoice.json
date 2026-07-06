@@ -1,1 +1,752 @@
-[]
+[
+  {
+    "questionStem": "革命的根本问题是（）问题。",
+    "option": [
+      "政权",
+      "政策",
+      "战略",
+      "领导"
+    ],
+    "answer": "A",
+    "id": "1798736711388233730",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的二十大报告指出，中国坚持在和平共处五项原则基础上同各国发展友好合作，推动构建新型国际关系，深化拓展平等、开放、合作的全球伙伴关系，致力于扩大同各国利益的汇合点。促进大国协调和良性互动，推动构建（）的大国关系格局。",
+    "option": [
+      "和平共处",
+      "总体稳定",
+      "均衡发展",
+      "以上都是"
+    ],
+    "answer": "D",
+    "id": "1798736710972997634",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我国目前农业生产的主要经营方式是（）。",
+    "option": [
+      "家庭联产承包责任制",
+      "社会化服务体系",
+      "集约化经营",
+      "土地租赁制"
+    ],
+    "answer": "A",
+    "id": "1798736710822002689",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "历史正反两方面的经验表明，（）是我们取得成功的最大法宝。",
+    "option": [
+      "“两个结合”",
+      "“两个大局”",
+      "“两创”",
+      "“三个务必”"
+    ],
+    "answer": "A",
+    "id": "1798736711056883712",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "人民代表大会制度作为我国的根本政治制度，是经由1954年9月召开的第一届全国人民代表大会第一次会议通过的（）正式确立的。",
+    "option": [
+      "《中国人民政治协商会议共同纲领》",
+      "《中华人民共和国宪法》",
+      "《中华人民共和国中央人民政府组织法》",
+      "《全国人民代表大会一届一次会议公报》"
+    ],
+    "answer": "B",
+    "id": "1798736710633259009",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "（）是实现中华民族伟大复兴的必由之路。",
+    "option": [
+      "全面从严治党",
+      "坚持党的全面领导",
+      "团结奋斗",
+      "中国特色社会主义"
+    ],
+    "answer": "D",
+    "id": "1798736710905888769",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的二十大报告指出，十年来，我们经过接续奋斗，实现了（）这个中华民族的千年梦想，打赢了人类历史上规模最大的脱贫攻坚战，历史性地解决了绝对贫困问题，为全球减贫事业作出了重大贡献。",
+    "option": [
+      "脱贫",
+      "温饱",
+      "富裕",
+      "小康"
+    ],
+    "answer": "D",
+    "id": "1798736710956220417",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1964年10月16日，我国成功地爆炸了第一颗（），有力地打破了超级大国的核垄断和核讹诈，提高了我国的国际地位。",
+    "option": [
+      "中子弹",
+      "导弹",
+      "原子弹",
+      "氢弹"
+    ],
+    "answer": "C",
+    "id": "1798736710591315969",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "新中国成立以来，“三农”问题始终是关系党和人民事业发展的全局性和根本性问题。“三农”问题的基本含义是（）。",
+    "option": [
+      "农村联产承包责任制问题、农业投入问题、农产品加工问题",
+      "农产品问题、农民工问题、农村基层组织问题",
+      "农村问题、农民问题、农业问题",
+      "农村医疗、农村住房、农村教育"
+    ],
+    "answer": "C",
+    "id": "1798736710834585601",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国化时代化马克思主义的“根脉”是什么？",
+    "option": [
+      "马克思主义",
+      "全人类共同价值",
+      "中华优秀传统文化",
+      "社会主义核心价值观"
+    ],
+    "answer": "C",
+    "id": "1798736711140769792",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "社会主义革命和建设时期周期为（）。",
+    "option": [
+      "1940年—1978年",
+      "1945年—1978年",
+      "1956年—1978年",
+      "1949年—1978年"
+    ],
+    "answer": "D",
+    "id": "1798736710637453312",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中共一大通过了中国共产党的第一个纲领，纲领确定党的名称是“中国共产党＂。第一个提出党的名称为“中国共产党”的是（）。",
+    "option": [
+      "蔡和森",
+      "毛泽东",
+      "陈独秀",
+      "陈望道"
+    ],
+    "answer": "A",
+    "id": "1798736711354679296",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "伟大斗争，伟大工程，伟大事业，伟大梦想，紧密联系、相互贯通、相互作用，其中起决定性作用的是（）。",
+    "option": [
+      "具有许多新的历史特点的伟大斗争",
+      "中国特色社会主义伟大事业",
+      "党的建设新的伟大工程",
+      "中华民族伟大复兴梦想"
+    ],
+    "answer": "C",
+    "id": "1798736711090438145",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我国第一个五年计划的期限是（）。",
+    "option": [
+      "1949—1954年",
+      "1953—1957年",
+      "1952—1956年",
+      "1954—1958年"
+    ],
+    "answer": "B",
+    "id": "1798736710641647617",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国化时代化马克思主义的“魂脉”是什么？",
+    "option": [
+      "马克思主义",
+      "全人类共同价值",
+      "中华优秀传统文化",
+      "社会主义核心价值观"
+    ],
+    "answer": "A",
+    "id": "1798736711140769793",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "马克思列宁主义揭示了（）的规律，它的基本原理是正确的，具有强大的生命力。",
+    "option": [
+      "共产主义",
+      "人类社会历史发展",
+      "资本主义",
+      "劳动是第一生产力"
+    ],
+    "answer": "B",
+    "id": "1798736711300153344",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1980年5月16日，中共中央、国务院作出《关于广东、福建两省会议纪要》，决定在（）各划出一定范围的区域试办经济特区。",
+    "option": [
+      "深圳、珠海、汕头、福州",
+      "深圳、珠海、海南、厦门",
+      "深圳、珠海、汕头、厦门",
+      "深圳、东莞、厦门、海南"
+    ],
+    "answer": "C",
+    "id": "1798736710725533697",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的二十大报告指出，经过不懈努力，党找到了（）这一跳出治乱兴衰历史周期率的第二个答案，确保党永远不变质、不变色、不变味。",
+    "option": [
+      "自我斗争",
+      "自我监督",
+      "自我革命",
+      "自我净化"
+    ],
+    "answer": "C",
+    "id": "1798736710952026112",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "（）是党永葆生机活力、走好新的赶考之路的必由之路。",
+    "option": [
+      "全面从严治党",
+      "坚持党的全面领导",
+      "团结奋斗",
+      "中国特色社会主义"
+    ],
+    "answer": "A",
+    "id": "1798736710901694466",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "高度重视和不断加强党的自身建设，是中国共产党从小到大、由弱变强，从挫折中奋起，在战胜困难中不断成熟的一大法宝，也是党领导的伟大事业不断取得胜利的根本保证。中国特色社会主义进入新时代，党的建设的根本方针是（）。",
+    "option": [
+      "全面加强党的执政本领",
+      "坚持党要管党、全面从严治党",
+      "坚持解放思想、改革创新",
+      "全面推进党的政治建设"
+    ],
+    "answer": "B",
+    "id": "1798736711035912193",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国共产党的第一个农村革命根据地是（）。",
+    "option": [
+      "井冈山革命根据地",
+      "湘鄂西革命根据地",
+      "鄂豫皖革命根据地\r\n",
+      "海陆丰革命根据地"
+    ],
+    "answer": "A",
+    "id": "1798736711363067906",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1921年7月23日，中国共产党第一次全国代表大会在（）开幕。",
+    "option": [
+      "上海",
+      "北京",
+      "天津",
+      "嘉兴"
+    ],
+    "answer": "A",
+    "id": "1798736711182712832",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我国社会主义改造提前完成，开始进入社会主义初级阶段的时间是（）。",
+    "option": [
+      "1956年春",
+      "1956年夏",
+      "1956年秋",
+      "1956年底"
+    ],
+    "answer": "D",
+    "id": "1798736710645841920",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "（）是全面建设社会主义现代化国家的首要任务。",
+    "option": [
+      "高水平开放",
+      "高质量发展",
+      "全领域开放",
+      "全方位发展"
+    ],
+    "answer": "B",
+    "id": "1798736710901694464",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1978年5月1日，《光明日报》发表了题为（）的特约评论员文章，从根本上、理论上否定了“两个凡是＂的错误方针，揭开了真理标准问题讨论的序幕。",
+    "option": [
+      "“实践是检验真理的唯一标准”",
+      "“一切主观世界的东西都要接受实践的检验”",
+      "“马克思主义的一个最基本的原则”",
+      "“解放思想，实事求是”"
+    ],
+    "answer": "A",
+    "id": "1798736710721339392",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国梦的基本内涵是实现（）。",
+    "option": [
+      "国家富强、民族振兴、人民幸福",
+      "国家强大、民族振兴",
+      "经济发展、社会和谐",
+      "民族复兴"
+    ],
+    "answer": "A",
+    "id": "1798736711144964097",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我国第一颗人造地球卫星“东方红一号”成功发射是在（）4月。",
+    "option": [
+      "1969年",
+      "1970年",
+      "1972年",
+      "1976年"
+    ],
+    "answer": "B",
+    "id": "1798736710641647618",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "（）是中华民族永续发展的千年大计。",
+    "option": [
+      "民主法制建设",
+      "全面建成小康社会",
+      "增进民生福祉",
+      "建设生态文明"
+    ],
+    "answer": "D",
+    "id": "1798736710918471680",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "秋收起义部队在到达江西省永新县时，毛泽东决定将党的支部建立在连上，班、排设党小组，营、团设党委，成立各级士兵委员会，实行民主管理，从而从组织上确立了党对军队的领导，是建设无产阶级领导的新型人民军队的重要开端。这就是著名的（）。",
+    "option": [
+      "井岗山会师",
+      "古田会议",
+      "八七会议",
+      "三湾改编"
+    ],
+    "answer": "D",
+    "id": "1798736711308541954",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中共十六届三中全会以邓小平理论和“三个代表”重要思想为指导，提出了（）的科学发展观。",
+    "option": [
+      "统筹经济社会发展",
+      "以人为本、全面协调可持续发展",
+      "以经济建设为中心",
+      "人与社会和谐发展"
+    ],
+    "answer": "B",
+    "id": "1798736710855557121",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1992年10月，中共十四大明确提出，我国经济体制改革目标是建立（）。",
+    "option": [
+      "社会主义市场经济体制",
+      "社会主义计划与市场经济体制",
+      "社会主义商品经济体制",
+      "社会主义贸易经济体制"
+    ],
+    "answer": "A",
+    "id": "1798736710733922305",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "发展社会主义先进文化，不忘本来、吸收外来、面向未来，更好构筑（）、中国价值、中国力量，为人民提供精神指引。",
+    "option": [
+      "中国文明",
+      "中国精神",
+      "中国气质",
+      "中国风格"
+    ],
+    "answer": "B",
+    "id": "1798736711031717889",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "社会主义精神文明建设的根本任务是:适应社会主义现代化建设需要，培养（），提高整个中华民族的思想道德素质和科学文化素质。",
+    "option": [
+      "有理想、有觉悟、有文化、有纪律的社会主义公民",
+      "有思想、有道德、有知识、有纪律的社会主义公民",
+      "有理想、有道德、有文化、有纪律的社会主义公民",
+      "有理想、有知识、有文化、有纪律的社会主义公民"
+    ],
+    "answer": "C",
+    "id": "1798736710809419776",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党提出了过渡时期总路线是在（）年。",
+    "option": [
+      "1956",
+      "1952",
+      "1953",
+      "1955"
+    ],
+    "answer": "C",
+    "id": "1798736710603898881",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "邓小平著名的南方谈话发表于（）年。",
+    "option": [
+      "1991",
+      "1992",
+      "1993",
+      "1994"
+    ],
+    "answer": "B",
+    "id": "1798736710775865344",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "第一个五年计划开始实施的年份是（）。",
+    "option": [
+      "1949年",
+      "1951年",
+      "1953年",
+      "1955年"
+    ],
+    "answer": "C",
+    "id": "1798736710608093185",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "（）是中华民族永续发展的千年大计。",
+    "option": [
+      "民主法制建设",
+      "全面建成小康社会",
+      "增进民生福祉",
+      "建设生态文明"
+    ],
+    "answer": "D",
+    "id": "1798736711170129921",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "新民主主义革命胜利的根本原因是（）。",
+    "option": [
+      "中国共产党的正确领导",
+      "国民政府反动统治的腐朽",
+      "战略战术正确",
+      "拥有一支人民军队并开展武装斗争"
+    ],
+    "answer": "A",
+    "id": "1798736710650036224",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "江山就是人民，人民就是江山。中国共产党领导人民打江山、守江山，守的是（）。",
+    "option": [
+      "人民的梦",
+      "人民的权",
+      "人民的心",
+      "人民的情"
+    ],
+    "answer": "C",
+    "id": "1798736711044300801",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1937年8月22日至25日，中共中央召开著名的洛川会议，通过了（），提出了全面抗战路线。",
+    "option": [
+      "《抗日救国十大纲领》",
+      "《中共中央为公布国共合作宣言》",
+      "《抗日救国告全体同胞书》",
+      "《中国共产党在抗日时期的任务》"
+    ],
+    "answer": "A",
+    "id": "1798736711220461569",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "一百年来，党领导人民（）（），创造了改革开放和社会主义现代化建设的伟大成就。",
+    "option": [
+      "浴血奋战、百折不挠",
+      "自力更生、发愤图强",
+      "解放思想、锐意进取",
+      "自信自强、守正创新"
+    ],
+    "answer": "C",
+    "id": "1798736710553567233",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的十九大报告提出，在党的建设过程中，用（）思想武装全党。",
+    "option": [
+      "习近平新时代中国特色社会主义",
+      "新时代中国社会主义",
+      "新时代马克思列宁主义",
+      "习近平治国理政新方针"
+    ],
+    "answer": "A",
+    "id": "1798736711014940673",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "歌曲“我们唱着东方红，当家作主站起来，我们讲着春天的故事，改革开放富起来”中，带领中国人民”站起来”和“富起来”的伟大领袖分别是（）。",
+    "option": [
+      "毛泽东、周恩来",
+      "毛泽东、邓小平",
+      "周恩来、邓小平",
+      "江泽民、胡锦涛"
+    ],
+    "answer": "B",
+    "id": "1798736710780059648",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1996年4月，中国和俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、塔吉克斯坦共和国在上海共同签署协定，建立了（）组织。",
+    "option": [
+      "中亚经济合作",
+      "上海文化交流",
+      "中亚科技合作",
+      "上海合作"
+    ],
+    "answer": "D",
+    "id": "1798736710742310913",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1927年，毛泽东领导的秋收起义部队进军井冈山时，在江西永新县进行了著名的“三湾改编＂，把支部建在（）上，加强了党对军队的领导。",
+    "option": [
+      "团",
+      "营",
+      "连",
+      "排"
+    ],
+    "answer": "C",
+    "id": "1798736711199490049",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国共产党的最高理想和最终目标是（）。",
+    "option": [
+      "实现四个现代化",
+      "实现小康社会",
+      "建设新农村",
+      "实现共产主义"
+    ],
+    "answer": "D",
+    "id": "1798736711136575488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1954年9月，第一届全国人民代表大会第一次会议召开，标志着（）在我国的建立。",
+    "option": [
+      "人民代表大会制度",
+      "社会主义制度",
+      "人民民主专政",
+      "人民政府"
+    ],
+    "answer": "A",
+    "id": "1798736710578733057",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "至1956年底，我国基本上完成了对生产资料私有制的社会主义改造，初步建立起（）占绝对优势的社会主义经济制度。",
+    "option": [
+      "公有制",
+      "共有制",
+      "私有制",
+      "集体所有制"
+    ],
+    "answer": "A",
+    "id": "1798736710675202049",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "（）中国对香港恢复行使主权，中华人民共和国香港特别行政区正式成立。",
+    "option": [
+      "1997年7月1日",
+      "1999年12月20日",
+      "1993年1月1日",
+      "1997年7月7日"
+    ],
+    "answer": "A",
+    "id": "1798736710704562178",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1927年4月27日至5月9日，中国共产党第五次全国代表大会在武汉召开，在党的历史上第一次选举产生了（）。",
+    "option": [
+      "中央纪律委员会",
+      "中央立法委员会",
+      "中央执法委员会",
+      "中央监察委员会"
+    ],
+    "answer": "D",
+    "id": "1798736711207878657",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "singleChoice"
+  }
+]

@@ -1,1 +1,423 @@
-[]
+[
+  {
+    "questionStem": "我国的非公有制经济主要有（）。",
+    "option": [
+      "个体经济",
+      "私营经济",
+      "港澳台投资经济",
+      "外资经济"
+    ],
+    "answer": "ABCD",
+    "id": "1798736703817515009",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "在探索社会主义建设道路的初期，中共领导人关于社会主义民主政治建设方面提出的的思想有（）。",
+    "option": [
+      "扩大民主",
+      "加强对国家工作的监督",
+      "健全社会主义法制",
+      "实行职工代表大会制"
+    ],
+    "answer": "ABC",
+    "id": "1798736704312442881",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "1957年2月，毛泽东在《关于正确处理人民内部矛盾的问题》这篇讲话中阐述的主要思想有（）。",
+    "option": [
+      "社会主义社会基本矛盾和两类矛盾的学说",
+      "从全体人民出发，统筹兼顾，适当安排”的方针",
+      "发展工业必须同发展农业同时并举的工业化方针",
+      "要严格区分和正确处理两类不同性质的矛盾，特别是正确处理人民内部矛盾"
+    ],
+    "answer": "AD",
+    "id": "1798736704320831488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "社会主义初级阶段是我国建设社会主义不可逾越的一个历史阶段（）。",
+    "option": [
+      "它反映了社会主义代替资本主义的客观必然性",
+      "它反映了我国的基本国情",
+      "它是由生产力落后，商品经济不发达的客观条件决定的",
+      "它的历史任务是实现工业化和经济的社会化、市场化、现代化"
+    ],
+    "answer": "BCD",
+    "id": "1798736703813320705",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的二十大指出：十年来，我们经历了对党和人民事业具有重大现实意义和深远历史意义的三件大事：一是（）；二是（）；三是（）。",
+    "option": [
+      "迎来中国共产党成立一百周年",
+      "中国特色社会主义进入新时代",
+      "迎来改革开放40周年",
+      "完成脱贫攻坚、全面建成小康社会的历史任务，实现第一个百年奋斗目标"
+    ],
+    "answer": "ABD",
+    "id": "1798736705038057472",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列各项中，体现毛泽东思想在解放战争时期和新中国成立以后继续得到发展的有（）。",
+    "option": [
+      "提出了人民民主专政理论",
+      "提出了社会主义改造理论",
+      "提出了两类矛盾的学说特别是正确处理人民内部矛盾的理论",
+      "提出了把马列主义的基本原理同中国革命和建设的具体实际“第二次结合”"
+    ],
+    "answer": "ABCD",
+    "id": "1798736704866091008",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "推动建设()的新型国际关系，是党中央立足时代发展潮流和我国根本利益作出的战略选择，反映了中国人民和世界人民的共同心愿。",
+    "option": [
+      "反帝反霸",
+      "相互尊重",
+      "公平正义",
+      "合作共赢"
+    ],
+    "answer": "BCD",
+    "id": "1798736703335170048",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的十九大明确了坚持和发展中国特色社会主义总任务，包括（）",
+    "option": [
+      "实现社会主义现代化",
+      "实现中华民族伟大复兴",
+      "实现社会主义的工业化",
+      "分两步走在本世纪中叶建成富强民主文明和谐美丽的社会主义现代化强国"
+    ],
+    "answer": "ABD",
+    "id": "1798736703414861824",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "加强国防教育增强国防观念，使（）成为全社会的思想共识和自觉行动。",
+    "option": [
+      "关心国防",
+      "热爱国防",
+      "建设国防",
+      "保卫国防"
+    ],
+    "answer": "ABCD",
+    "id": "1798736703431639041",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "鸦片战争后，帝国主义的不断入侵，改变了中国社会发展的轨道，使社会性质发生了两个根本性的变化（）。",
+    "option": [
+      "独立的中国逐步沦为半殖民地的国家",
+      "资本主义发展壮大",
+      "完全沦为殖民地国家",
+      "封建的中国逐步变为半封建的中国"
+    ],
+    "answer": "AD",
+    "id": "1798736704782204928",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "科学发展观，是的条件下形成的科学理论（）。",
+    "option": [
+      "立足社会主义初级阶段基本国情",
+      "总结我国发展实践",
+      "借鉴国外发展经验",
+      "适应新的发展要求"
+    ],
+    "answer": "ABCD",
+    "id": "1798736703486164992",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "毛泽东思想从1928年到1930年提出和阐述农村包围城市、武装夺取政权道路理论的主要文章是（）。",
+    "option": [
+      "《井冈山的斗争》",
+      "《中国的红色政权为什么能够存在》",
+      "《中国革命战争的战略问题》",
+      "《星星之火，可以燎原》"
+    ],
+    "answer": "ABD",
+    "id": "1798736704903839745",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "习近平新时代中国特色社会主义思想科学回答了（）、（）、（）等重大时代课题。",
+    "option": [
+      "新时代坚持和发展什么样的中国特色社会主义、怎样坚持和发展中国特色社会主义",
+      "建设什么样的社会主义现代化强国、怎样建设社会主义现代化强国",
+      "建设什么样的长期执政的马克思主义政党、怎样建设长期执政的马克思主义政党",
+      "实现中华民族伟大复兴、怎样实现中华民族伟大复兴"
+    ],
+    "answer": "ABC",
+    "id": "1798736703075123200",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "在社会主义市场经济中（）。",
+    "option": [
+      "计划是国家进行宏观调控的手段",
+      "政府对国民经济实行宏观调控是必要的",
+      "政府直接参与企业经营活动",
+      "一切经济活动都处于市场关系之中"
+    ],
+    "answer": "ABD",
+    "id": "1798736703804932097",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的十九届六中全会强调：党的十八大以来，在生态文明建设上，党中央以前所未有的力度抓生态文明建设，美丽中国建设迈出重大步伐，我国生态环境保护发生（）、（）、（）变化。",
+    "option": [
+      "历史性",
+      "转折性",
+      "全局性",
+      "根本性"
+    ],
+    "answer": "ABC",
+    "id": "1798736705025474561",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的二十大指出：中国式现代化是（），是（），是（），是（），是（）。",
+    "option": [
+      "人口规模巨大的现代化",
+      "全体人民共同富裕的现代化",
+      "物质文明和精神文明相协调的现代化",
+      "人与自然和谐共生的现代化",
+      "走和平发展道路的现代化"
+    ],
+    "answer": "ABCDE",
+    "id": "1798736705029668865",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "全过程人民民主，把选举民主和协商民主结合起来，把民主选举、（）贯通起来。",
+    "option": [
+      "民主协商",
+      "民主决策",
+      "民主管理",
+      "民主监督"
+    ],
+    "answer": "ABCD",
+    "id": "1798736703188369408",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "毛泽东领导的社会主义革命和建设为改革开放提供了（）。",
+    "option": [
+      "社会主义制度基础",
+      "提供了工业化的物质基础",
+      "指导思想",
+      "提供了成功和失败的经验"
+    ],
+    "answer": "ABCD",
+    "id": "1798736704362774528",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "马克思主义中国化的两大理论成果是（）。",
+    "option": [
+      "邓小平理论",
+      "毛泽东思想",
+      "三个代表重要思想",
+      "中国特色社会主义理论体系"
+    ],
+    "answer": "BD",
+    "id": "1798736703800737793",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "从历史看，实现工业化有两条道路（）。",
+    "option": [
+      "资本主义工业化道路",
+      "社会主义工业化道路",
+      "封建主义工业化道路",
+      "小生产工业化道路"
+    ],
+    "answer": "AB",
+    "id": "1798736704685735938",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "十八大以来，以习近平同志为主要代表的中国共产党人，顺应时代发展，从理论和实践结合上系统回答了新时代（）这个重大时代课题，创立了习近平新时代中国特色社会主义思想。",
+    "option": [
+      "“坚持和发展什么样的中国特色社会主义、怎样坚持和发展中国特色社会主义”",
+      "“建设什么样的社会主义现代化强国、怎样建设社会主义现代化强国”",
+      "“建设什么样的长期执政的马克思主义政党、怎样建设长期执政的马克思主义政党”",
+      "“建设什么样的中国式现代化、怎样建设中国式现代化”"
+    ],
+    "answer": "ABC",
+    "id": "1798736703414861825",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "深化供给侧结构性改革面临()重大任务：",
+    "option": [
+      "加快建设制造强国",
+      "支持传统产业优化升级，坚持“三去一降一补”",
+      "激发和保护企业家精神，鼓励更多社会主体投身创新企业",
+      "建设知识型、技能型、创新型劳动大军。"
+    ],
+    "answer": "ABCD",
+    "id": "1798736703276449794",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "全面准确理解和贯彻“一国两制”方针政策，必须准确把握“一国两制”的含义。“一国两制”是一个完整的概念，“一国”与“两制”的关系是（?）。",
+    "option": [
+      "“一国”是实行“两制”的前提",
+      "“两制”是实行“一国”的基础",
+      "\n“两制”从属和派生于“一国”",
+      "“两制”统一于“一国之内”"
+    ],
+    "answer": "ACD",
+    "id": "1798736703129649152",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的十九大、十九届六中全会提出的（）概括了习近平新时代中国特色社会主义思想的主要内容。",
+    "option": [
+      "“十个明确”",
+      "“十四个坚持”",
+      "“四个意识”",
+      "“十三个方面成就”"
+    ],
+    "answer": "ABD",
+    "id": "1798736704165642241",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "毛泽东在（）等著作中，提出并阐述了农村包围城市、武装夺取政权的思想，标志着毛泽东思想的初步形成。",
+    "option": [
+      "《中国的红色政权为什么能够存在？》",
+      "《井冈山的斗争》",
+      "《星星之火，可以燎原》",
+      "《反对本本主义》"
+    ],
+    "answer": "ABCD",
+    "id": "1798736704878673922",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "维护国家安全和社会稳定，必须坚持底线思维、居安思危、未雨绸缪，坚持国家利益至上，（）,以促进国际安全为依托，统筹发展和安全，统筹开放和安全，统筹传统安全和非传统安全，统筹自身安全和共同安全，统筹维护国家安全和塑造国家安全。\nA.",
+    "option": [
+      "以人民安全为宗旨",
+      "以政治安全为根本",
+      "以经济安全为基础",
+      "以军事、科技、文化、社会安全为保障"
+    ],
+    "answer": "ABCD",
+    "id": "1798736703125454849",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "在探索社会主义建设道路的初期，以毛泽东为代表的党的第一代领导人在所有制调整方面的思想有（）。",
+    "option": [
+      "“三个主体，三个补充”的思想",
+      "把资本主义经济作为社会主义经济的补充",
+      "注意发展手工业和农业多种经营",
+      "发展社会主义商品生产，重视价值规律"
+    ],
+    "answer": "ABC",
+    "id": "1798736704345997312",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "“三个有利于”标准；",
+    "option": [
+      "是否有利于发展社会主义社会的生产力",
+      "是否有利于增强社会主义国家的综合国力",
+      "是否有利于提高我国的国际影响力",
+      "是否有利于提高人民的生活水平"
+    ],
+    "answer": "ABD",
+    "id": "1798736704169836544",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "multipleChoice"
+  }
+]

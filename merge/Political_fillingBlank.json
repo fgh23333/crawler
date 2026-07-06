@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "questionStem": "个人与社会是____的关系，两者相互依存、相互制约、相互促进。",
+    "option": "",
+    "answer": "对立统一",
+    "id": "1798736709567905794",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____不仅是人们谋生的手段，也是人们奉献社会、完善自身的必要条件。",
+    "option": "",
+    "answer": "职业活动",
+    "id": "1798736709689540608",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____作为贯穿中国革命道德始终的一根红线，是中国共产党在中国革命实践中的一个伟大创造，对中国的革命、建设、改革事业产生了极其重大的推动作用。",
+    "option": "",
+    "answer": "全心全意为人民服务",
+    "id": "1798736709697929217",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "“功崇惟广，业广惟勤。”我国仍处于并将长期处于社会主义____，实现中国梦，创造全体人民更加美好的生活，任重而道远，需要我们每一个人继续付出辛勤劳动和艰苦努力。",
+    "option": "",
+    "answer": "初级阶段",
+    "id": "1798736709601460226",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是指人的生命及其实践活动对于社会和个人所具有的作用和意义。",
+    "option": "",
+    "answer": "人生价值",
+    "id": "1798736709580488704",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "全面依法治国，必须抓紧完善权力运行制约和____机制，规范立法、执法、司法机关权力行使，构建党统一领导、全面覆盖、权威高效的法治监督体系。",
+    "option": "",
+    "answer": "监督",
+    "id": "1798736709718900737",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "百余年来，中国共产党坚持解放思想和实事求是相统一，培元固本和守正创新相统一，不断开辟马克思主义新境界，产生了毛泽东思想、邓小平理论、“三个代表”重要思想、科学发展观，产生了____新时代中国特色社会主义思想，为党和人民事业发展提供了科学理论指导。",
+    "option": "",
+    "answer": "习近平",
+    "id": "1798736709614043137",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "建设中国特色社会主义法治体系，是我们党提出的具有____、时代性的概念和理论。",
+    "option": "",
+    "answer": "原创性",
+    "id": "1798736709710512129",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "实现中华民族伟大复兴的中国梦，必须弘扬中国精神，这就是以爱国主义为核心的民族精神和以____为核心的时代精神。",
+    "option": "",
+    "answer": "改革创新",
+    "id": "1798736709622431744",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "我们要肩负历史使命，坚定前进信心，____、明大德、成大才、担大任，努力成为堪当民族复兴重任的时代新人。",
+    "option": "",
+    "answer": "立大志",
+    "id": "1798736709563711488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "fillingBlank"
+  }
+]
