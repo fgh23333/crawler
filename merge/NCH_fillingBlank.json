@@ -1,69 +1,19 @@
 [
   {
-    "questionStem": "新时代全面深化改革开放是一场深刻____。",
+    "questionStem": "共同富裕是全体人民共同富裕，是人民群众____和____都富裕。",
     "option": "",
-    "answer": "革命",
-    "id": "1798736713242116096",
+    "answer": "物质生活，精神生活",
+    "id": "1798736713233727490",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "1961年我国对国民经济实行“调整、巩固、充实、____”的方针",
+    "questionStem": "实践证明，____是当代中国的鲜明标志和活力源泉，是决定中国命运的关键一招，也是实现中华民族伟大复兴的关键一招。",
     "option": "",
-    "answer": "提高",
-    "id": "1798736713133064193",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "2008年8月至9月，中国____成功举办第29届夏季奥运会、第13届残疾人奥运会。",
-    "option": "",
-    "answer": "北京",
-    "id": "1798736713204367361",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "治理好我们这个大党和大国，必须坚持____特别是党中央集中统一领导，发扬党的自我革命精神，解决好大党独有难题。",
-    "option": "",
-    "answer": "党的全面领导",
-    "id": "1798736713208561665",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "社会主义的本质是解放生产力，发展生产力，消灭剥削，____，最终达到共同富裕。",
-    "option": "",
-    "answer": "消除两极分化",
-    "id": "1798736713141452801",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国特色社会主义进入新时代，意味着近代以来久经磨难的中华民族迎来了从____、____到____的伟大飞跃，迎来了实现中华民族伟大复兴的光明前景；",
-    "option": "",
-    "answer": "站起来，富起来，强起来",
-    "id": "1798736713225338881",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国进入社会主义社会的主要标志是____",
-    "option": "",
-    "answer": "社会主义三大改造的完成",
-    "id": "1798736713065955328",
+    "answer": "改革开放",
+    "id": "1798736713145647104",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
@@ -80,10 +30,50 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "1988年，中共中央和国务院决定建立____省，加快其发展。",
+    "questionStem": "2006年1月1日，我国废止《中华人民共和国____条例》，在我国存在2600年的____成为历史。",
     "option": "",
-    "answer": "海南",
-    "id": "1798736713166618625",
+    "answer": "农业税，农业税",
+    "id": "1798736713195978753",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1999年12月20日，____回归祖国。",
+    "option": "",
+    "answer": "澳门",
+    "id": "1798736713191784448",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "坚持尽力而为、____，是保障和改善民生的重要方针。",
+    "option": "",
+    "answer": "量力而行",
+    "id": "1798736713246310401",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "中国进入社会主义社会的主要标志是____",
+    "option": "",
+    "answer": "社会主义三大改造的完成",
+    "id": "1798736713065955328",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "以习近平同志为核心的党中央团结带领全党全国各族人民砥砺前行，推动党和国家事业取得____、发生历史性变革，使中国特色社会主义展现出强大生命力。",
+    "option": "",
+    "answer": "历史性成就",
+    "id": "1798736713216950272",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
@@ -100,26 +90,6 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "新时代坚持和发展中国特色社会主义，必须坚定道路自信、____、____、文化自信。",
-    "option": "",
-    "answer": "理论自信，制度自信",
-    "id": "1798736713221144578",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "周恩来提出知识分子中的绝大部分已经是____一部分的观点。",
-    "option": "",
-    "answer": "工人阶级",
-    "id": "1798736713116286976",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
     "questionStem": "香港、澳门的回归，使____从科学构想变为现实，标志着祖国统一大业向前迈出了重要一步。",
     "option": "",
     "answer": "一国两制",
@@ -130,20 +100,90 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "从1956年社会主义改造基本完成到1966年“文化大革命”前夕，是开始全面建设____的十年",
+    "questionStem": "____是决定当代中国命运的关键一招。",
     "option": "",
-    "answer": "社会主义",
-    "id": "1798736713120481280",
+    "answer": "改革开放",
+    "id": "1798736713237921793",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "“一国两制”构想最早提出时针对____问题。",
+    "questionStem": "1957年4月27日，中共中央下发《关于整风运动的指示》，决定在全党进行一场反官僚主义、宗派主义、____的整风运动",
     "option": "",
-    "answer": "台湾",
-    "id": "1798736713170812928",
+    "answer": "主观主义",
+    "id": "1798736713133064192",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "由于西方列强的入侵和封建统治的腐朽，中国逐渐陷入半殖民地半封建社会的黑暗深渊，国家蒙辱、人民蒙难、____，中华民族遭受了前所未有的劫难。",
+    "option": "",
+    "answer": "文明蒙尘",
+    "id": "1798736713233727488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "社会主义最大的优越性就是____，这是体现社会主义本质的一个东西。",
+    "option": "",
+    "answer": "共同富裕",
+    "id": "1798736713154035714",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "《____》的发表标志着党探索中国社会主义建设道路的良好开端。",
+    "option": "",
+    "answer": "论十大关系",
+    "id": "1798736713099509761",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "毛泽东在《论十大关系》中提出的中国社会主义建设的基本方针是____为社会主义事业服务",
+    "option": "",
+    "answer": "调动一切积极因素",
+    "id": "1798736713124675584",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "科学发展观的第一要义是____",
+    "option": "",
+    "answer": "发展",
+    "id": "1798736713200173056",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "2008年8月至9月，中国____成功举办第29届夏季奥运会、第13届残疾人奥运会。",
+    "option": "",
+    "answer": "北京",
+    "id": "1798736713204367361",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1999年9月，党的十五届四中全会做出实施____大开发战略的决定。",
+    "option": "",
+    "answer": "西部",
+    "id": "1798736713187590145",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
@@ -160,30 +200,30 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "中国进入社会主义社会的最主要的标志是____的基本完成",
+    "questionStem": "1949年9月中国人民政治协商会议第一次会议通过的文件是____",
     "option": "",
-    "answer": "社会主义改造",
-    "id": "1798736713128869889",
+    "answer": "中国人民政治协商会议共同纲领",
+    "id": "1798736713095315456",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "____、____，是邓小平理论的精髓。",
+    "questionStem": "1988年，中共中央和国务院决定建立____省，加快其发展。",
     "option": "",
-    "answer": "解放思想，实事求是",
-    "id": "1798736713141452802",
+    "answer": "海南",
+    "id": "1798736713166618625",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "历史和实践充分证明，只有社会主义才能救中国，只有社会主义才能发展中国，只有坚持和发展____才能实现中华民族伟大复兴。",
+    "questionStem": "揭开了改革开放的序幕，标志着中国进入了改革开放和社会主义现代化建设新时期的重大事件是____。",
     "option": "",
-    "answer": "中国特色社会主义",
-    "id": "1798736713216950273",
+    "answer": "中共十一届三中全会",
+    "id": "1798736713162424320",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
