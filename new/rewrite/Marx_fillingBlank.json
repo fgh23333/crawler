@@ -1,225 +1,5 @@
 [
   {
-    "questionStem": "马克思主义的____，是以阶级性为深刻基础的，是无产阶级先进性的体现。",
-    "option": "",
-    "answer": "人民性",
-    "id": "1798736709379162114",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "社会形态包括社会的____、政治形态和意识形态，是三者具体的、历史的统一。",
-    "option": "",
-    "answer": "经济形态",
-    "id": "1798736709450465280",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "当代青年要积极投身____伟大事业，勇做担当____大任的时代新人。",
-    "option": "",
-    "answer": "新时代中国特色社会主义，民族复兴",
-    "id": "1798736709538545665",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "意大利的康帕内拉于1602年在监狱里写出了《____》，进一步描绘了一个财产公有、共同劳动和人人平等的理想社会。",
-    "option": "",
-    "answer": "太阳城",
-    "id": "1798736709492408320",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "在共产主义社会，由于社会生产力的巨大发展，____与农业、____与乡村、____与体力劳动的差别即“三大差别”必将归于消失。",
-    "option": "",
-    "answer": "工业，城市，脑力劳动",
-    "id": "1798736709525962752",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "实践之所以能够作为检验真理的唯一标准，是由____的本性和实践的特点决定的。",
-    "option": "",
-    "answer": "真理",
-    "id": "1798736709425299456",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "劳动创造的价值大于劳动力的价值，二者之间有一个差额，这个差额被资本家无偿占有，这个差额即增殖的价值，又称为____。",
-    "option": "",
-    "answer": "剩余价值",
-    "id": "1798736709471436800",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1844年2月，马克思、恩格斯发表在《____》上的论文表明，他们完成了从唯心主义向唯物主义、从革命民主主义向共产主义的转变。",
-    "option": "",
-    "answer": "德法年鉴",
-    "id": "1798736709374967808",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "所谓____，就是这样一些大的集团，这些集团在历史上一定的社会生产体系中所处的地位不同，同生产资料的关系（这种关系大部分是在法律上明文规定了的）不同，在社会劳动组织中所起的作用不同，因而取得归自己支配的那份社会财富的方式和多寡也不同。",
-    "option": "",
-    "answer": "阶级",
-    "id": "1798736709450465281",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "科学社会主义在中国的成功实践和理论发展，使世界范围内社会主义和资本主义两种社会制度、两种意识形态的历史演进及其较量，发生了有利于____的重大转变。",
-    "option": "",
-    "answer": "社会主义",
-    "id": "1798736709500796929",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "历史上，资本主义民主的发展有其____，政党制、代议制、一人一票、三权分立等是对欧洲封建专制的否定和革新。",
-    "option": "",
-    "answer": "进步性",
-    "id": "1798736709471436802",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "社会必要劳动时间是在现有的社会正常的生产条件下，在社会____的劳动熟练程度和劳动强度下制造某种使用价值所需要的劳动时间。",
-    "option": "",
-    "answer": "平均",
-    "id": "1798736709458853889",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1848年2月，《____》发表，标志着马克思主义的公开问世。",
-    "option": "",
-    "answer": "共产党宣言",
-    "id": "1798736709379162112",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "生产资料____是社会主义经济制度的根基，社会主义国家任何时候都不能放弃。",
-    "option": "",
-    "answer": "公有制",
-    "id": "1798736709504991234",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "“各尽所能，按需分配”的实现具有重大意义，它将最终实现人类在分配上的真正____。",
-    "option": "",
-    "answer": "平等",
-    "id": "1798736709521768449",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "物质的唯一特性是____。",
-    "option": "",
-    "answer": "客观实在性",
-    "id": "1798736709387550721",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "社会的物质生产力发展到一定阶段，便同它们一直在其中运动的现存____或财产关系（这只是生产关系的法律用语）发生矛盾。于是这些关系便由生产力的发展形式变成生产力的桎梏。那时社会革命的时代就到来了。",
-    "option": "",
-    "answer": "生产关系",
-    "id": "1798736709433688064",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "单从真理的____看，真理的表现又是多样的。",
-    "option": "",
-    "answer": "主观形式",
-    "id": "1798736709421105152",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "真理的____性是指真理主客观统一的确定性和发展的无限性。",
-    "option": "",
-    "answer": "绝对",
-    "id": "1798736709421105153",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "深化教育综合改革。加快建设高质量教育体系，统筹推进育人方式、办学模式、管理体制、保障机制改革。完善立德树人机制，推进__________改革创新，健全_______全面培养体系，提升教师教书育人能力，健全师德师风建设长效机制，深化教育评价改革。",
-    "option": "",
-    "answer": "大中小学思政课一体化，德智体美劳",
-    "id": "1871197138851987456",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "在实践检验真理的过程中，____证明可以起到重要的补充作用。",
-    "option": "",
-    "answer": "逻辑",
-    "id": "1798736709425299457",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____利润是垄断资本家凭借其在社会生产和流通中的垄断地位而获得的超过平均利润的高额利润。",
-    "option": "",
-    "answer": "垄断",
-    "id": "1798736709479825409",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
     "questionStem": "马克思主义产生于19世纪40年代，创始人是马克思和____。",
     "option": "",
     "answer": "恩格斯",
@@ -230,70 +10,10 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "《____》首次系统阐述了历史唯物主义的基本观点,实现了历史观上的伟大变革。",
+    "questionStem": "道德是调整人们之间以及个人与社会之间关系的____的总和，是依靠社会舆论以及人们的信念、习惯、传统和教育来起作用的精神力量。",
     "option": "",
-    "answer": "德意志意识形态",
-    "id": "1798736709374967809",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "对立统一规律提供了人们认识世界和改造世界的根本方法是____。",
-    "option": "",
-    "answer": "矛盾分析方法",
-    "id": "1798736709395939329",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "并不是所有的劳动产品都是商品，只有以____为目的生产的劳动产品才是商品。",
-    "option": "",
-    "answer": "交换",
-    "id": "1798736709450465282",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "从马克思主义的内容来看，____观点是马克思主义首要的和基本的观点，这一基本观点体现在马克思主义全部思想内容之中。",
-    "option": "",
-    "answer": "实践",
-    "id": "1798736709383356416",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "知识在价值创造中的作用，主要在于它增加了现代生产中____的比例，从而使劳动者在单位时间里付出了“倍加”的简单劳动。",
-    "option": "",
-    "answer": "复杂劳动",
-    "id": "1798736709467242496",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "实践的主体和客体相互作用的关系，包括实践关系、____关系和价值关系。",
-    "option": "",
-    "answer": "认识",
-    "id": "1798736709412716544",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是世界的物质统一性原理在现实生活中和实际工作中的生动体现。",
-    "option": "",
-    "answer": "一切从实际出发",
-    "id": "1798736709391745025",
+    "answer": "行为规范",
+    "id": "1798736709437882369",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
@@ -310,30 +30,230 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "进一步全面深化改革的原则。总结和运用改革开放以来特别是新时代全面深化改革的宝贵经验，贯彻以下原则：坚持______，坚定维护党中央权威和集中统一领导，发挥党总揽全局、协调各方的领导核心作用，把党的领导贯穿改革各方面全过程，确保改革始终沿着正确政治方向前进；坚持______，尊重人民主体地位和_______",
+    "questionStem": "生产资料____是社会主义经济制度的根基，社会主义国家任何时候都不能放弃。",
     "option": "",
-    "answer": "党的全面领导，以人民为中心，首创精神",
-    "id": "1871197138709381120",
+    "answer": "公有制",
+    "id": "1798736709504991234",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "上层建筑是建立在一定经济基础之上的____以及与之相适应的制度、组织和设施。",
+    "questionStem": "____是马克思主义的内在品质，是马克思主义的人民性、实践性和发展性的应有之义和必然要求。",
     "option": "",
-    "answer": "意识形态",
-    "id": "1798736709446270977",
+    "answer": "革命性",
+    "id": "1798736709383356417",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "坚持____，是习近平新时代中国特色社会主义思想的重要方法，是辩证唯物主义矛盾观点和矛盾分析方法的时代表达和时代升华。",
+    "questionStem": "____的观点是马克思主义的基本观点。",
     "option": "",
-    "answer": "问题导向",
-    "id": "1798736709400133632",
+    "answer": "实践",
+    "id": "1798736709408522240",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "社会的物质生产力发展到一定阶段，便同它们一直在其中运动的现存____或财产关系（这只是生产关系的法律用语）发生矛盾。于是这些关系便由生产力的发展形式变成生产力的桎梏。那时社会革命的时代就到来了。",
+    "option": "",
+    "answer": "生产关系",
+    "id": "1798736709433688064",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "理性认识包括概念、判断、____三种形式。",
+    "option": "",
+    "answer": "推理",
+    "id": "1798736709416910848",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "适应高度发展的社会化大生产的需要，共产主义社会在生产关系上将废除____，实行普遍的生产资料____。",
+    "option": "",
+    "answer": "私有制，公有制",
+    "id": "1798736709521768448",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "从当代资本主义发展的实际情况来看，生产资料____依然是资本主义的基本经济制度，作为资本主义生产方式本质特征的雇佣劳动制度依然存在并运行着。",
+    "option": "",
+    "answer": "私有制",
+    "id": "1798736709488214018",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "东欧剧变、苏联解体的最根本原因是____出了问题。",
+    "option": "",
+    "answer": "政治方向",
+    "id": "1798736709500796928",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "在实践检验真理的过程中，____证明可以起到重要的补充作用。",
+    "option": "",
+    "answer": "逻辑",
+    "id": "1798736709425299457",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____社会是共产主义社会的初级阶段，它与共产主义社会具有根本性质上的一致性。",
+    "option": "",
+    "answer": "社会主义",
+    "id": "1798736709530157058",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____高度发展，产品极大丰富，是实现共产主义的必要条件。",
+    "option": "",
+    "answer": "社会生产力",
+    "id": "1798736709517574145",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "充当贮藏手段的货币，必须是实在的足值的____货币，纸币不具备贮藏手段的职能。",
+    "option": "",
+    "answer": "金银",
+    "id": "1798736709463048193",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "经济学上的价值是撇开了劳动的具体形式的无差别的人类劳动，它表示的不是人与物的关系，而是商品经济条件下人与人之间交换劳动的____。",
+    "option": "",
+    "answer": "经济关系",
+    "id": "1798736709454659585",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "交换价值是两种不同性质的使用价值相交换时量的____关系。",
+    "option": "",
+    "answer": "比例",
+    "id": "1798736709454659584",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1936年12月，在苏维埃第八次非常代表大会通过的宪法中，宣布苏联已经建成了____。",
+    "option": "",
+    "answer": "社会主义",
+    "id": "1798736709496602626",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1848年2月，《____》发表，标志着马克思主义的公开问世。",
+    "option": "",
+    "answer": "共产党宣言",
+    "id": "1798736709379162112",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "当前和今后一个时期是以________全面推进强国建设、民族复兴伟业的关键时期。",
+    "option": "",
+    "answer": "中国式现代化",
+    "id": "1871197138558386176",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____方法是对立统一规律在方法论上的体现，在唯物辩证法的方法论体系中居于核心地位，是我们认识事务的根本方法。",
+    "option": "",
+    "answer": "矛盾分析",
+    "id": "1798736709404327938",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是唯物辩证法的实质和核心。",
+    "option": "",
+    "answer": "对立统一规律",
+    "id": "1798736709395939328",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "当代青年要积极投身____伟大事业，勇做担当____大任的时代新人。",
+    "option": "",
+    "answer": "新时代中国特色社会主义，民族复兴",
+    "id": "1798736709538545665",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "从马克思主义的内容来看，____观点是马克思主义首要的和基本的观点，这一基本观点体现在马克思主义全部思想内容之中。",
+    "option": "",
+    "answer": "实践",
+    "id": "1798736709383356416",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是最先进最革命的阶级，肩负着推翻资本主义旧世界、建立社会主义和共产主义新世界的历史使命。",
+    "option": "",
+    "answer": "无产阶级",
+    "id": "1798736709504991232",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "实践的主体和客体相互作用的关系，包括实践关系、____关系和价值关系。",
+    "option": "",
+    "answer": "认识",
+    "id": "1798736709412716544",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",

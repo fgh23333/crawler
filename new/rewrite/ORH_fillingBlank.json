@@ -1,15 +1,5 @@
 [
   {
-    "questionStem": "胡锦涛指出：“____是马克思主义政党的本质属性，是马克思主义政党的生命所系、力量所在。”",
-    "option": "",
-    "answer": "先进性",
-    "id": "1798736712952709121",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
     "questionStem": "中国特色社会主义事业总体布局是____。",
     "option": "",
     "answer": "五位一体",
@@ -30,70 +20,20 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "构建人类命运共同体思想，核心是“建设持久和平、普遍安全、共同繁荣、开放包容、____的世界”。",
+    "questionStem": "“两个一百年”的奋斗目标中第一个百年目标是____。",
     "option": "",
-    "answer": "清洁美丽",
-    "id": "1798736713053372417",
+    "answer": "全面建成小康社会",
+    "id": "1798736713028206593",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "科学发展观的核心是____。",
+    "questionStem": "____是马克思主义基本原理同中国实际相结合第二次历史性飞跃的理论成果。",
     "option": "",
-    "answer": "以人为本",
-    "id": "1798736712969486336",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "首届中国国际进出口博览会举办城市是____。",
-    "option": "",
-    "answer": "上海",
-    "id": "1798736713028206592",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1992年，海峡两岸关系协会与台湾海峡交流基金会达成各自以口头方式表述“海峡两岸均坚持一个中国原则”的“____”，在此基础上开启了两岸事务性商谈。",
-    "option": "",
-    "answer": "九二共识",
-    "id": "1798736712923348994",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "实现中华民族伟大复兴,是一项光荣而艰巨的事业，需要每个人付出艰苦努力，用____托起中国梦。",
-    "option": "",
-    "answer": "实干",
-    "id": "1798736713032400897",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "城市经济体制改革的实验是从____入手的。",
-    "option": "",
-    "answer": "扩大企业自主权",
-    "id": "1798736712898183169",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "科学发展观的实质是实现经济社会____的发展。",
-    "option": "",
-    "answer": "更好更快",
-    "id": "1798736712973680640",
+    "answer": "中国特色社会主义理论体系",
+    "id": "1798736712935931906",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
@@ -110,60 +50,60 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "习近平新时代中国特色社会主义思想的核心要义是____。",
+    "questionStem": "党的十九大报告指出，深化国家监察体制改革，将试点工作在全国推开，组建国家、省、市、县____，同党的纪律检查机关合署办公，实现对所有行使公权力的公职人员监察全覆盖。",
     "option": "",
-    "answer": "坚持和发展中国特色社会主义",
-    "id": "1798736712990457856",
+    "answer": "监察委员会",
+    "id": "1798736713049178112",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "独立自主、____是我国实行对外开放政策必须坚持的基本原则。",
+    "questionStem": "经济改革的方向是要让市场在资源配置中发挥____作用。",
     "option": "",
-    "answer": "自力更生",
-    "id": "1798736712923348993",
+    "answer": "决定性",
+    "id": "1798736713032400898",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "1990年，中共中央、国务院为进一步对外开放而作出的战略举措是开发、开放____。",
+    "questionStem": "____建设为经济建设和改革开放提供强大的精神动力和智力支持。",
     "option": "",
-    "answer": "上海浦东新区",
-    "id": "1798736712919154688",
+    "answer": "社会主义精神文明",
+    "id": "1798736712956903425",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "科学发展观的第一要义是____。",
+    "questionStem": "要树立尊重自然、顺应自然、保护自然的生态文明理念，增强____的意识。",
     "option": "",
-    "answer": "发展",
-    "id": "1798736712965292033",
+    "answer": "绿水青山就是金山银山",
+    "id": "1798736713036595200",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "党的十七大提出要建设资源节约型、____社会。",
+    "questionStem": "首届中国国际进出口博览会举办城市是____。",
     "option": "",
-    "answer": "环境友好型",
-    "id": "1798736712986263552",
+    "answer": "上海",
+    "id": "1798736713028206592",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "中国坚定奉行独立自主的____外交政策，始终根据事情本身的是非曲直决定自己的立场和政策，维护国际关系基本准则，维护国际公平正义。",
+    "questionStem": "经过长期努力，中国特色社会主义进入了新时代，这是我国发展新的____。",
     "option": "",
-    "answer": "和平",
-    "id": "1798736713007235073",
+    "answer": "历史方位",
+    "id": "1798736712986263553",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
@@ -180,6 +120,56 @@
     "type": "fillingBlank"
   },
   {
+    "questionStem": "科学发展观的第一要义是____。",
+    "option": "",
+    "answer": "发展",
+    "id": "1798736712965292033",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是指在马克思主义指导下打破习惯势力和主观偏见的束缚，研究新情况，解决新问题。",
+    "option": "",
+    "answer": "解放思想",
+    "id": "1798736712902377472",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "贯彻“三个代表”重要思想，关键在坚持____。",
+    "option": "",
+    "answer": "与时俱进",
+    "id": "1798736712944320514",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "全面依法治国的总目标是建设中国特色社会主义法治体系，建设____。",
+    "option": "",
+    "answer": "社会主义法治国家",
+    "id": "1798736712994652160",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "中国梦归根到底是____，必须紧紧依靠人民来实现，必须不断为人民造福。",
+    "option": "",
+    "answer": "人民的梦",
+    "id": "1798736713003040768",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
     "questionStem": "1980年1月16日，邓小平在中共中央召集的干部会议上作《目前的形势和任务》的讲话，强调坚持四项基本原则的核心是坚持____。",
     "option": "",
     "answer": "党的领导",
@@ -190,20 +180,30 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "邓小平理论的精髓是解放思想，____。",
+    "questionStem": "实现中国梦必须凝聚____，这就是各族人民大团结的力量。",
     "option": "",
-    "answer": "实事求是",
-    "id": "1798736712935931905",
+    "answer": "中国力量",
+    "id": "1798736713024012288",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "邓小平提出“三个有利于”的标准是在____。",
+    "questionStem": "改革发展的主体和动力是____。",
     "option": "",
-    "answer": "南方谈话",
-    "id": "1798736712927543296",
+    "answer": "人民群众",
+    "id": "1798736712910766080",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1992年召开的中共十四大明确提出，我国经济体制改革的目标是建立____。",
+    "option": "",
+    "answer": "社会主义市场经济体制",
+    "id": "1798736712931737602",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
@@ -220,50 +220,10 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "2010年开始,中国成为世界____大经济体。",
-    "option": "",
-    "answer": "第二",
-    "id": "1798736712977874946",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是中国特色社会主义最本质的特征。",
-    "option": "",
-    "answer": "中国共产党的领导",
-    "id": "1798736713057566720",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
     "questionStem": "____是社会主义民主政治的本质属性，是最广泛、最真实、最管用的民主。",
     "option": "",
     "answer": "全过程人民民主",
     "id": "1798736713007235072",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "邓小平指出：“贫穷不是社会主义，社会主义要消灭贫穷。”这个论断体现了____的要求。",
-    "option": "",
-    "answer": "社会主义本质",
-    "id": "1798736712931737601",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "“两个一百年”的奋斗目标中第一个百年目标是____。",
-    "option": "",
-    "answer": "全面建成小康社会",
-    "id": "1798736713028206593",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",

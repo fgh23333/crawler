@@ -1,25 +1,25 @@
 [
   {
-    "questionStem": "党的二十大提出：社会主义核心价值观是凝聚人心、汇聚民力的强大力量。",
+    "questionStem": "我国的根本政治制度和基本政治制度是发展社会主义民主政治的制度保障，具有鲜明的中国特色和显著优势。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736711761526785",
+    "id": "1798736712281620481",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "党和法、党的领导和依法治国是辩证统一的。",
+    "questionStem": "新型举国体制是面向国家的重大需求，其特征是充分发挥党的领导优势。",
     "option": [
       "正确",
       "错误"
     ],
-    "answer": "正确",
-    "id": "1798736712214511617",
+    "answer": "错误",
+    "id": "1798736712264843265",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
@@ -39,689 +39,39 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "全面从严治党的基础在全面，关键在治，要害在严。",
+    "questionStem": "党的宗旨决定了我们党除了国家、民族、人民的利益，没有任何自己特殊的利益。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736712218705922",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "以邓小平同志为主要代表的中国共产党人，深刻揭示了社会主义本质，确立了社会主义初级阶段基本路线。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736712097071105",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "习近平新时代中国特色社会主义思想坚持用中国特色社会主义思想去观察时代、解读时代与引领时代。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736712222900225",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "带领人民创造美好生活，是中国共产党始终不渝的奋斗目标。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712130625537",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "进入新发展阶段，是中华民族伟大复兴历史进程的大跨越。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712155791360",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国国际进出口博览会是迄今为止世界上第一个以进出口为主题的国家级展会。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712180957186",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "坚定道路自信，是因为中国特色社会主义道路引领中国取得举世瞩目的成就，为推动中国发展进步开辟了广阔前景。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712113848320",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "全面贯彻党的基本理论、基本路线、基本方略，持续推进党的理论创新、文化创新、制度创新，使一切工作顺应时代潮流、符合发展规律、体现人民愿望，确保党始终走在时代前列、得到人民衷心拥护。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712285814786",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国共产党的坚强领导是当代中国发展进步的活力之源。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712164179969",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "没有改革开放，就没有中国的今天；离开改革开放，也没有中国的明天。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712164179968",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "推进国家治理体系与治理能力现代化，规定了在根本方向指引下完善和发展社会主义的鲜明指向。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712164179970",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "新发展理念传承党的发展理论，科学回答了新时代实现什么样的发展、怎样实现发展的问题。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712252260352",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "人民民主是社会主义的生命，是全面建设社会主义现代化国家的应有之义。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711753138178",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "一体推进不敢腐、不能腐、不想腐败，是我们党推进全面从严治党和反腐败斗争实践得科学总结。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712248066048",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "从严治党靠自觉，也要靠制度，两者一柔一刚，要同向发力，同时发力。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712243871745",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "为民造福是立党为公、执政为民的本质要求。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711753138176",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "加强顶层设计和摸着石头过河是辩证统一。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712180957184",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "坚持党的领导是新型举国体制的最本质特征和最显著优势，为我国经济社会发展提供了根本保证。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712411643905",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "人类命运共同体倡议，吸收了“天地与我并生，而万物与我为一”的中国智慧。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712076099585",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "党的十八大以来，以习近平总书记为主要代表的中国共产党人，从理论和实践上系统回答了新时代什么是社会主义、如何建设社会主义的问题。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712071905281",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "供给侧管理和需求侧管理是调控宏观经济的两大基本手段。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712260648961",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "旗帜鲜明的讲政治是马克思主义政党的根本要求。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712231288833",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想，是新时代中国共产党的思想旗帜，是国家政治生活和社会生活的根本指针是当代中国马克思主义、二十一世纪马克思主义。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712067710977",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国特色社会主义政治发展道路，是马克思主义基本原理与中国具体实际相结合的产物。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712273231873",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "改革开放新时期，我们党把依法治国确当为党领导人民治理国家的基本方略。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712193540097",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "全面依法治国是社会主义法治建设的“全面升级版“，无论在法治理念还是在战略部署上，都是社会治理的一场深刻革命。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712201928704",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "“党大还是法大“是一个政治陷阱，是一个伪命题。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712214511616",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想系统回答了新时代坚持与发展什么样的社会主义、怎样坚持与发展中国特色社会主义思想。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712084488193",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "在坚持马克思主义指导地位这个问题上，我们经常讲两句话，即“老祖宗不能丢”和“又要讲新话”。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712285814785",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "新时代坚持和发展中国特色社会主义，本质上也是继续推进伟大社会革命。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712118042625",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "从根本上说当今世界百年未有之大变局是世界范围内生产力与生产关系矛盾运动的必然结果。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712088682497",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "从“全面小康”到“总体小康”，从“全面建设”到“全面建成”，小康的标准不断提高提升、内涵不断拓展、要求不断提高。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712147402753",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想，明确中国特色社会主义事业总体布局是“五位一体”、战略布局是“四个全面”，强调坚定道路自信、理论自信、制度自信、文化自信。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712076099584",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "人类社会要持续进步，各国要合作不要对抗，要共赢不要独占。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712185151489",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "伟大梦想指明方向、伟大斗争提供保障，伟大工程开创新局，伟大事业凝聚力量。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712143208450",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想，正是在把握世界发展大势、应对全球共同挑战、维护人类共同利益的过程中创立并不断丰富发展的。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712071905280",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "形式主义的实质是主观主义、功利主义。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712415838210",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "尊重自然、顺应自然、保护自然，不是全面建设社会主义现代化国家的内在要求。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736711748943873",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "建设社会主义民主政治，发展人民民主，必须发挥我国协商民主的独特优势。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712285814784",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "对于马克思政党来说，革命与执政共同反映了马克思主义政党的本质属性和内在要求。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712227094529",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "以胡锦涛同志为主要代表的中国共产党人，确立了社会主义市场经济体制的改革目标和基本框架，确立了社会主义初级阶段的基本经济制度与分配制度。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712101265408",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "伟大梦想与伟大斗争、伟大工程、伟大事业是一个紧密联系、相互贯通、相互作用、有机统一的整体。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712143208449",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想坚持守正与创新相统一，基本原理与最新成果相贯通，与时俱进的发展了马克思主义。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712554250241",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "教育、科技、人才不是全面建设社会主义现代化国家的基础性、战略性支撑。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736711757332480",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "坚定理想信念，始终是共产党人安身立命的根本。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712235483137",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "供给和需求是市场经济内在关系的两个基本方面，是即对立又统一的关系。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712260648960",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "社会主义初级阶段是不发达阶段，经济发展水平起重要作用，但并不意味着经济发展水平是决定初级阶段的唯一条件。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712092876800",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国特色社会主义在意识形态上，坚持马克思主义指导地位不动摇，培育和践行社会主义核心价值观。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712105459713",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想的核心内容是“八个明确”和“四个坚持”。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712071905282",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想系统回答了“新时代坚持与发展什么样的社会特色主义、怎样坚持与发展中国特色社会主义”的时代课题。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712424226818",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "把权力关进制度的笼子里，健全党和国家的监督制度，坚持和完善党和国家监督体系使重点。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712243871746",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "对改革开放前后两个历史时期要正确评价，不能用改革开放后的历史时期否定改革开放前的历史时期，也不能用改革开放前的历史时期否定改革开放后的历史时期。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712109654017",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "全面建设社会主义现代化国家，必须坚持中国特色社会主义文化发展道路。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711753138177",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想是解决当代中国前途命运问题的科学理论指引。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712428421120",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国式现代化是社会主义现代化，是独具特色、有别于资本主义的现代化。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712159985665",
+    "id": "1798736712554250240",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
@@ -741,104 +91,65 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "中国特色社会主义进入新时代，我们实现了从“赶上时代”到“领跑时代”的伟大跨越。",
+    "questionStem": "改革开放后的社会主义实践探索为改革开放前的社会主义实践探索积累了条件。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736712088682496",
+    "id": "1798736712109654018",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "习近平新时代中国特色社会主义思想集中体现了马克思主义者求真务实、实践第一的科学态度。",
+    "questionStem": "在我国社会主义的现阶段，公有制经济不仅包括国有经济和集体经济，还包括混合所有制经济中的国有成分和集体成分。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736712080293888",
+    "id": "1798736712415838208",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "中国共产党领导的多党合作和政治协商制度反映了人民当家作主的社会主义民主政治的本质。",
+    "questionStem": "全面建成小康社会，意味着中华民族实现千百年来的夙愿。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736712277426177",
+    "id": "1798736712151597056",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "习近平法治思想深刻回答了新时代为什么实行全面依法治国、怎样实行全面依法治国等一系列重大问题。",
+    "questionStem": "以人民为中心是我们党全心全意为人民服务根本宗旨的时代彰显。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736712420032512",
+    "id": "1798736712424226817",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "我国发展仍然处于重要战略机遇期，但机遇和挑战都有新的发展和变化。",
+    "questionStem": "坚定道路自信，是因为中国特色社会主义道路引领中国取得举世瞩目的成就，为推动中国发展进步开辟了广阔前景。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736712159985666",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国的发展是世界的机遇，中国是经济全球化的受益者，更是贡献者。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712189345794",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "我国的根本政治制度和基本政治制度是发展社会主义民主政治的制度保障，具有鲜明的中国特色和显著优势。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736712281620481",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "将改革进行到底，比认识更重要的是决心，比方法更重要的是思想。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736712180957185",
+    "id": "1798736712113848320",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
@@ -858,13 +169,26 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "以江泽民同志为主要代表的中国共产党人，强调坚持以人为本、全面协调可持续发展，成功在新的历史起点上坚持与发展了中国特色社会主义。",
+    "questionStem": "发展社会主义民主政治制度就是体现人民意志、保障人民权益、激发人民创造活力，用制度体系保障人民当家作主。",
     "option": [
       "正确",
       "错误"
     ],
-    "answer": "错误",
-    "id": "1798736712097071106",
+    "answer": "正确",
+    "id": "1798736712277426178",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "实施乡村振兴战略，是推动农业农村与国家同步实现现代化、顺应亿万人民对美好生活向往的必然要求。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736712269037570",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
