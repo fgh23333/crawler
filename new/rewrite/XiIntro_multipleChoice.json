@@ -1,104 +1,271 @@
 [
   {
-    "questionStem": "官僚主义主要包括以下那些方面（）",
+    "questionStem": "创新是引领发展的第一动力，要不断推进（）",
     "option": [
-      "脱离实际",
-      "高高在上",
-      "弄虚作假",
-      "唯我独尊"
+      "理论创新",
+      "制度创新",
+      "科技创新",
+      "文化创新"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712382283776",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "实践证明，人民代表大会制度是（）。",
+    "option": [
+      "体现社会主义国家性质",
+      "保证人民当家作主",
+      "保障实现中华民族伟大复兴的好制度",
+      "符合我国国情和实际"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712428421121",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "深入学习习近平新时代中国特色社会主义思想就必须（）",
+    "option": [
+      "在学懂弄透上下功夫",
+      "同学习“四史”贯通起来",
+      "坚持理论联系实际的学风",
+      "坚持问题导向与需求导向"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712537473026",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的十八届三中全会提出全面深化改革，明确全面深化改革总目标是（）",
+    "option": [
+      "完善中国特色社会主义制度",
+      "完善与发展中国特色社会主义制度",
+      "推进国家治理体系现代化",
+      "推进国家治理体系与治理能力现代化"
+    ],
+    "answer": "BD",
+    "id": "1798736712457781249",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "新时代继续推进改革具有鲜明的特征（）",
+    "option": [
+      "复杂性",
+      "敏感性",
+      "联动性",
+      "阶段性"
+    ],
+    "answer": "ABC",
+    "id": "1798736712470364161",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "反对形式主义要（）",
+    "option": [
+      "着力解决工作不实问题",
+      "抛弃私心杂念",
+      "克服浮躁情绪",
+      "督促领导干部树立正确政绩观"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712407449602",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的二十大指出：十年来，我们经历了对党和人民事业具有重大现实意义和深远历史意义的三件大事：一是（）；二是（）；三是（）。",
+    "option": [
+      "迎来中国共产党成立一百周年",
+      "中国特色社会主义进入新时代",
+      "迎来改革开放40周年",
+      "完成脱贫攻坚、全面建成小康社会的历史任务，实现第一个百年奋斗目标"
     ],
     "answer": "ABD",
-    "id": "1798736712407449600",
+    "id": "1798736711778304000",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "在新时代坚持与拓展中国特色社会主义法治道路，必须坚持（）",
+    "questionStem": "如期全面建成小康社会，标志着（）",
     "option": [
-      "党领导立法",
-      "党保证执法",
-      "党支持司法",
-      "党带头守法"
+      "第一个百年目标圆满完成",
+      "为实现第二个百年目标奠定了坚实的基础",
+      "对人类社会走出了伟大贡献",
+      "为实现中华民族伟大复兴做出了重要贡献"
+    ],
+    "answer": "AB",
+    "id": "1798736712306786304",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "中国梦的基本内涵是（）",
+    "option": [
+      "实现国家富强",
+      "实现民族振兴",
+      "实现人民幸福",
+      "实现世界大同"
+    ],
+    "answer": "ABC",
+    "id": "1798736712302592000",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的二十大指出：前进道路上，必须牢牢把握以下重大原则：（），（），（），（），（）。",
+    "option": [
+      "坚持和加强党的全面领导",
+      "坚持中国特色社会主义道路",
+      "坚持以人民为中心的发展思想",
+      "坚持深化改革开放",
+      "坚持发扬斗争精神"
+    ],
+    "answer": "ABCDE",
+    "id": "1798736711769915392",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "习近平新时代中国特色社会主义思想，正是在不断推进党的自我革命，实现（），的过程中创立并不断丰富发展的。",
+    "option": [
+      "自我净化",
+      "自我完善",
+      "自我革新",
+      "自我提高"
     ],
     "answer": "ABCD",
-    "id": "1798736712436809728",
+    "id": "1798736712550055936",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "推动高质量发展的原因有（）",
+    "questionStem": "实现社会主义初级阶段奋斗目标的根本立足点（）",
     "option": [
-      "保持经济持续健康发展的必然要求",
-      "适应我国社会主要矛盾的必然要求",
-      "全面建设社会主义现代化国家的必然要求",
-      "遵循经济发展规律发展的必然要求"
+      "自力更生",
+      "独立自主",
+      "艰苦奋斗",
+      "艰苦创业"
+    ],
+    "answer": "AD",
+    "id": "1798736711744749568",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "新时代走中国特色社会主义法治道路的原因是（）",
+    "option": [
+      "由我国社会主义国家性质决定的",
+      "立足我国基本国情的必然选择",
+      "坚持全面依法治国的必然要求",
+      "坚持党的集中统一领导的必然要求"
+    ],
+    "answer": "AB",
+    "id": "1798736712348729345",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "改革开放成为当代中国最显著、最壮丽的气象，可以表现在（）",
+    "option": [
+      "从农村到城市",
+      "从沿海到内地",
+      "从计划经济到社会主义市场经济",
+      "从“打开国门”到“全方位开放”"
     ],
     "answer": "ABCD",
-    "id": "1798736712373895168",
+    "id": "1798736712474558465",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "人民是否享有民主权利，要看（）",
+    "questionStem": "走中国特色社会主义政治道路的意义包括（）",
     "option": [
-      "人民是否在选举时有投票的权利",
-      "人民在日常生活中是否有持续参与的权利",
-      "人民是否有进行民主选举的权利",
-      "人民有没有进行民主决策的权利"
+      "有效保障了一切社会积极因素",
+      "有效促进了社会生产力解放和发展",
+      "有效保障了我国经济实力与综合国力",
+      "有效维护了各民族长期共同繁荣发展"
     ],
     "answer": "ABCD",
-    "id": "1798736712315174912",
+    "id": "1798736712344535041",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "党的十八大以来，以习近平同志为核心的党中央高瞻远瞩地提出了（）",
+    "questionStem": "进入新时代，全面依法治国不断推进，我们要对我国宪法确立的（）充满自信。",
     "option": [
-      "京津冀协调发展",
-      "长江经济带发展",
-      "长三角一体化发展",
-      "黄河流域生态保护和高质量发展"
+      "国家指导思想",
+      "国家发展道路",
+      "国家奋斗目标",
+      "中国共产党领导",
+      "我国社会主义制度"
+    ],
+    "answer": "ABCDE",
+    "id": "1798736712369700865",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "实施乡村振兴的目的（）",
+    "option": [
+      "促进农业高质量发展",
+      "促进宜居宜业",
+      "促进农民富裕富足",
+      "建设美好生活"
     ],
     "answer": "ABCD",
-    "id": "1798736712365506560",
+    "id": "1798736712361312256",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "习近平新时代中国特色社会主义思想，(),以崭新的思想内容丰富和发展了马克思主义,形成了系统科学的理论体系。",
+    "questionStem": "习近平新时代中国特色社会主义思想具有（）鲜明品格",
     "option": [
-      "坚持马克思主义立场观点方法",
-      "坚持科学社会主义基本原则",
-      "科学总结世界社会主义运动经验教训",
-      "根据时代和实践发展变化"
+      "实践性",
+      "科学性",
+      "时代性",
+      "创造性"
     ],
-    "answer": "ABCD",
-    "id": "1798736712550055938",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "XiIntro",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "我们党深刻把握党风廉政建设和反腐败斗争规律，明确提出一体推进（）",
-    "option": [
-      "不敢腐",
-      "不能腐",
-      "不怕腐",
-      "不想腐"
-    ],
-    "answer": "ABD",
-    "id": "1798736712386478082",
+    "answer": "ACD",
+    "id": "1798736712558444545",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
@@ -120,30 +287,75 @@
     "type": "multipleChoice"
   },
   {
-    "questionStem": "协商民主深深嵌入中国社会主义民主政治全过程，它坚持了（）",
+    "questionStem": "全面建成小康社会是（）",
     "option": [
-      "中国共产党的领导",
-      "人民民主地位",
-      "人民民主的原则",
-      "民主集中制的领导制度和组织原则"
+      "“两个一百年”奋斗目标的第一个百年奋斗目标",
+      "党向人民做出的庄严承诺",
+      "党向历史做出的庄严承诺",
+      "全体中国人民的共同期盼"
     ],
     "answer": "ABCD",
-    "id": "1798736712461975553",
+    "id": "1798736712302592002",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "新时代要坚持依法治国就必须全面推进（）",
+    "questionStem": "改革开放决定了（）",
     "option": [
-      "科学立法",
-      "严格执法",
-      "公正司法",
-      "全民守法"
+      "当代中国命运的关键一招",
+      "实现“两个一百年”奋斗目标",
+      "实现中华民族伟大复兴的关键一招",
+      "坚持党的集中统一领导的关键一招"
     ],
     "answer": "ABCD",
-    "id": "1798736712340340737",
+    "id": "1798736712461975552",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "我们推进全面依法治国要（）",
+    "option": [
+      "坚持在党的领导下依法治国",
+      "加强党对全面依法治国的集中统一领导",
+      "坚持“三统一”",
+      "坚持“四善于”"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712432615425",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "社会主义500多年经历了（）",
+    "option": [
+      "从空想到科学",
+      "从理论到实践",
+      "从一国实践到多国发展",
+      "从遭遇曲折到奋起振兴"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712529084417",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "中国式现代化将深刻改变世界面貌，具有重要的意义（）",
+    "option": [
+      "在中华民族发展史上具有里程碑意义",
+      "在世界社会主义发展史上具有里程碑意义",
+      "在人类社会发展史上具有里程碑意义",
+      "为整个人类社会发展做出前所未有的贡献"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712487141376",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
@@ -166,60 +378,258 @@
     "type": "multipleChoice"
   },
   {
-    "questionStem": "中国的政治制度具有深厚的（）",
+    "questionStem": "党的十八大以来，以习近平同志为核心的党中央高瞻远瞩地提出了（）",
     "option": [
-      "文化基础",
-      "理论基础",
-      "实践基础",
-      "制度基础"
+      "京津冀协调发展",
+      "长江经济带发展",
+      "长三角一体化发展",
+      "黄河流域生态保护和高质量发展"
     ],
     "answer": "ABCD",
-    "id": "1798736712457781248",
+    "id": "1798736712365506560",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "我国改革开放是（）",
+    "questionStem": "习近平总书记指出，无论改什么，改到哪一步，（）",
     "option": [
-      "先实验后总结在推广",
-      "从农村到城市",
-      "从沿海到内陆",
-      "从局部到整体"
+      "坚持党对改革的集中统一领导不能变",
+      "完善和发展中国特色社会主义制度不能变",
+      "推进国家治理体系与治理能力现代化的总目标不能变",
+      "坚持以人民为中心的改革价值取向不能变"
     ],
     "answer": "ABCD",
-    "id": "1798736712323563521",
+    "id": "1798736712319369217",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "习近平新时代中国特色社会主义思想坚持（）",
+    "questionStem": "以人民为中心彰显了（）",
     "option": [
-      "为了人民和依靠人民的辩证统一",
-      "客观规律性和主观能动性的辩证统一",
-      "矛盾普遍性和特殊性的辩证统一",
-      "全局和局部的辩证统一"
+      "立党为公",
+      "执政为民",
+      "全心全意为人民服务",
+      "党的性质"
     ],
-    "answer": "ABCD",
-    "id": "1798736712541667328",
+    "answer": "ABC",
+    "id": "1798736712503918593",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "深刻把握世界百年未有之大变局与中华民族伟大复兴战略全局的关系，要求我们要（）",
+    "questionStem": "实践证明，民主区域自治制度符合我国国情，具有重要的作用体现在（）",
     "option": [
-      "立足大局",
-      "统筹全局",
-      "引领变局",
-      "开创新局"
+      "维护国家统一和领土完整",
+      "加强民族团结",
+      "促进民族地区发展",
+      "增强中华民族凝聚力等方面起到作用"
     ],
     "answer": "ABCD",
-    "id": "1798736712168374273",
+    "id": "1798736712449392640",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "中国共产党的初心与使命集中体现了（）",
+    "option": [
+      "党的性质",
+      "党的宗旨",
+      "党的理想信念",
+      "党的奋斗目标"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712508112897",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "我国改革开放是要对（）做出统筹设计的。",
+    "option": [
+      "经济体制",
+      "政治体制",
+      "文化体制",
+      "社会体制",
+      "生态文明体制"
+    ],
+    "answer": "ABCDE",
+    "id": "1798736712445198337",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "不忘初心、牢记使命，必须（）",
+    "option": [
+      "发扬革命精神",
+      "提高斗争本领",
+      "勇于担当作为",
+      "勇于自我革命"
+    ],
+    "answer": "ABC",
+    "id": "1798736712508112896",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的十八届三中全会提出全面深化改革体现了以习近平同志为核心的党中央（）",
+    "option": [
+      "宏阔深邃的历史视野",
+      "高瞻远瞩的战略眼光",
+      "坚定自信的使命担当",
+      "气度恢弘的改革勇气"
+    ],
+    "answer": "ABC",
+    "id": "1798736712449392641",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "正确处理改革开放前后两个历史时期的关系，是（）",
+    "option": [
+      "历史问题",
+      "政治问题",
+      "文化问题",
+      "国际问题"
+    ],
+    "answer": "AB",
+    "id": "1798736712235483138",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "走中国特色社会主义政治道路要求我们始终坚持（）的统一。",
+    "option": [
+      "坚持党的领导",
+      "人民当家作主",
+      "依法治国",
+      "以人民为中心"
+    ],
+    "answer": "ABC",
+    "id": "1798736712344535040",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "官僚主义主要包括以下那些方面（）",
+    "option": [
+      "脱离实际",
+      "高高在上",
+      "弄虚作假",
+      "唯我独尊"
+    ],
+    "answer": "ABD",
+    "id": "1798736712407449600",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党员干部守住自己的政治生命，就要（）",
+    "option": [
+      "敬畏权力",
+      "管好权力",
+      "慎用权力",
+      "善用权力"
+    ],
+    "answer": "ABC",
+    "id": "1798736712399060993",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党的十八大以来，我们坚持把解决好“三农”问题作为全党工作重中之重而采取的一些举措包括（）",
+    "option": [
+      "全面深化农村改革",
+      "深入推进城乡发展一体化",
+      "脱贫攻坚战役",
+      "乡村振兴战略"
+    ],
+    "answer": "ABCD",
+    "id": "1798736712357117953",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "公平正义是推进全面依法治国的价值追求，这一价值追求贯穿到（）",
+    "option": [
+      "立法",
+      "执法",
+      "施法",
+      "司法",
+      "守法"
+    ],
+    "answer": "ABDE",
+    "id": "1798736712357117952",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "中国式现代化是（）",
+    "option": [
+      "人口规模巨大的现代化",
+      "全体人民共同富裕的现代化",
+      "物质文明和精神文明相协调的现代化",
+      "人与自然和谐共生的现代化",
+      "走和平发展道路的现代化"
+    ],
+    "answer": "ABCDE",
+    "id": "1798736712487141378",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "党在社会主义革命与建设中取得的独创性理论成果和巨大成就，为在新的历史时期开创中国特色社会主义提供了（）",
+    "option": [
+      "宝贵经验",
+      "理论准备",
+      "物质基础",
+      "经济基础"
+    ],
+    "answer": "ABC",
+    "id": "1798736712524890113",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "XiIntro",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "习近平新时代中国特色社会主义思想的核心内容（）",
+    "option": [
+      "“五位一体”总体布局",
+      "“十个明确”",
+      "“十四个坚持”",
+      "“四个全面战略布局”"
+    ],
+    "answer": "BC",
+    "id": "1798736712545861633",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "XiIntro",

@@ -1,199 +1,9 @@
 [
   {
-    "questionStem": "中国特色社会主义事业总体布局是____。",
+    "questionStem": "邓小平曾指出，决定中国命运的一招是____。",
     "option": "",
-    "answer": "五位一体",
-    "id": "1798736713036595201",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "十六大确定了____的奋斗目标。",
-    "option": "",
-    "answer": "全面建设小康社会",
-    "id": "1798736712956903426",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "“两个一百年”的奋斗目标中第一个百年目标是____。",
-    "option": "",
-    "answer": "全面建成小康社会",
-    "id": "1798736713028206593",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是马克思主义基本原理同中国实际相结合第二次历史性飞跃的理论成果。",
-    "option": "",
-    "answer": "中国特色社会主义理论体系",
-    "id": "1798736712935931906",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是一个国家、一个民族发展中更基本、更深沉、更持久的力量。",
-    "option": "",
-    "answer": "文化自信",
-    "id": "1798736713040789504",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "党的十九大报告指出，深化国家监察体制改革，将试点工作在全国推开，组建国家、省、市、县____，同党的纪律检查机关合署办公，实现对所有行使公权力的公职人员监察全覆盖。",
-    "option": "",
-    "answer": "监察委员会",
-    "id": "1798736713049178112",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "经济改革的方向是要让市场在资源配置中发挥____作用。",
-    "option": "",
-    "answer": "决定性",
-    "id": "1798736713032400898",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____建设为经济建设和改革开放提供强大的精神动力和智力支持。",
-    "option": "",
-    "answer": "社会主义精神文明",
-    "id": "1798736712956903425",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "要树立尊重自然、顺应自然、保护自然的生态文明理念，增强____的意识。",
-    "option": "",
-    "answer": "绿水青山就是金山银山",
-    "id": "1798736713036595200",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "首届中国国际进出口博览会举办城市是____。",
-    "option": "",
-    "answer": "上海",
-    "id": "1798736713028206592",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "经过长期努力，中国特色社会主义进入了新时代，这是我国发展新的____。",
-    "option": "",
-    "answer": "历史方位",
-    "id": "1798736712986263553",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是人和社会持续发展的根本基础。",
-    "option": "",
-    "answer": "良好生态环境",
-    "id": "1798736712977874945",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "科学发展观的第一要义是____。",
-    "option": "",
-    "answer": "发展",
-    "id": "1798736712965292033",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是指在马克思主义指导下打破习惯势力和主观偏见的束缚，研究新情况，解决新问题。",
-    "option": "",
-    "answer": "解放思想",
-    "id": "1798736712902377472",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "贯彻“三个代表”重要思想，关键在坚持____。",
-    "option": "",
-    "answer": "与时俱进",
-    "id": "1798736712944320514",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "全面依法治国的总目标是建设中国特色社会主义法治体系，建设____。",
-    "option": "",
-    "answer": "社会主义法治国家",
-    "id": "1798736712994652160",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国梦归根到底是____，必须紧紧依靠人民来实现，必须不断为人民造福。",
-    "option": "",
-    "answer": "人民的梦",
-    "id": "1798736713003040768",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1980年1月16日，邓小平在中共中央召集的干部会议上作《目前的形势和任务》的讲话，强调坚持四项基本原则的核心是坚持____。",
-    "option": "",
-    "answer": "党的领导",
-    "id": "1798736712893988866",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "实现中国梦必须凝聚____，这就是各族人民大团结的力量。",
-    "option": "",
-    "answer": "中国力量",
-    "id": "1798736713024012288",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "ORH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "改革发展的主体和动力是____。",
-    "option": "",
-    "answer": "人民群众",
-    "id": "1798736712910766080",
+    "answer": "改革开放",
+    "id": "1798736712893988864",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
@@ -210,20 +20,220 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "全面深化改革的总目标是完善和发展中国特色社会主义制度，推进____和治理能力现代化。",
+    "questionStem": "党的十七大提出要建设资源节约型、____社会。",
     "option": "",
-    "answer": "国家治理体系",
-    "id": "1798736712990457857",
+    "answer": "环境友好型",
+    "id": "1798736712986263552",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "____是社会主义民主政治的本质属性，是最广泛、最真实、最管用的民主。",
+    "questionStem": "2001年，中国、俄罗斯、哈萨克斯坦、吉尔吉斯斯坦和塔吉克斯坦在5国元首会晤机制基础上正式建立____。",
     "option": "",
-    "answer": "全过程人民民主",
-    "id": "1798736713007235072",
+    "answer": "上海合作组织",
+    "id": "1798736712944320512",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "加强党的作风建设，最根本的是保持党与____之间的血肉联系。",
+    "option": "",
+    "answer": "人民群众",
+    "id": "1798736712961097730",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "2000年2月21日至25日，江泽民在广东考察工作，围绕加强新时期党的建设和推进高新技术产业发展两个项目进行调研。考察期间，江泽民完整地提出了“____”重要思想。",
+    "option": "",
+    "answer": "三个代表",
+    "id": "1798736712940126208",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "实现中华民族伟大复兴,是一项光荣而艰巨的事业，需要每个人付出艰苦努力，用____托起中国梦。",
+    "option": "",
+    "answer": "实干",
+    "id": "1798736713032400897",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "社会主义民主政治的本质和核心是____。",
+    "option": "",
+    "answer": "人民当家作主",
+    "id": "1798736712977874944",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "邓小平指出：“贫穷不是社会主义，社会主义要消灭贫穷。”这个论断体现了____的要求。",
+    "option": "",
+    "answer": "社会主义本质",
+    "id": "1798736712931737601",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "中国共产党____全国代表大会于2022年10月16日在北京开幕。",
+    "option": "",
+    "answer": "第二十次",
+    "id": "1798736712998846464",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "2006年3月4日，胡锦涛在参加全国政协十届四次会议民盟、民进界委员联组讨论时讲话，提出____。",
+    "option": "",
+    "answer": "社会主义荣辱观",
+    "id": "1798736712952709120",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "习近平新时代中国特色社会主义思想的核心要义是____。",
+    "option": "",
+    "answer": "坚持和发展中国特色社会主义",
+    "id": "1798736712990457856",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "立足____，贯彻新发展理念附件一国家附件一国的国力，要致力构建以国内大循环为主，国内国际双循环相互促进的新发展格局。",
+    "option": "",
+    "answer": "新发展阶段",
+    "id": "1798736713061761024",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是人和社会持续发展的根本基础。",
+    "option": "",
+    "answer": "良好生态环境",
+    "id": "1798736712977874945",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "加强社会建设，必须以____为重点。",
+    "option": "",
+    "answer": "保障和改善民生",
+    "id": "1798736712956903424",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "党的十七大报告指出，新时期以来我们取得的一切成绩和进步的根本原因，集中到一点，就是高举了____伟大旗帜。",
+    "option": "",
+    "answer": "中国特色社会主义",
+    "id": "1798736712973680642",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "我国经济特区实行特殊的____和经济管理制度。",
+    "option": "",
+    "answer": "经济政策",
+    "id": "1798736712898183168",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是兴国之魂，决定着中国特色社会主义发展方向。",
+    "option": "",
+    "answer": "社会主义核心价值体系",
+    "id": "1798736712982069248",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是社会主义制度的自我完善与发展。",
+    "option": "",
+    "answer": "改革",
+    "id": "1798736712889794560",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "党的十九届六中全会指出，中国共产党和中国人民以英勇顽强的奋斗向世界庄严宣告，改革开放是决定当代中国前途命运的关键一招，____是指引中国发展繁荣的正确道路，中国大踏步赶上了时代。",
+    "option": "",
+    "answer": "中国特色社会主义道路",
+    "id": "1798736712994652161",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "中国银行股份有限公司和____股份有限公司分别于2004年8月26日和9月21日成立,两家国有独资商业银行整体改制为国家控股的股份制商业银行。",
+    "option": "",
+    "answer": "中国建设银行",
+    "id": "1798736712952709122",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "科学发展观的基本要求是____。",
+    "option": "",
+    "answer": "全面协调可持续发展",
+    "id": "1798736712965292034",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "科学发展观的第一要义是____。",
+    "option": "",
+    "answer": "发展",
+    "id": "1798736712965292033",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "ORH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "20世纪80年代我国城市改革的重点是____。",
+    "option": "",
+    "answer": "国有企业改革",
+    "id": "1798736712914960384",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "ORH",

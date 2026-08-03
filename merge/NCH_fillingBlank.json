@@ -1,65 +1,5 @@
 [
   {
-    "questionStem": "1957年4月27日，中共中央下发《关于整风运动的指示》，决定在全党进行一场反官僚主义、宗派主义、____的整风运动",
-    "option": "",
-    "answer": "主观主义",
-    "id": "1798736713133064192",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中共中央正式提出过渡时期总路线是在____年",
-    "option": "",
-    "answer": "1953",
-    "id": "1798736713074343936",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "2010年5月至10月，以“城市，让生活更美好”为主题的世界博览会在____召开。",
-    "option": "",
-    "answer": "上海",
-    "id": "1798736713200173058",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1997年7月1日，____回归祖国。",
-    "option": "",
-    "answer": "香港",
-    "id": "1798736713187590146",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "香港、澳门的回归，使____从科学构想变为现实，标志着祖国统一大业向前迈出了重要一步。",
-    "option": "",
-    "answer": "一国两制",
-    "id": "1798736713191784449",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是民生之源，是改善民生、实现发展成果由人民共享最重要最直接的方式。",
-    "option": "",
-    "answer": "收入分配",
-    "id": "1798736713246310402",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
     "questionStem": "新时代全面深化改革开放是一场深刻____。",
     "option": "",
     "answer": "革命",
@@ -70,150 +10,10 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "2006年7月1日，全长1956公里的____铁路全线通车，结束了西藏不通铁路的历史。",
+    "questionStem": "毛泽东在《论十大关系》中提出的中国社会主义建设的基本方针是____为社会主义事业服务",
     "option": "",
-    "answer": "青藏",
-    "id": "1798736713195978752",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "实现中华民族伟大复兴的中国梦，本质是国家富强、民族振兴、____。",
-    "option": "",
-    "answer": "人民幸福",
-    "id": "1798736713233727489",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1999年9月，党的十五届四中全会做出实施____大开发战略的决定。",
-    "option": "",
-    "answer": "西部",
-    "id": "1798736713187590145",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国进入社会主义社会的最主要的标志是____的基本完成",
-    "option": "",
-    "answer": "社会主义改造",
-    "id": "1798736713128869889",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "习近平指出，以____为中心是我们党的根本执政理念，让人们生活幸福是“国之大者”。",
-    "option": "",
-    "answer": "人民",
-    "id": "1798736713242116097",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "“一国两制”构想最早提出时针对____问题。",
-    "option": "",
-    "answer": "台湾",
-    "id": "1798736713170812928",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "2006年1月1日，我国废止《中华人民共和国____条例》，在我国存在2600年的____成为历史。",
-    "option": "",
-    "answer": "农业税，农业税",
-    "id": "1798736713195978753",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是最基本的民生，是劳动者赖以生存和发展的基础、共享经济发展成果的基本条件，关系到亿万劳动者及其家庭的切身利益。",
-    "option": "",
-    "answer": "就业",
-    "id": "1798736713250504704",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1956年，中国共产党第八次全国人民代表大会在北京开幕，会议明确了全党和全国人民的主要任务是____",
-    "option": "",
-    "answer": "发展生产力",
-    "id": "1798736713128869888",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "习近平新时代中国特色社会主义思想，是全党全国各族人民为实现中华民族伟大复兴而奋斗的____，是新时代党和国家事业发展的根本遵循。",
-    "option": "",
-    "answer": "行动指南",
-    "id": "1798736713212755968",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "从1956年社会主义改造基本完成到1966年“文化大革命”前夕，是开始全面建设____的十年",
-    "option": "",
-    "answer": "社会主义",
-    "id": "1798736713120481280",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "全面建成小康社会是实现中华民族伟大复兴中国梦的关键一步。要在全面建成小康社会的基础上，分____全面建成富强民主文明和谐美丽的社会主义现代化强国，全面推进中华民族伟大复兴。",
-    "option": "",
-    "answer": "两步走",
-    "id": "1798736713229533185",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国进入社会主义社会的主要标志是____",
-    "option": "",
-    "answer": "社会主义三大改造的完成",
-    "id": "1798736713065955328",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1952年，为了打击不法资本家严重的“五毒”行为而开展的是____",
-    "option": "",
-    "answer": "五反运动",
-    "id": "1798736713078538242",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "NCH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "治理好我们这个大党和大国，必须坚持____特别是党中央集中统一领导，发扬党的自我革命精神，解决好大党独有难题。",
-    "option": "",
-    "answer": "党的全面领导",
-    "id": "1798736713208561665",
+    "answer": "调动一切积极因素",
+    "id": "1798736713124675584",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",
@@ -230,10 +30,150 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "新中国发展国民经济的第一个五年计划规定，集中主要力量发展____",
+    "questionStem": "习近平指出：“中国特色社会主义，既坚持了科学社会主义基本原则，又根据时代条件赋予其鲜明的____。”",
     "option": "",
-    "answer": "重工业",
-    "id": "1798736713078538240",
+    "answer": "中国特色",
+    "id": "1798736713221144576",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1988年，中共中央和国务院决定建立____省，加快其发展。",
+    "option": "",
+    "answer": "海南",
+    "id": "1798736713166618625",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "中国共产党制定的过渡时期总路线的主体是____",
+    "option": "",
+    "answer": "实现国家的社会主义工业化",
+    "id": "1798736713074343937",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1956年1月，中共中央召开关于知识分子问题会议，动员全党和全国人民，特别是广大知识分子____",
+    "option": "",
+    "answer": "向现代科学进军",
+    "id": "1798736713120481281",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1997年7月1日，____回归祖国。",
+    "option": "",
+    "answer": "香港",
+    "id": "1798736713187590146",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "2012年，党的十八大通过的《中国共产党章程（修正案）》把____同马克思列宁主义、毛泽东思想、邓小平理论、“三个代表”重要思想一道确立为党的指导思想并载入党章。",
+    "option": "",
+    "answer": "科学发展观",
+    "id": "1798736713204367360",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "以习近平同志为核心的党中央团结带领全党全国各族人民砥砺前行，推动党和国家事业取得____、发生历史性变革，使中国特色社会主义展现出强大生命力。",
+    "option": "",
+    "answer": "历史性成就",
+    "id": "1798736713216950272",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "中共中央正式提出过渡时期总路线是在____年",
+    "option": "",
+    "answer": "1953",
+    "id": "1798736713074343936",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "中国的新民主主义革命取得了基本胜利的标志是____",
+    "option": "",
+    "answer": "新中国的成立",
+    "id": "1798736713086926849",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是第一生产力，是先进生产力的集中体现和主要标志。",
+    "option": "",
+    "answer": "科学技术",
+    "id": "1798736713154035712",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "治理好我们这个大党和大国，必须坚持____特别是党中央集中统一领导，发扬党的自我革命精神，解决好大党独有难题。",
+    "option": "",
+    "answer": "党的全面领导",
+    "id": "1798736713208561665",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1951年底到1952年春，中国共产党在党政机关工作人员中开展的运动是____",
+    "option": "",
+    "answer": "三反运动",
+    "id": "1798736713082732544",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "共同富裕是全体人民共同富裕，是人民群众____和____都富裕。",
+    "option": "",
+    "answer": "物质生活，精神生活",
+    "id": "1798736713233727490",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____、____，是邓小平理论的精髓。",
+    "option": "",
+    "answer": "解放思想，实事求是",
+    "id": "1798736713141452802",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "NCH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "实现中华民族伟大复兴的中国梦，本质是国家富强、民族振兴、____。",
+    "option": "",
+    "answer": "人民幸福",
+    "id": "1798736713233727489",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "NCH",

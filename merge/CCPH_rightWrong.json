@@ -1,25 +1,51 @@
 [
   {
-    "questionStem": "党的十八届五中全会提出，要实现“十三五”时期发展目标，必须把发展基点放在创新上。",
+    "questionStem": "中共七大特别强调，党的群众路线是党的根本的政治路线和组织路线。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736711014940672",
+    "id": "1798736711346290689",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "当前我国最大的实际就是我国还处于并将长期处于社会主义初级阶段。",
+    "questionStem": "1956年9月，党的八大召开，标志着党对中国社会主义建设道路的探索的开始。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736710763282433",
+    "id": "1798736710591315968",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "我国经济体制改革全面展开是党的十二大之后。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736710822002688",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "确立了全面建设小康社会的战略目标，制定了全面建设小康社会的行动纲领的是中共十六大。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710801031169",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
@@ -39,65 +65,13 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "十一届三中全会后农村实行家庭联产承包责任制与农业合作化以前的小私有经济相同。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736710813614080",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国特色社会主义最本质的特征是中国共产党领导，中国特色社会主义制度的最大优势是中国共产党领导。",
+    "questionStem": "“一国两制”是中国特色社会主义的伟大创举，是香港、澳门回归后保持长期繁荣稳定的最佳制度安排。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736711157547009",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "标志着我党胜利地完成了指导思想上的拨乱反正是中共十一届六中全会通过的《关于建国以来党的若干历史问题的决议》。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736710759088128",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "党的十八届四中全会强调，社会主义法治最根本的保证是党的领导。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711006552065",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "系统地阐明关于社会主义初级阶段的理论是在中共十三大上。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736710826196994",
+    "id": "1798736710931054593",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
@@ -117,156 +91,26 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "中共十六大关于我国进入和建设小康社会的判断，是根据我国现代化建设的客观进程和社会经济发展阶段性变化的实际作出的。",
+    "questionStem": "“三个代表”重要思想的提出，是我们党在自身建设问题上的一个重大理论突破。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736710851362816",
+    "id": "1798736710712950784",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "意识形态工作是为国家立心、为民族立魂的工作。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711115603969",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "在四项基本原则中，核心是要坚持中国共产党的领导地位。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736710842974208",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "党的七大特别强调，党的群众路线是党的根本的政治路线和组织路线。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711258210305",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "坚持马克思主义基本原理同中国具体实际相结合，是对待马克思主义唯一正确和科学的态度。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736710784253953",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "习近平总书记指出，抗疫斗争伟大实践再次证明，中国特色社会主义制度所具有的显著优势，是抵御风险挑战、提高国家治理效能的根本保证。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711111409664",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "按照党的十九届五中全会要求，到2035年时我国的关键核心技术实现重大突破，进入创新型国家前列。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736710935248898",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "党的十八大报告中提出，建设中国特色社会主义，总依据是社会主义初级阶段，总布局是“五位一体”，总任务是实现社会主义现代化和中华民族伟大复兴。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736710993969154",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国共产党并不是一开始就把社会主义和共产主义规定为自己的奋斗目标，而是有一个发展的过程。",
+    "questionStem": "教育、科技、人才不是全面建设社会主义现代化国家的基础性、战略性支撑。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736711363067904",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "在新解放区进行的土地改革，是在人民革命战争已经取得全国胜利，统一的人民政权已经建立的条件下进行的。土地改革的目的是实行国家土地所有制。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736710666813442",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "民主革命时期党的中心任务是进行武装斗争。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736711308541952",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "在党的八大上邓小平被选为党的总书记。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736710662619137",
+    "id": "1798736711048495104",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
@@ -286,6 +130,19 @@
     "type": "rightWrong"
   },
   {
+    "questionStem": "中国新民主主义革命胜利的标志是中华人民共和国成立。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736711379845122",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
     "questionStem": "中国共产党的最早组织是在北京建立的。",
     "option": [
       "正确",
@@ -299,13 +156,286 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "中国共产党是中国工人阶级的先锋队，同时又是中国人民和中华民族的先锋队。",
+    "questionStem": "党的二十大提出：社会主义核心价值观是凝聚人心、汇聚民力的强大力量。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736711375650816",
+    "id": "1798736710981386240",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "在四项基本原则中，核心是要坚持中国共产党的领导地位。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710842974208",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中共十六大关于我国进入和建设小康社会的判断，是根据我国现代化建设的客观进程和社会经济发展阶段性变化的实际作出的。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710851362816",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中共十一届三中全会的中心议题是讨论把全党工作的重点转移到社会主义现代化建设上来。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710872334337",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "新中国成立从根本上结束了100多年来中华民族受帝国主义侵略压迫的历史。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710650036226",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "1956年，社会主义基本制度的全面确立标志着中国进入开始全面建设社会主义的历史阶段。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710587121665",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国特色社会主义的总任务是实现社会主义现代化和中华民族伟大复兴。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736711149158401",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "党的十八大报告中提出，建设中国特色社会主义，总依据是社会主义初级阶段，总布局是“五位一体”，总任务是实现社会主义现代化和中华民族伟大复兴。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710993969154",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "邓小平在中共十二大致开幕词时，第一次提出了“建设有中国特色的社会主义”的崭新命题。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710771671040",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "1920年3月，中国第一个学习和研究马克思主义的团体——马克思学说研究会在上海成立。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736711396622336",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "党的二大通过决议案，确认中国共产党是共产国际的一个支部。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736711396622337",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "系统地阐明关于社会主义初级阶段的理论是在中共十三大上。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710826196994",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "党的十八届四中全会强调，社会主义法治最根本的保证是党的领导。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736711006552065",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "第一个五年计划的完成完全改变了我国工农业总产值中以农业为主的局面。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736710608093184",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "1922年7月16日至23日，中国共产党第二次全国代表大会在广州举行。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736711396622338",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "党的十八届三中全会指出，全面深化改革，必须立足于我国长期处于社会主义初级阶段这个最大实际，解决我国所有问题的关键是创新。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736711006552064",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中共十七大指出，国家发展战略的核心、提高综合国力的关键是提高自主创新能力，建设创新型国家。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710868140032",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "社会主义制度的发展和完善是一个长期的历史过程。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736711082049537",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国新民主主义革命取得胜利的原因主要是有了无产阶级政党的领导。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710696173568",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "习近平总书记指出，抗疫斗争伟大实践再次证明，中国特色社会主义制度所具有的显著优势，是抵御风险挑战、提高国家治理效能的根本保证。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736711111409664",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "坚持马克思主义基本原理同中国具体实际相结合，是对待马克思主义唯一正确和科学的态度。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710784253953",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "党的十八大是在我国进入全面建成小康社会决定性阶段召开的一次十分重要的会议。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736710998163456",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
@@ -325,13 +455,13 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "党的十八届三中全会的主题是全面深化改革。",
+    "questionStem": "全面建设社会主义现代化国家，必须坚持中国特色社会主义文化发展道路。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736711002357760",
+    "id": "1798736711065272321",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
