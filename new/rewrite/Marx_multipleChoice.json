@@ -1,674 +1,14 @@
 [
   {
-    "questionStem": "经济全球化的表现包括",
+    "questionStem": "下列观点正确反映了真理和价值关系的有",
     "option": [
-      "生产全球化",
-      "贸易全球化",
-      "金融全球化",
-      "利润平均化"
-    ],
-    "answer": "ABC",
-    "id": "1798736702219485184",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "主观辩证法是指",
-    "option": [
-      "客观辩证法的反映",
-      "辩证的思维",
-      "人类认识的一般规律",
-      "唯心主义辩证法"
-    ],
-    "answer": "ABC",
-    "id": "1798736701917495297",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "资本主义国家的对内职能主要有",
-    "option": [
-      "对被统治阶级进行压迫和控制的政治职能",
-      "对邮政、铁路、水路、文教、卫生保健、社会福利等事业进行管理的公共管理职能",
-      "进行国际交往的职能",
-      "维护国家安全和利益的职能"
-    ],
-    "answer": "AB",
-    "id": "1798736702282399744",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "下列说法中，正确表述了地理环境与人类社会关系的是",
-    "option": [
-      "地理环境影响和制约社会的发展",
-      "地理环境决定社会制度的性质和更替",
-      "地理环境对社会的作用大小受社会制度的制约",
-      "地理环境对社会发展的作用受社会生产力发展水平的制约"
-    ],
-    "answer": "ACD",
-    "id": "1798736702534057985",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "下列各项正确说明人的活动与社会规律之间关系的有",
-    "option": [
-      "人们可以认识和利用社会规律",
-      "社会规律是通过人的活动实现的",
-      "人们可以根据自己的愿望改变社会规律",
-      "社会规律就是人的活动的规律，人的活动受社会规律的制约"
-    ],
-    "answer": "ABD",
-    "id": "1798736702538252288",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "以下属于上层建筑的社会现象有",
-    "option": [
-      "政治法律制度",
-      "国家政权",
-      "社会意识形态",
-      "生产资料所有制形式"
-    ],
-    "answer": "ABC",
-    "id": "1798736702534057984",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "垄断没有消除竞争是因为",
-    "option": [
-      "竞争是一切社会生产所共有的",
-      "竞争是商品经济一般规律，垄断并没有消灭商品经济",
-      "垄断必须通过竞争来维持",
-      "在垄断组织之外，还存在着为数众多的中小企业"
-    ],
-    "answer": "BCD",
-    "id": "1798736702223679488",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "下列选项中正确表达了马克思主义科学内涵的有()",
-    "option": [
-      "马克思和恩格斯创立并为后继者所不断发展的科学理论体系",
-      "关于自然、社会和人类思维发展一般规律的学说",
-      "关于社会主义必然代替资本主义、最终实现共产主义的学说",
-      "关于无产阶级解放、全人类解放和每个人自由而全面发展的学说，是指引人民创造美好生活的行动指南"
+      "追求真理和创造价值是人类两项既相互联系又相互区别的基本活动",
+      "真理与价值相互贯通，互为前提",
+      "真理与价值在发展中相互引导",
+      "实践是真理和价值的共同的检验标准"
     ],
     "answer": "ABCD",
-    "id": "1798736703033180161",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "马克思主义产生的直接理论来源是",
-    "option": [
-      "德国古典哲学",
-      "英国古典政治经济学",
-      "英法两国的空想社会主义",
-      "法国启蒙思想"
-    ],
-    "answer": "ABC",
-    "id": "1798736703037374464",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "“批判的武器当然不能代替武器的批判，物质的力量只能用物质的力量来摧毁，理论一经群众掌握，也会变成物质力量。”这一论断的哲学思想是",
-    "option": [
-      "理论对实践具有指导作用",
-      "理论不能代替实践",
-      "理论本身就是物质的力量",
-      "理论的作用可以通过实践表现出来"
-    ],
-    "answer": "ABD",
-    "id": "1798736702840242177",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "马克思主义经典作家与其他思想家预见未来社会的方法区别在于",
-    "option": [
-      "前者从客观规律出发，后者从理性出发",
-      "前者侧重于一般特征的揭示，后者侧重于详尽细节的描绘",
-      "前者通过批判旧世界发现新世界，后者凭空猜测无法知道的事情",
-      "前者是乐观主义的态度，后者是悲观主义的态度"
-    ],
-    "answer": "ABC",
-    "id": "1798736702718607361",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "19世纪，经济上落后的德国在哲学领域超过了经济上先进的英国。表明",
-    "option": [
-      "社会意识的发展不依赖于社会经济",
-      "社会意识独立于社会存在",
-      "社会意识具有相对独立性",
-      "社会意识的发展与经济发展水平具有不平衡性"
-    ],
-    "answer": "CD",
-    "id": "1798736702542446592",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "价值的基本特性是()",
-    "option": [
-      "主体性",
-      "客观性",
-      "多维性",
-      "社会历史性"
-    ],
-    "answer": "ABCD",
-    "id": "1798736702802493441",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "“按图索骥”的错误在于",
-    "option": [
-      "理论脱离实际",
-      "经验论",
-      "教条主义",
-      "唯理论"
-    ],
-    "answer": "ACD",
-    "id": "1798736702836047873",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "关于真理的标准，下列说法属于唯心主义观点的有",
-    "option": [
-      "多数人认为正确的就是真理",
-      "有权人认为正确的就是真理",
-      "能够满足人们需要的就是真理",
-      "符合已被公认理论的就是真理"
-    ],
-    "answer": "ABCD",
-    "id": "1798736702827659264",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "社会主义国家建设中遇到一系列困难和问题从而不能不具有长期性的原因是：",
-    "option": [
-      "生产力发展状况的制约。",
-      "经济基础和上层建筑发展状况的制约。",
-      "国际环境的严峻挑战。",
-      "马克思主义政党对社会主义建设规律需要一个探索的过程。"
-    ],
-    "answer": "ABCD",
-    "id": "1798736702764744704",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "金融资本是",
-    "option": [
-      "垄断资本主义阶段居统治地位的资本",
-      "在自由竞争资本主义阶段产生",
-      "银行资本与工业资本在垄断的基础上融合形成的资本",
-      "通过“参与制”在经济领域里进行统治"
-    ],
-    "answer": "ACD",
-    "id": "1798736702219485185",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "鲁迅说“描神画鬼，毫无对证，本可以专靠神思，所谓‘天马行空’地挥写了。然而他们写出来的却是三只眼、长颈子，也就是在正常的人体上增加了眼睛一只，拉长了长颈子二三尺而已。”这段话说明，人们头脑中的鬼神观念是",
-    "option": [
-      "人脑对客观物质世界的歪曲的反映",
-      "可以在现实世界找到鬼神的原型",
-      "人按照自己的形象进行艺术加工的结果",
-      "与现实无关，纯粹出自人脑的主观想象"
-    ],
-    "answer": "ABC",
-    "id": "1798736701963632640",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "从历史发展的主体选择的角度看，中国人民走上社会主义道路，其原因在于",
-    "option": [
-      "社会主义符合中国人民的根本利益要求",
-      "俄国十月革命对中国人民的历史启示",
-      "中国共产党对于历史必然性及本国国情的正确把握",
-      "历史进程中并无多种道路可供选择"
-    ],
-    "answer": "ABC",
-    "id": "1798736702521475072",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "“一言可以兴邦，一言可以丧邦”，英雄人物的意志可以改变历史发展的方向，这种观点是",
-    "option": [
-      "否认历史必然性的唯意志论",
-      "否认历史偶然性的机械论",
-      "唯心主义非决定论在历史观上的表现",
-      "夸大个人作用的唯心史观"
-    ],
-    "answer": "ACD",
-    "id": "1798736702513086465",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "马克思主义认为，实践是",
-    "option": [
-      "人们能动地改造客观物质世界的对象性活动",
-      "人的现实感性活动",
-      "“绝对精神”的逻辑发展",
-      "人的存在方式"
-    ],
-    "answer": "ABD",
-    "id": "1798736701951049728",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "下列命题中包含辩证法思想的是",
-    "option": [
-      "易穷则变，变则通，通则久",
-      "祸兮福之所倚，福兮祸之所伏",
-      "道之大原出于天，天不变，道亦不变",
-      "荣枯代谢而弥见其新"
-    ],
-    "answer": "ABD",
-    "id": "1798736701921689600",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "实践在认识中的决定作用表现在",
-    "option": [
-      "实践产生了认识的需要",
-      "实践为认识提供了可能",
-      "实践使认识得以产生和发展",
-      "实践是检验认识的真理性的唯一标准"
-    ],
-    "answer": "ABCD",
-    "id": "1798736702852825089",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "下列格言和成语中体现质量互变规律的有",
-    "option": [
-      "子在川上曰逝者如斯夫",
-      "九层之台，起于垒土",
-      "千里之堤，溃于蚁穴",
-      "冰冻三尺，非一日之寒"
-    ],
-    "answer": "BCD",
-    "id": "1798736701930078209",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "“人们自己创造自己的历史”，表明",
-    "option": [
-      "社会中每个人都是推动历史前进的力量",
-      "人是社会的主体",
-      "历史是由追求着自己目的的人的活动构成的",
-      "历史规律实现于人的自觉活动之中"
-    ],
-    "answer": "BCD",
-    "id": "1798736702525669376",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "公孙龙提出的“白马非马”命题，其错误在于割裂了事物的",
-    "option": [
-      "共性和个性的关系",
-      "普遍性和特殊性的关系",
-      "整体和部分的关系",
-      "一般和个别的关系"
-    ],
-    "answer": "ABD",
-    "id": "1798736701938466816",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "劳动力成为商品的基本条件是",
-    "option": [
-      "劳动力具有使用价值",
-      "劳动者没有生产资料和其它生活来源",
-      "劳动者有人身自由",
-      "劳动力具有价值"
-    ],
-    "answer": "BC",
-    "id": "1798736702290788353",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "“感觉到了的东西，我们不能立刻理解它，只有理解了的东西，才能更深刻地感觉它”，这一观点说明",
-    "option": [
-      "感性认识对于认识事物的本质没有任何帮助",
-      "感性认识具有局限性，有待于上升为理性认识",
-      "感性认识是认识的初级阶段，理性认识是认识的高级阶段",
-      "感性认识和理性认识是相互依存和渗透的"
-    ],
-    "answer": "BCD",
-    "id": "1798736702840242176",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "“我们今天生活着的世界，与其说是自然世界，还不如说是人造或人为世界。在我们的周围几乎每样东西都刻有人的技能的痕迹。”这段话应理解为",
-    "option": [
-      "人造的或人为的世界是惟一存在的世界",
-      "人类世界是人的实践活动对象化的结果",
-      "自在世界日益转化为人化自然",
-      "现实世界是人类精神的创造物"
-    ],
-    "answer": "BC",
-    "id": "1798736701967826944",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "马克思主义的物质范畴理论具有丰富而深刻的理论意义，它包括",
-    "option": [
-      "坚持了唯物主义一元论",
-      "坚持了能动的反映论和可知论，批判了不可知论",
-      "体现了唯物论和辩证法的统一",
-      "体现了唯物主义自然观与唯物主义历史观的统一"
-    ],
-    "answer": "ABCD",
-    "id": "1798736701976215553",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "下列科学发现中，为马克思主义的产生提供了坚实的自然科学基础的有",
-    "option": [
-      "细胞学说",
-      "狭义相对论",
-      "生物进化论",
-      "能量守恒和转化定律"
-    ],
-    "answer": "ACD",
-    "id": "1798736703070928896",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "马克思说：“人的本质不是单个人所固有的抽象物，在其现实性上，它是一切社会关系的总和”。其内涵是（）",
-    "option": [
-      "人的本质在于人的社会性",
-      "人的本质形成于人的各种社会关系中",
-      "人的本质是具体的、历史的",
-      "人的本质是自由和理性"
-    ],
-    "answer": "ABC",
-    "id": "1798736702517280768",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "辩证唯物主义认识论与旧唯物主义认识论的区别表现在",
-    "option": [
-      "是否承认认识是主观对客观世界的反映",
-      "是否承认实践对认识的决定作用",
-      "是否承认认识是摹写与创造的统一",
-      "是否承认认识是一个辩证发展过程"
-    ],
-    "answer": "BCD",
-    "id": "1798736702848630785",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "马克思主义认为，人的自由而全面的发展",
-    "option": [
-      "是社会发展的根本目标",
-      "是社会进步的重要内容",
-      "既是社会发展的结果，又是社会发展的原因",
-      "与社会政治、经济、文化的发展互为前提"
-    ],
-    "answer": "ABCD",
-    "id": "1798736702714413057",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "辩证的否定是",
-    "option": [
-      "事物自我的否定",
-      "事物发展的环节",
-      "事物联系的环节",
-      "扬弃"
-    ],
-    "answer": "ABCD",
-    "id": "1798736701925883904",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "社会主义发展史上的几次飞跃是",
-    "option": [
-      "19世纪中叶，社会主义从空想发展到科学",
-      "20世纪初，社会主义从理论发展到制度建立的实践",
-      "社会主义从一国实践发展到多国实践",
-      "推动社会进步的力量"
-    ],
-    "answer": "ABC",
-    "id": "1798736702773133312",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "列宁领导苏维埃俄国对社会主义道路的探索，大体经历了",
-    "option": [
-      "和平发展时期",
-      "进一步巩固苏维埃政权时期",
-      "战时共产主义时期",
-      "战时共产主义转变为新经济政策时期"
-    ],
-    "answer": "BCD",
-    "id": "1798736702768939009",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "下列选项中，正确表述感性认识和理性认识关系的有",
-    "option": [
-      "理性认识依赖于感性认识",
-      "感性认识有待于发展到理性认识",
-      "理性认识比感性认识真实可靠",
-      "感性认识和理性认识相互渗透"
-    ],
-    "answer": "ABD",
-    "id": "1798736702848630784",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "社会主义的根本任务是发展生产力，这是因为，发展生产力是",
-    "option": [
-      "提高人民生活水平的要求",
-      "巩固社会主义制度的要求",
-      "社会主义本质的内在要求",
-      "解决社会主要矛盾的要求"
-    ],
-    "answer": "ABCD",
-    "id": "1798736702768939008",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "苏联解体和东欧剧变，说明社会主义在发展过程中出现挫折和反复，这一事实表明",
-    "option": [
-      "新生事物的成长不是一帆风顺的",
-      "事物发展的道路是前进性与曲折性的统一",
-      "“资本主义必然灭亡，社会主义必然胜利”的结论是错误的",
-      "社会主义取代资本主义将是一个长期的过程"
-    ],
-    "answer": "ABD",
-    "id": "1798736701930078208",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "“观念的东西不外是移入人脑并在人脑中改造过的物质的东西而已.”这一观点表明",
-    "option": [
-      "人脑是意识的源泉",
-      "在意识中体现了主观和客观的统一",
-      "观念的东西同物质的东西是具有同一性的",
-      "反映者与被反映者是完全同一的"
-    ],
-    "answer": "BC",
-    "id": "1798736701976215552",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "实践是人类能动地改造世界的社会性物质活动，具有()的特征。",
-    "option": [
-      "客观实在性",
-      "自觉能动性",
-      "社会历史性",
-      "主观目的性"
-    ],
-    "answer": "ABC",
-    "id": "1798736702806687744",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "唯物辩证法就其本质来说是批判的、革命的，因为它",
-    "option": [
-      "认为凡是现存的都是合理的，凡是现存的都是必然要灭亡的",
-      "对每一种既成的事物都是从其暂时性方面去理解",
-      "在对现存事物肯定的理解中包含否定的理解",
-      "认为凡是合理的就一定存在，凡是存在就一定合理"
-    ],
-    "answer": "ABC",
-    "id": "1798736701942661120",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "唯物辩证法认为，认识事物的基础是",
-    "option": [
-      "认识事物的质",
-      "认识事物的量",
-      "认识事物矛盾的特殊性",
-      "认识事物的度"
-    ],
-    "answer": "AC",
-    "id": "1798736701934272512",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "马克思主义诞生时，资本主义的发展已经经历过",
-    "option": [
-      "14世纪末至15世纪初，资本主义生产关系在西欧封建社会内部孕育",
-      "18世纪60年代至19世纪30年代末，资本主义工业革命推动资本主义社会生产力发展",
-      "多次经济危机，给资本主义世界造成极大破坏",
-      "十月革命胜利，建立了第一个社会主义国家"
-    ],
-    "answer": "ABC",
-    "id": "1798736703037374465",
+    "id": "1798736702819270656",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
@@ -690,60 +30,45 @@
     "type": "multipleChoice"
   },
   {
-    "questionStem": "下列哪些说法中体现矛盾特殊性原理的有",
+    "questionStem": "中国特色社会主义不是从天上掉下来的，而是()。",
     "option": [
-      "对症下药，量体裁衣",
-      "因地制宜，因材施教",
-      "物极必反，相反相成",
-      "知己知彼，百战不殆"
-    ],
-    "answer": "AB",
-    "id": "1798736701938466817",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "在意识起源问题上，下列观点正确的是",
-    "option": [
-      "意识是人脑的机能和属性",
-      "意识是客观世界的主观映像",
-      "意识是自然界长期发展的产物",
-      "意识是社会的产物"
-    ],
-    "answer": "CD",
-    "id": "1798736701967826945",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "劳动力商品的价值包括",
-    "option": [
-      "维持劳动者本人生存所必需的生活资料的价值",
-      "为维持劳动者家属的生存所必需的生活资料的价值",
-      "劳动者接受教育和训练所支出的费用",
-      "劳动者在劳动过程中创造出来的自身的价值"
+      "在改革开放以来的伟大实践中得来的",
+      "在中华人民共和国成立以来的持续探索中得来的",
+      "在中国共产党成立以来领导人民进行伟大社会革命的实践中得来的",
+      "在儒家文化传统的长期引领下得来的"
     ],
     "answer": "ABC",
-    "id": "1798736702290788352",
+    "id": "1798736702492114944",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "multipleChoice"
   },
   {
-    "questionStem": "人们对一个复杂事物的认识，往往不是一次完成的，而是需要经过实践、认识、再实践、再认识的多次反复才能完成。这是因为",
+    "questionStem": "以下属于上层建筑的社会现象有",
     "option": [
-      "人们的认识受到客观事物发展过程的限制",
-      "人们的认识受到一定社会历史条件的限制",
-      "人们的认识受到科学技术水平和认识工具的限制",
-      "人们一次性的认识往往是错误的认识"
+      "政治法律制度",
+      "国家政权",
+      "社会意识形态",
+      "生产资料所有制形式"
     ],
     "answer": "ABC",
-    "id": "1798736702844436480",
+    "id": "1798736702534057984",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列格言和成语中体现质量互变规律的有",
+    "option": [
+      "子在川上曰逝者如斯夫",
+      "九层之台，起于垒土",
+      "千里之堤，溃于蚁穴",
+      "冰冻三尺，非一日之寒"
+    ],
+    "answer": "BCD",
+    "id": "1798736701930078209",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
@@ -765,6 +90,126 @@
     "type": "multipleChoice"
   },
   {
+    "questionStem": "在意识起源问题上，下列观点正确的是",
+    "option": [
+      "意识是人脑的机能和属性",
+      "意识是客观世界的主观映像",
+      "意识是自然界长期发展的产物",
+      "意识是社会的产物"
+    ],
+    "answer": "CD",
+    "id": "1798736701967826945",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下属现象中属于共产主义社会特征的有",
+    "option": [
+      "社会财富极大丰富，消费品按需分配",
+      "社会财富极大丰富，消费品按劳分配",
+      "社会关系高度和谐，人们的精神境界极大提高",
+      "每个人自由而全面的发展"
+    ],
+    "answer": "ACD",
+    "id": "1798736702718607360",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "唯物辩证法认为，认识事物的基础是",
+    "option": [
+      "认识事物的质",
+      "认识事物的量",
+      "认识事物矛盾的特殊性",
+      "认识事物的度"
+    ],
+    "answer": "AC",
+    "id": "1798736701934272512",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "资本主义所有制和所有权的关系是",
+    "option": [
+      "所有制的性质和特点可以从所有权出发去认识",
+      "所有制是所有权的基础",
+      "所有权是所有制的法律形式",
+      "所有制决定着所有权"
+    ],
+    "answer": "BCD",
+    "id": "1798736702286594049",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "金融资本是",
+    "option": [
+      "垄断资本主义阶段居统治地位的资本",
+      "在自由竞争资本主义阶段产生",
+      "银行资本与工业资本在垄断的基础上融合形成的资本",
+      "通过“参与制”在经济领域里进行统治"
+    ],
+    "answer": "ACD",
+    "id": "1798736702219485185",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "“我们今天生活着的世界，与其说是自然世界，还不如说是人造或人为世界。在我们的周围几乎每样东西都刻有人的技能的痕迹。”这段话应理解为",
+    "option": [
+      "人造的或人为的世界是惟一存在的世界",
+      "人类世界是人的实践活动对象化的结果",
+      "自在世界日益转化为人化自然",
+      "现实世界是人类精神的创造物"
+    ],
+    "answer": "BC",
+    "id": "1798736701967826944",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "马克思主义认为，人的自由而全面的发展",
+    "option": [
+      "是社会发展的根本目标",
+      "是社会进步的重要内容",
+      "既是社会发展的结果，又是社会发展的原因",
+      "与社会政治、经济、文化的发展互为前提"
+    ],
+    "answer": "ABCD",
+    "id": "1798736702714413057",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "列宁领导苏维埃俄国对社会主义道路的探索，大体经历了",
+    "option": [
+      "和平发展时期",
+      "进一步巩固苏维埃政权时期",
+      "战时共产主义时期",
+      "战时共产主义转变为新经济政策时期"
+    ],
+    "answer": "BCD",
+    "id": "1798736702768939009",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "multipleChoice"
+  },
+  {
     "questionStem": "“单凭观察所得的经验，是决不能充分证明必然性的。这是如此正确，以至于不能从太阳总是在早晨升起来判断它明天会再升起。”恩格斯这段话的含义是",
     "option": [
       "感性认识有待于上升为理性认识",
@@ -774,21 +219,6 @@
     ],
     "answer": "ABD",
     "id": "1798736702836047872",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "multipleChoice"
-  },
-  {
-    "questionStem": "生产商品的劳动二重性是指",
-    "option": [
-      "个别劳动",
-      "社会劳动",
-      "具体劳动",
-      "抽象劳动"
-    ],
-    "answer": "CD",
-    "id": "1798736702299176960",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
