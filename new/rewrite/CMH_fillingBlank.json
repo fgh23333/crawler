@@ -1,129 +1,9 @@
 [
   {
-    "questionStem": "科举制是清政府在清末“____”中废除的。",
+    "questionStem": "____是太平天国运动由胜转衰的转折点",
     "option": "",
-    "answer": "新政",
-    "id": "1798736709781815298",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "毛泽东对中共党员提出两个“务必”要求的会议是____。",
-    "option": "",
-    "answer": "中共七届二中全会",
-    "id": "1798736709916033025",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1898年9月，以慈禧太后为首的保守势力扼杀了维新变法，史称“____”，谭嗣同等六位维新派人士被杀害。",
-    "option": "",
-    "answer": "戊戌政变",
-    "id": "1798736709769232386",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "实现中华民族伟大复兴的中国梦就是国家富强、民族振兴、____。",
-    "option": "",
-    "answer": "人民幸福",
-    "id": "1798736709962170369",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "“三个代表”重要思想写入党章的时间是____。",
-    "option": "",
-    "answer": "十六大",
-    "id": "1798736709953781760",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "2013年3月，国家主席习近平在俄罗斯莫斯科国际关系学院发表演讲，首次面向世界提出____理念。",
-    "option": "",
-    "answer": "人类命运共同体",
-    "id": "1798736709970558976",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "“钟山风雨起苍黄，百万雄师过大江。虎踞龙盘今胜昔，天翻地覆慨而慷。宜将剩勇追穷寇，不可沽名学霸王”。是毛泽东在解放军占领____后所作的诗。。",
-    "option": "",
-    "answer": "南京",
-    "id": "1798736709882478592",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "《____》是最能体现太平天国社会理想的纲领性文件。",
-    "option": "",
-    "answer": "天朝田亩制度",
-    "id": "1798736709773426689",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1905年至1907年，改良派与革命派展开论战，改良派以____为主要舆论阵地。",
-    "option": "",
-    "answer": "《新民丛报》",
-    "id": "1798736709802786817",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国进入社会主义社会的最主要的标志是____基本完成。",
-    "option": "",
-    "answer": "社会主义改造",
-    "id": "1798736709907644416",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "严复将英国人赫胥黎的《进化与伦理》的前两章翻译为《____》。",
-    "option": "",
-    "answer": "天演论",
-    "id": "1798736709781815296",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "热情讴歌革命的文章《革命军》的作者是____。",
-    "option": "",
-    "answer": "邹容",
-    "id": "1798736709794398208",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "五四运动后期斗争的中心由北京转到____。",
-    "option": "",
-    "answer": "上海",
-    "id": "1798736709815369728",
+    "answer": "天京事变",
+    "id": "1798736709773426688",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -140,20 +20,40 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "《我的马克思主义观》的作者是____。",
+    "questionStem": "1980年2月，中共十一届五中全会决定予以彻底平反并恢复名誉的党和国家领导人是____。",
     "option": "",
-    "answer": "李大钊",
-    "id": "1798736709832146944",
+    "answer": "刘少奇",
+    "id": "1798736709949587458",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "____是近代中国睁眼看世界的第一人。",
+    "questionStem": "毛泽东对中共党员提出两个“务必”要求的会议是____。",
     "option": "",
-    "answer": "林则徐",
-    "id": "1798736709739872256",
+    "answer": "中共七届二中全会",
+    "id": "1798736709916033025",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "十一届三中全会，开启了我国____和社会主义现代化建设新时期，实现了历史性的伟大转折。",
+    "option": "",
+    "answer": "改革开放",
+    "id": "1798736709928615937",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "新中国建立社会主义国营经济的最主要途径和手段____。",
+    "option": "",
+    "answer": "没收官僚资本",
+    "id": "1798736709911838722",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -164,196 +64,6 @@
     "option": "",
     "answer": "经济建设",
     "id": "1798736709945393153",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中共中央正式提出过渡时期总路线是在____年。",
-    "option": "",
-    "answer": "1953",
-    "id": "1798736709924421633",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1946年5月4日中共中央发出《关于清算、减租及土地问题的指示》（五四指示），决定将减租减息政策改变为____政策。",
-    "option": "",
-    "answer": "耕者有其田",
-    "id": "1798736709895061505",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1978年12月13日，邓小平在中央工作会议闭幕会上作题为《解放思想，____，团结一致向前看》的讲话。",
-    "option": "",
-    "answer": "实事求是",
-    "id": "1798736709932810240",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "随着外国资本主义的入侵，中国的社会性质开始发生质的变化。中国逐步成为____国家。",
-    "option": "",
-    "answer": "半殖民地半封建",
-    "id": "1798736709735677953",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "洋务派提出自强和____的主张，在客观上促进中国资本主义发展。",
-    "option": "",
-    "answer": "求富",
-    "id": "1798736709760843777",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "清末“预备立宪”的根本目的在于____。",
-    "option": "",
-    "answer": "延续清政府的统治",
-    "id": "1798736709786009601",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "确立习近平新时代中国特色社会主义思想的历史地位是在党的____。",
-    "option": "",
-    "answer": "十九大",
-    "id": "1798736709953781761",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "抗战胜利后，因内战准备工作尚未就绪，蒋介石三次电邀毛泽东去____谈判。",
-    "option": "",
-    "answer": "重庆",
-    "id": "1798736709886672896",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国人民解放军完成全国大陆解放的标志性事件是____。",
-    "option": "",
-    "answer": "西藏和平解放",
-    "id": "1798736709911838720",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "近代中国人民始终面临着争取____和实现国家富强两大历史任务。",
-    "option": "",
-    "answer": "民族独立",
-    "id": "1798736709748260865",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "实现“两个一百年”奋斗目标、实现中华民族伟大复兴的中国梦，不断提高人民生活水平,必须坚定不移把____作为党执政兴国的第一要务。",
-    "option": "",
-    "answer": "发展",
-    "id": "1798736709957976064",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "李鸿章创办的____是当时国内最大的兵工厂，左宗棠在福建创办的福州船政局是当时国内最大的造船厂。",
-    "option": "",
-    "answer": "江南制造总局",
-    "id": "1798736709777620993",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "1949年10月2日，第一个照会中国政府，决定通中华人民共和国建立外交关系的国家是____。",
-    "option": "",
-    "answer": "苏联",
-    "id": "1798736709916033026",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "新文学运动的第一篇白话文小说是《____》。",
-    "option": "",
-    "answer": "狂人日记",
-    "id": "1798736709815369730",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中共中央和邓小平在毛泽东、周恩来等老一辈革命家关于争取和平解放台湾思想的基础上，正视历史和现实，创造性地提出“____”科学构想，开辟了以和平方式实现祖国统一的新途径。",
-    "option": "",
-    "answer": "一国两制",
-    "id": "1798736709949587456",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "资产阶级革命派的阶级基础是____。",
-    "option": "",
-    "answer": "民族资产阶级",
-    "id": "1798736709790203904",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中共七届二中全会需要解决的重要问题____。",
-    "option": "",
-    "answer": "党的工作重心转移",
-    "id": "1798736709890867200",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "维新派与守旧派论战实质上是资产阶级思想与____思想在中国的第一次正面交锋。",
-    "option": "",
-    "answer": "封建主义",
-    "id": "1798736709777620992",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "洋务派兴办民用企业多数都采取____的方式。",
-    "option": "",
-    "answer": "官督商办",
-    "id": "1798736709765038080",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -380,10 +90,10 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "解放战争爆发的标志是国民党军队进攻____解放区。",
+    "questionStem": "中国人民解放军完成全国大陆解放的标志性事件是____。",
     "option": "",
-    "answer": "中原",
-    "id": "1798736709878284290",
+    "answer": "西藏和平解放",
+    "id": "1798736709911838720",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -400,30 +110,70 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "中国近代社会最主要的矛盾是____和帝国主义的矛盾。",
+    "questionStem": "“钟山风雨起苍黄，百万雄师过大江。虎踞龙盘今胜昔，天翻地覆慨而慷。宜将剩勇追穷寇，不可沽名学霸王”。是毛泽东在解放军占领____后所作的诗。。",
     "option": "",
-    "answer": "中华民族",
-    "id": "1798736709752455170",
+    "answer": "南京",
+    "id": "1798736709882478592",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "在农业社会主义改造中建立的高级农业合作社属于____性质。",
+    "questionStem": "随着外国资本主义的入侵，中国的社会性质开始发生质的变化。中国逐步成为____国家。",
     "option": "",
-    "answer": "社会主义",
-    "id": "1798736709928615936",
+    "answer": "半殖民地半封建",
+    "id": "1798736709735677953",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "五四运动是一次真正的____运动。",
+    "questionStem": "1905年至1907年，改良派与革命派展开论战，改良派以____为主要舆论阵地。",
     "option": "",
-    "answer": "群众",
-    "id": "1798736709823758337",
+    "answer": "《新民丛报》",
+    "id": "1798736709802786817",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "资产阶级革命派的阶级基础是____。",
+    "option": "",
+    "answer": "民族资产阶级",
+    "id": "1798736709790203904",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "实现“两个一百年”奋斗目标、实现中华民族伟大复兴的中国梦，不断提高人民生活水平,必须坚定不移把____作为党执政兴国的第一要务。",
+    "option": "",
+    "answer": "发展",
+    "id": "1798736709957976064",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "1949年10月2日，第一个照会中国政府，决定通中华人民共和国建立外交关系的国家是____。",
+    "option": "",
+    "answer": "苏联",
+    "id": "1798736709916033026",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "确立习近平新时代中国特色社会主义思想的历史地位是在党的____。",
+    "option": "",
+    "answer": "十九大",
+    "id": "1798736709953781761",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -440,10 +190,30 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "新中国建立社会主义国营经济的最主要途径和手段____。",
+    "questionStem": "《我的马克思主义观》的作者是____。",
     "option": "",
-    "answer": "没收官僚资本",
-    "id": "1798736709911838722",
+    "answer": "李大钊",
+    "id": "1798736709832146944",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "洋务派兴办民用企业多数都采取____的方式。",
+    "option": "",
+    "answer": "官督商办",
+    "id": "1798736709765038080",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "2013年3月，国家主席习近平在俄罗斯莫斯科国际关系学院发表演讲，首次面向世界提出____理念。",
+    "option": "",
+    "answer": "人类命运共同体",
+    "id": "1798736709970558976",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -460,6 +230,16 @@
     "type": "fillingBlank"
   },
   {
+    "questionStem": "解放战争爆发的标志是国民党军队进攻____解放区。",
+    "option": "",
+    "answer": "中原",
+    "id": "1798736709878284290",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
     "questionStem": "先进的中国人最早提出在中国发展资本主义方案的著作是《____》。",
     "option": "",
     "answer": "资政新篇",
@@ -470,10 +250,20 @@
     "type": "fillingBlank"
   },
   {
-    "questionStem": "1980年2月，中共十一届五中全会决定予以彻底平反并恢复名誉的党和国家领导人是____。",
+    "questionStem": "中国的近现代史，是指____年以来中国的历史。",
     "option": "",
-    "answer": "刘少奇",
-    "id": "1798736709949587458",
+    "answer": "1840",
+    "id": "1798736709735677952",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "五四运动后期斗争的中心由北京转到____。",
+    "option": "",
+    "answer": "上海",
+    "id": "1798736709815369728",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
