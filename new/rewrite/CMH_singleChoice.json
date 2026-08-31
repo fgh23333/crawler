@@ -1,95 +1,5 @@
 [
   {
-    "questionStem": "五四运动后期斗争的中心由北京转到()",
-    "option": [
-      "上海",
-      "南京",
-      "广州",
-      "天津"
-    ],
-    "answer": "A",
-    "id": "1798736699832926208",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "近代中国人民斗争的主要出发点是()",
-    "option": [
-      "反对贪官污吏",
-      "发展资本主义",
-      "挽救中华民族的危亡",
-      "争取民主"
-    ],
-    "answer": "C",
-    "id": "1798736698083901440",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "章炳麟的《驳康有为论革命书》一文，在当时的积极影响主要是()",
-    "option": [
-      "宣传了反帝反封建的主张",
-      "批驳了“保皇”主张，宣传了革命的必要性",
-      "论证了反满与反封建的区别",
-      "阐述了推翻清朝后的建国方略"
-    ],
-    "answer": "B",
-    "id": "1798736699212169216",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "商务印书馆是我国近代著名的民族企业，清光绪二十三年(1897年)创办于上海，1954年迁北京。在香港、新加坡等地有分馆。其创建的主要背景是()",
-    "option": [
-      "“师夷长技以制夷”的提出",
-      "洋务运动的产物",
-      "清政府放宽对民间设厂的限制",
-      "辛亥革命的推动"
-    ],
-    "answer": "C",
-    "id": "1798736698247479296",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "对“民权主义”理解正确的是()",
-    "option": [
-      "推翻清王朝的封建专制统治",
-      "进行政治革命，推翻封建帝制，建立资产阶级共和国",
-      "平均地权、核定地价",
-      "打击帝国主义在华势力"
-    ],
-    "answer": "B",
-    "id": "1798736699249917952",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "深刻认识党面临的________的尖锐性和严峻性，坚持问题导向，保持战略定力，推动全面从严治党向纵深发展。",
-    "option": [
-      "精神懈怠危险、能力不足危险、脱离群众危险、消极腐败危险",
-      "精神懈怠危险、封闭僵化危险、脱离群众危险、消极腐败危险",
-      "精神懈怠危险、能力不足危险、官僚主义危险、消极腐败危险",
-      "精神懈怠危险、能力不足危险、脱离群众危险、腐化堕落危险"
-    ],
-    "answer": "A",
-    "id": "1798736701460316160",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
     "questionStem": "规定在中国通商口岸可以投资设厂的条约是()",
     "option": [
       "《南京条约》",
@@ -105,240 +15,45 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "大革命开始时的革命根据地在何处？()",
+    "questionStem": "1956年底，三大改造的实现标志着()",
     "option": [
-      "湖南",
-      "广东",
-      "广西",
-      "江西"
-    ],
-    "answer": "B",
-    "id": "1798736699958755328",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "过去五年，经济保持中高速增长，在世界主要国家中名列前茅，国内生产总值从五十四万亿元增长到____万亿元，稳居世界第二，对世界经济增长贡献率超过百分之三十。",
-    "option": [
-      "六十",
-      "七十",
-      "八十",
-      "九十"
-    ],
-    "answer": "C",
-    "id": "1798736701607116800",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "毛泽东为新华社写的1949年新年献词是()",
-    "option": [
-      "《目前形势和我们的任务》",
-      "《将革命进行到底》",
-      "《论人民民主专政》",
-      "《对目前时局的宣言》"
-    ],
-    "answer": "B",
-    "id": "1798736701099606017",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "经过长期努力，中国特色社会主义进入了新时代，这是我国发展新的____。",
-    "option": [
-      "未来方向",
-      "未来方位",
-      "历史方向",
-      "历史方位"
+      "国内主要矛盾发生变化",
+      "过渡时期总任务提前完成",
+      "已由农业国转变为工业国",
+      "开始进入社会主义初级阶段"
     ],
     "answer": "D",
-    "id": "1798736701619699712",
+    "id": "1798736701737140225",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "人民解放军同国民党进行主力决战的是()",
+    "questionStem": "1949年初，华北傅作义率部接受和平改编取得胜利的战役是()",
     "option": [
-      "孟良崮战役",
-      "挺进大别山",
-      "三大战役",
+      "辽沈战役",
+      "淮海战役",
+      "平津战役",
       "渡江战役"
     ],
     "answer": "C",
-    "id": "1798736700906668032",
+    "id": "1798736700915056640",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "解放战争以后，国民党残余势力退往()",
+    "questionStem": "井冈山根据地的建立与巩固()",
     "option": [
-      "四川",
-      "北平",
-      "台湾",
-      "广州"
-    ],
-    "answer": "C",
-    "id": "1798736701045080064",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "“百万雄师过大江”是指哪次战役？()",
-    "option": [
-      "淮海战役",
-      "挺进大别山",
-      "渡江战役",
-      "辽沈战役"
-    ],
-    "answer": "C",
-    "id": "1798736700923445248",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "《我的马克思主义观》的作者是()",
-    "option": [
-      "蔡和森",
-      "胡适",
-      "陈独秀",
-      "李大钊"
-    ],
-    "answer": "D",
-    "id": "1798736699837120512",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1929年4月制定的《兴国土地法》对《井冈山土地法》的一个原则性纠正是()",
-    "option": [
-      "改土地归工农民主政府所有为归农民自己所有",
-      "改没收一切土地为没收一切公共土地及地主阶级的土地",
-      "改按人口平分土地为按劳动力分配土地",
-      "改“抽多补少”为“抽肥补瘦”"
-    ],
-    "answer": "B",
-    "id": "1798736700302688256",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1949年9月21日，在北平中南海怀仁堂开幕的会议为()",
-    "option": [
-      "第一届全国人民代表大会第一次会议",
-      "中共中央政治局扩大会议",
-      "中共七届三中全会",
-      "中国人民政治协商会议第一届全体会议"
-    ],
-    "answer": "D",
-    "id": "1798736701057662976",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "确保到______我国现行标准下农村贫困人口实现脱贫，贫困县全部摘帽，解决区域性整体贫困，做到脱真贫、真脱贫。",
-    "option": [
-      "二〇三〇年",
-      "二〇二〇年",
-      "二〇二五年",
-      "二〇三五年"
-    ],
-    "answer": "B",
-    "id": "1798736701682614272",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "抗日战争胜利后，美国实行扶蒋反共政策的根本目的是()",
-    "option": [
-      "进一步扩大对华资本输出",
-      "在中国建立稳定统一的全国性政权",
-      "控制中国，推行全球战略",
-      "缓和美苏矛盾，划分势力范围"
-    ],
-    "answer": "C",
-    "id": "1798736700973776896",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1946年政协会议的决议很快被国民政府撕毁，主要是因为()",
-    "option": [
-      "代表了中共的利益",
-      "妨碍了美国控制中国",
-      "不利于国民党发动内战",
-      "冲破了蒋介石的独裁统治"
-    ],
-    "answer": "D",
-    "id": "1798736700990554112",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "从大革命失败到土地革命战争兴起的转折是()",
-    "option": [
-      "遵义会议",
-      "瓦窟堡会议",
-      "中共六大",
-      "八七会议"
-    ],
-    "answer": "D",
-    "id": "1798736700210413568",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1945年8月蒋介石三次电邀毛泽东谈判，地点在()",
-    "option": [
-      "南京",
-      "武汉",
-      "重庆",
-      "上海"
-    ],
-    "answer": "C",
-    "id": "1798736700889890816",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "重庆谈判的焦点问题是()",
-    "option": [
-      "人民军队和解放区的合法地位问题",
-      "且要不要和平建国问题",
-      "实行宪政、结束训政的问题",
-      "人民的民主、自由权利的问题"
+      "开辟了农村包围城市，武装夺取政权的道路",
+      "是土地革命战争开始的标志",
+      "是中国共产党独立领导武装斗争的开端",
+      "确立了党对军队的绝对领导"
     ],
     "answer": "A",
-    "id": "1798736700982165505",
+    "id": "1798736700168470529",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -360,165 +75,690 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "对1924－1927年大革命性质的正确表述是()",
+    "questionStem": "1937年8月，南方红军和游击队，除琼崖红军游击队外，改编为国民革命军陆军新编第四军，()任军长",
     "option": [
-      "资产阶级领导的反帝反封建的资产阶级民主革命",
-      "无产阶级领导的新民主主义革命",
-      "革命统一战线领导的反帝反封建的民主主义革命",
-      "中共领导的无产阶级革命"
+      "陈毅",
+      "叶挺",
+      "刘少奇",
+      "项英"
+    ],
+    "answer": "B",
+    "id": "1798736700831170560",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "“师夷长技以制夷”的主张出自哪一篇著作？()",
+    "option": [
+      "《四洲志》",
+      "《海国图志》",
+      "《夷情备采》",
+      "《筹海篇》"
+    ],
+    "answer": "B",
+    "id": "1798736698113261568",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1898年6月16日，康有为上书光绪帝：“皇上勿去旧衙门，而唯增新衙门；勿革旧大臣，而渐擢小臣。多召见才俊之士，不必加其官而委以差事，赏以卿衔，准其专折奏事足矣。”这段话最能反映维新派在变法中的态度是()",
+    "option": [
+      "要光绪帝加强对封建官吏的争夺",
+      "要光绪帝在变法中讲究策略",
+      "要使更多的维新派参与政权",
+      "在封建势力面前表现出妥协性和软弱性"
+    ],
+    "answer": "D",
+    "id": "1798736698738212864",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国共产党从南昌起义、秋收起义和广州起义中，得出的最重要的教训是()",
+    "option": [
+      "必须建立—支新型的人民军队",
+      "必须武装反抗国民党反动派",
+      "必须建立工农革命政权",
+      "必须把党的工作重心由城市转向农村"
+    ],
+    "answer": "D",
+    "id": "1798736700235579392",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "“一国两制”构想最早提出时针对",
+    "option": [
+      "台湾问题",
+      "香港问题",
+      "澳门问题",
+      "港澳问题"
+    ],
+    "answer": "A",
+    "id": "1798736701355458560",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "人民解放军由战略防御转入战略进攻的事件是()",
+    "option": [
+      "粉碎重点进攻",
+      "挺进大别山",
+      "转战陕北",
+      "三大战役"
+    ],
+    "answer": "B",
+    "id": "1798736700898279425",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1949年9月21日,中国人民政治协商会议第一届全体会议在隆重举行，宣告中国人民政治协商会议正式成立()",
+    "option": [
+      "南京",
+      "北平",
+      "重庆",
+      "上海"
+    ],
+    "answer": "B",
+    "id": "1798736701095411713",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中共八大后，中国共产党在探索中又提出一些重要的思想。1956年12月，()提出，可以消灭了资本主义，又搞资本主义，并把这称作“新经济政策”。",
+    "option": [
+      "陈云",
+      "刘少奇",
+      "周恩来",
+      "毛泽东"
+    ],
+    "answer": "D",
+    "id": "1798736701812637697",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "科举制是清政府在下列哪次活动中废除的？()",
+    "option": [
+      "洋务运动",
+      "戊戌变法",
+      "清末“新政”",
+      "“预备仿行宪政”"
     ],
     "answer": "C",
-    "id": "1798736700046835712",
+    "id": "1798736699178614784",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "抗日民族统一战线正式建立的标志是()",
+    "questionStem": "1945年8月蒋介石三次电邀毛泽东谈判，地点在()",
     "option": [
-      "中共发表《八一宣言》",
-      "西安事变的和平解决",
-      "红军改编为八路军和新四军",
-      "国民党公布中共提交的国共合作宣言"
+      "南京",
+      "武汉",
+      "重庆",
+      "上海"
     ],
-    "answer": "D",
-    "id": "1798736700780838912",
+    "answer": "C",
+    "id": "1798736700889890816",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "中国特色社会主义进入新时代，我国社会主要矛盾已经转化为人民日益增长的____需要和____的发展之间的矛盾。",
+    "questionStem": "人民解放军同国民党进行主力决战的是()",
     "option": [
-      "美好生活不充分不平衡",
-      "幸福生活不平衡不充分",
-      "幸福生活不充分不平衡",
-      "美好生活不平衡不充分"
+      "孟良崮战役",
+      "挺进大别山",
+      "三大战役",
+      "渡江战役"
     ],
-    "answer": "D",
-    "id": "1798736701619699713",
+    "answer": "C",
+    "id": "1798736700906668032",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "中国共产党继承了孙中山的未竟事业，这主要表现在()",
+    "questionStem": "“中国现存的各政党，只有国民党是比较革命的民主派，比较是真的民主派”这一论断的主要依据是()",
     "option": [
-      "完成了反帝反封建的历史任务",
-      "建立了人民民主专政的国家政权",
-      "实现了平均地权，把土地分给了广大农民",
-      "没收了官僚资本，建立了公有制"
+      "孙中山领导的国民党进行了不屈不挠的反封建斗争",
+      "孙中山代表各阶级、各阶层的利益",
+      "国民党在广东建立了革命根据地和军队",
+      "国民党代表民族资产阶级和小资产阶级的利益"
     ],
     "answer": "A",
-    "id": "1798736701011525632",
+    "id": "1798736699921006592",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "李大钊在《庶民的胜利》中写道：“……须知这种潮流，是只能迎，不可抗拒的。”这种潮流是指()",
+    "questionStem": "近代史上外国在中国()建立了第一块租界地",
     "option": [
-      "新文化运动",
-      "社会主义革命",
-      "实业救国",
-      "资产阶级民主革命"
+      "上海",
+      "广州",
+      "福州",
+      "宁波"
+    ],
+    "answer": "A",
+    "id": "1798736698151010304",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "某思想家在1925年提到世人对他的评价：“自戊戌以来，旧则攻吾太新；新则攻吾太旧……”该思想家是()",
+    "option": [
+      "康有为",
+      "梁启超",
+      "严复",
+      "胡适"
+    ],
+    "answer": "A",
+    "id": "1798736698885013504",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1928年蒋介石在南京建立政权，其性质是()",
+    "option": [
+      "地主阶级政权",
+      "官僚资产阶级政权",
+      "资产阶级政权",
+      "大地主大资产阶级政权"
+    ],
+    "answer": "D",
+    "id": "1798736700164276224",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1945年4月，出席联合国制宪会议中国代表团中的解放区代表是()",
+    "option": [
+      "周恩来",
+      "刘少奇",
+      "董必武",
+      "王若飞"
+    ],
+    "answer": "C",
+    "id": "1798736700822781952",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国人民政治协商会议第一届全体会议一致选举为中央人民政府主席()",
+    "option": [
+      "宋庆龄",
+      "毛泽东",
+      "刘少奇",
+      "张澜"
     ],
     "answer": "B",
-    "id": "1798736699816148992",
+    "id": "1798736701070245888",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "袁世凯暗杀国民党领袖宋教仁后，孙中山发动了()",
+    "questionStem": "十一届三中全会后，农村改革和城市经济体制改革的相同点是",
     "option": [
-      "护国运动",
-      "“二次革命”",
-      "护法运动",
-      "中华革命党的起义"
+      "所有权和经营权分开，克服分配中的平均主义",
+      "实行政企分开，扩大企业自主权",
+      "发展以公有制经济为主体的多种所有制经济",
+      "实行按劳分配为主的多种分配形式"
+    ],
+    "answer": "A",
+    "id": "1798736701317709824",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "鸦片战争后，提出“师夷长技以制夷”思想的是()",
+    "option": [
+      "林则徐",
+      "魏源",
+      "龚自珍",
+      "王韬"
     ],
     "answer": "B",
-    "id": "1798736699367358464",
+    "id": "1798736698704658432",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "1915年12月25日，反对袁世凯称帝，宣布云南独立的是()",
+    "questionStem": "___是中国特色社会主义的本质要求和重要保障。",
     "option": [
-      "李烈钧",
-      "蔡锷",
+      "全面依法治国",
+      "全面从严治党",
+      "全面发展经济",
+      "全面可持续发展"
+    ],
+    "answer": "A",
+    "id": "1798736701644865537",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1930年6月，中共中央政治局通过的一次决议中说：“中国政治经济的根本危机，在全国任何一处是同样继续尖锐化，没有丝毫根本的区别，因此在中心城市爆发了伟大的工人斗争，必然形成全国革命高潮……争取一省和几省首先胜利……没有工人阶级的罢工高潮，没有中心城市的武装暴力，绝不能有一省与几省的胜利。”上述材料()",
+    "option": [
+      "正确分析了中国革命高潮即将到来的必然趋势",
+      "正确分析了中国社会矛盾激化的状况",
+      "制定了中国无产阶级斗争的正确策略方针",
+      "反映了中国共产党领导脱离中国革命实际的思想方法"
+    ],
+    "answer": "D",
+    "id": "1798736700311076864",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "确立中国共产党对军队的绝对领导的是()",
+    "option": [
+      "南昌起义",
+      "秋收起义",
+      "三湾改编",
+      "广州起义"
+    ],
+    "answer": "C",
+    "id": "1798736700210413569",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "宋庆龄说：“孙中山和共产党之间具有历史意义的合作不是偶然的，它是当时的国际局势和中国本身的内部条件造成的。”这里说的“内部条件”，主要是指()",
+    "option": [
+      "一战后，中国民族工业重新受到列强压制",
+      "“打倒列强，除军阀”成为全国人民的共同心愿",
+      "中国共产党总结了经验教训正在积极寻找同盟者",
+      "国民党是中国各政党中比较革命的民主派"
+    ],
+    "answer": "B",
+    "id": "1798736700025864192",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1933年5月，原西北军将领冯玉祥在()成立察哈尔民众抗日同盟军，并谋求同共产党合作。",
+    "option": [
+      "绥远",
+      "张家口",
+      "石家庄",
+      "通化"
+    ],
+    "answer": "B",
+    "id": "1798736700671787008",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "洋务运动持续了三十多年，取得一定成效，而戊戌变法的措施却难以实施，造成这一不同的直接原因在于戊戌变法()",
+    "option": [
+      "没有彻底变革封建制度",
+      "缺乏坚强有力的领导核心",
+      "措施不符合中国国情",
+      "缺乏地方实力派的支持"
+    ],
+    "answer": "D",
+    "id": "1798736698696269824",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "八七会议前后，中共发动的几次大规模武装起义均以夺取大城市为目标，这种情况表明()",
+    "option": [
+      "我党在城市拥有相对强大的革命力量",
+      "敌人在某些大城市力量不足",
+      "我党的革命道路脱离实际",
+      "我党尚未充分认识到农民是革命的动力"
+    ],
+    "answer": "C",
+    "id": "1798736700344631296",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1933年5月成立的察哈尔民众抗日同盟军，其主要领导人是()",
+    "option": [
+      "冯玉祥、吉鸿昌",
+      "冯玉祥、董振堂",
+      "赵博生、董振堂",
+      "蔡廷锴、蒋光鼐"
+    ],
+    "answer": "A",
+    "id": "1798736700759867392",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "要以提升____为重点，突出政治功能，把企业、农村、机关、学校、科研院所、街道社区、社会组织等基层党组织建设成为宣传党的主张、贯彻党的决定、领导基层治理、团结动员群众、推动改革发展的坚强战斗堡垒。",
+    "option": [
+      "凝聚力",
+      "领导力",
+      "组织力",
+      "战斗力"
+    ],
+    "answer": "C",
+    "id": "1798736701477093376",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "对鸦片战争时期新思想的时代特点分析，比较是全面的是()",
+    "option": [
+      "反映了世界资本主义发展潮流",
+      "向西方学习，又带有浓厚的封建纲常色彩",
+      "新思想处在萌发阶段",
+      "形成广泛的社会运动"
+    ],
+    "answer": "B",
+    "id": "1798736698293616640",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "近代中国人数最多的被剥削阶级是()",
+    "option": [
+      "农民阶级",
+      "工人阶级",
+      "资产阶级",
+      "无产阶级"
+    ],
+    "answer": "A",
+    "id": "1798736697979043840",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国共产党做出《关于“民主的联合战线”的决议案》的会议是()",
+    "option": [
+      "中共“一大”",
+      "中共“二大”",
+      "中共“三大”",
+      "中共“四大”"
+    ],
+    "answer": "B",
+    "id": "1798736699988115456",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国进入全面建设社会主义的历史阶段后，毛泽东适时提出了()",
+    "option": [
+      "大规模调查研究的任务",
+      "反对本本主义的任务",
+      "马克思主义中国化的历史任务",
+      "实行马克思主义同中国实际的“第二次结合”的任务"
+    ],
+    "answer": "D",
+    "id": "1798736701770694656",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "国共十年对峙前期，中共建立的革命根据地主要集中在江南地区，主要是因为这一地区()",
+    "option": [
+      "中外反动势力力量较弱",
+      "国民大革命时期有良好的群众基础",
+      "一直是中共中央所在地",
+      "地理环境适宜建立农村革命根据地"
+    ],
+    "answer": "B",
+    "id": "1798736700336242688",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "大革命开始时的革命根据地在何处？()",
+    "option": [
+      "湖南",
+      "广东",
+      "广西",
+      "江西"
+    ],
+    "answer": "B",
+    "id": "1798736699958755328",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "如果给下面三个人物配一个共同的主题，下列哪一项最合适()李鸿章曾国藩张謇",
+    "option": [
+      "抵御外国的民族英雄",
+      "镇压太平天国起义的刽子手",
+      "推动近代工业发展的关键人物",
+      "兴办民族资本主义企业的典型代表"
+    ],
+    "answer": "C",
+    "id": "1798736698679492608",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "组织“护国军”，发起护国运动的人是()",
+    "option": [
+      "孙中山",
       "黄兴",
-      "唐继尧"
+      "蔡锷",
+      "宋教仁"
     ],
-    "answer": "B",
-    "id": "1798736699409301504",
+    "answer": "C",
+    "id": "1798736699400912896",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "井冈山时期，毛泽东提出红色政权存在与发展必须坚持()",
+    "questionStem": "大革命失败后，中国革命能够坚持和发展的根本原因是()",
     "option": [
-      "武装斗争、土地革命、根据地建设",
-      "党的建设、武装斗争、土地革命",
-      "党的建设、武装斗争、统一战线",
-      "武装斗争、土地革命、统一战线"
+      "肃清右倾投降主义路线",
+      "中国共产党依靠和领导农民进行土地革命",
+      "纠正“左”倾军事冒险计划",
+      "建立革命根据地"
+    ],
+    "answer": "B",
+    "id": "1798736700189442048",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "下列有关林则徐的评价，不正确的是()",
+    "option": [
+      "“师夷长技”是为了维护人民利益",
+      "是近代中国地主阶级政治家",
+      "是领导禁烟的民族英雄",
+      "是近代中国“开眼看世界”的第一人"
     ],
     "answer": "A",
-    "id": "1798736700172664832",
+    "id": "1798736698213924864",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "鸦片战争爆发前夕，一英国殖民者说：“这是把我们将来和这个帝国的商务安放在稳固而广阔的基础之上的最有希望的机会。”此观点的本质，是通过战争使英国()",
+    "questionStem": "要坚持党管干部原则，_____，把好干部标准落到实处。",
     "option": [
-      "对华贸易合法化",
-      "扭转对华贸易逆差",
-      "打开与中国进行贸易的大门",
-      "获得倾销商品的市场和原料供应地"
+      "坚持立场坚定、素质过硬，坚持五湖四海、任人唯贤，坚持事业为上、公道正派",
+      "坚持德才兼备、以德为先，坚持立场坚定、素质过硬，坚持事业为上、公道正派",
+      "坚持德才兼备、以德为先，坚持五湖四海、任人唯贤，坚持立场坚定、素质过硬",
+      "坚持德才兼备、以德为先，坚持五湖四海、任人唯贤，坚持事业为上、公道正派"
     ],
     "answer": "D",
-    "id": "1798736698251673600",
+    "id": "1798736701472899073",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "“问题与主义”争论的双方主要人物是()",
+    "questionStem": "康有为向光绪帝呈递的《应诏统筹全局折》实际上是维新派的施政纲领，因为它()",
     "option": [
-      "陈独秀与胡适",
-      "李大钊与张东荪",
-      "李大钊与梁启超",
-      "李大钊与胡适"
+      "提出了各方面具体的变法建议",
+      "主张实行君主立宪的政治体制",
+      "系统论证了维新变法的理论",
+      "明确指出了变法是救亡图存的唯一出路"
+    ],
+    "answer": "A",
+    "id": "1798736698855653376",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我们要牢固树立社会主义生态文明观，推动形成______现代化建设新格局，为保护生态环境作出我们这代人的努力！",
+    "option": [
+      "人与自然和谐共生",
+      "人与环境和谐发展",
+      "人与自然和谐发展",
+      "人与环境和谐共生"
+    ],
+    "answer": "C",
+    "id": "1798736701720363009",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1946年12月，北平学生为抗议美军暴行，爆发了()",
+    "option": [
+      "抗暴运动",
+      "一二一运动",
+      "反饥饿、反内战运动",
+      "反饥饿、反内战、反迫害运动"
+    ],
+    "answer": "A",
+    "id": "1798736701061857281",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1904年，孙中山发表的指出只有推翻清政府，建立“中华民国”，才能真正解决中国问题的文章是()",
+    "option": [
+      "《革命军》",
+      "《警世钟》",
+      "《驳康有为论革命书》",
+      "《中国问题的真解决》"
     ],
     "answer": "D",
-    "id": "1798736699887452161",
+    "id": "1798736699220557824",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "1906年清政府宣布“预备仿行宪政”，1908年颁布的一部宪法是()",
+    "questionStem": "解放战争时期，毛泽东提出“一切反动派都是纸老虎”的著名论断，其主要依据是()",
     "option": [
-      "《中华民国临时约法》",
-      "《钦定宪法大纲》",
-      "《明定国是》",
-      "《商律》"
+      "国民政府腐败不得人心",
+      "人民解放军具有坚强的战斗力",
+      "人民解放军有巩固的战略后方",
+      "国统区人民民主运动不断高涨"
+    ],
+    "answer": "A",
+    "id": "1798736700994748417",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "抗日战争胜利后初期，中共的主要政治任务是()",
+    "option": [
+      "参加重庆谈判，商讨建国大计",
+      "进行土地改革，消灭封建剥削制度",
+      "争取和平民主，反对内战独裁",
+      "召开政协会议，改组国民政府"
+    ],
+    "answer": "C",
+    "id": "1798736700755673088",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1988年，中共中央和国务院决定建立()，加快其发展。",
+    "option": [
+      "重庆直辖市",
+      "海南省",
+      "香港特区",
+      "澳门特区"
     ],
     "answer": "B",
-    "id": "1798736699187003392",
+    "id": "1798736701342875649",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -540,195 +780,1200 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "第三届全国人民代表大会提出()的宏伟目标。",
+    "questionStem": "以下农民运动受基督教影响的是()",
     "option": [
-      "“以阶级斗争为纲”",
-      "社会主义建设总路线",
-      "“调整、巩固、充实、提高”",
-      "“四个现代化”"
+      "秦末农民起义",
+      "明末农民起义",
+      "太平天国运动",
+      "义和团运动"
+    ],
+    "answer": "C",
+    "id": "1798736698717241344",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "抗日战争爆发后中共建立的第一个敌后抗日根据地是()",
+    "option": [
+      "晋绥根据地",
+      "冀鲁豫根据地",
+      "苏南根据地",
+      "晋察冀根据地"
     ],
     "answer": "D",
-    "id": "1798736701804249088",
+    "id": "1798736700801810432",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "1946年5月4日，中共中央发出《关于清算、减租及土地问题的指示》，史称()",
+    "questionStem": "建国以后，人民政府没收官僚资本，这一措施()",
     "option": [
-      "五四指示",
-      "土地指示",
-      "土地法大纲",
-      "减租指示"
+      "属于社会主义革命性质",
+      "兼有旧民主主义和新民主主义性质",
+      "属于新民主主义性质",
+      "兼有新民主主义革命和社会主义革命性质"
+    ],
+    "answer": "D",
+    "id": "1798736701737140224",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "近代中国一些进步思想家主张进行政治制度的改革。第一次提出“设投票箱，由公众选举官吏”的思想家及其论著是()",
+    "option": [
+      "魏源的《海国图志》",
+      "洪仁玕的《资政新篇》",
+      "梁启超的《变法通议》",
+      "孙中山的《民报﹒发刊词》"
+    ],
+    "answer": "B",
+    "id": "1798736698813710336",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "进入社会主义阶段后，毛泽东提出的正确处理中国共产党同各民主党派关系的方针是()",
+    "option": [
+      "轮流执政",
+      "中国共产党领导下的多党合作与政治协商",
+      "长期共存，互相监督",
+      "肝胆相照，荣辱与共"
+    ],
+    "answer": "C",
+    "id": "1798736701787471873",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "康有为等人建立的具有资产阶级政党性质的团体是()",
+    "option": [
+      "强学会",
+      "保国会",
+      "共进会",
+      "兴中会"
+    ],
+    "answer": "B",
+    "id": "1798736698826293248",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "以下哪个人物是中国近代睁眼看世界的第一人()",
+    "option": [
+      "林则徐",
+      "魏源",
+      "郑观应",
+      "康有为"
     ],
     "answer": "A",
-    "id": "1798736701019914240",
+    "id": "1798736698000015360",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "刘伯承、邓小平率领的晋冀鲁豫野战军主力挺进大别山，揭开人民战争战略进攻序幕的时间是()",
+    "questionStem": "1992年6月29日，江泽民明确提出“社会主义市场经济体制”的论断是在",
     "option": [
-      "1946年6底",
-      "1947年6底",
-      "1948年秋",
-      "1949年4月"
+      "中央党校省部级干部进修班上发表讲话",
+      "中共十四大",
+      "中共十四届三中全会",
+      "中共十五大"
     ],
-    "answer": "B",
-    "id": "1798736701078634497",
+    "answer": "A",
+    "id": "1798736701330292737",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "遵义会议是中国共产党从幼稚走向成熟的标志，主要由于它()",
+    "questionStem": "1948年三大战役中首先展开的是()",
     "option": [
-      "结束了“左”倾错误在中央的统治",
-      "在军事上确定了以毛泽东为核心的新的党中央的正确领导",
-      "在生死关头妥协地处理了党内当时最主要的问题",
-      "保证了长征转移的胜利"
+      "辽沈战役",
+      "淮海战役",
+      "平津战役",
+      "渡江战役"
     ],
-    "answer": "B",
-    "id": "1798736700327854080",
+    "answer": "A",
+    "id": "1798736700910862336",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "东方会议后，日本制造了臭名昭著的()，提出了对外扩张的总体战略",
+    "questionStem": "麦克纳尔评价慈禧太后在镇南关大捷后的态度是“不管她的英勇的部队在帝国边境上所取得的胜利，而只是想起她带到家里来的不愉快的庞大的战争消费，只是想起好些使她自己不舒服的事情。因此，……她比过去更加急迫的要立刻签订和批准这个条约。”这反映出慈禧“乘胜即收”的根本原因在于()",
     "option": [
-      "二十一条",
-      "《对华政策纲要》",
-      "《田中奏折》",
-      "近卫声明"
-    ],
-    "answer": "C",
-    "id": "1798736700726312960",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "《上海县竹枝词》有诗云：“卅年求富更求强，造炮成船法仿洋。海面未收功一战，总归虚牝掷金黄。”与上述内容有关的历史事件是()",
-    "option": [
-      "第二次鸦片战争",
-      "中法马尾海战",
-      "中日甲午战争",
-      "八国联军侵华"
+      "害怕人民在反侵略战争中力量壮大",
+      "贪财、不想赔偿外国的军费",
+      "害怕战争会削弱自己的统治力量",
+      "认为中国不能战胜西方列强"
     ],
     "answer": "C",
-    "id": "1798736698302005248",
+    "id": "1798736698272645120",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "1861年，慈禧太后发动()，从此开始长达半个世纪之久的“垂帘听政”。",
+    "questionStem": "国民大革命取得的最突出的成就是()",
+    "option": [
+      "促使工农运动蓬勃开展",
+      "进行了北伐战争",
+      "基本推翻了北洋军阀的统治",
+      "扩大了中国共产党在群众中的影响"
+    ],
+    "answer": "C",
+    "id": "1798736700051030016",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "第一次整风运动的主要任务是()",
+    "option": [
+      "反对主观主义",
+      "反对宗派主义",
+      "反对官僚主义",
+      "反对党八股"
+    ],
+    "answer": "A",
+    "id": "1798736700776644609",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国特色社会主义进入新时代，我国社会主要矛盾已经转化为人民日益增长的____需要和____的发展之间的矛盾。",
+    "option": [
+      "美好生活不充分不平衡",
+      "幸福生活不平衡不充分",
+      "幸福生活不充分不平衡",
+      "美好生活不平衡不充分"
+    ],
+    "answer": "D",
+    "id": "1798736701619699713",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "武昌起义后成立湖北军政府推举的都督是()",
+    "option": [
+      "孙中山",
+      "黄兴",
+      "黎元洪",
+      "段祺瑞"
+    ],
+    "answer": "C",
+    "id": "1798736699283472384",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "表明蒋介石彻底叛变革命的是()",
+    "option": [
+      "中山舰事件",
+      "“四—二”反革命政变",
+      "“整理党务案”",
+      "“七—五”反革命政变"
+    ],
+    "answer": "B",
+    "id": "1798736700202024960",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在抗日战争的淞沪会战中，率领“八百壮士”孤军据守四行仓库的爱国将领是()",
+    "option": [
+      "佟麟阁",
+      "赵登禹",
+      "戴安澜",
+      "谢晋元"
+    ],
+    "answer": "D",
+    "id": "1798736700814393344",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "随着近代中国从封建社会逐步演变为半殖民地半封建社会，地主阶级本身也发生了某些变化，出现了()",
+    "option": [
+      "官僚买办资本家",
+      "农民阶级",
+      "民族资本家",
+      "官僚地主和城居地主"
+    ],
+    "answer": "D",
+    "id": "1798736698163593216",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "新中国成立之初的“过渡时期”是指新中国成立之初的“过渡时期”是指()",
+    "option": [
+      "从大陆统一到三大改造完成",
+      "从建国到三大运动胜利",
+      "从建国到国民经济恢复",
+      "从建国到三大改造完成"
+    ],
+    "answer": "D",
+    "id": "1798736701732945920",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1928年l2月，毛泽东主持制定的中国共产党历史上第一个土地法是()",
+    "option": [
+      "《井冈山土地法》",
+      "《兴国土地法》",
+      "《关于清算、减租及土地问题的指示》",
+      "《中国土地法大纲》"
+    ],
+    "answer": "A",
+    "id": "1798736700248162304",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "新文化运动兴起的标志是()",
+    "option": [
+      "严复翻译《天演论》",
+      "孙中山创立《民报》",
+      "陈独秀在上海创办《青年杂志》",
+      "李大钊发表《庶民的胜利》"
+    ],
+    "answer": "C",
+    "id": "1798736699799371776",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "新时代中国特色社会主义思想，明确中国特色社会主义最本质的特征是____。",
+    "option": [
+      "“五位一体”总体布局",
+      "建设中国特色社会主义法治体系",
+      "人民利益为根本出发点",
+      "中国共产党领导"
+    ],
+    "answer": "D",
+    "id": "1798736701640671232",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在大革命失败的危急关头，中共八七会议确定总方针是()",
+    "option": [
+      "推翻北洋军阀黑暗统治",
+      "开辟农村革命根据地",
+      "土地革命和武装反抗国民党反动统治",
+      "建立工农民主统一战线"
+    ],
+    "answer": "C",
+    "id": "1798736700227190784",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "“百万雄师过大江”是指哪次战役？()",
+    "option": [
+      "淮海战役",
+      "挺进大别山",
+      "渡江战役",
+      "辽沈战役"
+    ],
+    "answer": "C",
+    "id": "1798736700923445248",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "五四以前的新文化运动的精神领袖。其代表除李大钊以外，就是()",
+    "option": [
+      "陈独秀",
+      "毛泽东",
+      "鲁迅",
+      "李达"
+    ],
+    "answer": "A",
+    "id": "1798736699824537600",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "抗日战争胜利后，美国实行扶蒋反共政策的根本目的是()",
+    "option": [
+      "进一步扩大对华资本输出",
+      "在中国建立稳定统一的全国性政权",
+      "控制中国，推行全球战略",
+      "缓和美苏矛盾，划分势力范围"
+    ],
+    "answer": "C",
+    "id": "1798736700973776896",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "毛泽东在《论持久战》中指出，中国抗日战争取得胜利最关键的阶段是()",
+    "option": [
+      "战略防御阶段",
+      "战略相持阶段",
+      "战略反攻阶段",
+      "战略决战阶段"
+    ],
+    "answer": "B",
+    "id": "1798736700818587648",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "马克思主义学说在19世纪40年代创立以后，在长时间里，其影响主要限于()",
+    "option": [
+      "亚洲",
+      "非洲",
+      "美洲",
+      "欧洲"
+    ],
+    "answer": "D",
+    "id": "1798736699807760384",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "家庭联产承包责任制实行以后，农民对集体所有的土地具有充分的",
+    "option": [
+      "土地所有权",
+      "经营自主权",
+      "土地买卖权",
+      "任意建设权"
+    ],
+    "answer": "B",
+    "id": "1798736701271572481",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "综合分析国际国内形势和我国发展条件，从二〇二〇年到本世纪中叶可以分两个阶段来安排。第二个阶段，从_____到_____，在基本实现现代化的基础上，再奋斗十五年，把我国建成富强民主文明和谐美丽的社会主义现代化强国。",
+    "option": [
+      "二〇二〇年二〇三五年",
+      "二〇三五年二〇五〇年",
+      "二〇三〇年二〇四五年",
+      "二〇三五年本世纪中叶"
+    ],
+    "answer": "D",
+    "id": "1798736701661642752",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "开始的关于真理标准问题的大讨论，是继延安整风之后又一场马克思主义思想解放运动。",
+    "option": [
+      "1945年",
+      "1966年",
+      "1978年",
+      "2005年"
+    ],
+    "answer": "C",
+    "id": "1798736701279961088",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "太平天国的最高领导者是()",
+    "option": [
+      "韦昌辉",
+      "石达开",
+      "洪秀全",
+      "杨秀清"
+    ],
+    "answer": "C",
+    "id": "1798736698792738816",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在社会主义经济建设方面，毛泽东提出，要实行以农业为基础、以工业为主导的方针，正确处理重工业、轻工业和农业的关系，以()为序发展国民经济。",
+    "option": [
+      "工农业并举",
+      "重、轻、农",
+      "农、重、轻",
+      "农、轻、重"
+    ],
+    "answer": "D",
+    "id": "1798736701808443392",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "深刻认识党面临的________的尖锐性和严峻性，坚持问题导向，保持战略定力，推动全面从严治党向纵深发展。",
+    "option": [
+      "精神懈怠危险、能力不足危险、脱离群众危险、消极腐败危险",
+      "精神懈怠危险、封闭僵化危险、脱离群众危险、消极腐败危险",
+      "精神懈怠危险、能力不足危险、官僚主义危险、消极腐败危险",
+      "精神懈怠危险、能力不足危险、脱离群众危险、腐化堕落危险"
+    ],
+    "answer": "A",
+    "id": "1798736701460316160",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1930年1月，毛泽东进一步从理论上阐述农村包围城市、武装夺取政权理论的文章是()",
+    "option": [
+      "《中国的红色政权为什么能够存在?》",
+      "《星星之火，可以燎原》",
+      "《井冈山的斗争》",
+      "《中国革命战争的战略问题》"
+    ],
+    "answer": "B",
+    "id": "1798736700243968000",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "坚持反腐败无禁区、全覆盖、零容忍，坚定不移“打虎”、“拍蝇”、“猎狐”，____的目标初步实现，____的笼子越扎越牢，____的堤坝正在构筑，反腐败斗争压倒性态势已经形成并巩固发展。",
+    "option": [
+      "不敢腐不能腐不想腐",
+      "不能腐不敢腐不想腐",
+      "不想腐不敢腐不能腐",
+      "不敢腐不想腐不能腐"
+    ],
+    "answer": "A",
+    "id": "1798736701615505408",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "《海国图志》一书在当时所起的作用是()",
+    "option": [
+      "开阔了人们的眼界",
+      "指明救国救民的道路",
+      "动摇了封建统治秩序",
+      "传播了西方的政治思想"
+    ],
+    "answer": "A",
+    "id": "1798736698218119168",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "孙中山提出的资产阶级民主革命纲领后来称为“三民主义”，即()",
+    "option": [
+      "民族主义、民生主义、民主主义",
+      "民主主义、民权主义、民族主义",
+      "民权主义、民生主义、民主主义",
+      "民族主义、民权主义、民生主义"
+    ],
+    "answer": "D",
+    "id": "1798736699258306560",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "北伐战争迅速发展的最主要原因是()",
+    "option": [
+      "工农群众的大力支持",
+      "北伐将士的英勇善战",
+      "直奉联合战线的瓦解",
+      "国共两党团结合作和正确的北伐方针"
+    ],
+    "answer": "D",
+    "id": "1798736699954561025",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "深化依法治国实践。成立中央全面______领导小组，加强对法治中国建设的统一领导。",
+    "option": [
+      "深化改革",
+      "依法治国",
+      "从严治党",
+      "司法改革"
+    ],
+    "answer": "B",
+    "id": "1798736701699391489",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "标志着中国资产阶级民主革命进入了一个新阶段的是()",
+    "option": [
+      "兴中会的成立",
+      "广州起义",
+      "中国同盟会的成立",
+      "三民主义的提出"
+    ],
+    "answer": "C",
+    "id": "1798736699228946432",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "光绪帝支持维新变法运动的主要原因是()",
+    "option": [
+      "被康有为言词所打动",
+      "要发展资本主义",
+      "不愿做亡国之君",
+      "慈禧背后主使变法"
+    ],
+    "answer": "C",
+    "id": "1798736698914373632",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "右图是外国侵略者在洗劫并焚毁圆明园时掠夺的文物照片。法国佳士得公司于2009年2月25日将这两件文物公开拍卖，引起中国人民的愤慨。该文物被掠夺时在位的清朝皇帝是()",
+    "option": [
+      "道光帝",
+      "咸丰帝",
+      "光绪帝",
+      "宣统帝"
+    ],
+    "answer": "B",
+    "id": "1798736698243284992",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "洋务运动最先从哪入手的？()",
+    "option": [
+      "兴办民用企业",
+      "创办新式学堂、派遣留学生",
+      "建立新式海陆军",
+      "兴办军工企业"
+    ],
+    "answer": "D",
+    "id": "1798736698788544512",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的十一届三中全会之前，已成功地实现了党的",
+    "option": [
+      "工作重心的转移",
+      "思想路线的转移",
+      "基本路线的转移",
+      "指导思想的转移"
+    ],
+    "answer": "B",
+    "id": "1798736701292544001",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "解放战争时期，解放军收复延安是在()",
+    "option": [
+      "粉碎国民党全面进攻期间",
+      "进行战略反攻期间",
+      "三大战役期间",
+      "渡江战役期间"
+    ],
+    "answer": "B",
+    "id": "1798736700952805376",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "发挥社会主义协商民主重要作用。______是具有中国特色的制度安排，是社会主义协商民主的重要渠道和专门协商机构。",
+    "option": [
+      "政党协商",
+      "人大协商",
+      "基层协商",
+      "人民政协"
+    ],
+    "answer": "D",
+    "id": "1798736701699391488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我国经济已由______阶段转向______阶段，正处在转变发展方式、优化经济结构、转换增长动力的攻关期，建设现代化经济体系是跨越关口的迫切要求和我国发展的战略目标。",
+    "option": [
+      "高速增长高水平发展",
+      "高速发展高水平发展",
+      "高速增长高质量发展",
+      "高速发展高质量发展"
+    ],
+    "answer": "C",
+    "id": "1798736701670031360",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "武昌起义后，立宪派和旧官僚投机革命，对革命形势的发展的影响是()",
+    "option": [
+      "帝国主义放弃中立",
+      "东南各省纷纷独立，清朝统治土崩瓦解",
+      "清政府起用袁世凯",
+      "南京临时政府承认清政府签订的不平等条约"
+    ],
+    "answer": "B",
+    "id": "1798736699308638208",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1930年到1931年，在红一方面军三次反“围剿”斗争胜利的基础上形成了()",
+    "option": [
+      "鄂豫皖革命根据地",
+      "左右江革命根据地",
+      "湘鄂西革命根据地",
+      "中央革命根据地"
+    ],
+    "answer": "D",
+    "id": "1798736700277522433",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "标志着日本全面侵华战争开始的事变是()",
+    "option": [
+      "九一八",
+      "华北",
+      "七七",
+      "八一三"
+    ],
+    "answer": "C",
+    "id": "1798736700726312961",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1927年，蒋介石在上海制造了捕杀共产党员和革命群众的()",
+    "option": [
+      "中山舰事件",
+      "整理党务案",
+      "四一二政变",
+      "七一五政变"
+    ],
+    "answer": "C",
+    "id": "1798736699992309761",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1946年5月4日，中共中央发布指示决定将减租减息的政策改为没收地主土地分配给农民，揭开了解放区土地改革的序幕，该指示是()",
+    "option": [
+      "《中国土地法大纲》",
+      "《土地改革法》",
+      "《战时土地政策纲领》",
+      "《关于清算减租及土地问题的指示》"
+    ],
+    "answer": "D",
+    "id": "1798736701082828800",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中共十三大提出了“三步走”的现代化发展战略，其中第二步所要达到的目标是",
+    "option": [
+      "人民生活摆脱贫困",
+      "人民生活达到小康水平",
+      "人民生活实现温饱",
+      "人民生活比较富裕"
+    ],
+    "answer": "B",
+    "id": "1798736701359652864",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "抗战胜利后，国际形势对中国革命非常不利的是()",
+    "option": [
+      "美国推行全球扩张政策",
+      "社会主义阵营日益巩固和扩大",
+      "民族解放运动蓬勃发展，殖民体系日益瓦解",
+      "蒋介石坚持内战和独裁的方针"
+    ],
+    "answer": "A",
+    "id": "1798736700982165504",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国近代历史的起点标志是()",
+    "option": [
+      "虎门销烟",
+      "鸦片战争",
+      "洋务运动",
+      "中华民国建立"
+    ],
+    "answer": "B",
+    "id": "1798736697970655232",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "从____到____，是“两个一百年”奋斗目标的历史交汇期。",
+    "option": [
+      "二〇二〇年二〇三五年",
+      "十九大二十大",
+      "二十大二十一大",
+      "二〇三五年本世纪中叶"
+    ],
+    "answer": "B",
+    "id": "1798736701657448448",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在民主革命时期，知识分子走向社会、与工农群众结合开始于()",
+    "option": [
+      "戊戌变法时期",
+      "五四运动时期",
+      "五卅运动时期",
+      "一二·九运动时期"
+    ],
+    "answer": "B",
+    "id": "1798736700017475584",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "从北伐战争到抗日战争时期，国民政府所在地迁移的顺序是()",
+    "option": [
+      "广州—武汉—南京—重庆",
+      "广州—南京—武汉—重庆",
+      "广州—武汉—重庆—南京",
+      "广州—南京—重庆—南京"
+    ],
+    "answer": "A",
+    "id": "1798736700793421825",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国历史上第一个具有资产阶级共和国性质的法典是()",
+    "option": [
+      "《中华民国约法》",
+      "《中华民国临时约法》",
+      "《共同纲领》",
+      "《建国方略》"
+    ],
+    "answer": "B",
+    "id": "1798736699358969856",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我们呼吁，各国人民同心协力，构建人类命运共同体，建设______的世界。",
+    "option": [
+      "持久和平、普遍安全、共同繁荣、开放包容、公平正义",
+      "持久和平、普遍安全、共同繁荣、公平正义、清洁美丽",
+      "持久和平、普遍安全、共同繁荣、开放包容、清洁美丽",
+      "持久和平、普遍安全、公平正义、开放包容、清洁美丽"
+    ],
+    "answer": "C",
+    "id": "1798736701456121857",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在中国延续了两千多年的封建帝制覆灭的标志是()",
+    "option": [
+      "1911年10月10日，武昌起义",
+      "1912年2月12日，清帝退位",
+      "1912年1月1日，中华民国成立",
+      "1912年3月10日，袁世凯在北京就职"
+    ],
+    "answer": "B",
+    "id": "1798736699291860992",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "辛亥革命后，窃取革命果实的是()",
+    "option": [
+      "黎元洪",
+      "曹锟",
+      "段祺瑞",
+      "袁世凯"
+    ],
+    "answer": "D",
+    "id": "1798736699375747072",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "有首上海的旧民谣，讲述了清朝260多年的大事，其中与戊戌政变有关的句子是()",
+    "option": [
+      "吴三桂要去借清兵，顺治帝登基享现成",
+      "林则徐严禁吸洋烟，忠心报国无人识",
+      "曾国藩团练起湘乡，淮军还有李鸿章",
+      "好头颅六个凭空送，菜市街夜夜叫冤魂"
+    ],
+    "answer": "D",
+    "id": "1798736698822098944",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "武昌起义的主力是()",
+    "option": [
+      "同盟会会员",
+      "留学生",
+      "新军",
+      "人民大众"
+    ],
+    "answer": "C",
+    "id": "1798736699270889472",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中共一大召开的时间是1921年()",
+    "option": [
+      "7月1日",
+      "7月23日",
+      "7月28日",
+      "7月31日"
+    ],
+    "answer": "B",
+    "id": "1798736699870674944",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "下列英国攫取的在华权益，通过片面最惠国待遇取得的是()",
+    "option": [
+      "在通商口岸建立教堂",
+      "在通商口岸自由传教",
+      "在通商口岸租赁土地房屋并拥有居住权",
+      "英国商船在长江各口岸自由航行"
+    ],
+    "answer": "C",
+    "id": "1798736698234896384",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1949年3月中共中央离开西柏坡迁往北平。毛泽东说，今天是进京赶考的日子，我们决不当李自成，我们希望考个好成绩。这句话的意思是()。①避免农民战争中的流寇主义②克服农民阶级的私有观念\n③防止产生骄傲麻痹思想④防止干部中出现享乐腐化作风",
+    "option": [
+      "①②",
+      "②③",
+      "③④",
+      "①④"
+    ],
+    "answer": "C",
+    "id": "1798736701011525633",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1932年1月28日，日军向上海闸北中国驻军进攻，中国爱国将领蒋光鼐、蔡廷锴率领()奋起抵抗，发动了一二八淞沪抗战。",
+    "option": [
+      "第二十九军",
+      "第十九路军",
+      "第二十六路军",
+      "第二十五军"
+    ],
+    "answer": "B",
+    "id": "1798736700667592704",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国官僚资本垄断全国的经济命脉是在()",
+    "option": [
+      "洋务运动时期",
+      "袁世凯统治时期",
+      "段祺瑞统治时期",
+      "国民党统治时期"
+    ],
+    "answer": "D",
+    "id": "1798736700168470528",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "红军是()年开始长征。",
+    "option": [
+      "1932",
+      "1933",
+      "1934",
+      "1935"
+    ],
+    "answer": "C",
+    "id": "1798736700193636352",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "20世纪90年代，我国提出了社会主义经济体制改革的新的目标是建立社会主义市场经济体制，这一做法符合",
+    "option": [
+      "市场经济一定要取代计划经济",
+      "生产关系一定要适合并促进生产力的发展",
+      "市场经济和计划经济不能并存",
+      "计划经济不能适应生产力的发展"
+    ],
+    "answer": "B",
+    "id": "1798736701351264257",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "近代中国人民斗争的主要出发点是()",
+    "option": [
+      "反对贪官污吏",
+      "发展资本主义",
+      "挽救中华民族的危亡",
+      "争取民主"
+    ],
+    "answer": "C",
+    "id": "1798736698083901440",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "太平天国最大的战略失误是()",
+    "option": [
+      "定都天京",
+      "偏师北伐",
+      "固守安庆",
+      "进攻上海"
+    ],
+    "answer": "B",
+    "id": "1798736698897596416",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "太平天国由盛转衰的标志是()",
     "option": [
       "天京事变",
-      "辛酉政变",
-      "戊戌政变",
-      "亚罗号事件"
-    ],
-    "answer": "B",
-    "id": "1798736698880819200",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "近代中国维新思想的先驱者是()",
-    "option": [
-      "魏源",
-      "康有为",
-      "洪仁玕",
-      "李鸿章"
+      "石达开西征",
+      "李开芳北伐",
+      "天京陷落"
     ],
     "answer": "A",
-    "id": "1798736698876624896",
+    "id": "1798736698759184384",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "新时期党的基本路线的思想开始形成于",
+    "questionStem": "1940年5月，国民革命军第33集团军总司令()将军在枣宜会战中殉国。",
     "option": [
-      "中共八大",
-      "中共十二大",
-      "中共十三大",
-      "中共十一届三中全会"
+      "张自忠",
+      "张治中",
+      "张灵甫",
+      "张发奎"
+    ],
+    "answer": "A",
+    "id": "1798736700692758528",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "下列关于\"九一八事变\"影响，不正确的是()",
+    "option": [
+      "它使中国东北沦为日本殖民地",
+      "它促使中国的社会矛盾开始发生变化",
+      "它促使中共立即作出国共合作共同抗日的主张",
+      "它是日本灭亡中国计划的一部分"
+    ],
+    "answer": "C",
+    "id": "1798736700730507264",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "()是最早为中国抗日战争提供援助的国家。",
+    "option": [
+      "美国",
+      "苏联",
+      "英国",
+      "法国"
+    ],
+    "answer": "B",
+    "id": "1798736700776644608",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "百团大战的直接指挥者是()",
+    "option": [
+      "毛泽东",
+      "朱德",
+      "彭德怀",
+      "贺龙"
+    ],
+    "answer": "C",
+    "id": "1798736700684369920",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "黄浦军校同一切旧式军校的根本区别在于()",
+    "option": [
+      "孙中山亲自兼任总理",
+      "聘请苏联红军将领为军事顾问",
+      "把政治教育提到和军事训练同等重要的地位",
+      "有大批党团员和革命青年到军校学习"
+    ],
+    "answer": "C",
+    "id": "1798736699933589505",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1912年3月，临时参议院颁布了()",
+    "option": [
+      "《中华民国宪法》",
+      "《土地法大纲》",
+      "《五权宪法》",
+      "《中华民国临时约法》"
     ],
     "answer": "D",
-    "id": "1798736701292544000",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "康有为把西方资本主义的政治学说同传统的儒家思想结合，宣传维新变法的道理。这反映出的根本问题是()",
-    "option": [
-      "中国的封建顽固势力相当强大",
-      "中国民族资产阶级具有软弱性",
-      "中国的封建传统思想根深蒂固",
-      "中国民族资产阶级日趋成熟"
-    ],
-    "answer": "B",
-    "id": "1798736698830487552",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "抗战进入相持阶段后，中国人民在华北给日本侵略者沉重打击的一次军事行动是()",
-    "option": [
-      "百团大战",
-      "平型关战役",
-      "淞沪会战",
-      "台儿庄战役"
-    ],
-    "answer": "A",
-    "id": "1798736700806004736",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "二七惨案后，中国工人运动掀起的全国范围的大革命高潮起始于()",
-    "option": [
-      "省港大罢工",
-      "五卅运动",
-      "青岛日资纱厂工人罢工",
-      "安源路矿工人大罢工"
-    ],
-    "answer": "B",
-    "id": "1798736699941978112",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "两次鸦片战争后，按当时清朝的行政区划，开放口岸最多的行省是()",
-    "option": [
-      "广东省",
-      "福建省",
-      "浙江省",
-      "江苏省"
-    ],
-    "answer": "B",
-    "id": "1798736697794494464",
+    "id": "1798736699379941376",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -750,105 +1995,150 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "深化机构和行政体制改革。转变政府职能，深化简政放权，创新监管方式，增强政府公信力和执行力，建设人民满意的______政府。",
+    "questionStem": "中国工人阶级的产生()",
     "option": [
-      "法治",
-      "创新型",
-      "廉洁",
-      "服务型"
-    ],
-    "answer": "D",
-    "id": "1798736701703585792",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1900年春，清政府对义和团采取\"招抚\"政策，实际目的是()",
-    "option": [
-      "招安诱降",
-      "控制利用",
-      "镇压剿灭",
-      "任其发展"
-    ],
-    "answer": "B",
-    "id": "1798736697924517888",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "五四运动的直接导火线是()",
-    "option": [
-      "袁世凯接受日本提出的“二十一条”",
-      "俄国十月革命的胜利",
-      "巴黎和会上中国的外交失败",
-      "李大钊《庶民的胜利》的发表"
-    ],
-    "answer": "C",
-    "id": "1798736699816148993",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "热情讴歌革命的文章《革命军》的作者是()",
-    "option": [
-      "章炳麟",
-      "邹容",
-      "陈天华",
-      "孙中山"
-    ],
-    "answer": "B",
-    "id": "1798736699216363520",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "中国半殖民地半封建社会最主要的矛盾是()",
-    "option": [
-      "地主阶级与农民阶级的矛盾",
-      "资产阶级与工人阶级的矛盾",
-      "帝国主义与中华民族的矛盾",
-      "封建主义与人民大众的矛盾"
-    ],
-    "answer": "C",
-    "id": "1798736697941295104",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "在维新派推动下实行“戊戌变法”的清帝是()",
-    "option": [
-      "咸丰皇帝",
-      "同治皇帝",
-      "光绪皇帝",
-      "宣统皇帝"
-    ],
-    "answer": "C",
-    "id": "1798736698809516032",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "抗日战争胜利后，为避免内战、争取和平，中囯共产党同国民党政府进行和平谈判，史称()",
-    "option": [
-      "重庆谈判",
-      "整军谈判",
-      "北平和谈",
-      "庐山谈判"
+      "先于中国资产阶级",
+      "晚于中国资产阶级",
+      "同时于中国资产阶级",
+      "几乎同时于中国资产阶级"
     ],
     "answer": "A",
-    "id": "1798736701070245889",
+    "id": "1798736698067124224",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "解放战争时期，由刘伯承、陈毅、邓小平指挥的，为解放长江以南各省奠定基础的战役是()",
+    "option": [
+      "辽沈战役",
+      "渡江战役",
+      "平津战役",
+      "淮海战役"
+    ],
+    "answer": "D",
+    "id": "1798736700998942720",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1917年悍然拥立废帝溥仪，复辟清朝的封建军阀是()",
+    "option": [
+      "袁世凯",
+      "张勋",
+      "段祺瑞",
+      "张作霖"
+    ],
+    "answer": "B",
+    "id": "1798736699396718592",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在抗日战争的战略防御阶段，国民党军队在正面战场上取得胜利的战役是()",
+    "option": [
+      "台儿庄战役",
+      "桂南战役",
+      "枣宜战役",
+      "中条山战役"
+    ],
+    "answer": "A",
+    "id": "1798736700814393345",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "社会主义改造的基本完成，使我国农业由()",
+    "option": [
+      "地主土地私有制转变为国家土地公有制",
+      "地主土地私有制转变为农民土地私有制",
+      "农民土地私有制转变为社会主义集体所有制",
+      "集体土地公有制转变为农民土地承包制"
+    ],
+    "answer": "C",
+    "id": "1798736701766500353",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "十一届三中全会以后，我国城市经济体制改革的最初环节是",
+    "option": [
+      "强调在管理上的宏观调控",
+      "建立社会主义市场经济体制",
+      "发展以公有制为主体的多种所有制经济",
+      "逐步扩大企业自主权"
+    ],
+    "answer": "D",
+    "id": "1798736701300932608",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "社会主义改造基本完成后，中国社会的中心任务是()",
+    "option": [
+      "加强和改进党的建设，巩固党的执政地位",
+      "调动一切积极因素，为社会主义事业服务",
+      "正确处理人民内部矛盾，巩固社会主义制度",
+      "集中力量发展生产力，建设社会主义现代化强国"
+    ],
+    "answer": "D",
+    "id": "1798736701753917441",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "坚决防止和反对_________，坚决防止和反对宗派主义、圈子文化、码头文化，坚决反对搞两面派、做两面人。",
+    "option": [
+      "个人主义、享乐主义、自由主义、本位主义、好人主义",
+      "个人主义、分散主义、山头主义、本位主义、好人主义",
+      "个人主义、分散主义、自由主义、本位主义、好人主义",
+      "个人主义、分散主义、自由主义、本位主义、享乐主义"
+    ],
+    "answer": "C",
+    "id": "1798736701468704768",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "对“民权主义”理解正确的是()",
+    "option": [
+      "推翻清王朝的封建专制统治",
+      "进行政治革命，推翻封建帝制，建立资产阶级共和国",
+      "平均地权、核定地价",
+      "打击帝国主义在华势力"
+    ],
+    "answer": "B",
+    "id": "1798736699249917952",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "______是引领发展的第一动力，是建设现代化经济体系的战略支撑。",
+    "option": [
+      "改革",
+      "创新",
+      "开放",
+      "科技"
+    ],
+    "answer": "B",
+    "id": "1798736701678419968",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
