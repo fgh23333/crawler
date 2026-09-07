@@ -1,14 +1,284 @@
 [
   {
-    "questionStem": "“国际工人协会”是（）的名称",
+    "questionStem": "斯大林在1926年认为，当时的苏联作为无产阶级专政国家的内部矛盾主要是()之间的矛盾。",
     "option": [
-      "第一国际",
-      "第二国际",
-      "第三国际",
-      "第四国际"
+      "无产阶级和资产阶级",
+      "无产阶级和官僚阶层",
+      "无产阶级和反革命势力",
+      "无产阶级和农民"
+    ],
+    "answer": "D",
+    "id": "1798736705776254977",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "20世纪80年代，为了打破领导职务终身制，我国建立了()制度。",
+    "option": [
+      "领导干部轮岗",
+      "领导干部选举",
+      "领导干部纪检",
+      "领导干部退休"
+    ],
+    "answer": "D",
+    "id": "1798736705713340416",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国共产党开创中国特色社会主义的标志性事件是：()",
+    "option": [
+      "设立经济特区",
+      "十一届三中全会",
+      "推行联产承包责任制",
+      "大力发展社会主义市场经济"
+    ],
+    "answer": "B",
+    "id": "1798736705285521409",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在1903年召开的俄国社会民主工党第二次代表大会上，支持列宁的是多数派，被称为()。",
+    "option": [
+      "孟什维克",
+      "多数主义",
+      "布尔什维克",
+      "集体主义"
+    ],
+    "answer": "C",
+    "id": "1798736705553956865",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "圣西门的自然观基本是唯物主义的，但社会历史观却是唯心主义的，认为（）是推动历史进步的动力。",
+    "option": [
+      "人类理性",
+      "上帝意志",
+      "个人意志",
+      "民族精神"
     ],
     "answer": "A",
-    "id": "1798736705826586624",
+    "id": "1798736705369407488",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "科学社会主义在狭义上指的是：()",
+    "option": [
+      "由创立者马克思、恩格斯论述的社会主义",
+      "马克思主义三个组成部分之一的马克思主义哲学",
+      "马克思主义三个组成部分之一的马克思主义政治经济学",
+      "马克思主义三个组成部分之一的科学共产主义"
+    ],
+    "answer": "D",
+    "id": "1798736705314881536",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "苏联模式在经济体制上实行()的指令性计划体制。",
+    "option": [
+      "自下而上",
+      "自上而下",
+      "上下协商",
+      "市场调节"
+    ],
+    "answer": "B",
+    "id": "1798736705637842944",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1945年，在与黄炎培谈到如何跳出中国历史上重复出现的兴亡周期律时，毛泽东认为，能够使我党跳出这一周期律的新路是()之路。",
+    "option": [
+      "民主",
+      "统一",
+      "团结",
+      "进步"
+    ],
+    "answer": "A",
+    "id": "1798736705214218240",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "空想社会主义者的代表人物主要集中在()",
+    "option": [
+      "东欧",
+      "北美",
+      "西欧",
+      "北欧"
+    ],
+    "answer": "C",
+    "id": "1798736705277132801",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "资本主义生产方式的基本矛盾是()之间的矛盾。",
+    "option": [
+      "生产力和生产关系",
+      "生产的社会化和生产资料的私人占有",
+      "无产阶级和资产阶级",
+      "经济基础和上层建筑"
+    ],
+    "answer": "B",
+    "id": "1798736705444904961",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "列宁认为发展科学社会主义的根本前提是()。",
+    "option": [
+      "坚持科学社会主义的基本原理",
+      "坚持马克思、恩格斯对科学社会主义的论述",
+      "使科学社会主义与时俱进",
+      "使科学社会主义符合时代特点"
+    ],
+    "answer": "A",
+    "id": "1798736705570734080",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "国际工人协会的灵魂和实际领导者是()。",
+    "option": [
+      "蒲鲁东",
+      "马克思",
+      "恩格斯",
+      "巴枯宁"
+    ],
+    "answer": "B",
+    "id": "1798736705465876480",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "列宁对科学社会主义的发展主要表现为创造性地提出了()的理论",
+    "option": [
+      "民主社会主义",
+      "共产主义过渡阶段",
+      "无产阶级专政",
+      "帝国主义理论和社会主义可能在一国或数国首先取得胜利"
+    ],
+    "answer": "D",
+    "id": "1798736705298104321",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "列宁得出社会主义可能在一国或数国首先取得胜利的结论依据是（）。",
+    "option": [
+      "资本主义必然灭亡、社会主义和共产主义必然胜利的规律",
+      "帝国主义时代资本主义政治经济发展不平衡的规律",
+      "资本主义国家无产阶级与资产阶级斗争的规律",
+      "无产阶级是最先进、最革命的阶级的原理"
+    ],
+    "answer": "B",
+    "id": "1798736705545568257",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "空想社会主义经历了300多年的历程，有其发展的早期、中期和晚期，以下历史人物中，属于晚期空想社会主义者的是：()",
+    "option": [
+      "伯恩斯坦",
+      "温斯坦莱",
+      "梅叶",
+      "欧文"
+    ],
+    "answer": "D",
+    "id": "1798736705281327104",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "科学社会主义理论代表的是()的根本利益",
+    "option": [
+      "无产阶级",
+      "劳动人民",
+      "被压迫阶级",
+      "被剥削阶级"
+    ],
+    "answer": "A",
+    "id": "1798736705277132802",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "全面建成小康社会之后，我国进而进入了全面建设()的时代。",
+    "option": [
+      "发达社会主义国家",
+      "共产主义国家",
+      "社会主义现代化强国",
+      "人类命运共同体"
+    ],
+    "answer": "C",
+    "id": "1798736705159692288",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "傅立叶提出了“教育的目的在于实现()的全面发展”的思想。",
+    "option": [
+      "体育和美育",
+      "体育和德育",
+      "德育和美育",
+      "体力和智力"
+    ],
+    "answer": "D",
+    "id": "1798736705361018880",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "被马克思和恩格斯称为“英国共产主义的代表”，“社会主义者运动的创始人”的是：()。",
+    "option": [
+      "达尔文",
+      "温斯坦莱",
+      "莫尔",
+      "欧文"
+    ],
+    "answer": "D",
+    "id": "1798736705356824577",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
@@ -30,255 +300,15 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "在1847年的《哲学的贫困》中，马克思已经初步提出了()的思想。",
+    "questionStem": "邓小平理论的精髓，也是邓小平理论活的灵魂，是（）。",
     "option": [
-      "价值规律",
-      "辩证法",
-      "剩余价值",
-      "唯物主义"
-    ],
-    "answer": "C",
-    "id": "1798736705478459392",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "苏联的农业集体化于1937年基本完成，使苏联的农业从个体经济变为集体经济，在一定程度上完成了对农业的()改造。",
-    "option": [
-      "公社主义",
-      "合作主义",
-      "社会主义",
-      "国有化"
-    ],
-    "answer": "C",
-    "id": "1798736705646231552",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "空想社会主义经历了300多年的历程，有其发展的早期、中期和晚期，以下历史人物中，属于早期空想社会主义者的是：()",
-    "option": [
-      "马布利",
-      "康帕内拉",
-      "傅立叶",
-      "笛卡尔"
+      "实事求是",
+      "解放思想，实事求是",
+      "与时俱进",
+      "求真务实"
     ],
     "answer": "B",
-    "id": "1798736705285521408",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "()年，俄国社会民主工党第()次全党代表大会，孟什维克被驱逐出党，从此布尔什维克成为了独立的马克思主义政党，称为俄国社会民主工党（布尔什维克）。",
-    "option": [
-      "1903,二",
-      "1912，六",
-      "1918，七",
-      "1925，十四"
-    ],
-    "answer": "B",
-    "id": "1798736705851752448",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "空想社会主义经历了300多年的历程，有其发展的早期、中期和晚期，以下历史人物中，属于中期空想社会主义者的是：()",
-    "option": [
-      "巴贝夫",
-      "闵采尔",
-      "圣西门",
-      "考茨基"
-    ],
-    "answer": "A",
-    "id": "1798736705281327105",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "未来社会主义社会的社会生产将消除无政府状态而按()进行。",
-    "option": [
-      "价值规律",
-      "市场需求",
-      "计划",
-      "生产力水平"
-    ],
-    "answer": "C",
-    "id": "1798736705444904960",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "苏联解体期间苏联的最高领导人是()。",
-    "option": [
-      "戈尔巴乔夫",
-      "亚纳耶夫",
-      "叶利钦",
-      "普京"
-    ],
-    "answer": "A",
-    "id": "1798736705621065728",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1905年俄国资产阶级革命爆发后，列宁领导的布尔什维克认为革命应该也必须由()领导。",
-    "option": [
-      "知识分子",
-      "无产阶级",
-      "资产阶级",
-      "农民阶级"
-    ],
-    "answer": "B",
-    "id": "1798736705549762561",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "十一届三中全会以后，我党彻底否定了()的错误理论和实践，以巨大的政治勇气和理论勇气提出了全面进行改革开放的历史任务。",
-    "option": [
-      "“两个凡是”",
-      "“又红又专”",
-      "“以阶级斗争为纲”",
-      "“人民民主专政”"
-    ],
-    "answer": "C",
-    "id": "1798736705272938497",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "在（）里，马克思、恩格斯提出了“两个必然”的科学论断。",
-    "option": [
-      "《共产党宣言》",
-      "《共产主义原理》",
-      "《资本论》",
-      "《哥达纲领批判》"
-    ],
-    "answer": "A",
-    "id": "1798736705834975233",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "列宁主张建立一元化的、战斗性的、组织严密的党，强调实行()。",
-    "option": [
-      "民主集中制",
-      "民主自由制",
-      "领导集权制",
-      "权力集中制"
-    ],
-    "answer": "A",
-    "id": "1798736705553956864",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1991年，副总统亚纳耶夫等部分苏联高级领导人发动了震惊世界的（），加速了苏联瓦解的进程。",
-    "option": [
-      "退党事件",
-      "十月事件",
-      "波兹南事件",
-      "八一九事件"
-    ],
-    "answer": "D",
-    "id": "1798736705855946753",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "当苏联的“二五计划”在1937年4月提前9个月完成时，仅用10年左右的时间，苏联的工业总产值已跃居欧洲第()位。",
-    "option": [
-      "一",
-      "二",
-      "三",
-      "四"
-    ],
-    "answer": "A",
-    "id": "1798736705650425856",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "基于苏共二十大秘密报告的历史教训，1956年召开中共八大提出要坚持民主集中制和集体领导制度，反对一切形式的（）。",
-    "option": [
-      "个人崇拜",
-      "贪污浪费",
-      "官僚主义",
-      "权力崇拜"
-    ],
-    "answer": "A",
-    "id": "1798736705222606849",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "苏东剧变标志着()的失败。",
-    "option": [
-      "苏联模式",
-      "科学社会主义",
-      "科学共产主义",
-      "民主社会主义"
-    ],
-    "answer": "A",
-    "id": "1798736705633648641",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "1945年中国共产党的七大召开，正式确立()为党的指导思想。",
-    "option": [
-      "毛泽东思想",
-      "马克思主义",
-      "列宁主义",
-      "马克思列宁主义"
-    ],
-    "answer": "A",
-    "id": "1798736705679785985",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "我国社会主义制度基本确立之后，分配制度主要采取的是()。",
-    "option": [
-      "按能力大小分配",
-      "按革命贡献分配",
-      "按劳分配",
-      "按需分配"
-    ],
-    "answer": "C",
-    "id": "1798736705235189761",
+    "id": "1798736705868529666",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
@@ -300,105 +330,45 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "社会主义是相对资本主义而言的一个概念，资本主义表现为个人主义，社会主义表现为（），资本主义表现为资本本位，社会主义表现为（）本位",
+    "questionStem": "苏联对农业的社会主义改造主要是通过()来实现的。",
     "option": [
-      "爱国主义，社会",
-      "集体主义，社会",
-      "集体主义，国家",
-      "爱国主义，国家"
+      "余粮征集运动",
+      "全盘农业集体化运动",
+      "人民公社运动",
+      "消灭农民阶级"
     ],
     "answer": "B",
-    "id": "1798736705797226497",
+    "id": "1798736705612677120",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "1898年的变法维新运动是由()发起和领导的。",
+    "questionStem": "列宁所说的“世界历史发展的一般规律，不仅丝毫不排斥个别发展阶段在发展形式或顺序上表现出特殊性，反而是以此为前提的”，体现的是马克思主义中有决定意义的()思想。",
     "option": [
-      "地主阶级保皇派",
-      "资产阶级官僚派",
-      "资产阶级革命派",
-      "资产阶级维新派"
-    ],
-    "answer": "D",
-    "id": "1798736705692368896",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "科学社会主义产生于19世纪()年代。",
-    "option": [
-      "30",
-      "40",
-      "50",
-      "60"
+      "唯物主义",
+      "辩证法",
+      "社会存在决定社会意识",
+      "生产力决定生产关系"
     ],
     "answer": "B",
-    "id": "1798736705755283456",
+    "id": "1798736705532985344",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "早年受启蒙运动影响，曾参加北美人民反对英国殖民统治的独立战争的空想社会主义者是()。",
+    "questionStem": "科学社会主义创立于()",
     "option": [
-      "傅立叶",
-      "圣西门",
-      "欧文",
-      "马布利"
+      "十九世纪四十年代",
+      "十九世纪八十年代",
+      "十九世纪六十年代",
+      "十九世纪末"
     ],
-    "answer": "B",
-    "id": "1798736705348435968",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "从鸦片战争到辛亥革命期间，中国人民在不同时期和不同程度上进行的反帝反封建的斗争，属于（）的范畴。",
-    "option": [
-      "无产阶级额革命",
-      "旧式民主主义革命",
-      "社会主义革命",
-      "新式民主主义革命"
-    ],
-    "answer": "B",
-    "id": "1798736705860141057",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "发展中国特色社会主义必须坚持以()为中心的发展思想，不断促进人的全面发展、全体人民共同富裕。",
-    "option": [
-      "公民",
-      "人民",
-      "大众",
-      "人类"
-    ],
-    "answer": "B",
-    "id": "1798736705147109377",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "根据列宁的分析，在一战前夜，资本主义的发展进入到了一个新的阶段，即()",
-    "option": [
-      "金融资本主义阶段",
-      "自由竞争资本主义阶段",
-      "垄断资本主义阶段",
-      "全球化资本主义阶段"
-    ],
-    "answer": "C",
-    "id": "1798736705272938496",
+    "answer": "A",
+    "id": "1798736705306492928",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
@@ -420,195 +390,390 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "周期性经济危机的出现，是()日益显露和激化的一大表现。",
+    "questionStem": "1905年俄国资产阶级革命爆发后，列宁领导的布尔什维克认为革命应该也必须由()领导。",
     "option": [
-      "封建社会基本矛盾",
-      "压迫者和被压迫者基本矛盾",
-      "剥削者和被剥削者基本矛盾",
-      "资本主义社会基本矛盾"
-    ],
-    "answer": "D",
-    "id": "1798736705751089154",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "二月革命之后，列宁结束了长期的流亡生活，返回到俄国，发表了（），指出沙皇制度推翻以后必须进行社会主义革命，而不能仅仅停留于资产阶级民主革命。",
-    "option": [
-      "《怎么办》",
-      "《四月提纲》",
-      "《论欧洲联邦口号》",
-      "《国家与革命》"
-    ],
-    "answer": "B",
-    "id": "1798736705847558144",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "苏联模式在所有制上实行的是()。",
-    "option": [
-      "多种所有制共存",
-      "单一的生产资料公有制",
-      "公有制为主多种所有制形式并存",
-      "公有制和私有制协调发展"
-    ],
-    "answer": "B",
-    "id": "1798736705637842945",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "当今世界处于大发展、大变革与大调整的时期，()是时代的主题。",
-    "option": [
-      "和平与战争",
-      "动荡与稳定",
-      "破裂与整合",
-      "和平与发展"
-    ],
-    "answer": "D",
-    "id": "1798736705155497985",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "《共产党宣言》指出，()是阶级社会发展的直接动力。",
-    "option": [
-      "矛盾运动",
-      "社会基本矛盾",
-      "阶级斗争",
-      "生产力发展"
-    ],
-    "answer": "C",
-    "id": "1798736705470070785",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "在社会主义发展史上，社会主义最初的形态是（）",
-    "option": [
-      "共产主义",
-      "科学社会主义",
-      "空想社会主义",
-      "民族社会主义"
-    ],
-    "answer": "C",
-    "id": "1798736705793032193",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "共产主义社会的实现将意味着人类从必然王国飞跃进了()。",
-    "option": [
-      "自由王国",
-      "偶然王国",
-      "太平天国",
-      "极乐王国"
-    ],
-    "answer": "A",
-    "id": "1798736705440710658",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "20世纪50年代中期以来，科学社会主义发展的主题逐渐转换为()",
-    "option": [
-      "社会主义如何在与资本主义的并存中发展自身并最终取代资本主义",
-      "社会主义如何与资本主义和平共处",
-      "社会主义如何参与全球化过程",
-      "社会主义如何表现出对资本主义的优越性"
-    ],
-    "answer": "A",
-    "id": "1798736705264549888",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "斯大林在1926年认为，当时的苏联作为无产阶级专政国家的内部矛盾主要是()之间的矛盾。",
-    "option": [
-      "无产阶级和资产阶级",
-      "无产阶级和官僚阶层",
-      "无产阶级和反革命势力",
-      "无产阶级和农民"
-    ],
-    "answer": "D",
-    "id": "1798736705776254977",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "斯大林在1926年认为，当时的苏联作为无产阶级专政国家的外部矛盾主要是()之间的矛盾。",
-    "option": [
-      "社会主义国家与其他一切资本主义国家",
-      "社会主义国家与其他一切国家",
-      "社会主义国家的无产阶级与资本主义国家的资产阶级",
-      "社会主义国家的统治阶级与资本主义国家的统治阶级"
-    ],
-    "answer": "A",
-    "id": "1798736705776254976",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "在1848年革命期间，为了指导革命，马克思创办了（）",
-    "option": [
-      "《莱茵报》",
-      "《新莱茵报》",
-      "《德法年鉴》",
-      "以上都不对"
-    ],
-    "answer": "B",
-    "id": "1798736705822392322",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "SDH",
-    "type": "singleChoice"
-  },
-  {
-    "questionStem": "空想社会主义者普遍同情无产阶级的悲惨处境，但又普遍没有认识到：解放无产阶级的社会力量只能是()。",
-    "option": [
-      "破除理性迷误的天才",
-      "资产阶级",
+      "知识分子",
       "无产阶级",
-      "具有社会改革意识的掌权者"
+      "资产阶级",
+      "农民阶级"
     ],
-    "answer": "C",
-    "id": "1798736705352630273",
+    "answer": "B",
+    "id": "1798736705549762561",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "我国对资本主义工商业的社会主义改造主要采取了()政策。",
+    "questionStem": "科学发展观的第一要义是()。",
     "option": [
-      "强制公有化",
-      "自觉公有化",
-      "和平赎买",
-      "强制赎买"
+      "发展",
+      "效率",
+      "公平",
+      "稳定"
+    ],
+    "answer": "A",
+    "id": "1798736705163886593",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "中国共产党领导的整个中国革命运动，是包括新民主主义革命和()革命两个阶段在内的全部革命运动。",
+    "option": [
+      "资本主义",
+      "新资本主义",
+      "社会主义",
+      "新社会主义"
     ],
     "answer": "C",
-    "id": "1798736705230995457",
+    "id": "1798736705239384065",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "十月革命后，为适应世界社会主义发展的需要，1919年3月成立了共产国际，也称（）",
+    "option": [
+      "第一国际",
+      "第二国际",
+      "第三国际",
+      "第四国际"
+    ],
+    "answer": "C",
+    "id": "1798736705847558145",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "列宁认为，民粹派把村社同资本主义()起来的观点是不符合事实的。",
+    "option": [
+      "等同",
+      "协调",
+      "对立",
+      "混淆"
+    ],
+    "answer": "C",
+    "id": "1798736705558151170",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "18世纪空想社会主义者摩莱里在《自然法典》中以()的形式勾勒了未来共产主义社会的蓝图。",
+    "option": [
+      "游记文学",
+      "哲学原理",
+      "法律条文",
+      "政治论战"
+    ],
+    "answer": "C",
+    "id": "1798736705377796097",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在关于什么是列宁主义的论争中，用不断革命论来解释列宁思想的是()。",
+    "option": [
+      "斯大林",
+      "季诺维也夫",
+      "布哈林",
+      "托洛茨基"
+    ],
+    "answer": "D",
+    "id": "1798736705780449280",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "从鸦片战争到辛亥革命期间，中国人民在不同时期和不同程度上进行的反帝反封建的斗争，属于（）的范畴。",
+    "option": [
+      "无产阶级额革命",
+      "旧式民主主义革命",
+      "社会主义革命",
+      "新式民主主义革命"
+    ],
+    "answer": "B",
+    "id": "1798736705860141057",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "德国著名的唯心主义哲学家（）认为，整个世界处于不断运动、变化和发展之中，矛盾是发展的内在根源。",
+    "option": [
+      "黑格尔",
+      "叔本华",
+      "海德格尔",
+      "尼采"
+    ],
+    "answer": "A",
+    "id": "1798736705486848000",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "俄国()诞生于19世纪中叶，其基本理论可溯源到赫尔岑和车尔尼雪夫斯基的村社社会主义思想。",
+    "option": [
+      "无政府主义",
+      "合法马克思主义",
+      "经济派",
+      "民粹派"
+    ],
+    "answer": "D",
+    "id": "1798736705562345472",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "18世纪空想社会主义者巴贝夫所构思的空想共产主义社会叫做：()。",
+    "option": [
+      "自由共和国",
+      "平等共和国",
+      "人民共和国",
+      "民主共和国"
+    ],
+    "answer": "B",
+    "id": "1798736705373601793",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "傅立叶把取代资本主义的社会制度称为和谐制度，其基本单位叫做：()。",
+    "option": [
+      "合谐公社",
+      "合作社",
+      "法郎吉",
+      "互助社"
+    ],
+    "answer": "C",
+    "id": "1798736705365213184",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "基于苏共二十大秘密报告的历史教训，1956年召开中共八大提出要坚持民主集中制和集体领导制度，反对一切形式的（）。",
+    "option": [
+      "个人崇拜",
+      "贪污浪费",
+      "官僚主义",
+      "权力崇拜"
+    ],
+    "answer": "A",
+    "id": "1798736705222606849",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "经济派盲目崇拜自发的工人运动，迷恋()，否认政治斗争、思想斗争和政党在社会发展中的作用。",
+    "option": [
+      "唯物主义",
+      "利己主义",
+      "经济斗争",
+      "金钱收益"
+    ],
+    "answer": "C",
+    "id": "1798736705558151168",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "早年受启蒙运动影响，曾参加北美人民反对英国殖民统治的独立战争的空想社会主义者是()。",
+    "option": [
+      "傅立叶",
+      "圣西门",
+      "欧文",
+      "马布利"
+    ],
+    "answer": "B",
+    "id": "1798736705348435968",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "空想社会主义经历了300多年的历程，有其发展的早期、中期和晚期，以下历史人物中，属于中期空想社会主义者的是：()",
+    "option": [
+      "巴贝夫",
+      "闵采尔",
+      "圣西门",
+      "考茨基"
+    ],
+    "answer": "A",
+    "id": "1798736705281327105",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "我国社会主义制度基本确立之后，分配制度主要采取的是()。",
+    "option": [
+      "按能力大小分配",
+      "按革命贡献分配",
+      "按劳分配",
+      "按需分配"
+    ],
+    "answer": "C",
+    "id": "1798736705235189761",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "()的发展促进了封建社会自然经济的解体，引起小商品生产者的两极分化。",
+    "option": [
+      "乡村经济",
+      "城市经济",
+      "海洋经济",
+      "商品经济"
+    ],
+    "answer": "D",
+    "id": "1798736705398767617",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1990年7月，苏共二十八大通过了（）的纲领性声明，标志着苏共的指导思想从改革变为“改向”。",
+    "option": [
+      "《阿拉木图宣言》",
+      "《走向人道的民主的社会主义》",
+      "《新联盟条约》",
+      "《告苏联人民书》"
+    ],
+    "answer": "B",
+    "id": "1798736705855946752",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "发展中国特色社会主义必须坚持以()为中心的发展思想，不断促进人的全面发展、全体人民共同富裕。",
+    "option": [
+      "公民",
+      "人民",
+      "大众",
+      "人类"
+    ],
+    "answer": "B",
+    "id": "1798736705147109377",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "法国复辟时期历史学家用（）观点撰写的有关法国大革命的历史著作，也为科学社会主义的创立提供了理论的前提。",
+    "option": [
+      "唯物主义",
+      "辩证法",
+      "阶级斗争",
+      "唯心主义"
+    ],
+    "answer": "C",
+    "id": "1798736705482653697",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1905年俄国资产阶级革命爆发后，孟什维克认为革命应该由()领导。",
+    "option": [
+      "知识分子",
+      "无产阶级",
+      "资产阶级",
+      "农民阶级"
+    ],
+    "answer": "C",
+    "id": "1798736705549762560",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "未来社会主义社会的社会生产将消除无政府状态而按()进行。",
+    "option": [
+      "价值规律",
+      "市场需求",
+      "计划",
+      "生产力水平"
+    ],
+    "answer": "C",
+    "id": "1798736705444904960",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "19世纪30年代之后，空想社会主义进入最后时期，这一时期德国空想社会主义者的代表人物是：()。",
+    "option": [
+      "黑格尔",
+      "考茨基",
+      "魏特林",
+      "伯恩斯坦"
+    ],
+    "answer": "C",
+    "id": "1798736705348435969",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党在社会主义初级阶段的总路线可概括为“一个中心，两个基本点”，其中，“一个中心”指的是()。",
+    "option": [
+      "以经济建设为中心",
+      "以党的领导为中心",
+      "以改革开放为中心",
+      "以社会稳定为中心"
+    ],
+    "answer": "A",
+    "id": "1798736705717534721",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "1956年苏共二十大以后，毛泽东提出了“()”，开始独立探索适合本国实际的社会主义建设道路。",
+    "option": [
+      "防苏反修",
+      "别了苏修",
+      "以苏为鉴",
+      "另起炉灶"
+    ],
+    "answer": "C",
+    "id": "1798736705612677121",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
@@ -630,30 +795,405 @@
     "type": "singleChoice"
   },
   {
-    "questionStem": "被誉为在中国传播马克思主义的第一人的是()。",
+    "questionStem": "20世纪50年代中期以来，科学社会主义发展的主题逐渐转换为()",
     "option": [
-      "陈独秀",
-      "毛泽东",
-      "蔡和森",
-      "李大钊"
+      "社会主义如何在与资本主义的并存中发展自身并最终取代资本主义",
+      "社会主义如何与资本主义和平共处",
+      "社会主义如何参与全球化过程",
+      "社会主义如何表现出对资本主义的优越性"
     ],
-    "answer": "D",
-    "id": "1798736705243578368",
+    "answer": "A",
+    "id": "1798736705264549888",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
     "type": "singleChoice"
   },
   {
-    "questionStem": "科学社会主义在狭义上指的是：()",
+    "questionStem": "()在苏共二十大上所作的“秘密报告”，打破了对斯大林的个人迷信，在客观上起到了解放思想的作用。",
     "option": [
-      "由创立者马克思、恩格斯论述的社会主义",
-      "马克思主义三个组成部分之一的马克思主义哲学",
-      "马克思主义三个组成部分之一的马克思主义政治经济学",
-      "马克思主义三个组成部分之一的科学共产主义"
+      "托洛茨基",
+      "赫鲁晓夫",
+      "勃列日涅夫",
+      "契尔年科"
+    ],
+    "answer": "B",
+    "id": "1798736705629454337",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的十三大充分肯定了改革开放取得的重大成就，系统阐述了()理论。",
+    "option": [
+      "社会主义初级阶段",
+      "社会主义商品经济",
+      "社会主义过渡阶段",
+      "社会主义市场经济"
+    ],
+    "answer": "A",
+    "id": "1798736705713340418",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "党的十二届三中全会明确提出我国社会主义经济是()基础上的有计划的商品经济。",
+    "option": [
+      "私有制",
+      "公有制",
+      "小农经济",
+      "集体经济"
+    ],
+    "answer": "B",
+    "id": "1798736705717534720",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "科学社会主义基本原理中的“两个必然”指的是：()",
+    "option": [
+      "统治者的必然灭亡和人民群众的必然胜利",
+      "资本主义的必然灭亡和社会主义的必然胜利",
+      "落后生产力的必然灭亡和先进生产力的必然胜利",
+      "旧事物的必然灭亡和新事物的必然胜利"
+    ],
+    "answer": "B",
+    "id": "1798736705310687233",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "南斯拉夫对本国社会主义道路的独立探索被称为“()”。",
+    "option": [
+      "南斯拉夫特色社会主义",
+      "南斯拉夫社会主义",
+      "民主社会主义",
+      "自治社会主义"
     ],
     "answer": "D",
-    "id": "1798736705314881536",
+    "id": "1798736705621065729",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "苏联的农业集体化于1937年基本完成，使苏联的农业从个体经济变为集体经济，在一定程度上完成了对农业的()改造。",
+    "option": [
+      "公社主义",
+      "合作主义",
+      "社会主义",
+      "国有化"
+    ],
+    "answer": "C",
+    "id": "1798736705646231552",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "当苏联的“二五计划”在1937年4月提前9个月完成时，仅用10年左右的时间，苏联的工业总产值已跃居欧洲第()位。",
+    "option": [
+      "一",
+      "二",
+      "三",
+      "四"
+    ],
+    "answer": "A",
+    "id": "1798736705650425856",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在给俄国革命家查苏利奇的回信中，马克思提出了俄国有可能跨越()的“卡夫丁峡谷”的论述。",
+    "option": [
+      "农奴制度",
+      "封建制度",
+      "资本主义制度",
+      "奴隶制度"
+    ],
+    "answer": "C",
+    "id": "1798736705440710657",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "19世纪最后30年间，以()的广泛应用为特征的第二次产业革命的发生和发展，推动了欧美主要资本主义国家社会生产力的巨大进步。",
+    "option": [
+      "蒸汽机",
+      "纺纱机",
+      "电力",
+      "石油"
+    ],
+    "answer": "C",
+    "id": "1798736705763672066",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "“国际工人协会”是（）的名称",
+    "option": [
+      "第一国际",
+      "第二国际",
+      "第三国际",
+      "第四国际"
+    ],
+    "answer": "A",
+    "id": "1798736705826586624",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在写作风格上与《乌托邦》宛如姐妹篇的是（）",
+    "option": [
+      "康帕内拉的《太阳城》",
+      "温斯坦莱的《自由法",
+      "摩莱里的《自然法典》",
+      "傅立叶的《全世界和谐》"
+    ],
+    "answer": "A",
+    "id": "1798736705814003712",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在1902年出版的《怎么办？》中，列宁系统地批判了()，论述了建立无产阶级政党的理论。",
+    "option": [
+      "巴枯宁主义",
+      "合法马克思主义",
+      "民粹派",
+      "经济派"
+    ],
+    "answer": "D",
+    "id": "1798736705558151169",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "科学发展观的核心是()。",
+    "option": [
+      "效率优先",
+      "公平至上",
+      "社会稳定",
+      "以人为本"
+    ],
+    "answer": "D",
+    "id": "1798736705163886592",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "被列宁称为马克思主义的“百科全书”的著作是：()。",
+    "option": [
+      "《共产党宣言》",
+      "《资本论》",
+      "《德意志意识形态》",
+      "《反杜林论》"
+    ],
+    "answer": "D",
+    "id": "1798736705449099265",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "马克思、恩格斯所创立的无产阶级的哲学世界观是：()。",
+    "option": [
+      "辩证唯物主义和历史唯物主义",
+      "辩证唯物主义",
+      "历史唯物主义",
+      "唯物主义辩证法"
+    ],
+    "answer": "A",
+    "id": "1798736705486848001",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "空想社会主义代表的是还处于()状态的无产阶级的利益和要求。",
+    "option": [
+      "自在阶级",
+      "落后阶级",
+      "受剥削阶级",
+      "被统治阶级"
+    ],
+    "answer": "A",
+    "id": "1798736705394573312",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在新经济政策的条件下，苏维埃向()做出了让步。",
+    "option": [
+      "资产阶级专政",
+      "私人贸易",
+      "资产阶级民主",
+      "资本主义复辟"
+    ],
+    "answer": "B",
+    "id": "1798736705520402433",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "经过艰辛探索，到改革开放前，我国在社会主义建设方面取得的巨大成果，为新时期开创中国特色社会主义提供了理论经验和()。",
+    "option": [
+      "物质基础",
+      "基本模式",
+      "现成模式",
+      "思想基础"
+    ],
+    "answer": "A",
+    "id": "1798736705201635329",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "无产阶级作为独立的政治力量登上历史舞台，为()的诞生提供了阶级基础。",
+    "option": [
+      "民主社会主义",
+      "乌托邦社会主义",
+      "空想社会主义",
+      "科学社会主义"
+    ],
+    "answer": "D",
+    "id": "1798736705268744193",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "巴黎公社成立于（）",
+    "option": [
+      "1848年",
+      "1864年",
+      "1871年",
+      "1883年"
+    ],
+    "answer": "C",
+    "id": "1798736705826586625",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "斯大林认为，对于处在资本主义包围之中的苏联来说，工业化的任务不仅要增加整个国民经济中工业的比重，而且要在这种发展中保证国家在经济上的()。",
+    "option": [
+      "加速增长",
+      "独立",
+      "全面发展",
+      "合理比重"
+    ],
+    "answer": "B",
+    "id": "1798736705772060672",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "18世纪60年代，工业革命首先在（）发起，资本主义生产开始由（）向（）转变。",
+    "option": [
+      "英国自由资本主义垄断资本主义",
+      "美国自由资本主义垄断资本主义",
+      "英国工场手工业机器大工业",
+      "美国工场手工业机器大工业"
+    ],
+    "answer": "C",
+    "id": "1798736705809809408",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "康帕内拉所构思的空想社会主义社会叫做()。",
+    "option": [
+      "千年王国",
+      "太平天国",
+      "上帝之城",
+      "太阳城"
+    ],
+    "answer": "D",
+    "id": "1798736705386184705",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "二月革命之后，列宁结束了长期的流亡生活，返回到俄国，发表了（），指出沙皇制度推翻以后必须进行社会主义革命，而不能仅仅停留于资产阶级民主革命。",
+    "option": [
+      "《怎么办》",
+      "《四月提纲》",
+      "《论欧洲联邦口号》",
+      "《国家与革命》"
+    ],
+    "answer": "B",
+    "id": "1798736705847558144",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "《哥达纲领批判》中，马克思批判了（）的教条",
+    "option": [
+      "魏特琳",
+      "巴枯宁",
+      "蒲鲁东",
+      "拉萨尔"
+    ],
+    "answer": "D",
+    "id": "1798736705830780928",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "SDH",
+    "type": "singleChoice"
+  },
+  {
+    "questionStem": "在（）这部著作中，恩格斯对马克思主义的三个主要组成部分做了系统阐述。",
+    "option": [
+      "《在马克思墓前的讲话》",
+      "《路德维希·费尔巴哈和德国古典哲学的终结》",
+      "《反杜林论》",
+      "《自然辩证法》"
+    ],
+    "answer": "C",
+    "id": "1798736705830780929",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
