@@ -1,272 +1,25 @@
 [
   {
-    "questionStem": "党的十二届四中全会作出了《中共中央关于经济体制改革的决定》，提出了社会主义经济是在公有制基础上的有计划的商品经济。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704111116289",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国的新民主主义革命和旧民主主义革命同属于资产阶级民主主义革命的两个阶段，它们的革命目标是基本相同的。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704723484673",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "人民民主是社会主义的生命，是全面建设社会主义现代化国家的应有之义。",
+    "questionStem": "中国特色社会主义理论体系，凝结了几代中国共产党人带领人民不懈探索实践的智慧和心血，充分汲取了百余年来党领导人民进行伟大奋斗积累的历史经验。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736705012891649",
+    "id": "1798736704102727680",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "党的十六届四中全会通过的《中共中央关于完善社会主义市场经济体制若干问题的决定》指出：“坚持以人为本，树立全面、协调、可持续的发展观，促进经济社会和人的全面发展。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704140476416",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "2004年的宪法修正案正式将邓小平理论载入宪法。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704123699201",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "毛泽东思想和中国特色社会主义理论体系都根于中国实际、源于马克思列宁主义。",
+    "questionStem": "意识形态工作是为国家立心、为民族立魂的工作。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736704840925185",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国特色社会主义制度的最大优势是人民代表大会制度。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736703226118145",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国新民主主义社会属于.资本主义体系。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704710901761",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国共产党的最高理想和最终目标是实现中华民族的伟大复兴的中国梦。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736703393890306",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "毛泽东指出，“为什么人的问题，是一个根本的问题，原则的问题。”",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736704824147969",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "当代经济全球化是发达资本主义国家主导的，因此，中国加入经济全球化必然被纳入世界资本主义体系。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736703364530177",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "改革是社会主义制度的自我完善和发展。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736703758794752",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "实事求是是党的思想路线的实质和核心。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736703746211840",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "“一带一路”指的分别是“21世纪沿海经济带”和“丝绸之路”。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736703351947265",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "在和平与发展时期，世界范围的竞争主要是经济实力和以高科技为基础的综合国力的较量。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736703356141568",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "构建新发展格局是经济现代化的路径选择，是关系我国发展全局的重大战略任务。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736703192563712",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "社会主义社会的基本矛盾仍是对抗性的矛盾。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704274694145",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "社会主义制度的发展和完善是一个长期的历史过程。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736705017085953",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国新民主主义革命既可以走农村包围城市的道路，也可以走城市武装起义的道路。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704731873280",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "毛泽东精辟地论证了革命斗争中政策和策略问题的极端重要性，指出路线、方针、政策是党的生命。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704824147970",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "改革开放以来，特别是十三届四中全会以来党和人民建设中国特色社会主义的伟大探索，是“三个代表”重要思想形成的实践基础。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736703653937153",
+    "id": "1798736705021280257",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",
@@ -286,91 +39,338 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "我国社会主义改革实质是对50年代中期社会主义改造的否定。",
+    "questionStem": "新文化运动揭开了新民主主义革命的序幕。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736704517963776",
+    "id": "1798736704723484672",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "中国进行社会主义改造的目的是确立社会主义生产关系。",
+    "questionStem": "国共产党党员执政后的最大危险是贪污腐败。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736703406473217",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "2007年，党的十七大对科学发展观的理论定位、理论依据、理论内涵作了全面阐述。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736704509575168",
+    "id": "1798736704140476417",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "解决社会主义社会基本矛盾的根本途径和方法是人民民主专政。",
+    "questionStem": "科学发展观是以江泽民同志为主要代表的中国共产党人，在新世纪新阶段全面建设小康社会进程中，在新的历史起点上推进中国特色社会主义事业的过程中形成和发展起来的。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736704274694144",
+    "id": "1798736704136282112",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "中国共产党从新的实践和时代特征出发坚持和发展马克思主义，形成、发展了中国特色社会主义理论体系，系统回答了在中国这样一个十几亿入口的发展中大国如何加快实现现代化、巩固和发展社会主义、建设长期执政的马克思主义政党等一系列重大课题，开辟了马克思主义中国化时代化新境界。",
+    "questionStem": "没收官僚资本，就其性质来说是完全属于新民主主义革命。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736704614432768",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国梦是中华民族伟大复兴的形象表达。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736704148865024",
+    "id": "1798736703251283969",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "毛泽东思想是中国化的马克思主义，因此，毛泽东思想不完全是马克思主义的。",
+    "questionStem": "毛泽东特别注重从组织上建党，指出党员不仅要在思想上入党，而且要在组织上入党。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736704861896704",
+    "id": "1798736704824147968",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",
     "type": "rightWrong"
   },
   {
-    "questionStem": "武装斗争是中国革命的唯一形式。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736704727678977",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "MaoIntro",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "没有中国革命和建设的丰富实践，没有对中国革命和建设经验的深刻总结，就不可能有毛泽东思想。",
+    "questionStem": "不能用改革开放前的历史时期否定改革开放后的历史时期。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736704836730880",
+    "id": "1798736704308248576",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "必须坚持国家利益至上，以国家安全为宗旨，以政治安全为根本，加强国家安全能力建设，坚决维护国家主权、安全、发展利益。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736703310004225",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "进一步提高党的领导水平和执政水平、提高拒腐防变和抵御风险的能力，是我们党必须解决好的两大历史性课题。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736704098533376",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "《关于正确处理人民内部矛盾的问题》是毛泽东探索中国社会主义建设道路第一个标志性的重要理论成果。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736704262111233",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "我们坚持和平共处五项原则，并不意味着我们要同所有国家发展友好合作关系。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736703368724480",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "科学发展观是马克思主义同当代中国实际和时代特征相结合的产物，是马克思主义关于发展的世界观和方法论的集中体现，对新形势下实现什么样的发展、怎样发展等重大问题作出了新的科学回答，把我们对中国特色社会主义规律的认识提高到新的水平",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736704144670720",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国梦是和平、发展、合作、共赢的梦，与世界各国人民的美好梦想息息相通。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703251283968",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "改革开放时期是建立在对改革开放前时期否定的基础上的。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736704308248577",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "在加强社会心理服务体系建设中，加强和创新社会治理，核心是人。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703121260544",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "习近平新时代中国特色社会主义思想写出了马克思主义新版本，是21世纪马克思主义",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703230312449",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "发展先进文化，是发展先进生产力和实现最广大人民根本利益的思想保证。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703645548545",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "科学发展观同邓小平理论、“三个代表”重要思想，面对着共同的时代课题，面临着共同的历史任务，都贯穿了中国特色社会主义这个主题。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703519719424",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "新民主主义革命实质上就是党领导下的农民革命",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736704819953664",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "“三个代表”重要思想在党的十五大写入党章，作为党的指导思想。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736703649742848",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "社会主义改革是对社会主义改造的彻底否定。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736704627015680",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "毛泽东针对历史上党内斗争中错在过的“左”的错误，提出“惩前毖后、治病救人”方针。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736704853508097",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中华人民共和国的建立实现了从新民主主义到社会主义社会的转变。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736704530546688",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "科学发展观坚持以经济建设为中心，把发展生产力作为首要任务，把经济增长作为一切发展的前提。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736703515525121",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "MaoIntro",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "全面建设社会主义现代化国家，必须坚持中国特色社会主义文化发展道路。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736705012891648",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "MaoIntro",

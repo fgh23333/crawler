@@ -1,129 +1,19 @@
 [
   {
-    "questionStem": "出席一大的上海代表是____和____。",
+    "questionStem": "____是中国革命最基本的动力。",
     "option": "",
-    "answer": "李达，李汉俊",
-    "id": "1798736711589560322",
+    "answer": "无产阶级",
+    "id": "1798736711610531840",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
     "type": "fillingBlank"
   },
   {
-    "questionStem": "1978年12月召开的党的十一届三中全会，重新确立了____的思想路线。",
+    "questionStem": "党的二十届三中全会是新的历史起点上____、____的总动员、总部署。",
     "option": "",
-    "answer": "实事求是",
-    "id": "1798736711648280576",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是科学发展观的核心立场。",
-    "option": "",
-    "answer": "以人为本",
-    "id": "1798736711702806530",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____，标志着新民主主义革命的伟大开端。",
-    "option": "",
-    "answer": "五四运动",
-    "id": "1798736711572783104",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "中国共产党的最早组织是在____建立的。",
-    "option": "",
-    "answer": "上海",
-    "id": "1798736711576977409",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "坚持中国共产党的领导，核心是坚持党的____。",
-    "option": "",
-    "answer": "先进性",
-    "id": "1798736711694417920",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____，是改革的重要保障。",
-    "option": "",
-    "answer": "坚持全面依法治国",
-    "id": "1909078574795587584",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____标志着中国共产党在政治上走向成熟",
-    "option": "",
-    "answer": "遵义会议",
-    "id": "1798736711602143233",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "农业社会主义改造大体上经历了互助组、____和____三个发展阶段。",
-    "option": "",
-    "answer": "初级社，高级社",
-    "id": "1798736711627309056",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "____是科学发展观的第一要义。",
-    "option": "",
-    "answer": "推动经济社会发展",
-    "id": "1798736711698612225",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "全面深化改革总目标是完善和发展____、推进国家治理体系和治理能力现代化。",
-    "option": "",
-    "answer": "中国特色社会主义制度",
-    "id": "1798736711727972353",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "毛泽东思想的活的灵魂，是贯串于上述各个组成部分的立场、观点和方法，它们有三个基本方面，即____、____、____。",
-    "option": "",
-    "answer": "实事求是，群众路线，独立自主",
-    "id": "1798736711589560321",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CCPH",
-    "type": "fillingBlank"
-  },
-  {
-    "questionStem": "进一步全面深化改革的总目标____，____。",
-    "option": "",
-    "answer": "继续完善和发展中国特色社会主义制度，推进国家治理体系和治理能力现代化",
-    "id": "1909078574950776832",
+    "answer": "进一步全面深化改革，推进中国式现代化",
+    "id": "1909078574522957824",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",
@@ -134,6 +24,26 @@
     "option": "",
     "answer": "解放思想，实事求是",
     "id": "1798736711656669184",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "“贯彻‘三个代表’重要思想，关键在坚持与时俱进，核心在坚持____，本质在坚持执政为民。",
+    "option": "",
+    "answer": "党的先进性",
+    "id": "1798736711652474880",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CCPH",
+    "type": "fillingBlank"
+  },
+  {
+    "questionStem": "____是中国有史以来最伟大的事件，也是二十世纪世界最伟大的事件之一。",
+    "option": "",
+    "answer": "新中国成立",
+    "id": "1798736711614726145",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CCPH",

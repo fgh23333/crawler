@@ -1,129 +1,142 @@
 [
   {
-    "questionStem": "毛泽东提出农村包围城市的根据，就在于“中国革命是半殖民地的资产阶级民主革命和革命的长期性这两个基本特点”。",
+    "questionStem": "第二次鸦片战争爆发的根本原因是列强要使鸦片贸易合法化",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736698599800832",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "太平天国颁布的《天朝田亩制度》具有资本主义性质",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736699094728704",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国统治集团的不统一为中国革命首先在农村得到发展提供了可以利用的最大的缝隙。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736700495626241",
+    "id": "1798736700499820544",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "工人阶级、小资产阶级和资产阶级从五四运动一开始就参加了这场革命运动。",
+    "questionStem": "中共四大前后，党内有人认为，中国的资产阶级不敢出来做领导、打先锋，中国工人阶级天然是国民革命的领导者。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736699677736960",
+    "id": "1798736700428517376",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "中国革命的三个主要法宝是指统一战线，武装斗争和土地革命。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736701175103488",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "巩固和扩大统一战线的关键，是坚持工人阶级及其政党的领导权。",
+    "questionStem": "中国无产阶级的产生之所以早于资产阶级，最主要原因是资本主义列强对中国的侵略",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736701187686401",
+    "id": "1798736698629160960",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "中国共产党在抗日战争时期的土地政策是没收地主土地，彻底消灭土地所有制。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736700596289537",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "1928年有人主张，既然中国革命的动力是无产阶级，那么革命本身就是无产阶级革命。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736700424323073",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "太平天国失败的根本原因是太平天国领导集团的内讧。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736699010842624",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "标志着中国完全沦为半殖民地半封建社会的不平等条约是：《马关条约》",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736698486554624",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "西安事变的和平解决标志着抗日民族统一战线正式形成。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736700537569280",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "戊戌维新运动的失败主要是由于维新派自身的局限和以慈禧太后为首的强大的守旧势力的反对。",
+    "questionStem": "1956年，社会主义基本制度的全面确立标志着中国进入开始全面建设社会主义的历史阶段。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736699082145792",
+    "id": "1798736701900718080",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "《资政新篇》主要反映了农民废除封建土地所有制的要求",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736699098923008",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "在中国各民主党派形成时,一定数量的革命知识分子和少数共产党人也加入了民主党派甚至成为领导骨干。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736701238018048",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "国民军是在中国共产党人的帮助和推动下建立起来的。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736699770011649",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "抗日战争胜利结束后,中国各民主党派和无党派人士就自愿的接受了中国共产党领导。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736701242212352",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "国共两党两条不同抗战路线的根本分歧是要不要抗日的问题。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736700587900928",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -143,104 +156,130 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "“君权与民权合，则情易通，议法与行法分，则易就，二者斯强也”反映的是资产阶级维新派的观点",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736698998259712",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "在近代中国，民众与外国传教士及信徒的冲突称为“民教冲突”，据记载,冲突最多的三个年份分别为1884年、1898年，1900年，这表明民教冲突随民族危机加深而突显",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736698633355264",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "在1925年至1927年中国反帝反封建的革命中，中国共产党起着独特的、不可代替的作用。没有中国共产党，不会有这场大革命。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736699765817344",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "党的十一届三中全会通过了《关于建国以来党的若干历史问题的决议》。",
+    "questionStem": "中国的资产阶级分为官僚资产阶级和小资产阶级。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736701422567425",
+    "id": "1798736701892329472",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "新文化运动因批判孔学而否定中国传统文化。",
+    "questionStem": "抗日战争中游击战争并不具有战略地位。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736699656765440",
+    "id": "1798736700541763584",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "王明“左”倾冒险主义的使党在白区的革命力量几乎损失了100%。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736700478849024",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "南京解放后，人民解放军继续向中南、西北、西南各省举行大进军，迅速解决国民党残余军队。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736701225435136",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "国民党当局虽然极度仇视中国共产党，但对民主党派、民主人士非常友好，承认他们的合法地位，并允许开展一切政治活动。",
+    "questionStem": "中国近代史以鸦片战争为开端，主要是因为中国第一次被西方国家战败",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736701225435137",
+    "id": "1798736698440417280",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国共产党在抗日民族统一战线中的孤立顽固势力，就是孤立亲英美派的大地主大资产阶级。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736700621455360",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "人民民主专政理论是毛泽东思想关于社会主义革命和建设理论的重要内容。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736701179297792",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "19世纪40-60年代外国资本主义的入侵，给中国近代资本主义的产生与发展起了一定的促进作用，造成了某些客观的条件和可能。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736698583023616",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "井冈山根据地的建立点燃了“工农武装割据”的星星之火，为在革命低潮形势下，保存和发展革命力量，找到了一条新道路。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736700474654720",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国第一批无产阶级出现于洋务派举办的军工企业里",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736698453000192",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "“春愁难遣强看山，往事惊心泪欲潸。四百万人同一哭，去年今日割台湾”。这首诗反映的历史史实发生在八国联军侵华事件之后",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736698616578048",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "太平天国运动的时期，中国社会最主要的矛盾是封建主义和人民大众的矛盾",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736699086340096",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
@@ -260,117 +299,91 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "洋务思想与当时的封建顽固思想保持着根本的一致性。",
+    "questionStem": "抗日战争时期大地主大资产阶级是抗日民族统一战线的组成部分。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736700566929408",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "科举制废除于洋务运动时期。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736699509964800",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "第二次鸦片战争后，中国半殖民地化程度进一步加深，主要在于自然经济进一步解体",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736698419445760",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "为了支撑中国战场的持久抗战，国民政府在坚持正面战场作战的同时，以内迁工厂为龙头，在西南、西北地区开展了战时经济和其他方面的建设。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736699056979968",
+    "id": "1798736700638232576",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "1935年12月，毛泽东在瓦窑堡会议上作了《论反对日本帝国主义的策略》的报告，阐明党的抗日民族统一战线的新政策，批判了党内的关门主义和对于革命的急性病，系统地解决了党的政治路线问题。",
+    "questionStem": "中共“一大”制定了民主革命纲领。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736699719680000",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "CMH",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国早期信仰马克思主义的人物主要有三种类型：一是五四以前的新文化运动的精神领袖；二是五四爱国运动的左翼骨干；三是一部分原中国同盟会会员、辛亥革命时期的活动家。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736700483043328",
+    "id": "1798736699694514176",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
     "type": "rightWrong"
   },
   {
-    "questionStem": "1927年大革命失败后至解放战争胜利前夕，中国共产党在农村的土地政策是没收地主阶级的土地分配给农民。",
+    "questionStem": "辛亥革命失败的根本原因是南京临时政府的涣散和软弱。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736700432711680",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "1945年国共双方在重庆进行谈判，双方签署了《和平建国纲领》，确认和平建国的基本方针。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736701229629440",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国共产党刚成立时，其主体是知识分子。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736699707097088",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "新文化运动对资本主义持完全接受态度。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736699660959744",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "人民民主专政的基础是工人阶级、农民阶级和城市小资产阶级。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736701242212353",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "洋务运动失败的根本原因是没有兴办真正的资本主义企业",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736699145060352",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "CMH",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "党的建设制度改革深入推进，党内法规制度体系不断完善。把纪律挺在前面，着力解决人民群众反映最强烈、对党的执政基础威胁最大的突出问题。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736701581950976",
+    "id": "1798736699589656576",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "CMH",
