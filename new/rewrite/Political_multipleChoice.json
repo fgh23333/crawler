@@ -1,1 +1,452 @@
-[]
+[
+  {
+    "questionStem": "基本权利是指宪法以及宪法性法律规定的权利，如()。",
+    "option": [
+      "婚姻自由权",
+      "选举权和被选举权",
+      "宗教信仰",
+      "自由物权"
+    ],
+    "answer": "BC",
+    "id": "1798736707898572800",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列选项中体现了认真务实的人生态度的有()。",
+    "option": [
+      "千磨万击还坚韧,任尔东西南北风。",
+      "君子耻其言而过其行。",
+      "吾尝终日而思矣，不如须臾之所学也．",
+      "学而不能行，谓之病。"
+    ],
+    "answer": "BCD",
+    "id": "1798736708921982976",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列正确地对待人生矛盾的有()。",
+    "option": [
+      "杀身成仁，舍生取义。",
+      "天下熙熙，皆为利来。天下攘攘，皆为利往。",
+      "宝剑锋从磨砺出，梅花香自苦寒来",
+      "知耻近乎勇"
+    ],
+    "answer": "ACD",
+    "id": "1798736708913594369",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "有下列情形之一的，法定代理终止：（）",
+    "option": [
+      "被代理人取得或者恢复完全民事行为能力",
+      "代理人丧失民事行为能力",
+      "代理人或者被代理人死亡",
+      "法律规定的其他情形"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707835658240",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "在对待传统道德的问题上，下列观点错误的是()。",
+    "option": [
+      "坚持全盘复古，中国的落后就是因为儒家文化的失落",
+      "吸取借鉴优良的道德传统",
+      "全盘吸收西化",
+      "用中华传统美德滋养社会主义道德"
+    ],
+    "answer": "AC",
+    "id": "1798736708347363329",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "公民行使集会、游行、示威权利时应向主管机关提出申请并获得许可。下列选项中哪些属于依法不予许可的情形？()。",
+    "option": [
+      "对社会环境不满意",
+      "危害国家的统一",
+      "危害国家的主权和领土完整",
+      "反对宪法所确定的基本原则"
+    ],
+    "answer": "BCD",
+    "id": "1798736707869212673",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "伟大建党精神是（   ）",
+    "option": [
+      "坚持真理、坚守理想",
+      "践行初心、担当使命",
+      "不怕牺牲、英勇斗争",
+      "对党忠诚、不负人民\n"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708607410177",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "当代大学生成才目标与人才素质的关系是()。",
+    "option": [
+      "德是人才素质的灵魂",
+      "智是人才素质的基础",
+      "体是人才素质的条件",
+      "美是人才素质的重要内容"
+    ],
+    "answer": "ABCD",
+    "id": "1798736709098143745",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "作为一名大学生，积极投身道德实践活动的途径有()。",
+    "option": [
+      "参加支教支边活动",
+      "积极参加义务献血活动",
+      "积极参加各类志愿服务",
+      "自觉学习道德模范"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708330586112",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "习近平法治思想的“十一个坚持”涉及的都是全面依法治国（）的重大问题。",
+    "option": [
+      "方向性",
+      "根本性",
+      "全局性",
+      "路线性\n"
+    ],
+    "answer": "ABC",
+    "id": "1798736707944710145",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "中华人民共和国国务院是我国()。",
+    "option": [
+      "最高国家立法机关",
+      "最高国家权力机关",
+      "最高国家权力机关的执行机关",
+      "最高国家行政机关"
+    ],
+    "answer": "CD",
+    "id": "1798736707957293057",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "公民未能履行义务，应当承担相应的法律责任。具体的法律责任主要包括()。",
+    "option": [
+      "民事责任",
+      "行政责任",
+      "刑事责任",
+      "道德责任"
+    ],
+    "answer": "ABC",
+    "id": "1798736707890184193",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "道德的社会作用是()。",
+    "option": [
+      "道德能够影响经济基础的形成、巩固和发展",
+      "道德是调节阶级矛盾和对立阶级之间开展阶级斗争的重要工具",
+      "道德是提高人的精神境界、促进入的自我完善、推动人的全面发展的内在动力",
+      "道德通过调整人们之间的关系维护社会秩序和稳定"
+    ],
+    "answer": "ACD",
+    "id": "1798736708355751937",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "依法治国就是以宪法和法律作为国家领导和人民治理国家的基本方式，包括()。",
+    "option": [
+      "科学立法",
+      "严格执法",
+      "公正司法",
+      "全民守法"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707915350017",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "实现理想要有艰苦奋斗的精神。在社会主义条件下，艰苦奋斗的精神表现在()",
+    "option": [
+      "鄙视物欲，禁绝享受，倡导苦行僧式的生活",
+      "自力更生，奋发图强，不怕困难，不避艰险地去完成各项任务",
+      "艰苦朴素，勤劳节俭，抵制和反对剥削阶级腐朽生活作风的侵蚀",
+      "刻苦钻研，勇于探索，孜孜不倦地学习马克思主义理论和专业知识"
+    ],
+    "answer": "BCD",
+    "id": "1798736708754210817",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "以下选项中，属于社会公德内容的有()。",
+    "option": [
+      "爱护公物",
+      "助人为乐",
+      "文明礼貌",
+      "保护环境"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708322197504",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "未成年人的父母已经死亡或者没有监护能力的，由下列有监护能力的人按顺序担任监护人()。",
+    "option": [
+      "祖父母",
+      "外祖父母",
+      "兄",
+      "姐"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707852435458",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列选项中，对于道德的理解，正确的有()。",
+    "option": [
+      "道德通过社会舆论、传统习俗和人们的内心信念来维系",
+      "道德属于上层建筑的范畴，是一种特殊的社会意识形态",
+      "道德是阶级社会特有的社会意识形态，在原始社会就没有道德",
+      "道德是对人们的行为进行善恶评价的心理意识、原则规范和行为活动的总和"
+    ],
+    "answer": "ABD",
+    "id": "1798736708334780417",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "按照我国《宪法》规定，下列既是公民的权利又是公民的义务是哪些选项？()。",
+    "option": [
+      "遵守宪法和法律",
+      "劳动获得",
+      "物质帮助",
+      "受教育"
+    ],
+    "answer": "BD",
+    "id": "1798736707881795584",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "中国古人的下列说法中，对我们今天进行道德修养、锤炼个人品德仍具有很好借鉴作用的有()。",
+    "option": [
+      "“坐而论道”、“闭门造车”",
+      "“不以善小而不为，不以恶小而为之”",
+      "“君子戒慎乎其所不睹，恐惧乎其所不闻。莫见乎隐，莫显乎微。故君子慎其独也。”",
+      "“吾日三省吾身：为人谋而不忠乎?与朋友交而不信乎?传不习乎?”"
+    ],
+    "answer": "BCD",
+    "id": "1798736708292837376",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "大学阶段是（）形成的关键时期。",
+    "option": [
+      "世界观",
+      "人生观",
+      "价值观",
+      "婚恋观"
+    ],
+    "answer": "ABC",
+    "id": "1798736709093949440",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "民法是调整平等主体的自然人、法人和非法人组织之间的人身关系和财产关系的法律规范，遵循的基本原则有()。",
+    "option": [
+      "民事主体地位平等",
+      "公平自愿",
+      "诚信、公序良俗",
+      "有利于节约资源和保护生态环境等。"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707856629760",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "邓小平说：“美好的前景如果没有切实的措施和工作去实现它，就有成为空话的危险。”这说明()。",
+    "option": [
+      "社会实践是科学知道产生的源泉",
+      "社会实践是联系理想和现实的桥梁",
+      "有了理想并不意味着成功，更不意味着已经成功",
+      "把理想转变为现实要付出辛勤的劳动，要靠实实在在的实践"
+    ],
+    "answer": "BCD",
+    "id": "1798736708758405121",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列属于错误的人生观的是()。",
+    "option": [
+      "享乐主义人生观",
+      "为人民服务人生观",
+      "拜金主义人生观",
+      "极端个人主义人生观"
+    ],
+    "answer": "ACD",
+    "id": "1798736708913594368",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "坚定中国特色社会主义的（），把理想信念建立在对科学理论的理性认同上，建立在对历史规律的正确认识上，建立在对基本国情的准确把握上。",
+    "option": [
+      "道路自信",
+      "理论自信",
+      "制度自信",
+      "文化自信"
+    ],
+    "answer": "ABCD",
+    "id": "1798736709085560833",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "中华民族传统美德内容理解正确的有()。",
+    "option": [
+      "重视整体利益，强调责任意识、奉献精神",
+      "追求精神境界，向往理想人格",
+      "推崇仁爱原则，注重以和为贵",
+      "提倡人伦价值"
+    ],
+    "answer": "ABCD",
+    "id": "1798736708347363328",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "下列选项中那些表现了宪法的最高效力()。",
+    "option": [
+      "宪法是一国政治力量对比关系的全面、集中表现",
+      "宪法是普通法律制定的基础和依据",
+      "宪法是一国之内所有组织和个人的最高行为准则",
+      "在制定和修改的程序上，宪法较之比普通法律更为严格"
+    ],
+    "answer": "BC",
+    "id": "1798736707927932928",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "《荀子·劝学》中说：“积土成山，风雨兴焉；积水成渊，蛟龙生焉；积善成德，而神明自得，圣心备焉。故不积跬步，无以至千里；不积小流，无以成江海。”这段话对我们进行道德修养的启示有()。",
+    "option": [
+      "脚踏实地，从小事做起，从近处做起",
+      "自知之明，解剖自己，意志坚强，控制自己",
+      "一个动作一个动作地去做，一次一次地经常去做",
+      "精心地保持自己的善行，“勿以善小而不为，勿以恶小而为之”"
+    ],
+    "answer": "ABCD",
+    "id": "1798736709102338049",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "我国历史上思想家提出的道德修养方法有()。",
+    "option": [
+      "学思并重",
+      "积善成德",
+      "知行合一",
+      "坐而论道"
+    ],
+    "answer": "ABC",
+    "id": "1798736708297031680",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  },
+  {
+    "questionStem": "有下列情形之一的，债权债务终止：（）",
+    "option": [
+      "债务已经履行",
+      "债务相互抵销",
+      "债务人依法将标的物提存",
+      "债权人免除债务"
+    ],
+    "answer": "ABCD",
+    "id": "1798736707835658241",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "multipleChoice"
+  }
+]
