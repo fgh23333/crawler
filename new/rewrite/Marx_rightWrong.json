@@ -1,51 +1,116 @@
 [
   {
-    "questionStem": "在共产主义社会，国家将会消亡，也不存在各种各样的社会管理机构。",
+    "questionStem": "在实际工作中坚持马克思主义认识论的基本原理，就是要坚持社会存在决定社会意识的理论。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736702747967488",
+    "id": "1798736703008014336",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "rightWrong"
   },
   {
-    "questionStem": "拜金主义是商品拜物教观念的集中体现。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736702450171904",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "所谓分析，就是在思维中把认识对象分解为各个部分、方面、要素，以便分别加以研究的思维方法。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736701909106688",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "商品的价值是由供求关系决定的。",
+    "questionStem": "实现了人的“自由个性”的发展的是资本主义社会。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736702441783297",
+    "id": "1798736702735384577",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "把人与动物区别开来的决定性因素是人的劳动。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702685052928",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "最鲜明体现资本主义国家实质的国家职能是政治职能。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702462754816",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "列宁的“一国胜利”论是对马克思“多国胜利”论的重大理论发展。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702760550401",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "“只要知道自然界一切组成部分的相对位置和全部作用，一亿年以后的状况，都可以精确无误地演算出来，因为未来的一切早就在宇宙诞生时便已完全确定了”。这是机械决定论。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702206902272",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "经济全球化创造了世界各国的经济“共赢”。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702253039616",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "人类对自然界的全部“统治”力量在于人类能征服和改造自然界",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702181736448",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "在人与世界的相互作用中，人与世界同时得到改变，并获得日益丰富的内容。造成这一变化的基础是人的实践活动。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702181736449",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
@@ -78,117 +143,182 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "由于资源是有限的，所以共产主义的“按需分配”是不可能实现的。",
+    "questionStem": "人民群众的生活与文艺创作的关系是人民群众的生活是文艺创作的源泉。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702685052929",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "演绎是从个别事实中概括出一般性结论，是由个别性前提过渡到一般性结论的推理形式。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736702706024448",
+    "id": "1798736701909106689",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "rightWrong"
   },
   {
-    "questionStem": "预见未来共产主义社会的基本特征，既要从资本主义社会中寻找灵感，更要从社会主义社会的建设与发展中寻找启示。",
+    "questionStem": "马克思的劳动二重性理论为创立剩余价值理论奠定了基础。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736702706024449",
+    "id": "1798736702450171905",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "rightWrong"
   },
   {
-    "questionStem": "哲学上的“价值”是指具有特定属性的客体对于主体需要的意义。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736703012208640",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "真理和价值在认识和实践中是相互制约、相互引导、相互促进的。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736703008014337",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Marx",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "人类对自然界的全部“统治”力量在于人类能征服和改造自然界",
+    "questionStem": "唯物辩证法对必然性和偶然性的认识是必然性意义重大，偶然性可以忽略不计。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736702181736448",
+    "id": "1798736702211096576",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "rightWrong"
   },
   {
-    "questionStem": "发展是前进的、上升的运动，发展的实质是新事物的产生和旧事物的灭亡。",
+    "questionStem": "资本主义的灭亡和共产主义的胜利是同样不可避免的。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736701904912384",
+    "id": "1798736702739578880",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "rightWrong"
   },
   {
-    "questionStem": "货币的本质不是某种物质，而是一种社会关系的体现。",
+    "questionStem": "在共产主义社会，劳动不再是单纯的谋生手段，而成为生活的第一需要，成为人生快乐的巨大源泉，成为个人的自我实现。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736702454366208",
+    "id": "1798736702701830144",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "rightWrong"
   },
   {
-    "questionStem": "真理观上的相对主义，错误在于认为关于同一对象真理性的认识只有一个。",
+    "questionStem": "革命性是马克思主义的内在品质，是马克思主义的人民性、实践性和发展性的应者之义和必然要求。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703024791553",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "唯物辩证法的因果联系是指一切前后相继的现象之间的联系。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736703012208641",
+    "id": "1798736702215290880",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
     "type": "rightWrong"
   },
   {
-    "questionStem": "产业资本划分为货币资本、生产资本、商品资本的依据是资本各个部分在循环中的职能不同。",
+    "questionStem": "商品的价值是由供求关系决定的。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702441783297",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "“对实践的唯物主义者即共产主义者来说全部问题都在于使现存世界革命化，实际地反对并改变现存的事物”这段话强调的是实践在整个社会生活及其矛盾运动中的变革作用。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736702475337729",
+    "id": "1798736703003820032",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "检验真理的标准只能是客观事物。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736703020597249",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "马克思主义的鲜明特征，如果用一句话来概括就是科学性与革命性的统一。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736703066734592",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "资本不是一种物，而是一种以物为中介的人和人之间的社会关系。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736702433394688",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Marx",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "资本主义必然为社会主义所代替，意味着资本主义社会将在短期内自行消亡。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736702257233920",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
