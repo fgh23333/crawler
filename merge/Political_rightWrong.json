@@ -1,194 +1,38 @@
 [
   {
-    "questionStem": "科学没有国界，所以科学家也可以没有自己的祖国。",
+    "questionStem": "实现人生幸福离不开一定的物质条件。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708863262720",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "服务祖国人民与实现自身价值有时是对立的。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736708586438657",
+    "id": "1798736708875845632",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "只要是理想就可以给人们提供不竭的精神动力。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736708712267778",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "我国著名民法专家教授对\"商事人格权\"所作的解释属于有权解释。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736708187979777",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "道德没有强制力，因而对社会成员行为的调节只能靠法律而不能依靠道德。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736708280254464",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "中国的道德发展不需要借鉴其他民族的文明成果。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736708271865857",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "婚姻家庭的本质属性是社会属性而不是自然属性。",
+    "questionStem": "社会主义法治必须坚持党的领导，党的领导必须依靠社会主义法治。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736708229922817",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "公民未能依法履行义务，根据情节轻重，应当承担相应的法律责任。具体的法律责任主要包括民事责任、行政责任和刑事责任。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708091510785",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "权利和义务问题是人们在生产生活中经常遇到的现实问题，权利和义务关系也是社会关系的核心部分。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708099899393",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "实现共产主义是我们的远大理想，坚持和发展中国特色社会主义，就是向着远大理想所进行的实实在在的努力。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708724850689",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "实现人生价值唯一路径就是个人奋斗。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736708859068417",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "科学立法和民主立法，可以将思想道德有机融入法律体系，使法律具有鲜明道德导向，让法治成为良法善治。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736709056200704",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "文明礼貌是个人私德，与社会公德无关。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "错误",
-    "id": "1798736708246700033",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "爱国应当是一种理性的行为，不是简单的情感表达，要讲原则、守法律，以合理合法的方式来进行。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708578050049",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "自然人的民事权利能力一律平等。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708083122176",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "维护国家主权和领土完整，是国家的核心利益。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708599021568",
+    "id": "1798736708175396864",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
@@ -208,169 +52,312 @@
     "type": "rightWrong"
   },
   {
-    "questionStem": "在经济全球化条件下，国家已不是民族存在的最高组织形式。",
+    "questionStem": "文明礼貌是个人私德，与社会公德无关。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736708594827264",
+    "id": "1798736708246700033",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "信仰是最高层次的信念，具有最大的统摄力。",
+    "questionStem": "爱国主义是指人们身体力行、报效祖国的实际行动，是爱国主义精神的落脚点和归宿。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736708720656385",
+    "id": "1798736708586438656",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "大学生在课堂上上网，用微信与朋友聊天，这种做法既违反了课堂纪律又违背了社会公德。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708221534209",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "公共生活与私人生活互相独立，没有联系。",
+    "questionStem": "只要是理想就可以给人们提供不竭的精神动力。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736708250894336",
+    "id": "1798736708712267778",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "社会主义核心价值观是当代中国精神的集中体现，凝结着全体人民共同的价值追求。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736708473192449",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "思想道德修养与法律基础课引导大学生提高思想道德素质和法治素养，成长为自觉担当民族复兴大任的时代新人。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736709052006401",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "理想指引人生方向，信念决定事业成败。",
-    "option": [
-      "正确",
-      "错误"
-    ],
-    "answer": "正确",
-    "id": "1798736709077172224",
-    "likeFlag": false,
-    "markFlag": false,
-    "abbreviationSubject": "Political",
-    "type": "rightWrong"
-  },
-  {
-    "questionStem": "全球化特别是经济全球化与爱国主义思想行为是根本冲突的。",
+    "questionStem": "新时代大学生素质和本领的强弱，并不影响着民族复兴的进程。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736708590632961",
+    "id": "1798736709064589312",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "经济全球化是世界经济发展的必然趋势，内在地包含着全球政治、文化一体化。",
+    "questionStem": "思想道德修养与法律基础课包含着丰富的人生哲学、伦理道德和法律知识。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736709047812097",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "坚定的信念是实现理想的重要条件。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708708073473",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中华优秀传统文化是涵养社会主义核心价值观的重要源泉，是中华民族的精神命脉。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708481581056",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "树立科学高尚的人生观就是实现共产主义的人生观。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736708578050048",
+    "id": "1798736708875845633",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "思想道德素质主要包括思想政治素质和道德素质。",
+    "questionStem": "所有权人对自己的不动产或者动产，依法享有占有、使用、收益和处分的权利。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736709060395008",
+    "id": "1798736708078927872",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "马克思主义具有与时俱进的理论品格和持久的生命力。",
+    "questionStem": "科学立法和民主立法，可以将思想道德有机融入法律体系，使法律具有鲜明道德导向，让法治成为良法善治。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736708712267776",
+    "id": "1798736709056200704",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "市场经济时代，提“为人民服务”过时了。",
+    "questionStem": "我国著名民法专家教授对\"商事人格权\"所作的解释属于有权解释。",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "错误",
-    "id": "1798736708250894338",
+    "id": "1798736708187979777",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
     "type": "rightWrong"
   },
   {
-    "questionStem": "社会主义核心价值观既是个人的德，也是国家、社会的德。",
+    "questionStem": "法律遵守是指国家机关、社会组织和公民个人依照法律规定行使权力和权利以及履行职责和义务的活动",
     "option": [
       "正确",
       "错误"
     ],
     "answer": "正确",
-    "id": "1798736709043617792",
+    "id": "1798736708129259522",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "必须坚持以宪法为最高法律规范，完善以宪法为核心的中国特色社会主义法律体系，加强重点领域、新兴领域、涉外领域立法。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708125065217",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "社会主义核心价值观生成于中国特色社会主义建设实践，同当今中国最鲜明的时代主题相适应，是当代中国精神的集中体现，是中国特色社会主义本质规定的价值表达。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708468998144",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "法律义务必须由具有法律职权的国家机关依照法律程序设定，其他国家机关不得对公民违法设定法律义务。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708095705088",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "法律不是从来就有的，也不是永恒存在的。它随着私有制、阶级和国家的产生而产生，也将随着私有制、阶级和国家的消亡而消亡。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708183785472",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国共产党的领导是中国特色社会主义最本质的特征。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708737433600",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "中国人的生活水平现在比以前大为提高，国民收入已经达到中等发达收入水平，因此勤俭节约过时了。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736708217339906",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "维护国家主权和领土完整，是国家的核心利益。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708599021568",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "人生价值评价的客观标准是对知识的掌握，也就是说谁掌握的知识多，谁的人生价值就大。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736708859068416",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "拜金主义、享乐主义、极端个人主义等错误人生观，其出发点和落脚点都是一己之私。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708859068418",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "个人品德是个人实现自我完善的内在根据。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708213145601",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "理想之所以美好就在于它脱离现实。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "错误",
+    "id": "1798736708716462081",
+    "likeFlag": false,
+    "markFlag": false,
+    "abbreviationSubject": "Political",
+    "type": "rightWrong"
+  },
+  {
+    "questionStem": "任何公民享有宪法和法律规定的权利，同时必须履行宪法和法律规定的义务。",
+    "option": [
+      "正确",
+      "错误"
+    ],
+    "answer": "正确",
+    "id": "1798736708129259521",
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Political",
