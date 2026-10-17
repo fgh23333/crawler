@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const { mergeById, checkEmptyCrawlGuard } = require('./lib/merge');
 
 // ======================== 配置 ========================
 
@@ -392,44 +393,68 @@ function merge() {
     const types = ['singleChoice', 'multipleChoice', 'rightWrong', 'fillingBlank', 'subject'];
     let totalMerged = 0;
 
+    // Pass 1: 读入全部新旧数据并汇总（此时不写任何文件，供守卫先行判断）
+    const plans = [];
+    const subjectTotals = [];
     for (const subject of SUBJECTS) {
+        let oldTotal = 0, newTotal = 0;
         for (const type of types) {
             const fileName = `${subject.name}_${type}.json`;
             const newFilePath = path.join(DIR.rewrite, fileName);
             const oldFilePath = path.join(DIR.oldRewrite, fileName);
-            const outputFilePath = path.join(DIR.merge, fileName);
-
-            if (!fs.existsSync(newFilePath)) {
-                // 新数据中不存在该文件，如果旧数据有则直接复制
-                if (fs.existsSync(oldFilePath)) {
-                    writeJson(outputFilePath, readJson(oldFilePath));
-                }
-                continue;
-            }
-
-            const newData = readJson(newFilePath);
-
-            if (!fs.existsSync(oldFilePath)) {
-                // 没有旧数据，直接使用新数据
-                writeJson(outputFilePath, newData);
-                totalMerged += newData.length;
-                continue;
-            }
-
-            const oldData = readJson(oldFilePath);
-
-            // 保留旧数据中仍然存在于新数据中的条目
-            const newDataStrSet = new Set(newData.map(item => JSON.stringify(item)));
-            const retainedOld = oldData.filter(item => newDataStrSet.has(JSON.stringify(item)));
-
-            // 添加新数据中旧数据没有的条目
-            const retainedOldStrSet = new Set(retainedOld.map(item => JSON.stringify(item)));
-            const freshNew = newData.filter(item => !retainedOldStrSet.has(JSON.stringify(item)));
-
-            const merged = [...retainedOld, ...freshNew];
-            writeJson(outputFilePath, merged);
-            totalMerged += merged.length;
+            const newData = fs.existsSync(newFilePath) ? readJson(newFilePath) : null;
+            const oldData = fs.existsSync(oldFilePath) ? readJson(oldFilePath) : null;
+            plans.push({ subject, fileName, newData, oldData });
+            if (newData) newTotal += newData.length;
+            if (oldData) oldTotal += oldData.length;
         }
+        subjectTotals.push({ name: subject.name, oldTotal, newTotal });
+    }
+
+    // 空爬守卫：旧库有数据而本次一题未得 → 中止（非零退出使 CI 跳过提交与 R2 上传）
+    const violations = checkEmptyCrawlGuard(subjectTotals);
+    if (violations.length > 0) {
+        for (const v of violations) {
+            log('Merge', `✗ 空爬守卫触发: ${v.name} 旧库 ${v.oldTotal} 题，本次爬取 0 题`);
+        }
+        log('Merge', '疑似目标服务器不可用/登录失效，已中止（未写入任何合并结果）');
+        process.exit(1);
+    }
+
+    // 跌水预警（不中止）：新题量不足旧库一半时提醒关注覆盖率
+    for (const t of subjectTotals) {
+        if (t.oldTotal > 0 && t.newTotal < t.oldTotal * 0.5) {
+            log('Merge', `⚠ ${t.name}: 本次去重后 ${t.newTotal} 题，不足旧库 ${t.oldTotal} 的一半`);
+        }
+    }
+
+    // Pass 2: 合并写出（旧条目全保留、顺序不变，仅追加新 id）
+    for (const p of plans) {
+        const outputFilePath = path.join(DIR.merge, p.fileName);
+
+        if (p.newData === null) {
+            // 新数据中不存在该文件，如果旧数据有则直接复制
+            if (p.oldData !== null) {
+                writeJson(outputFilePath, p.oldData);
+            }
+            continue;
+        }
+
+        if (p.oldData === null) {
+            // 没有旧数据，直接使用新数据
+            writeJson(outputFilePath, p.newData);
+            totalMerged += p.newData.length;
+            continue;
+        }
+
+        const { merged, added } = mergeById(p.oldData, p.newData);
+        writeJson(outputFilePath, merged);
+        totalMerged += merged.length;
+        if (added > 0) {
+            log('Merge', `  ${p.fileName}: 旧 ${p.oldData.length} + 新增 ${added} = ${merged.length}`);
+        }
+    }
+    for (const subject of SUBJECTS) {
         log('Merge', `${subject.name} 合并完成`);
     }
 
