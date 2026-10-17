@@ -9,6 +9,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const { mergeById } = require('./lib/merge');
 
 // ======================== 配置 ========================
 
@@ -262,8 +263,8 @@ function rewrite(subjectName, data) {
 // ======================== 合并去重 ========================
 
 /**
- * 合并新旧分类数据（按 questionStem + answer 去重）
- * 保留旧数据中仍然有效的题目 + 添加新发现的题目
+ * 合并新旧分类数据（按 id 安全合并，逻辑统一在 scripts/lib/merge.js）
+ * 保留全部旧条目 + 追加新发现的 id
  */
 function mergeClassified(oldClassified, newClassified) {
     const types = ['singleChoice', 'multipleChoice', 'rightWrong', 'fillingBlank', 'subject'];
@@ -273,27 +274,7 @@ function mergeClassified(oldClassified, newClassified) {
         const oldData = oldClassified[type] || [];
         const newData = newClassified[type] || [];
 
-        // 用 id 去重（id 是题目的唯一标识）
-        const seenIds = new Set();
-        const result = [];
-
-        // 先放旧数据
-        for (const item of oldData) {
-            if (!seenIds.has(item.id)) {
-                seenIds.add(item.id);
-                result.push(item);
-            }
-        }
-
-        // 再放新数据中旧数据没有的
-        let added = 0;
-        for (const item of newData) {
-            if (!seenIds.has(item.id)) {
-                seenIds.add(item.id);
-                result.push(item);
-                added++;
-            }
-        }
+        const { merged: result, added } = mergeById(oldData, newData);
 
         merged[type] = result;
         if (added > 0) {
@@ -356,7 +337,10 @@ async function main() {
         log(`${subject.name}: 抓取完成，共 ${count} 题（失败 ${errors} 次）`);
 
         if (count === 0) {
-            log(`${subject.name}: 无数据，跳过`);
+            // 空爬：保留旧数据、不上传（安全），但 loudly 提醒，避免静默失败被忽视
+            const rewriteDir0 = path.join(ROOT, 'new', 'rewrite');
+            const oldExists = fs.existsSync(path.join(rewriteDir0, `${subject.name}_subject.json`));
+            log(`${subject.name}: ⚠ 本次爬取 0 题${oldExists ? '（旧库有数据，疑似服务器/登录异常，已保留旧数据不上传）' : ''}，跳过`);
             continue;
         }
 
