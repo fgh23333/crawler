@@ -7,9 +7,10 @@ const { mergeById, checkEmptyCrawlGuard } = require('./lib/merge');
 
 const BASE_URL = 'http://222.73.57.153:6571';
 const TARGET_PATH = '/examinationInfo/getPracticeInfo';
-const FETCH_COUNT = 1000; // 每个科目请求次数
+// 每个科目请求次数（可用环境变量缩小规模做本地试跑，如 FETCH_COUNT=5）
+const FETCH_COUNT = Number(process.env.FETCH_COUNT || 1000);
 
-const SUBJECTS = [
+const ALL_SUBJECTS = [
     { name: 'XiIntro',  branchId: '1705139277953761280', subjectId: '1752935841845477392' },
     { name: 'Marx',     branchId: '1705139277953761280', subjectId: '1748167277460586496' },
     { name: 'MaoIntro', branchId: '1705139277953761280', subjectId: '1748168736914800651' },
@@ -20,6 +21,19 @@ const SUBJECTS = [
     { name: 'ORH',      branchId: '1705139277953761280', subjectId: '1752935841845477384' },
     { name: 'CCPH',     branchId: '1705139277953761280', subjectId: '1798740810791911424' },
 ];
+
+// 科目过滤（逗号分隔，本地试跑用，如 SUBJECT_FILTER=Marx,CMH）
+const SUBJECT_FILTER = (process.env.SUBJECT_FILTER || '')
+    .split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+const SUBJECTS = SUBJECT_FILTER.length
+    ? ALL_SUBJECTS.filter(s => SUBJECT_FILTER.includes(s.name.toLowerCase()))
+    : ALL_SUBJECTS;
+
+if (SUBJECTS.length === 0) {
+    console.error(`SUBJECT_FILTER 无匹配科目: ${process.env.SUBJECT_FILTER}`);
+    console.error(`可选: ${ALL_SUBJECTS.map(s => s.name).join(', ')}`);
+    process.exit(1);
+}
 
 // ======================== 学号轮换池 + 登录 ========================
 // 从环境变量 STUDENT_NUMS（JSON 数组字符串）加载多个学号，密码=学号本身。
@@ -205,6 +219,8 @@ async function fetchSubject(subject) {
     const headers = { 'Content-Type': 'application/json;charset=utf-8' };
     let jsonArray = [];
     let completed = 0;
+    // 每题出现次数（去重前统计）——官方抽题权重数据，跨题型按 id 全局累计
+    const countMap = new Map();
 
     // 生成任务队列
     const tasks = [];
@@ -223,6 +239,12 @@ async function fetchSubject(subject) {
             while (retryCount <= RETRY_LIMIT && !success) {
                 try {
                     const result = await singleRequest(subject, headers);
+                    for (const item of result) {
+                        if (item && item.id) {
+                            const k = String(item.id);
+                            countMap.set(k, (countMap.get(k) || 0) + 1);
+                        }
+                    }
                     jsonArray = jsonArray.concat(result);
                     success = true;
                 } catch (err) {
@@ -248,7 +270,11 @@ async function fetchSubject(subject) {
     await Promise.all(workers);
 
     writeJson(path.join(DIR.raw, `${subject.name}.json`), jsonArray);
-    log('Fetch', `${subject.name} 完成，共 ${jsonArray.length} 题`);
+    // 出现次数落盘（merge 阶段读取；counts 目录不随 CI 提交，仅本地产物）
+    const countDir = path.join(DIR.raw, 'counts');
+    ensureDir(countDir);
+    writeJson(path.join(countDir, `${subject.name}.json`), Object.fromEntries(countMap));
+    log('Fetch', `${subject.name} 完成，共 ${jsonArray.length} 题，唯一 ${countMap.size} 题`);
     return { name: subject.name, count: jsonArray.length };
 }
 
@@ -393,18 +419,28 @@ function merge() {
     const types = ['singleChoice', 'multipleChoice', 'rightWrong', 'fillingBlank', 'subject'];
     let totalMerged = 0;
 
+    // 元数据打标参数：首收日期 = 运行日；出现次数 = 本次爬取统计（counts/ 由 fetch 阶段落盘）
+    const today = DATE;
+    const countOf = (subject) => {
+        const p = path.join(DIR.raw, 'counts', `${subject.name}.json`);
+        if (!fs.existsSync(p)) return new Map();
+        const obj = readJson(p);
+        return new Map(Object.entries(obj).map(([k, v]) => [k, Number(v) || 0]));
+    };
+
     // Pass 1: 读入全部新旧数据并汇总（此时不写任何文件，供守卫先行判断）
     const plans = [];
     const subjectTotals = [];
     for (const subject of SUBJECTS) {
         let oldTotal = 0, newTotal = 0;
+        const countMap = countOf(subject);
         for (const type of types) {
             const fileName = `${subject.name}_${type}.json`;
             const newFilePath = path.join(DIR.rewrite, fileName);
             const oldFilePath = path.join(DIR.oldRewrite, fileName);
             const newData = fs.existsSync(newFilePath) ? readJson(newFilePath) : null;
             const oldData = fs.existsSync(oldFilePath) ? readJson(oldFilePath) : null;
-            plans.push({ subject, fileName, newData, oldData });
+            plans.push({ subject, fileName, newData, oldData, countMap });
             if (newData) newTotal += newData.length;
             if (oldData) oldTotal += oldData.length;
         }
@@ -428,9 +464,10 @@ function merge() {
         }
     }
 
-    // Pass 2: 合并写出（旧条目全保留、顺序不变，仅追加新 id）
+    // Pass 2: 合并写出（旧条目全保留、顺序不变，仅追加新 id；同时打标 collectedAt/appearCount）
     for (const p of plans) {
         const outputFilePath = path.join(DIR.merge, p.fileName);
+        const stampOpts = { countMap: p.countMap, today };
 
         if (p.newData === null) {
             // 新数据中不存在该文件，如果旧数据有则直接复制
@@ -441,13 +478,14 @@ function merge() {
         }
 
         if (p.oldData === null) {
-            // 没有旧数据，直接使用新数据
-            writeJson(outputFilePath, p.newData);
-            totalMerged += p.newData.length;
+            // 没有旧数据，直接使用新数据（打标后写出）
+            const { merged } = mergeById([], p.newData, stampOpts);
+            writeJson(outputFilePath, merged);
+            totalMerged += merged.length;
             continue;
         }
 
-        const { merged, added } = mergeById(p.oldData, p.newData);
+        const { merged, added } = mergeById(p.oldData, p.newData, stampOpts);
         writeJson(outputFilePath, merged);
         totalMerged += merged.length;
         if (added > 0) {

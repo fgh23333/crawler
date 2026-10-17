@@ -11,9 +11,23 @@
  * id 为源站 snowflake，天然稳定，按 id 合并即可。
  */
 
-function mergeById(oldData, newData) {
+/**
+ * 按 id 安全合并，可选打标元数据。
+ * @param {Array} oldData 旧库条目
+ * @param {Array} newData 本次爬取（去重后）条目
+ * @param {object} [opts]
+ * @param {Map<string,number>} [opts.countMap] 本次运行每个 id 的出现次数（去重前统计，跨题型全局）
+ * @param {string} [opts.today] 'YYYY-MM-DD'，新题首收日期
+ * 打标语义：
+ * - collectedAt = 首次收录日期，一旦写入永不覆盖（旧条目缺字段时补写 today，仅为迁移兜底）
+ * - appearCount = 历史累计出现次数；旧条目累加本次次数，新条目取本次次数（至少 1）
+ */
+function mergeById(oldData, newData, opts = {}) {
     const oldArr = Array.isArray(oldData) ? oldData : [];
     const newArr = Array.isArray(newData) ? newData : [];
+    const { countMap, today } = opts;
+    const runCount = (id) => (countMap ? (countMap.get(String(id)) || 0) : 0);
+    const stamp = opts.stamp !== false && (today || countMap); // 未传打标参数则完全不改对象
 
     const seenIds = new Set();
     const merged = [];
@@ -24,6 +38,16 @@ function mergeById(oldData, newData) {
         if (!item || !item.id) { droppedNoId++; continue; }
         if (seenIds.has(item.id)) continue; // 旧数据内部去重
         seenIds.add(item.id);
+        if (stamp) {
+            if (!item.collectedAt && today) item.collectedAt = today;
+            if (countMap) {
+                const add = runCount(item.id);
+                // 只在确有增量或已有累计值时写入，避免给从未出现的题造 appearCount:0
+                if (add > 0 || item.appearCount !== undefined) {
+                    item.appearCount = (Number(item.appearCount) || 0) + add;
+                }
+            }
+        }
         merged.push(item);
     }
 
@@ -33,6 +57,10 @@ function mergeById(oldData, newData) {
         if (!item || !item.id) { droppedNoId++; continue; }
         if (seenIds.has(item.id)) continue;
         seenIds.add(item.id);
+        if (stamp && today) {
+            item.collectedAt = today;            // 首次收录
+            if (countMap) item.appearCount = runCount(item.id) || 1;
+        }
         merged.push(item);
         added++;
     }
