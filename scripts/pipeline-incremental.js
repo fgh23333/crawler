@@ -264,9 +264,9 @@ function rewrite(subjectName, data) {
 
 /**
  * 合并新旧分类数据（按 id 安全合并，逻辑统一在 scripts/lib/merge.js）
- * 保留全部旧条目 + 追加新发现的 id
+ * 保留全部旧条目 + 追加新发现的 id；opts 透传元数据打标参数
  */
-function mergeClassified(oldClassified, newClassified) {
+function mergeClassified(oldClassified, newClassified, opts) {
     const types = ['singleChoice', 'multipleChoice', 'rightWrong', 'fillingBlank', 'subject'];
     const merged = {};
 
@@ -274,7 +274,7 @@ function mergeClassified(oldClassified, newClassified) {
         const oldData = oldClassified[type] || [];
         const newData = newClassified[type] || [];
 
-        const { merged: result, added } = mergeById(oldData, newData);
+        const { merged: result, added } = mergeById(oldData, newData, opts);
 
         merged[type] = result;
         if (added > 0) {
@@ -344,9 +344,14 @@ async function main() {
             continue;
         }
 
-        // Step 2: 去重
+        // Step 2: 去重（去重前统计每题出现次数——官方抽题权重数据）
         const seenIds = new Set();
+        const countMap = new Map();
         const unique = jsonArray.filter(item => {
+            if (item && item.id) {
+                const k = String(item.id);
+                countMap.set(k, (countMap.get(k) || 0) + 1);
+            }
             if (seenIds.has(item.id)) return false;
             seenIds.add(item.id);
             return true;
@@ -357,7 +362,7 @@ async function main() {
         const classified = rewrite(subject.name, unique);
         log(`${subject.name}: 分类完成 (单选${classified.singleChoice.length} 多选${classified.multipleChoice.length} 判断${classified.rightWrong.length} 填空${classified.fillingBlank.length})`);
 
-        // Step 4: 读取旧数据并合并去重
+        // Step 4: 读取旧数据并合并去重（带元数据打标）
         const rewriteDir = path.join(ROOT, 'new', 'rewrite');
         const oldClassified = {};
         const types = ['singleChoice', 'multipleChoice', 'rightWrong', 'fillingBlank', 'subject'];
@@ -368,8 +373,9 @@ async function main() {
             }
         }
 
+        const stampOpts = { countMap, today: new Date().toISOString().split('T')[0] };
         const hasOld = Object.keys(oldClassified).length > 0;
-        const finalClassified = hasOld ? mergeClassified(oldClassified, classified) : classified;
+        const finalClassified = hasOld ? mergeClassified(oldClassified, classified, stampOpts) : mergeClassified({}, classified, stampOpts);
 
         if (hasOld) {
             const newTotal = finalClassified.subject.length;
