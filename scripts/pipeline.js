@@ -2,6 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const { mergeById, checkEmptyCrawlGuard } = require('./lib/merge');
+const { createAccountPool } = require('./lib/accountPool');
 
 // ======================== 配置 ========================
 
@@ -36,44 +37,10 @@ if (SUBJECTS.length === 0) {
 }
 
 // ======================== 学号轮换池 + 登录 ========================
-// 从环境变量 STUDENT_NUMS（JSON 数组字符串）加载多个学号，密码=学号本身。
-// 启动时用每个学号调 /login/practiceLogin 登录拿 studentId，缓存复用。
-// 抓取时按 round-robin 轮换学号，避免单一身份被服务器限流。
-// 未设置或格式非法时回退到单一内置学号。
+// 池子加载（数组/网格规格）与并发预热在 scripts/lib/accountPool.js，两条 pipeline 共用。
+// 密码=学号本身；抓取时按 round-robin 轮换学号，避免单一身份被服务器限流。
 const BRANCH_ID = '1705139277953761280';
 const LOGIN_PATH = '/login/practiceLogin';
-const FALLBACK_STUDENT_NUM = '2352613';
-
-function loadStudentNumPool() {
-    const raw = process.env.STUDENT_NUMS;
-    if (raw && raw.trim()) {
-        try {
-            const arr = JSON.parse(raw);
-            if (Array.isArray(arr) && arr.length > 0 &&
-                arr.every(x => typeof x === 'string' && x.trim() !== '')) {
-                return arr.map(x => x.trim());
-            }
-            console.warn('[AccountPool] STUDENT_NUMS 非非空字符串数组，回退到单一学号');
-        } catch (e) {
-            console.warn(`[AccountPool] STUDENT_NUMS JSON 解析失败: ${e.message}，回退到单一学号`);
-        }
-    } else {
-        console.warn('[AccountPool] 未设置 STUDENT_NUMS 环境变量，回退到单一学号');
-    }
-    return [FALLBACK_STUDENT_NUM];
-}
-
-const STUDENT_NUM_POOL = loadStudentNumPool();
-let numIndex = 0;
-function nextStudentNum() {
-    // Node 单线程，读 + 自增同步执行，144 并发下也安全
-    const num = STUDENT_NUM_POOL[numIndex % STUDENT_NUM_POOL.length];
-    numIndex++;
-    return num;
-}
-
-// 学号 → studentId 缓存
-const sidCache = new Map();
 
 async function login(studentNum) {
     const body = JSON.stringify({
@@ -93,42 +60,8 @@ async function login(studentNum) {
     return bodyJson.data.studentInfo.id;
 }
 
-// 取学号对应的 studentId（命中缓存优先）
-async function getSid(studentNum) {
-    if (sidCache.has(studentNum)) return sidCache.get(studentNum);
-    const sid = await login(studentNum);
-    sidCache.set(studentNum, sid);
-    return sid;
-}
-
-// 强制重新登录（sid 过期时）
-async function refreshSid(studentNum) {
-    const sid = await login(studentNum);
-    sidCache.set(studentNum, sid);
-    return sid;
-}
-
-// 启动时预热：用所有学号登录一遍，验证可用性，仅保留成功的进入轮换池
-async function warmupLogin() {
-    log('Login', `开始登录 ${STUDENT_NUM_POOL.length} 个学号...`);
-    const ok = [];
-    for (const num of STUDENT_NUM_POOL) {
-        try {
-            const sid = await login(num);
-            sidCache.set(num, sid);
-            ok.push(num);
-            log('Login', `${num} ✓ (studentId=${sid})`);
-        } catch (e) {
-            log('Login', `${num} ✗ ${e.message}`);
-        }
-    }
-    log('Login', `登录完成: ${ok.length}/${STUDENT_NUM_POOL.length} 成功`);
-    if (ok.length === 0) throw new Error('所有学号登录失败，无法继续');
-    // 仅保留登录成功的学号
-    STUDENT_NUM_POOL.length = 0;
-    STUDENT_NUM_POOL.push(...ok);
-    console.log(`[AccountPool] ${ok.length} 个学号进入轮换池`);
-}
+const accountPool = createAccountPool({ login });
+const { nextStudentNum, getSid, refreshSid } = accountPool;
 
 // ======================== 路径管理 ========================
 
@@ -280,7 +213,7 @@ async function fetchSubject(subject) {
 
 async function fetchAll() {
     ensureDir(DIR.raw);
-    await warmupLogin(); // 先登录所有学号预热 sid 缓存
+    await accountPool.warmup((m) => log('Login', m)); // 先并发登录所有学号预热 sid 缓存
     log('Fetch', `开始抓取所有科目（并发: ${CONCURRENCY}）...`);
 
     // 9 个科目同时跑
