@@ -16,7 +16,7 @@ const { createAccountPool } = require('./lib/accountPool');
 
 const BASE_URL = 'http://222.73.57.153:6571';
 const TARGET_PATH = '/examinationInfo/getPracticeInfo';
-const FETCH_COUNT = 1000;
+const FETCH_COUNT = 400; // 与主流水线一致：降低请求压力，样本量仍足够统计抽题权重
 const CONCURRENCY = 5; // 保守并发，防服务器限流
 const RETRY_LIMIT = 3;
 
