@@ -1,0 +1,32 @@
+name: CI
+
+# PR 合并检查：语法检查 + 单元测试，红灯拦截；与每周定时的 crawl.yml 互不影响
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Syntax check scripts
+        run: |
+          for f in scripts/pipeline.js scripts/pipeline-incremental.js scripts/backfill-meta.mjs scripts/restore-from-r2.mjs scripts/lib/*.js scripts/test/*.js; do
+            node --check "$f"
+          done
+
+      - name: Run tests
+        run: npm test
