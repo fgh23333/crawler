@@ -8,8 +8,9 @@ const { createAccountPool } = require('./lib/accountPool');
 
 const BASE_URL = 'http://222.73.57.153:6571';
 const TARGET_PATH = '/examinationInfo/getPracticeInfo';
-// 每个科目请求次数（可用环境变量缩小规模做本地试跑，如 FETCH_COUNT=5）
-const FETCH_COUNT = Number(process.env.FETCH_COUNT || 1000);
+// 每个科目请求次数（可用环境变量缩小规模做本地试跑，如 FETCH_COUNT=5）。
+// 默认 400：在保证抽题权重样本量的同时降低对源服务器的请求压力
+const FETCH_COUNT = Number(process.env.FETCH_COUNT || 400);
 
 const ALL_SUBJECTS = [
     { name: 'XiIntro',  branchId: '1705139277953761280', subjectId: '1752935841845477392' },
@@ -113,7 +114,7 @@ function log(step, msg) {
 
 // ======================== Step 1: 抓取（高并发版） ========================
 
-const CONCURRENCY = 16; // 最大并发请求数
+const CONCURRENCY = 8; // 最大并发请求数（降低对源服务器的瞬时压力）
 const RETRY_LIMIT = 3;
 
 async function singleRequest(subject, headers) {
