@@ -23,6 +23,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 海外连通性预检：马院服务器 2026-10-18 起屏蔽海外 IP（GitHub runner 全超时，
+      # 本地正常）。观察期方案 C：被封时几秒内快速失败并明确标注，
+      # 不再空烧 npm install + 60 次登录超时的 Actions 分钟数；解封后自动恢复爬取。
+      - name: 海外连通性预检（马院服务器）
+        run: |
+          HOST=222.73.57.153
+          PORT=6571
+          if timeout 8 bash -c "cat < /dev/null > /dev/tcp/$HOST/$PORT" 2>/dev/null; then
+            echo "✅ 马院服务器 $HOST:$PORT 从 runner 可达，继续爬取"
+          else
+            echo "::error file=scripts/pipeline.js::马院服务器 $HOST:$PORT 从 runner 不可达（海外 IP 封禁疑似持续，观察期方案 C）——本次跳过爬取，解封后将自动恢复"
+            exit 1
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
