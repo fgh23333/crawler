@@ -1,7 +1,7 @@
 // merge.js 回归测试——本模块是 2026-06-08 空爬清库事故的修复，
 // 「旧库非空 + 新数据空 → 绝不返回 []」是最高优先级不变量。
 // 纯 node 运行：node scripts/test/merge.test.js
-const { mergeById, checkEmptyCrawlGuard } = require('../lib/merge.js');
+const { mergeById, isFullEmptyCrawl } = require('../lib/merge.js');
 
 let failures = 0;
 function check(name, cond, detail) {
@@ -18,12 +18,22 @@ console.log('[1] 空爬守卫（事故回归）');
     check('旧库非空 + 新数据空 → 原样返回，绝不 []', merged.length === 3 && merged.map(x => x.id).join(',') === 'a,b,c', `实际 ${JSON.stringify(merged.map(x => x.id))}`);
     check('added = 0', added === 0);
 
-    const violations = checkEmptyCrawlGuard([
+    const violations = isFullEmptyCrawl([
         { subject: 'Marx', oldTotal: 100, newTotal: 0 },
         { subject: 'CMH', oldTotal: 80, newTotal: 12 },
         { subject: 'New', oldTotal: 0, newTotal: 0 },
     ]);
-    check('空爬守卫只抓「旧>0 且 新=0」的科目', violations.length === 1 && violations[0].subject === 'Marx', JSON.stringify(violations));
+    check('部分科目 0 题 → 不判定空爬（2026-10-22 起照常合并其余科目）', violations === false, JSON.stringify(violations));
+    check('全部科目 0 题 → 判定空爬（中止，CI 跳过提交/上传）', isFullEmptyCrawl([
+        { subject: 'Marx', oldTotal: 100, newTotal: 0 },
+        { subject: 'CMH', oldTotal: 80, newTotal: 0 },
+    ]) === true);
+    check('空列表 → 不判定空爬', isFullEmptyCrawl([]) === false);
+    check('仅一科有题的生产指纹（10-22 两次）→ 不判定空爬', isFullEmptyCrawl([
+        { subject: 'XiIntro', oldTotal: 465, newTotal: 300 },
+        { subject: 'Marx', oldTotal: 1114, newTotal: 0 },
+        { subject: 'CCPH', oldTotal: 1068, newTotal: 0 },
+    ]) === false);
 }
 
 // ---- 2. 增量合并语义 ----
