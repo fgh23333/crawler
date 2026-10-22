@@ -14,6 +14,9 @@ const { createAccountPool } = require('./lib/accountPool');
 
 // ======================== 配置 ========================
 
+// CVE-2026-111497 加固：上游为明文 HTTP 的对抗性服务器，axios 默认按响应头自动解压
+// （br 分支走 Node 内置 zlib 漏洞解码器，Node < 22.23.4 可被恶意压缩流 RCE）。
+// 所有上游请求统一 decompress: false + Accept-Encoding: identity，不协商压缩、不自动解压。
 const BASE_URL = 'http://222.73.57.153:6571';
 const TARGET_PATH = '/examinationInfo/getPracticeInfo';
 const FETCH_COUNT = 400; // 与主流水线一致：降低请求压力，样本量仍足够统计抽题权重
@@ -34,8 +37,9 @@ async function login(studentNum) {
         password: studentNum, // 密码=学号本身
     });
     const res = await axios.post(BASE_URL + LOGIN_PATH, body, {
-        headers: { 'Content-Type': 'application/json;charset=utf-8' },
+        headers: { 'Content-Type': 'application/json;charset=utf-8', 'Accept-Encoding': 'identity' },
         timeout: 15000,
+        decompress: false, // CVE-2026-111497：禁止自动解压
     });
     const bodyJson = res.data;
     if (!bodyJson || String(bodyJson.code) !== '200' || !bodyJson.data || !bodyJson.data.studentInfo) {
@@ -102,7 +106,7 @@ async function singleRequest(subject, headers) {
         subjectId: subject.subjectId,
     };
 
-    let res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000 });
+    let res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000, decompress: false });
 
     // 检测 sid 过期
     const body = res.data;
@@ -113,7 +117,7 @@ async function singleRequest(subject, headers) {
         if (String(code) === '401' || /登录|过期|未登录|失效|超时/.test(msg)) {
             sid = await refreshSid(studentNum);
             params.studentId = sid;
-            res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000 });
+            res = await axios.post(BASE_URL + TARGET_PATH, JSON.stringify(params), { headers, timeout: 15000, decompress: false });
         } else {
             throw new Error(`请求异常: code=${code}, msg=${msg}`);
         }
@@ -124,7 +128,7 @@ async function singleRequest(subject, headers) {
 }
 
 async function fetchSubject(subject) {
-    const headers = { 'Content-Type': 'application/json;charset=utf-8' };
+    const headers = { 'Content-Type': 'application/json;charset=utf-8', 'Accept-Encoding': 'identity' }; // CVE-2026-111497：identity 不协商压缩
     let jsonArray = [];
     let completed = 0;
     let errors = 0;
