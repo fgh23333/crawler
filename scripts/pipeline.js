@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const { mergeById, checkEmptyCrawlGuard } = require('./lib/merge');
+const { mergeById, isFullEmptyCrawl } = require('./lib/merge');
 const { createAccountPool } = require('./lib/accountPool');
 
 // ======================== 配置 ========================
@@ -381,14 +381,20 @@ function merge() {
         subjectTotals.push({ name: subject.name, oldTotal, newTotal });
     }
 
-    // 空爬守卫：旧库有数据而本次一题未得 → 中止（非零退出使 CI 跳过提交与 R2 上传）
-    const violations = checkEmptyCrawlGuard(subjectTotals);
-    if (violations.length > 0) {
-        for (const v of violations) {
-            log('Merge', `✗ 空爬守卫触发: ${v.name} 旧库 ${v.oldTotal} 题，本次爬取 0 题`);
+    // 空爬守卫（放宽版）：全部科目一题未得才中止（非零退出使 CI 跳过提交与 R2 上传）。
+    // 部分科目 0 题是服务器内容预算的常态（~300 题/IP），其余科目照常合并；
+    // 0 题科目按 id-safe 合并保留旧库原样，无破坏风险。
+    if (isFullEmptyCrawl(subjectTotals)) {
+        for (const t of subjectTotals) {
+            log('Merge', `✗ ${t.name}: 旧库 ${t.oldTotal} 题，本次爬取 0 题`);
         }
-        log('Merge', '疑似目标服务器不可用/登录失效，已中止（未写入任何合并结果）');
+        log('Merge', '所有科目一题未得，疑似服务器不可用/登录失效，已中止（未写入任何合并结果）');
         process.exit(1);
+    }
+    for (const t of subjectTotals) {
+        if (t.oldTotal > 0 && t.newTotal === 0) {
+            log('Merge', `⚠ ${t.name}: 本次 0 题（内容预算/软限流常态），保留旧库 ${t.oldTotal} 题`);
+        }
     }
 
     // 跌水预警（不中止）：新题量不足旧库一半时提醒关注覆盖率

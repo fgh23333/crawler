@@ -69,13 +69,15 @@ function mergeById(oldData, newData, opts = {}) {
 }
 
 /**
- * 空爬守卫：旧库有数据而本次爬取一题未得 → 判定为空爬，返回违规科目列表。
- * 调用方据此 process.exit(1)，让 CI 跳过 auto-commit 与 R2 上传。
- * 注意：不能用「新题量 < 旧库一半」做硬门槛——题库随时间累积，
- * 单次爬取的去重题量占比天然下降，会误杀正常运行的管道。
+ * 空爬守卫（2026-10-22 起放宽为全量判定）：
+ * 马院服务器对每 IP 设有内容预算（实测约 100 份卷子 / 300 题，用尽后返回空卷），
+ * 部分科目 0 题已是常态而非故障；id-safe 合并下「合并 0 新题 = 旧库原样保留」，
+ * 无破坏风险。因此仅当本次全部科目都一题未得（疑似服务器整体不可用/登录失效）
+ * 才判定为空爬，调用方据此 process.exit(1) 让 CI 跳过 auto-commit 与 R2 上传；
+ * 部分科目为 0 时照常合并其余科目（0 题科目由调用方打 ⚠ 日志提醒）。
  */
-function checkEmptyCrawlGuard(subjectTotals) {
-    return subjectTotals.filter(t => t.oldTotal > 0 && t.newTotal === 0);
+function isFullEmptyCrawl(subjectTotals) {
+    return subjectTotals.length > 0 && subjectTotals.every(t => t.newTotal === 0);
 }
 
-module.exports = { mergeById, checkEmptyCrawlGuard };
+module.exports = { mergeById, isFullEmptyCrawl };
