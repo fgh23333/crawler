@@ -1,9 +1,13 @@
 name: Weekly Question Bank Crawl
 
 on:
-  # 每周一 UTC 02:00（北京时间 10:00）执行
+  # 每周一/三/五 UTC 02:00（北京时间 10:00）执行。
+  # 每次 Actions 运行都换新 runner IP → 各自带一份服务器内容预算（~300 题/IP，2026-10-22 实测），
+  # 配合科目轮转（PR#8）每周三科轮流吃到预算；预检 + 守卫保证被封时秒级红灯、零写入。
   schedule:
     - cron: '0 2 * * 1'
+    - cron: '0 2 * * 3'
+    - cron: '0 2 * * 5'
   # 支持手动触发
   workflow_dispatch:
 
