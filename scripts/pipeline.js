@@ -2,6 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const { mergeById, isFullEmptyCrawl } = require('./lib/merge');
+const { rotateSubjects } = require('./lib/rotation');
 const { createAccountPool } = require('./lib/accountPool');
 
 // ======================== 配置 ========================
@@ -217,8 +218,16 @@ async function fetchAll() {
     await accountPool.warmup((m) => log('Login', m)); // 先并发登录所有学号预热 sid 缓存
     log('Fetch', `开始抓取所有科目（并发: ${CONCURRENCY}）...`);
 
-    // 9 个科目同时跑
-    const results = await Promise.all(SUBJECTS.map(s => fetchSubject(s)));
+    // 科目轮转 + 逐科串行：服务器内容预算（~300 题/IP）优先落在本轮起始科目，
+    // 按运行日轮换起始科目让 9 科轮流吃到预算；串行也把峰值在途请求从 9×8 降到 8。
+    const subjects = rotateSubjects(SUBJECTS, DATE);
+    if (subjects.length > 1) {
+        log('Fetch', `科目轮转: 本次从 ${subjects[0].name} 开始（按运行日轮换）`);
+    }
+    const results = [];
+    for (const s of subjects) {
+        results.push(await fetchSubject(s));
+    }
 
     const total = results.reduce((s, r) => s + r.count, 0);
     log('Fetch', `所有科目抓取完成，共 ${total} 题`);
