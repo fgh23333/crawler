@@ -12,7 +12,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“对客观事物的反映即是真理”，这是",
@@ -27,7 +29,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列属于非意识形态的是",
@@ -42,7 +46,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "否定之否定规律揭示了事物发展的()的统一",
@@ -57,7 +63,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "看问题“只见树木，不见森林”是",
@@ -72,7 +80,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 42,
+    "type": "singleChoice"
   },
   {
     "questionStem": "真理和谬误在一定条件下可以相互转化，这是",
@@ -87,7 +97,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "实践是认识的基础表明",
@@ -102,7 +114,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“学而不思则罔”是指",
@@ -117,7 +131,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "自然规律与社会规律的区别在于",
@@ -132,7 +148,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "辩证唯物主义认为",
@@ -147,7 +165,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思指出“如果物没有用，那么其中包含的劳动也就没有用，不能算作劳动，因此不形成价值。”这段话说明",
@@ -162,7 +182,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "理解整个人类社会发展史的钥匙是",
@@ -177,7 +199,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 20,
+    "type": "singleChoice"
   },
   {
     "questionStem": "以下哪种实践类型是最基本的社会实践活动()",
@@ -192,7 +216,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "劳动力商品的价值是由",
@@ -207,7 +233,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "改革是社会主义制度的",
@@ -222,7 +250,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认识论是一种",
@@ -237,7 +267,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认识论认为，人类认识发展的动力在于",
@@ -252,7 +284,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 41,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在抗击“非典”中，许多患者被治愈后又捐出自己的血清，用于治疗其他患者，这说明",
@@ -267,7 +301,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "辨别一种认识是不是真理的关键是看它",
@@ -282,7 +318,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认为，人的价值在于",
@@ -297,7 +335,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产力和生产关系、经济基础和上层建筑这两对社会基本矛盾的关系是",
@@ -312,7 +352,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“一言可以兴邦，一言可以衰邦”的说法是",
@@ -327,7 +369,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "群体意识是",
@@ -342,7 +386,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "东欧剧变、苏联解体的最深刻的教训是",
@@ -357,7 +403,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "唯物辩证法认为，矛盾双方在一定条件下的转化是",
@@ -372,7 +420,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "垄断资本主义取代自由竞争资本主义，表明资本主义生产关系",
@@ -387,7 +437,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 39,
+    "type": "singleChoice"
   },
   {
     "questionStem": "人类社会的发展是自然历史过程的含义是",
@@ -402,7 +454,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "对立统一规律是唯物辩证法的实质和核心，在于它揭示了",
@@ -417,7 +471,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "唯物辩证法与形而上学对立的焦点在于",
@@ -432,7 +488,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "事物发展过程中的“度”是指",
@@ -447,7 +505,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列是真理的客观性的含义是",
@@ -462,7 +522,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 41,
+    "type": "singleChoice"
   },
   {
     "questionStem": "主张“世界上除了运动着的物质之外，什么也没有”的观点是",
@@ -477,7 +539,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列关于物质运动的说法中错误的是",
@@ -492,7 +556,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认为，阶级社会发展的最终决定力量是",
@@ -507,7 +573,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列选项中完整表达了马克思主义鲜明特征的是()",
@@ -522,7 +590,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "感性认识和理性认识的根本区别在于",
@@ -537,7 +607,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "真理和谬误的根本区别就在于",
@@ -552,7 +624,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "发达资本主义国家之间的关系是()",
@@ -567,7 +641,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "一种社会意识对社会存在反作用的大小主要取决于",
@@ -582,7 +658,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "道德是",
@@ -597,7 +675,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认识论首要的和基本的观点是",
@@ -612,7 +692,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“因果联系是由于人们多次看到的两组现象前后相随而形成的心理习惯”，这一观点是",
@@ -627,7 +709,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "构建社会主义和谐社会的哲学依据是",
@@ -642,7 +726,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产资料包括",
@@ -657,7 +743,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "科学家尼葛庞蒂说：“预测未来的最好办法就是把它创造出来。”从认识和实践的关系看，这句话对我们的启示是",
@@ -672,7 +760,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "无产阶级要使自己获得最终解放就必须",
@@ -687,7 +777,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "科学社会主义之所以能够超越空想社会主义，是因为把争取社会主义的斗争建立在",
@@ -702,7 +794,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在认识论中坚持反映论原则的是",
@@ -717,7 +811,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "价值规律调节社会劳动在各部门的分配是通过",
@@ -732,7 +828,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "()是我们党的生命线和根本工作路线。",
@@ -747,7 +845,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列关于时间空间与物质运动的关系的说法中正确的是",
@@ -762,7 +862,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 38,
+    "type": "singleChoice"
   },
   {
     "questionStem": "真理是",
@@ -777,7 +879,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "哲学基本问题是",
@@ -792,7 +896,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 18,
+    "type": "singleChoice"
   },
   {
     "questionStem": "从创立者、继承者的认识成果上说，马克思主义理论是",
@@ -807,7 +913,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列关于使用价值和价值的说法中正确的是",
@@ -822,7 +930,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认识论是",
@@ -837,7 +947,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "物质资料的生产方式包括",
@@ -852,7 +964,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "人们在物质生产过程中形成的生产关系本质上是",
@@ -867,7 +981,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "价值增殖过程是超过一定点而延长了的价值形成过程，这里的“一定点”是指",
@@ -882,7 +998,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "党的十九大指出，中国特色社会主义进入新时代，我国的社会主要矛盾是()。",
@@ -897,7 +1015,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在一切社会里，社会财富由",
@@ -912,7 +1032,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 38,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本的有机构成是指",
@@ -927,7 +1049,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "()是人类生存和发展的最基本的活动，是人类社会生活的本质，是人的认识产生和发展的基础。",
@@ -942,7 +1066,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "垄断形成后，价值规律改变了()",
@@ -957,7 +1083,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“我们从小麦的滋味中根本无法判断它是封建农民生产的，还是资本主义制度下农业工人生产的”。这说明",
@@ -972,7 +1100,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会意识形态诸形式中起主导作用的是",
@@ -987,7 +1117,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 40,
+    "type": "singleChoice"
   },
   {
     "questionStem": "辩证唯物主义认为事物发展的规律是",
@@ -1002,7 +1134,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "坚持感性认识是理性认识的基础，就是在认识论上坚持",
@@ -1017,7 +1151,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 40,
+    "type": "singleChoice"
   },
   {
     "questionStem": "严格意义上的社会革命是指",
@@ -1032,7 +1168,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义产生的阶级基础是",
@@ -1047,7 +1185,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "相对剩余价值的获得是靠",
@@ -1062,7 +1202,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在第一次世界大战中成为东西方矛盾焦点和帝国主义政治体系最薄弱环节的国家是",
@@ -1077,7 +1219,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "对立统一规律提供了人们认识世界和改造世界的根本方法——",
@@ -1092,7 +1236,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "一个完整的认识过程是",
@@ -1107,7 +1253,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列选项中属于辩证唯物主义认识论观点的是()",
@@ -1122,7 +1270,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "真理的相对性应理解为",
@@ -1137,7 +1287,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "垄断利润是通过",
@@ -1152,7 +1304,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "当前世界贫富差距拉大的根本原因是()",
@@ -1167,7 +1321,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会物质生活条件是指",
@@ -1182,7 +1338,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会生产力水平的客观物质性标志是",
@@ -1197,7 +1355,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "劳动力商品使用价值的重要特点是，随着其使用价值的消费",
@@ -1212,7 +1372,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "科学家洛仑兹提出“蝴蝶效应”理论，他说“可预言一只蝴蝶在巴西振动翅膀会在得克萨斯州引起龙卷风”，这个说法",
@@ -1227,7 +1389,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "辩证的否定的实质是",
@@ -1242,7 +1406,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“哲学把无产阶级当作自己的物质武器，同样，无产阶级把哲学当作自己的精神武器”，这个论断的含义是",
@@ -1257,7 +1423,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义哲学关于物质范畴的正确理解是",
@@ -1272,7 +1440,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "人类社会发展的根本动力是",
@@ -1287,7 +1457,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "实践是()既区分又统一的基础",
@@ -1302,7 +1474,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本主义自由竞争引起生产和资本集中，生产和资本集中发展到一定程度必然产生",
@@ -1317,7 +1491,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "从哲学上看，世界上的万事万物归结起来无非是两大类现象",
@@ -1332,7 +1508,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "决定商品价值量的社会必要劳动时间",
@@ -1347,7 +1525,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "私人劳动的社会性质，需要通过",
@@ -1362,7 +1542,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "共产主义的生产资料将实现",
@@ -1377,7 +1559,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "导致生产集中和资本集中的根本原因是",
@@ -1392,7 +1576,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“代替那存在着阶级和阶级对立的资产阶级旧社会的，将是这样一个联合体，在那里，每个人的自由发展是一切人的自由发展的条件”。这是",
@@ -1407,7 +1593,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "过分强调感性认识的作用，否认理性认识的重要性的观点，在哲学上属于",
@@ -1422,7 +1610,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本的价值构成是指",
@@ -1437,7 +1627,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 17,
+    "type": "singleChoice"
   },
   {
     "questionStem": "恩格斯说“人的智力是按人如何学会改造自然界而发展的”，这句话说明",
@@ -1452,7 +1644,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“如果‘偶然性’不起任何作用的话，那世界历史就会带有非常神秘的性质”。这一观点是",
@@ -1467,7 +1661,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "为中华民族克服困难、生生不息提供了强大精神支撑的是()。",
@@ -1482,7 +1678,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "各尽所能，按需分配是",
@@ -1497,7 +1695,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "感觉是认识起点的观点",
@@ -1512,7 +1712,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "地理环境在社会发展中的作用主要通过",
@@ -1527,7 +1729,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思在研究商品时，之所以考察商品的使用价值，因为使用价值是",
@@ -1542,7 +1746,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "中国特色社会主义理论的哲学根据是",
@@ -1557,7 +1763,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "真理的内容是",
@@ -1572,7 +1780,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "国际货币基金组织是()",
@@ -1587,7 +1797,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本的技术构成是指在一定技术水平下",
@@ -1602,7 +1814,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 46,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认为，阶级产生的直接原因是",
@@ -1617,7 +1831,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "人工智能是人的（）的一种特殊表现",
@@ -1632,7 +1848,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“许多事情我们可以讲一千个理由、一万个理由，但老百姓吃不上饭，就没有理由。‘民以食为天’”。这说明",
@@ -1647,7 +1865,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在货币和资本的关系上，正确的论断是",
@@ -1662,7 +1882,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义对未来社会的展望之所以是科学的，是因为",
@@ -1677,7 +1899,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 41,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“社会上一旦有技术上的需要，则这种需要会比十所大学更能把科学推向前进。”这说明",
@@ -1692,7 +1916,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "划分阶级的依据是",
@@ -1707,7 +1933,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会意识主要是对",
@@ -1722,7 +1950,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "从哲学上看，人类的一切活动归纳起来无非是两大类活动",
@@ -1737,7 +1967,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "由于提高劳动强度而生产的剩余价值属于",
@@ -1752,7 +1984,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列思潮中的哪一种为马克思主义的创立提供了直接理论来源",
@@ -1767,7 +2001,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 40,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“英雄和人民群众共同创造历史”，这个观点的实质是",
@@ -1782,7 +2018,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "过分强调理性认识的作用，否认感性认识的重要性的观点，在哲学上属于",
@@ -1797,7 +2035,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 16,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本主义基本经济规律是指",
@@ -1812,7 +2052,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "唯物主义认识论和唯心主义认识论的根本区别在于",
@@ -1827,7 +2069,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "价值评价活动中应该遵守的基本原则是()",
@@ -1842,7 +2086,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商品经济的发展经历了以下两个阶段",
@@ -1857,7 +2103,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 40,
+    "type": "singleChoice"
   },
   {
     "questionStem": "区分事物发展过程的量变和质变的标志是",
@@ -1872,7 +2120,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产资本区分为不变资本和可变资本的依据是",
@@ -1887,7 +2137,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 42,
+    "type": "singleChoice"
   },
   {
     "questionStem": "唯物辩证法的总特征是",
@@ -1902,7 +2154,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商品的二因素是对立的统一的，这对矛盾解决有赖于",
@@ -1917,7 +2171,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "上层建筑对社会发展的促进作用取决于",
@@ -1932,7 +2188,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "经济基础是指",
@@ -1947,7 +2205,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "以感性直观为基础，把人的认识看成是消极地、被动地反映和接受外界对象，类似于照镜子那样的反射活动，是直观的、消极被动的反映论属于",
@@ -1962,7 +2222,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商品生产者要获得更多收益必须使生产商品的",
@@ -1977,7 +2239,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本主义相对过剩人口的产生是",
@@ -1992,7 +2256,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "从研究对象上说，马克思主义是",
@@ -2007,7 +2273,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "货币转化为资本的决定性条件是",
@@ -2022,7 +2290,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "世界的物质统一性原理是与（）相统一的",
@@ -2037,7 +2307,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“人一次也不能踏入同一条河流”是",
@@ -2052,7 +2324,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "判断一种生产关系是否先进的根本标志是看它",
@@ -2067,7 +2341,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会主义社会的基本分配原则是",
@@ -2082,7 +2358,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "最有利于社会发展的人口状况是",
@@ -2097,7 +2375,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "区分和认识事物的前提和基础是",
@@ -2112,7 +2392,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列哪一原理可以解释“大众心理影响经济走势”这一社会现象",
@@ -2127,7 +2409,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "认识运动是一个无限反复、无限发展过程的观点属于",
@@ -2142,7 +2426,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "人的认识是主体对客体的直观的反映，这是一种",
@@ -2157,7 +2443,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在物质和运动关系问题上，唯心主义的的错误是",
@@ -2172,7 +2460,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "哲学物质概念与关于具体物质形态和物质结构的自然科学物质概念之间的关系是",
@@ -2187,7 +2477,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本主义生产过程的二重性是指",
@@ -2202,7 +2494,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产关系中最具决定意义的是",
@@ -2217,7 +2511,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 38,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产商品的社会必要劳动时间随着劳动生产力的变化而发生变化，劳动生产力水平越高",
@@ -2232,7 +2528,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "事物中的真相和假象的区别是",
@@ -2247,7 +2545,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "一个完整的认识过程需要经过两次飞跃。下列选项中属于第二次飞跃的是",
@@ -2262,7 +2562,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会基本矛盾发展的最终原因是",
@@ -2277,7 +2579,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“通过批判旧世界来发现新世界”是",
@@ -2292,7 +2596,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 41,
+    "type": "singleChoice"
   },
   {
     "questionStem": "划分不同性质的社会制度的根本标准是",
@@ -2307,7 +2613,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“至于写人，亦颇有失，以致欲显刘备之长厚而似伪，状诸葛之多智而近妖”。这是鲁迅对《三国演义》的点评。这一评述所蕴含的哲理是",
@@ -2322,7 +2630,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思在劳动价值理论上的贡献在于",
@@ -2337,7 +2647,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 47,
+    "type": "singleChoice"
   },
   {
     "questionStem": "先进的社会意识之所以对社会存在起促进作用，在于",
@@ -2352,7 +2664,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "解放思想，与时俱进，就是要",
@@ -2367,7 +2681,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 14,
+    "type": "singleChoice"
   },
   {
     "questionStem": "唯物辩证法认为世界是普遍联系的，联系是指",
@@ -2382,7 +2698,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "物质本身是纯粹的思想创造和纯粹的抽象，这是属于",
@@ -2397,7 +2715,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "剩余价值率反映的是",
@@ -2412,7 +2732,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "实践基础上的理论创新，是",
@@ -2427,7 +2749,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 38,
+    "type": "singleChoice"
   },
   {
     "questionStem": "列宁说“没有革命的理论，就不会有革命的运动”，这句话应理解为",
@@ -2442,7 +2766,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "毛泽东在《矛盾论》中提出“马克思主义的活的灵魂”是指",
@@ -2457,7 +2783,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "矛盾的同一性是指",
@@ -2472,7 +2800,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "当代资本主义的新变化",
@@ -2487,7 +2817,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "俄国十月革命的胜利，促进了",
@@ -2502,7 +2834,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "坚持从物到感觉和思想的路线是",
@@ -2517,7 +2851,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会形态是指",
@@ -2532,7 +2868,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“真理和谬误的对立，只是在非常有限的范围内才有意义”是",
@@ -2547,7 +2885,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 20,
+    "type": "singleChoice"
   },
   {
     "questionStem": "根据认识的发展规律，在认识的“熟知”与“真知”问题上的正确观点是",
@@ -2562,7 +2902,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会意识的本质特点在于",
@@ -2577,7 +2919,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“哲学家们只是用不同的方式解释世界，问题在于改变世界”。这一观点是说",
@@ -2592,7 +2936,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 38,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义认为，从实践的活动机制看，实践是",
@@ -2607,7 +2953,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "1633年,伽利略因宣传“日心说”被教廷判处终身监禁。1979年11月10日罗马教皇在公开集会上正式承认伽利略在350多年前受到教廷审判是不公正的，公开为伽利略平反。这说明",
@@ -2622,7 +2970,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "哲学是",
@@ -2637,7 +2987,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义哲学认为世界的本质是",
@@ -2652,7 +3004,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "世界上惟一不变的是变，这说明",
@@ -2667,7 +3021,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "所谓抽象人性论意指",
@@ -2682,7 +3038,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "阶级斗争是阶级社会发展的",
@@ -2697,7 +3055,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "上层建筑反作用的直接根源存在于",
@@ -2712,7 +3072,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会意识的相对独立性最突出地表现是",
@@ -2727,7 +3089,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在认识过程的第二次飞跃中的认识是",
@@ -2742,7 +3106,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "私有制商品经济的基本矛盾是",
@@ -2757,7 +3123,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 47,
+    "type": "singleChoice"
   },
   {
     "questionStem": "绝对剩余价值是",
@@ -2772,7 +3140,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "事物的性质是由",
@@ -2787,7 +3157,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商品经济产生和存在的条件",
@@ -2802,7 +3174,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义是不断发展的学说，具有（）的理论品质",
@@ -2817,7 +3191,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "科学社会主义创立的理论基础是",
@@ -2832,7 +3208,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 43,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产关系所体现的是",
@@ -2847,7 +3225,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义哲学认为物质的唯一特性是",
@@ -2862,7 +3242,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "任何事物内部都具有肯定和否定两个方面，否定方面是指",
@@ -2877,7 +3259,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产商品的劳动二重性即具体劳动和抽象劳动是指",
@@ -2892,7 +3276,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "任何真理都有自己适用的条件和范围，这说明真理具有",
@@ -2907,7 +3293,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 41,
+    "type": "singleChoice"
   },
   {
     "questionStem": "人与世界相互作用的中介是",
@@ -2922,7 +3310,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "把科学的实践观第一次引入认识论是",
@@ -2937,7 +3327,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列关于物质静止的说法中正确的是",
@@ -2952,7 +3344,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "经济基础相对于上层建筑来说是易变的，这种情况存在于",
@@ -2967,7 +3361,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "国家垄断资本主义能够",
@@ -2982,7 +3378,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 42,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商业利润来源于()",
@@ -2997,7 +3395,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "荀子说“心不使焉，则白黑在前而目不见，雷鼓在侧而耳不闻。”这表明",
@@ -3012,7 +3412,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 43,
+    "type": "singleChoice"
   },
   {
     "questionStem": "上层建筑的根本性质取决于",
@@ -3027,7 +3429,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "按照辩证法的观点，资本主义到社会主义社会的转变，体现了",
@@ -3042,7 +3446,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "真理的绝对性是指",
@@ -3057,7 +3463,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列选项中属于辩证唯物主义认识论观点的是",
@@ -3072,7 +3480,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 24,
+    "type": "singleChoice"
   },
   {
     "questionStem": "任何科学理论都不能穷尽真理，而只能在实践中不断开辟认识真理的道路。这说明",
@@ -3087,7 +3497,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "列宁对辩证唯物主义物质范畴的定义继承和汲取了",
@@ -3102,7 +3514,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "劳动力成为商品是",
@@ -3117,7 +3531,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "概念、判断、推理是",
@@ -3132,7 +3548,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“芳林新叶催旧叶，流水前波让后波”，“沉舟侧畔千帆过，病树前头万木春”。这两句诗包含的哲学道理是",
@@ -3147,7 +3565,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "坚持从思想和感觉到物的路线是",
@@ -3162,7 +3582,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商品经济是",
@@ -3177,7 +3599,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "生产商品的劳动分具体劳动和抽象劳动，其中具体劳动的作用是",
@@ -3192,7 +3616,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "唯物辩证法认为，事物是运动、变化、发展的。发展的实质是",
@@ -3207,7 +3633,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“世界不是一成不变的事物的集合体，而是过程的集合体”，这一论断说明",
@@ -3222,7 +3650,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "从阶级属性上说，马克思主义理论是",
@@ -3237,7 +3667,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列属于马克思主义真理观的是",
@@ -3252,7 +3684,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 33,
+    "type": "singleChoice"
   },
   {
     "questionStem": "物质、运动、时间、空间具有内在统一性，它要求我们想问题、办事情要",
@@ -3267,7 +3701,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "意识产生的决定性环节是",
@@ -3282,7 +3718,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本主义国家资本输出的根本目的是()",
@@ -3297,7 +3735,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本积累和资本主义扩大再生产的关系是",
@@ -3312,7 +3752,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "我们认识和把握物质世界的本质和规律的前提是",
@@ -3327,7 +3769,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 23,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“一切以时间、地点、条件为转移”，这一观点是",
@@ -3342,7 +3786,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "辩证法所说的“扬弃”是指",
@@ -3357,7 +3803,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 17,
+    "type": "singleChoice"
   },
   {
     "questionStem": "运动作为哲学范畴指的是",
@@ -3372,7 +3820,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 16,
+    "type": "singleChoice"
   },
   {
     "questionStem": "20世纪50年代，北大荒人烟稀少、一片荒凉。由于人口剧增，生产力水平低下，吃饭问题成为中国面临的首要问题，于是人们不得不靠扩大耕地面积增加粮食产量，经过半个世纪的开垦，北大荒成了全国闻名的“北大仓”。然而由于过度开垦已经造成了许多生态问题。现在，黑龙江垦区全面停止开荒，退耕还“荒”。这说明",
@@ -3387,7 +3837,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "在工作中防止“过”或“不及”的关键在于",
@@ -3402,7 +3854,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 35,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列选项中正确表达了认识客体的涵义的是",
@@ -3417,7 +3871,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "测度生产力水平的客观尺度是",
@@ -3432,7 +3888,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "决定商品之间交换比例的是",
@@ -3447,7 +3905,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“此亦一是非，彼亦一是非”的命题，其含义是",
@@ -3462,7 +3922,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "上层建筑由两部分组成",
@@ -3477,7 +3939,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "对“劳动是财富之父，土地是财富之母”这句话的正确解释是",
@@ -3492,7 +3956,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "价值评价活动中应该遵守的基本原则是",
@@ -3507,7 +3973,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "人们由于利益的驱动，疯狂挖掘草原上的植物——“发菜”，严重地破坏了草原植被，造成局部土地沙漠化，这个案例说明",
@@ -3522,7 +3990,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思主义回答人的本质问题的立足点是",
@@ -3537,7 +4007,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列关于物质与运动的关系的说法中正确的是",
@@ -3552,7 +4024,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "实践的中介是",
@@ -3567,7 +4041,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 28,
+    "type": "singleChoice"
   },
   {
     "questionStem": "个别资本家首先提高劳动生产率获得的是()",
@@ -3582,7 +4058,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 34,
+    "type": "singleChoice"
   },
   {
     "questionStem": "理解马克思主义政治经济学的枢纽是",
@@ -3597,7 +4075,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "资本有机构成的提高意味着在不变资本和可变资本的比重中",
@@ -3612,7 +4092,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "质与量的最根本的区别是",
@@ -3627,7 +4109,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "划分阶级的标准是",
@@ -3642,7 +4126,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 15,
+    "type": "singleChoice"
   },
   {
     "questionStem": "科学社会主义的直接理论来源是",
@@ -3657,7 +4143,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会主义生产的根本目的是",
@@ -3672,7 +4160,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "对无产阶级革命来说，主观条件成熟的主要标志是",
@@ -3687,7 +4177,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 36,
+    "type": "singleChoice"
   },
   {
     "questionStem": "物质的根本属性是",
@@ -3702,7 +4194,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "制约人们行为及其动机的根本条件是",
@@ -3717,7 +4211,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "偶然性在事物发展中",
@@ -3732,7 +4228,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会运动的物质承担者是",
@@ -3747,7 +4245,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "唯物辩证法认为，原因与结果是",
@@ -3762,7 +4262,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 32,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商品的价值量由生产商品的社会必要劳动时间决定，它是在",
@@ -3777,7 +4279,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 27,
+    "type": "singleChoice"
   },
   {
     "questionStem": "区分一个事物是新事物还是旧事物，最根本的是",
@@ -3792,7 +4296,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 31,
+    "type": "singleChoice"
   },
   {
     "questionStem": "矛盾的基本属性是",
@@ -3807,7 +4313,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 30,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“古之天下，亦今之天下；今之天下，亦古之天下”这个论断是",
@@ -3822,7 +4330,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“不积跬步，无以致千里；不积小流，无以成江海。”这说明了",
@@ -3837,7 +4347,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   },
   {
     "questionStem": "不同的地理环境对社会存在和发展起",
@@ -3852,7 +4364,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 26,
+    "type": "singleChoice"
   },
   {
     "questionStem": "把同质的事物区分开来的依据是",
@@ -3867,7 +4381,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "商品经济最早出现于",
@@ -3882,7 +4398,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 29,
+    "type": "singleChoice"
   },
   {
     "questionStem": "两种商品可以按一定比例相互交换的原因，在于他们",
@@ -3897,7 +4415,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "马克思一生的两个伟大发现是",
@@ -3912,7 +4432,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“资本主义的发展在各个国家是极不平衡的，而且在商品生产下也只能是这样。”由此得出一个必然的结论",
@@ -3927,7 +4449,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 19,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“从物到感觉和思想”与“从思想和感觉到物”的对立，属于",
@@ -3942,7 +4466,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 22,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会必要劳动时间是指在现在的社会正常条件下，在社会平均的熟练程度和劳动强度下制造某种使用价值所需要的劳动时间。这种“正常生产条件”是",
@@ -3957,7 +4483,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 37,
+    "type": "singleChoice"
   },
   {
     "questionStem": "社会生活在本质上是",
@@ -3972,7 +4500,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 40,
+    "type": "singleChoice"
   },
   {
     "questionStem": "下列选项中正确表达了认识主体的涵义的是",
@@ -3987,7 +4517,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "“钉子缺，蹄铁卸；蹄铁卸，战马蹶；战马蹶，骑士绝；骑士绝，战事折；战事折，国家灭”这首歌谣揭示的哲理是",
@@ -4002,7 +4534,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 41,
+    "type": "singleChoice"
   },
   {
     "questionStem": "毛泽东在《矛盾论》中提出“矛盾问题的精髓”是指",
@@ -4017,7 +4551,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 21,
+    "type": "singleChoice"
   },
   {
     "questionStem": "国家垄断资本主义的产生是",
@@ -4032,6 +4568,8 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "Marx",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 25,
+    "type": "singleChoice"
   }
 ]

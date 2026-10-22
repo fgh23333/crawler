@@ -18,7 +18,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 400,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "晚年列宁认为，在俄国这样一个文盲占人口多数的国家建设社会主义，需要一场深刻的“文化革命”，具体内容包括：()。",
@@ -33,7 +35,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 74,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "傅立叶认为，理想社会的婚姻制度应该建立在这样一些原则之上：()。",
@@ -48,7 +52,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 54,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "1954年2月召开的中共七届四中全会确定了党在过渡时期的总路线，其基本内容是要逐步实现()。",
@@ -63,7 +69,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 79,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "毛泽东对科学社会主义发展的理论创新主要集中于以下几个基本问题：()",
@@ -78,7 +86,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 51,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "()是伯恩施坦主义在俄国的变种。",
@@ -93,7 +103,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 63,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "社会主义制度基本建立之后，生产资料公有制成为我国基本经济制度，这种公有制的具体形式是：()。",
@@ -108,7 +120,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 64,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "马克思认为：资本的文明面之一是，它榨取劳动者剩余劳动的方式和条件，同以前的奴隶制、农奴制等形式相比，都更有利于()。",
@@ -123,7 +137,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 68,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "晚年列宁提出了改造国家机关的一系列具体措施，其中包括：()。",
@@ -138,7 +154,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 60,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "关于社会主义发展史，正确的说法是（）",
@@ -153,7 +171,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 51,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "西方资本主义的发展经历了（）、（）、（）三个阶段。",
@@ -170,7 +190,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 63,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "“三个代表”重要思想创造性地回答了()的问题，丰富和发展了中国特色社会主义理论体系。",
@@ -185,7 +207,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 72,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "以毛泽东发表的()为主要标志，我们党对怎样建设社会主义有了自己新的重要认识。",
@@ -200,7 +224,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 46,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "非公有制经济是我国社会主义市场经济的重要组成部分，包括：()。",
@@ -215,7 +241,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 68,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "十八大以来，以习近平为主要代表的中国共产党人，深入探索和系统回答了()的问题，深化了对中国特色社会主义的认识。",
@@ -230,7 +258,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 53,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "科学社会主义主要的、直接的理论来源有：()。",
@@ -245,7 +275,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 51,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "1925年前后，对一国建成社会主义的理论持明确否定态度的人是：()。",
@@ -260,7 +292,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 59,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "中国共产党人的初心使命是：()。",
@@ -275,7 +309,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 54,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "斯大林认为，列宁主义是：()。",
@@ -290,7 +326,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 65,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "我国社会主义制度的确立具有十分重大的历史意义，主要表现为：()。",
@@ -305,7 +343,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 74,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "二战后，为了集中各国社会主义的力量，以应对西方资本主义国家的封锁和威胁，在苏联的支持和主导下，先后成立了（）",
@@ -320,7 +360,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 45,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "科学社会主义基本原理中的“两个绝不会”指的是：()",
@@ -335,7 +377,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 67,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "中国特色社会主义初步回答了在中国这样经济、文化比较落后的国家()等一系列基本问题。",
@@ -350,7 +394,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 56,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "科学发展观创造性地回答了()问题，开拓了马克思主义中国化的新境界。",
@@ -365,7 +411,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 60,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "公有制是我国社会主义经济制度的基础，包括：()。",
@@ -380,7 +428,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 70,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "邓小平南方谈话大大深化了对()问题的认识，标志着邓小平理论的成熟。",
@@ -395,7 +445,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 73,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "在19世纪初的空想社会主义者中，反对使用暴力手段实现理想社会的人有：()。",
@@ -410,7 +462,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 55,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "我国公有制的主体地位主要体现在：()。",
@@ -425,7 +479,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 51,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "在十月革命的影响和激励下，殖民地、半殖民地国家争取民族独立和民族解放的革命运动风起云涌，其中包括：()。",
@@ -440,7 +496,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 73,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "近代中国，压在人民头上的两座大山是：()。",
@@ -455,7 +513,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 71,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "世纪之交，党中央领导全国人民战胜了来自国内和国际、经济社会和自然的多方面挑战，其中包括（）。",
@@ -470,7 +530,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 54,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "空想社会主义的基本观点和主张有（）",
@@ -487,7 +549,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 61,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "党在社会主义初级阶段的总路线可概括为“一个中心，两个基本点”，其中，“两个基本点”指的是：()。",
@@ -502,7 +566,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 53,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "《乌托邦》采用的写作方式有（）",
@@ -517,7 +583,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 63,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "欧文认为在未来理想社会中应该消灭的三大差别是：()。",
@@ -532,7 +600,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 58,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "空想社会主义的产生、发展和变化，同时伴随着以下过程：()。",
@@ -547,7 +617,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 61,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "1842—1844年间，马克思和恩格斯在进行科学研究和参加革命实践的过程中，各自完成了以下重大转变：()。",
@@ -562,7 +634,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 60,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "十月革命的历史意义表现为：（）。",
@@ -577,7 +651,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 65,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "马克思、恩格斯晚年特别关注资本主义的新变化，提出了一些新的观点和设想，包括（）",
@@ -592,7 +668,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 69,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "傅立叶认为，人类要最终摆脱一切苦难和折磨，必须具备的条件是：()。",
@@ -607,7 +685,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 70,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "关于科学社会主义的产生，以下说法正确的有（）",
@@ -622,7 +702,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 67,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "近代中国人民反侵略、反压迫的三大斗争是：()。",
@@ -637,7 +719,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 61,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "以下国家和地区中，属于20世纪70年代以来经济获得快速发展，被誉为“亚洲四小龙”的国家和地区是：()。",
@@ -652,7 +736,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 53,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "1978年12月召开的党的十一届三中全会，实现了党的历史上具有深远意义的伟大转折：",
@@ -667,7 +753,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 62,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "近代中国社会的主要矛盾是：()。",
@@ -682,7 +770,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 68,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "从现实的、直接的原因看，苏东剧变的主要原因是：()。",
@@ -697,7 +787,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 65,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "被欧文称为阻碍社会改革的三大障碍的是：()。",
@@ -712,7 +804,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 77,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "马克思、恩格斯给予了高度评价，称他们是“三个伟大的空想社会主义者”和“社会主义创始人”，他们是（）",
@@ -727,7 +821,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 53,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "二战结束后，社会主义越出苏联一国范围向世界扩展，在亚洲相继走上社会主义道路的国家有：()。",
@@ -742,7 +838,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 70,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "列宁认为，帝国主义是()的资本主义。",
@@ -757,7 +855,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 67,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "1956年，毛泽东在《关于无产阶级专政的历史经验》中指出，社会发展总是在不断的矛盾中进行的，社会主义社会仍然有自己的基本矛盾，它们是：()。",
@@ -772,7 +872,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 68,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "新经济政策的主要内容包括：()。",
@@ -787,7 +889,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 60,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "科学社会主义的理论体系()",
@@ -802,7 +906,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 67,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "赫鲁晓夫时期的对苏联的调整和改革在政治领域的表现是：()。",
@@ -817,7 +923,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 71,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "空想社会主义是()的产物",
@@ -832,7 +940,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 75,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "空想社会主义的局限性有（）",
@@ -847,7 +957,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 53,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "从1918年夏天在苏俄开始实施的战时共产主义政策，其内容包括（）",
@@ -862,7 +974,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 57,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "德国古典哲学家中，对马克思、恩格斯影响非常大的有（）",
@@ -877,7 +991,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 66,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "《共产党宣言》指出：无产阶级是（）。",
@@ -892,7 +1008,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 55,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "晚年恩格斯对无产阶级革命的斗争形式问题的基本观点是：()。",
@@ -907,7 +1025,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 63,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "国际工人协会成立之后所进行的卓有成效的工作包括：()。",
@@ -922,7 +1042,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 59,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "社会主义从根本上改变了中国人民和中华民族的历史命运，不可逆转地()",
@@ -937,7 +1059,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 60,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "我国新民主主义社会的主要经济成分包括：（）。",
@@ -952,7 +1076,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 57,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "列宁的建党学说包括（）",
@@ -967,7 +1093,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 63,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "十月革命胜利之初，为了巩固苏维埃政权，布尔什维克着重进行了以下事项：()。",
@@ -982,7 +1110,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 43,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "苏联社会主义制度的建立具有重大的历史意义，主要表现在：（）。",
@@ -997,7 +1127,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 58,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "二战结束后，东欧的8个国家相继建立起人民民主国家，走上了社会主义道路。其中包括()",
@@ -1015,7 +1147,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 64,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "关于《乌托邦》，正确的说法有（）",
@@ -1032,7 +1166,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 56,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "空想社会主义的价值在于：()",
@@ -1047,7 +1183,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 65,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "世界社会主义的发展经历了()的过程。",
@@ -1062,7 +1200,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 63,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "苏联社会主义工业化过程中的一些弊端和问题主要表现在：()。",
@@ -1077,7 +1217,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 61,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "苏联及东欧社会主义国家长期僵化对待社会主义的表现是：()。",
@@ -1092,7 +1234,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 51,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "十月革命是特殊历史条件下的产物，是各种主客观因素综合作用的结果，其中主要起作用的因素有：()。",
@@ -1107,7 +1251,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 60,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "社会主义的涵义，包含着（）几个方面的内容",
@@ -1122,7 +1268,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 70,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "马克思、恩格斯认为，社会主义生产和资本主义生产的根本区别是：()。",
@@ -1137,7 +1285,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 66,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "空想社会主义时期，资本主义生产方式相对比较发达的国家和地区是：()",
@@ -1152,7 +1302,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 64,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "圣西门认为一种理想的社会制度应该实现以下两个目的：()。",
@@ -1167,7 +1319,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 69,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "下列事件中，属于东欧国家改革苏联模式，探索本国特色社会主义道路时期的是：()。",
@@ -1182,7 +1336,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 51,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "标志着无产阶级作为一支独立的政治力量，开始进行有组织的自觉的阶级斗争的政治事件有：()。",
@@ -1197,7 +1353,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 79,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "毛泽东提出的中国社会主义工业化的基本内容包括：()。",
@@ -1212,7 +1370,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 62,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "近代以来，除马克思主义之外曾经在中国思想舞台上你方唱罢我登场的思想流派有：()。",
@@ -1227,7 +1387,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 63,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "科学社会主义的理论基石是：()",
@@ -1242,7 +1404,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 43,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "下列人物中属于18世纪启蒙思想家的有：()。",
@@ -1257,7 +1421,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 56,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "下列关于《资本论》的说法中正确的有：()。",
@@ -1272,7 +1438,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 49,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "在社会主义500年历史过程中，主要发生了具有划时代意义的重大变迁有（）",
@@ -1287,7 +1455,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 42,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "在《哥达纲领批判》中，马克思()。",
@@ -1302,7 +1472,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 56,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "19世纪末世界资本主义进入帝国主义时代所表现出的新变化是：()。",
@@ -1317,7 +1489,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 51,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "空想社会主义是一种()",
@@ -1332,7 +1506,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 50,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "关于空想社会主义，正确的说法是（）",
@@ -1347,7 +1523,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 59,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "苏东剧变期间，虽然东欧各国发生剧变的方式不同，但目标和结局都是：()。",
@@ -1362,7 +1540,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 56,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "进入（）、贯彻（）、构建（），是由我国经济社会发展的理论逻辑、历史逻辑、现实逻辑决定的，三者紧密关联。",
@@ -1377,7 +1557,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 55,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "资本主义生产方式的确立，必须具备的两个基本条件是：()。",
@@ -1392,7 +1574,9 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 57,
+    "type": "multipleChoice"
   },
   {
     "questionStem": "圣西门把社会权力分为两部分，即（），分别由实业家和学者掌管。",
@@ -1407,6 +1591,8 @@
     "likeFlag": false,
     "markFlag": false,
     "abbreviationSubject": "SDH",
-    "collectedAt": "2026-06-01"
+    "collectedAt": "2026-06-01",
+    "appearCount": 60,
+    "type": "multipleChoice"
   }
 ]
